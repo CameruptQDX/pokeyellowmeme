@@ -1,22 +1,22 @@
 db DEX_MELMETAL ; pokedex id
-db 48 ; base hp
-db 48 ; base attack
-db 48 ; base defense
-db 48 ; base speed
-db 48 ; base special
+db 135 ; base hp
+db 143 ; base attack
+db 143 ; base defense
+db 34 ; base speed
+db 65 ; base special
 db NORMAL ; species type 1
 db NORMAL ; species type 2
-db 255 ; catch rate
-db 61 ; base exp yield
+db 3 ; catch rate
+db 210 ; base exp yield
 INCBIN "pic/ymon/melmetal.pic",0,1 ; 77, sprite dimensions
 dw MelmetalPicFront
 dw MelmetalPicBack
 ; attacks known at lvl 0
-db TACKLE
-db 0
-db 0
-db 0
-db 0 ; growth rate
+db HEADBUTT
+db HARDEN
+db TAIL_WHIP
+db THUNDER_WAVE
+db 5 ; growth rate
 ; learnset
 	tmlearn 0
 	tmlearn 0

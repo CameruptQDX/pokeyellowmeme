@@ -9,8 +9,8 @@ TypeNames:
 	dw .Bird
 	dw .Bug
 	dw .Ghost
+	dw .Steel
 
-	dw .Normal
 	dw .Normal
 	dw .Normal
 	dw .Normal
@@ -46,3 +46,4 @@ TypeNames:
 .Bug:      db "BUG@"
 .Ghost:    db "GHOST@"
 .Dragon:   db "DRAGON@"
+.Steel:    db "STEEL@"
