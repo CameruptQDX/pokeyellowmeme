@@ -29,8 +29,8 @@ PokedexEntryPointers:
 	dw BlastoiseDexEntry
 	dw PinsirDexEntry
 	dw TangelaDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw MeltanDexEntry
+	dw MelmetalDexEntry
 	dw GrowlitheDexEntry
 	dw OnixDexEntry
 	dw FearowDexEntry
@@ -48,7 +48,7 @@ PokedexEntryPointers:
 	dw PsyduckDexEntry
 	dw DrowzeeDexEntry
 	dw GolemDexEntry
-	dw MissingNoDexEntry
+	dw BlobbosDexEntry
 	dw MagmarDexEntry
 	dw MissingNoDexEntry
 	dw ElectabuzzDexEntry
@@ -1250,6 +1250,27 @@ MewDexEntry:
 	db 1,4
 	dw 90
 	TX_FAR _MewDexEntry
+	db "@"
+	
+MeltanDexEntry:
+	db "HEX NUT@"
+	db 0,8
+	dw 176
+	TX_FAR _MeltanDexEntry
+	db "@"
+	
+MelmetalDexEntry:
+	db "HEX NUT@"
+	db 8,2
+	dw 17637
+	TX_FAR _MelmetalDexEntry
+	db "@"
+	
+BlobbosDexEntry:
+	db "BLOB@"
+	db 1,4
+	dw 126
+	TX_FAR _BlobbosDexEntry
 	db "@"
 
 MissingNoDexEntry:

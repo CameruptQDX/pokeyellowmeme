@@ -1,6 +1,18 @@
 INCLUDE "charmap.asm"
 INCLUDE "constants.asm"
 
+NPC_SPRITES_1 EQU $4
+NPC_SPRITES_2 EQU $5
+
+GFX EQU $4
+
+PICS_1 EQU $9
+PICS_2 EQU $A
+PICS_3 EQU $B
+PICS_4 EQU $C
+PICS_5 EQU $D
+PICS_6 EQU $2D
+
 INCLUDE "home.asm"
 
 
@@ -15,7 +27,6 @@ INCLUDE "engine/load_mon_data.asm"
 
 INCLUDE "data/item_prices.asm"
 INCLUDE "text/item_names.asm"
-INCLUDE "text/unused_names.asm"
 
 INCLUDE "engine/overworld/oam.asm"
 
@@ -1435,7 +1446,6 @@ INCLUDE "data/mapHeaders/route18.asm"
 INCLUDE "data/mapObjects/route18.asm"
 Route18Blocks: INCBIN "maps/route18.blk"
 
-INCBIN "maps/unusedblocks58d7d.blk"
 
 INCLUDE "engine/experience.asm"
 
@@ -1643,7 +1653,6 @@ ViridianForestBlocks: INCBIN "maps/viridianforest.blk"
 UndergroundPathNSBlocks: INCBIN "maps/undergroundpathns.blk"
 UndergroundPathWEBlocks: INCBIN "maps/undergroundpathwe.blk"
 
-INCBIN "maps/unusedblocks60258.blk"
 
 SSAnne9Blocks:
 SSAnne10Blocks: INCBIN "maps/ssanne9.blk"
@@ -1678,7 +1687,6 @@ INCLUDE "scripts/pokemontower6.asm"
 INCLUDE "data/mapObjects/pokemontower6.asm"
 PokemonTower6Blocks: INCBIN "maps/pokemontower6.blk"
 
-INCBIN "maps/unusedblocks60cef.blk"
 
 INCLUDE "data/mapHeaders/pokemontower7.asm"
 INCLUDE "scripts/pokemontower7.asm"
@@ -1777,7 +1785,6 @@ Plateau_Block:     INCBIN "gfx/blocksets/plateau.bst"
 
 SECTION "bank1A", ROMX
 
-INCBIN "gfx/blueversion.1bpp" ; unused
 
 Dojo_GFX:
 Gym_GFX:           INCBIN "gfx/tilesets/gym.2bpp"
@@ -1981,9 +1988,6 @@ INCLUDE "engine/bg_map_attributes.asm"
 
 SECTION "bank30", ROMX
 
-; This whole bank is garbage data.
-INCBIN "engine/bank30.bin"
-
 
 SECTION "bank39", ROMX
 
@@ -2119,6 +2123,16 @@ INCLUDE "engine/unknown_ea3ea.asm"
 
 INCLUDE "engine/overworld/npc_movement_2.asm"
 
+SECTION "bank3B", ROMX
+
+; new pokemon sprites and content
+MeltanPicFront:         INCBIN "pic/ymon/meltan.pic"
+MeltanPicBack:          INCBIN "pic/monback/meltanb.pic"
+MelmetalPicFront:         INCBIN "pic/ymon/melmetal.pic"
+MelmetalPicBack:          INCBIN "pic/monback/melmetalb.pic"
+BlobbosPicFront:         INCBIN "pic/ymon/blobbos.pic"
+BlobbosPicBack:          INCBIN "pic/monback/blobbosb.pic"
+
 SECTION "bank3C", ROMX
 
 INCLUDE "engine/bank3c.asm"
@@ -2137,3 +2151,4 @@ INCLUDE "engine/bank3e.asm"
 SECTION "bank3F", ROMX
 
 INCLUDE "engine/bank3f.asm"
+

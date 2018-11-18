@@ -1,22 +1,4 @@
 
-; The rst vectors are unused.
-SECTION "rst 00", ROM0 [$00]
-	rst $38
-SECTION "rst 08", ROM0 [$08]
-	rst $38
-SECTION "rst 10", ROM0 [$10]
-	rst $38
-SECTION "rst 18", ROM0 [$18]
-	rst $38
-SECTION "rst 20", ROM0 [$20]
-	rst $38
-SECTION "rst 28", ROM0 [$28]
-	rst $38
-SECTION "rst 30", ROM0 [$30]
-	rst $38
-SECTION "rst 38", ROM0 [$38]
-	rst $38
-
 ; Hardware interrupts
 SECTION "vblank", ROM0 [$40]
 	jp VBlank
@@ -799,6 +781,18 @@ UncompressMonSprite::
 	ld a, BANK(FossilKabutopsPic)
 	jr z, .GotBank
 	ld a, b
+	cp MELTAN
+	ld a, BANK(MeltanPicFront)
+	jr z,.GotBank  	
+	ld a,b
+	cp MELMETAL
+	ld a, BANK(MeltanPicFront)
+	jr z,.GotBank  	
+	ld a,b
+	cp BLOBBOS
+	ld a, BANK(MeltanPicFront)
+	jr z,.GotBank  	
+	ld a,b
 	cp TANGELA + 1
 	ld a, BANK(TangelaPicFront)
 	jr c, .GotBank

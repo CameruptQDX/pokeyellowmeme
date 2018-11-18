@@ -29,8 +29,8 @@ EvosMovesPointerTable:
 	dw Mon009_EvosMoves
 	dw Mon127_EvosMoves
 	dw Mon114_EvosMoves
-	dw Mon152_EvosMoves	;MissingNo
-	dw Mon153_EvosMoves	;MissingNo
+	dw Mon152_EvosMoves	;Meltan
+	dw Mon153_EvosMoves	;Melmetal
 	dw Mon058_EvosMoves
 	dw Mon095_EvosMoves
 	dw Mon022_EvosMoves
@@ -48,7 +48,7 @@ EvosMovesPointerTable:
 	dw Mon054_EvosMoves
 	dw Mon096_EvosMoves
 	dw Mon076_EvosMoves
-	dw Mon154_EvosMoves	;MissingNo
+	dw Mon154_EvosMoves	;Blobbos
 	dw Mon126_EvosMoves
 	dw Mon155_EvosMoves	;MissingNo
 	dw Mon125_EvosMoves
@@ -573,14 +573,14 @@ Mon114_EvosMoves:
 	db 0
 
 Mon152_EvosMoves:
-;MISSINGNO_1F
+;MELTAN
 ;Evolutions
 	db 0
 ;Learnset
 	db 0
 
 Mon153_EvosMoves:
-;MISSINGNO_20
+;MELMETAL
 ;Evolutions
 	db 0
 ;Learnset

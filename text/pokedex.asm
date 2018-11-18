@@ -1506,3 +1506,33 @@ _MewDexEntry::
 	next "fine, delicate"
 	next "hair can be seen"
 	dex
+	
+_MeltanDexEntry::
+	text "It melts particles"
+	next "of iron and other"
+	next "metals in the soil"
+
+	page "so it can absorb"
+	next "them into its"
+	next "molten steel body"
+	dex
+	
+_MelmetalDexEntry::
+	text "Revered long ago"
+	next "for creating iron"
+	next "from nothing"
+
+	page "for some reason"
+	next "it has come back to"
+	next "life after 3000 years"
+	dex
+	
+_BlobbosDexEntry::
+	text "People who live"
+	next "near mountains say"
+	next "you can hear"
+
+	page "BLOBBOS at night"
+	next "as they try to"
+	next "train hitting rocks"
+	dex
