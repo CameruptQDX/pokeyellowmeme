@@ -3593,8 +3593,7 @@ wLastOBP1:: ds 1 ; def3
 wdef5:: ds 1 ; def4
 wBGPPalsBuffer:: ds NUM_ACTIVE_PALS * PAL_SIZE ; def5
 
-SECTION "Stack", WRAMX[$df15], BANK[1]
-	ds $ea
+SECTION "Stack", WRAMX
 wStack:: ; dfff
 
 

@@ -217,8 +217,8 @@ WRAM0
 
 WRAMX 1
   "WRAM Bank 1"
-;  ORG $df00
-;  "Stack"
+ORG $dfff
+  "Stack"
 
 ; WRAMX 5
 ;   "WRAMBank5"
