@@ -203,3 +203,4 @@ MoveNames::
 	db "SPECCY SPITE@"
 	db "D. IRON BASH@"
 	db "OBAMAFLARE@"
+	db "PKMN SHOCK@"

@@ -205,6 +205,7 @@ const_value = 1
 	const DOUBLE_IRON_BASH ; cb
 	const OBAMAFLARE ; cc
 	const MIRROR_COAT ; cd
+	const PKMN_SHOCK  ; ce
 	
 NUM_ATTACKS EQU const_value
 const_value = STRUGGLE + 1
