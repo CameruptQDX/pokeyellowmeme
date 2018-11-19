@@ -1,31 +1,34 @@
 _OakAppearsText::
-	text "OAK: Hey! Wait!"
-	line "Don't go out!@@"
+	text "STUMP: Ay! Ay!"
+	line "What the hell do"
+	cont "ya think you're"
+	cont "doin?@@"
 
 _OakWalksUpText::
-	text "OAK: That was"
-	line "close!"
-
-	para "Wild #MON live"
-	line "in tall grass!"
-	done
+	text "STUMP: Do you"
+	line "wanna get your"
+	cont "ass handed to"
+	cont "you?"
+	cont "wild #MON"
+	cont "live in tall"
+	cont "grass!"
 
 _OakWhewText::
-	text "OAK: Whew..."
+	text "STUMP: Yikes!"
 	done
 
 _OakGrassText::
-	text "OAK: A #MON can"
-	line "appear anytime in"
-	cont "tall grass."
+	text "STUMP: See what"
+	line "I mean, they're"
+	cont "bloodthirsty out"
+	cont "here!"
 
 	para "You need your own"
 	line "#MON for your"
 	cont "protection."
-	cont "I know!"
+	cont "Ay, I know!"
 
-	para "Here, come with"
-	line "me!"
+	para "Hey, come on kid!"
 	done
 
 _PalletTownText2::
@@ -34,22 +37,29 @@ _PalletTownText2::
 
 	para "When they get"
 	line "strong, they can"
-	cont "protect me!"
+	cont "protecc me!"
 	done
 
 _PalletTownText3::
 	text "Technology is"
 	line "incredible!"
 
-	para "You can now store"
-	line "and recall items"
-	cont "and #MON as"
-	cont "data via PC!"
+	para "You can now"
+	line "shitpost about"
+	cont "#MON on /tr/"
+	cont "via PC!"
 	done
 
 _PalletTownText4::
 	text "OAK #MON"
 	line "RESEARCH LAB"
+	
+	para "A note is"
+	line "attached, "
+	cont "OAK away on"
+	cont "vacation, "
+	cont "STUMP is lab-"
+	cont "sitting."
 	done
 
 _PalletTownText5::
@@ -59,9 +69,9 @@ _PalletTownText5::
 	done
 
 _PalletTownText6::
-	text $52,"'s house "
+	text "RED's house "
 	done
 
 _PalletTownText7::
-	text $53,"'s house "
+	text "BLUE's house "
 	done
