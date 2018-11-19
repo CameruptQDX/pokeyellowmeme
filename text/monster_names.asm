@@ -129,7 +129,7 @@ MonsterNames:
 	db "GOLDUCK@@@"
 	db "HYPNO@@@@@"
 	db "GOLBAT@@@@"
-	db "MEWTWO@@@@"
+	db "BARACKTWO@"
 	db "SNORLAX@@@"
 	db "MAGIKARP@@"
 	db "MISSINGNO."

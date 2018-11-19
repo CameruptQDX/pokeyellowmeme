@@ -202,3 +202,4 @@ MoveNames::
 	db "NOOP NOOGIE@"
 	db "SPECCY SPITE@"
 	db "D. IRON BASH@"
+	db "OBAMAFLARE@"

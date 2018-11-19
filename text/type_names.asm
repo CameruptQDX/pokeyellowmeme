@@ -29,6 +29,7 @@ TypeNames:
 	dw .Psychic
 	dw .Ice
 	dw .Dragon
+	dw .Dark
 
 .Normal:   db "NORMAL@"
 .Fighting: db "FIGHTING@"
@@ -47,3 +48,4 @@ TypeNames:
 .Ghost:    db "GHOST@"
 .Dragon:   db "DRAGON@"
 .Steel:    db "STEEL@"
+.Dark:     db "DARK@"
