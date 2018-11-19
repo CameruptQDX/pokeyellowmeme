@@ -62,7 +62,7 @@ BeachHousePikachuText:
 	TX_ASM
 	ld hl, .BeachHousePikachuText
 	call PrintText
-	ld a, PIKACHU
+	ld a, BLOBBOS
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd
