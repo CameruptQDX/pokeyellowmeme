@@ -176,3 +176,41 @@ MoveEnd:
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,   100, 20
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,   100, 10
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,   100, 10
+	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, GRASS,   100, 30 ;speed weed
+	move KINESIS,        SWIFT_EFFECT,                60, PSYCHIC,   100, 20 ;alakadamn
+	move LICK,     FREEZE_SIDE_EFFECT,          95, PSYCHIC,      100, 10 ; mime crime
+	move DRILL_PECK,  THRASH_PETAL_DANCE_EFFECT,   120, FLYING,    100, 20 ; leek spin
+	move CONSTRICT,    DEFENSE_DOWN_SIDE_EFFECT,      80, GRASS,   100, 15 ; tentickle
+	move THUNDERSHOCK, POISON_SIDE_EFFECT1,       70, ELECTRIC, 100, 15 ; bubonic zap
+	move AMNESIA,    CONFUSION_SIDE_EFFECT,       60, BUG,  100, 20 ; morphon
+	move DRAGON_RAGE,    NO_ADDITIONAL_EFFECT,        90, DRAGON,    100, 15 ; bad dragon
+	move SLASH,        SWIFT_EFFECT,                60, FLYING,   100, 20 ;aero ass
+	move POISON_GAS, POISON_SIDE_EFFECT1,       65, FIRE, 100, 15 ; charmustard
+	move DIG,          CHARGE_EFFECT,              100, GRASS,   100, 10 ; fushiggydig
+	move EXPLOSION,    EXPLODE_EFFECT,             170, BUG,   100,  5 ; shroom boom
+	move THRASH,       THRASH_PETAL_DANCE_EFFECT,   90, FIGHTING,   100, 20 ; chimp out
+	move SCRATCH, POISON_SIDE_EFFECT1,       80, NORMAL, 100, 15 ; filthy claw
+	move MEGA_KICK,    PAY_DAY_EFFECT,       120, NORMAL,    75,  5 ; shekel kick
+	move MEGA_PUNCH,   FLINCH_SIDE_EFFECT1,           75, ROCK,     100, 15 ; rock clock
+	move SOFTBOILED,   HEAL_EFFECT,                  0, GRASS,   100, 10 ; suck an egg
+	move ROCK_SLIDE,       SPEED_DOWN_SIDE_EFFECT,      70, ROCK,    100, 15 ; tombstoner
+	move SURF,      OHKO_EFFECT,                  1, WATER,    50,  5 ; giga splash
+	move WATER_GUN,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, WATER,    100, 20 ; squart
+	move AURORA_BEAM,  ATTACK_DOWN_SIDE_EFFECT,     65, STEEL,      100, 20 ;miracle ray
+	move ROLLING_KICK, FLINCH_SIDE_EFFECT2,         70, NORMAL,  85, 15 ; back air
+	move MEGA_KICK,   NO_ADDITIONAL_EFFECT,       95, GROUND,   95, 10 ; horse force
+	move SING,         SLEEP_EFFECT,                 0, NORMAL,    70, 10 ; lard bard
+	move LOW_KICK,     NO_ADDITIONAL_EFFECT,         120, FIGHTING,  80, 5 ; leg drop
+	move THRASH,       THRASH_PETAL_DANCE_EFFECT,   90, POISON,   100, 20 ; trash
+	move SUPER_FANG, PARALYZE_SIDE_EFFECT1,       70, POISON, 100, 15 ; top snek
+	move FLY,          FLY_EFFECT,                  70, STEEL,    95, 15 ;UFOhNo
+	move BODY_SLAM,    PARALYZE_SIDE_EFFECT2,       85, WATER,   100, 15 ; body clam
+	move RECOVER,      HEAL_EFFECT,                  0, BUG,   100, 20 ; mantis prayer
+	move NIGHT_SHADE,  NO_ADDITIONAL_EFFECT,        60, GHOST,    100, 20 ; spook out
+	move RAGE,         RAGE_EFFECT,                 30, PSYCHIC,   100, 15 ; trigger
+	move EARTHQUAKE,       THRASH_PETAL_DANCE_EFFECT,   80, GROUND,   100, 20 ; shitpost
+	move HEADBUTT,        SWIFT_EFFECT,                70, ICE,   100, 15 ;blobby bop
+	move VINE_WHIP, FLINCH_SIDE_EFFECT2, 90, GRASS, 100, 15 ; clovey club
+	move STRUGGLE, CONFUSION_SIDE_EFFECT, 90, DRAGON, 100, 15 ; noop noogie
+	move SCREECH, SPECIAL_DOWN_SIDE_EFFECT, 90, PSYCHIC, 100, 15 ; speccy Spite
+	move MEGA_PUNCH, ATTACK_TWICE_EFFECT, 60, STEEL, 100, 5 ; double iron bash
