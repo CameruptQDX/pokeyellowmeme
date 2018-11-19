@@ -484,10 +484,17 @@ MainInBattleLoop:
 	cp COUNTER
 	jr z, .compareSpeed ; if both used Counter
 	jr .enemyMovesFirst ; if player used Counter and enemy didn't
+	cp MIRROR_COAT
+	jr z, .compareSpeed ; if both used Mirror Coat
+	jr .enemyMovesFirst ; if player used Mirror Coat and enemy didn't
 .playerDidNotUseCounter
 	ld a, [wEnemySelectedMove]
 	cp COUNTER
 	jr z, .playerMovesFirst ; if enemy used Counter and player didn't
+.playerDidNotUseMirrorCoat
+	ld a, [wEnemySelectedMove]
+	cp MIRROR_COAT
+	jr z, .playerMovesFirst ; if enemy used Mirror Coat and player didn't
 .compareSpeed
 	ld de, wBattleMonSpeed ; player speed value
 	ld hl, wEnemyMonSpeed ; enemy speed value
@@ -3357,6 +3364,8 @@ PlayerCalcMoveDamage:
 	call CriticalHitTest
 	call HandleCounterMove
 	jr z,handleIfPlayerMoveMissed
+	call HandleMirrorCoatMove
+	jr z,handleIfPlayerMoveMissed
 	call GetDamageVarsForPlayerAttack
 	call CalculateDamage
 	jp z,playerCheckIfFlyOrChargeEffect ; for moves with 0 BP, skip any further damage calculation and, for now, skip MoveHitTest
@@ -4950,6 +4959,18 @@ HandleCounterMove:
 	jr z,.counterableType
 	cp a,FIGHTING
 	jr z,.counterableType
+	cp a,FLYING
+	jr z,.counterableType
+	cp a,GROUND
+	jr z,.counterableType
+	cp a,ROCK
+	jr z,.counterableType
+	cp a,BUG
+	jr z,.counterableType
+	cp a,POISON
+	jr z,.counterableType
+	cp a,STEEL
+	jr z,.counterableType
 ; if the move wasn't Normal or Fighting type, miss
 	xor a
 	ret
@@ -4978,6 +4999,78 @@ HandleCounterMove:
 	call MoveHitTest ; do the normal move hit test in addition to Counter's special rules
 	xor a
 	ret
+	
+HandleMirrorCoatMove:
+; mirror coat as a copy of how the game handles counter
+
+	ld a,[H_WHOSETURN] ; whose turn
+	and a
+; player's turn
+	ld hl,wEnemySelectedMove
+	ld de,wEnemyMovePower
+	ld a,[wPlayerSelectedMove]
+	jr z,.next
+; enemy's turn
+	ld hl,wPlayerSelectedMove
+	ld de,wPlayerMovePower
+	ld a,[wEnemySelectedMove]
+.next
+	cp a,MIRROR_COAT
+	ret nz ; return if not using Mirror Coat
+	ld a,$01
+	ld [wMoveMissed],a ; initialize the move missed variable to true (it is set to false below if the move hits)
+	ld a,[hl]
+	cp a,MIRROR_COAT
+	ret z ; miss if the opponent's last selected move is Mirror Coat.
+	ld a,[de]
+	and a
+	ret z ; miss if the opponent's last selected move's Base Power is 0.
+; check if the move the target last selected was a Special type
+	inc de
+	ld a,[de]
+	cp a,WATER
+	jr z,.counterableType
+	cp a,GRASS
+	jr z,.counterableType
+	cp a,FIRE
+	jr z,.counterableType
+	cp a,ICE
+	jr z,.counterableType
+	cp a,ELECTRIC
+	jr z,.counterableType
+	cp a,PSYCHIC
+	jr z,.counterableType
+	cp a,DRAGON
+	jr z,.counterableType
+; if the move wasn't a special type, miss
+	xor a
+	ret
+.counterableType
+	ld hl,wDamage
+	ld a,[hli]
+	or [hl]
+	ret z ; If we made it here, Mirror Coat still misses if the last move used in battle did no damage to its target.
+	      ; wDamage is shared by both players, so Mirror Coat may strike back damage dealt by the Mirror Coat user itself
+	      ; if the conditions meet, even though 99% of the times damage will come from the target.
+; if it did damage, double it
+	ld a,[hl]
+	add a
+	ldd [hl],a
+	ld a,[hl]
+	adc a
+	ld [hl],a
+	jr nc,.noCarry
+; damage is capped at 0xFFFF
+	ld a,$ff
+	ld [hli],a
+	ld [hl],a
+.noCarry
+	xor a
+	ld [wMoveMissed],a
+	call MoveHitTest ; do the normal move hit test in addition to Mirror Coat's special rules
+	xor a
+	ret
+	
 
 ApplyAttackToEnemyPokemon:
 	ld a,[wPlayerMoveEffect]

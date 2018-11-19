@@ -164,10 +164,50 @@ const_value = 1
 	const SUPER_FANG   ; a2
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
-
-NUM_ATTACKS EQU const_value + -1
-
-	const STRUGGLE
+	const STRUGGLE     ; a5
+	const SPEED_WEED   ; a6
+	const ALAKADAMN    ; a7
+	const MIME_CRIME   ; a8
+	const LEEK_SPIN    ; a9
+	const TENTICKLE    ; aa
+	const BUBONIC_ZAP  ; ab
+	const MORPHON      ; ac
+	const BAD_DRAGON   ; ad
+	const AERO_ASS     ; ae
+	const CHARMUSTARD  ; af
+	const FUSHIGGYDIG  ; b0
+	const SHROOM_BOOM  ; b1
+	const CHIMP_OUT    ; b2
+	const FILTHY_CLAW  ; b3
+	const SHEKEL_KICK  ; b4
+	const ROCK_CLOCK   ; b5
+	const SUCK_AN_EGG  ; b6
+	const TOMBSTONER   ; b7
+	const GIGA_SPLASH  ; b8
+	const SQUART       ; b9
+	const MIRACLE_RAY  ; ba
+	const BACK_AIR     ; bb
+	const HORSE_FORCE  ; bc
+	const LARD_BARD    ; bd
+	const LEG_DROP     ; be
+	const TRASH        ; bf
+	const TOP_SNEK     ; c0
+	const UFOHNO       ; c1
+	const BODY_CLAM    ; c2
+	const MANTIS_PRAYER; c3
+	const SPOOK_OUT    ; c4
+	const TRIGGER      ; c5
+	const SHITPOST     ; c6
+	const BLOBBY_BOP   ; c7
+	const CLOVEY_CLUB  ; c8
+	const NOOP_NOOGIE  ; c9
+	const SPECCY_SPITE ; ca
+	const DOUBLE_IRON_BASH ; cb
+	const OBAMAFLARE ; cc
+	const MIRROR_COAT ; cd
+	
+NUM_ATTACKS EQU const_value
+const_value = STRUGGLE + 1
 
 	; Moves do double duty as animation identifiers.
 

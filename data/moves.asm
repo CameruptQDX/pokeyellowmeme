@@ -215,3 +215,4 @@ MoveEnd:
 	move SCREECH, SPECIAL_DOWN_SIDE_EFFECT, 90, PSYCHIC, 100, 15 ; speccy Spite
 	move MEGA_PUNCH, ATTACK_TWICE_EFFECT, 60, STEEL, 100, 5 ; double iron bash
 	move NIGHT_SHADE, NO_ADDITIONAL_EFFECT, 100, DARK, 100, 10 ; Obamaflare
+	move FLASH,      NO_ADDITIONAL_EFFECT,         1, PSYCHIC, 100, 20 ; Mirror Coat
