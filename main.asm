@@ -845,7 +845,7 @@ TradingAnimationGraphics2:
 	INCBIN "gfx/trade2.2bpp"
 TradingAnimationGraphics2End:
 
-INCLUDE "engine/evos_moves.asm"
+
 
 
 SECTION "bank0F", ROMX
@@ -2132,6 +2132,7 @@ MelmetalPicFront:         INCBIN "pic/ymon/melmetal.pic"
 MelmetalPicBack:          INCBIN "pic/monback/melmetalb.pic"
 BlobbosPicFront:         INCBIN "pic/ymon/blobbos.pic"
 BlobbosPicBack:          INCBIN "pic/monback/blobbosb.pic"
+INCLUDE "engine/evos_moves.asm"
 
 SECTION "bank3C", ROMX
 

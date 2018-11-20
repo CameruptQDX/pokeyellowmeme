@@ -206,6 +206,7 @@ const_value = 1
 	const OBAMAFLARE ; cc
 	const MIRROR_COAT ; cd
 	const PKMN_SHOCK  ; ce
+	const EAT_SOUP   ; cf
 	
 NUM_ATTACKS EQU const_value
 const_value = STRUGGLE + 1

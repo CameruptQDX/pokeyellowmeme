@@ -204,3 +204,4 @@ MoveNames::
 	db "D. IRON BASH@"
 	db "OBAMAFLARE@"
 	db "PKMN SHOCK@"
+	db "EAT SOUP@"
