@@ -12,6 +12,7 @@ _OakWalksUpText::
 	cont "wild #MON"
 	cont "live in tall"
 	cont "grass!"
+	done
 
 _OakWhewText::
 	text "STUMP: Yikes!"
