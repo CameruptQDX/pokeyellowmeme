@@ -19,8 +19,8 @@ _Route4AfterBattleText1::
 	line "be any more"
 	cont "mushrooms here."
 
-	para "I think I got"
-	line "them all."
+	para "Damn hippies"
+	line "got them all."
 	done
 
 _Route4Text5::

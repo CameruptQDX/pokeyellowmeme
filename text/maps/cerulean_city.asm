@@ -1,35 +1,32 @@
 _CeruleanCityText_19668::
-	text $53, ": Yo!"
+	text $53, ": You!"
 	line $52, "!"
 
 	para "You're still"
 	line "struggling along"
 	cont "back here?"
 
-	para "I'm doing great!"
-	line "I caught a bunch"
-	cont "of strong and"
-	cont "smart #MON!"
+	para "It's no surprise"
+	line "for someone as"
+	cont "terminally weak"
+	cont "as you..."
 
-	para "Here, let me see"
-	line "what you caught,"
-	cont $52, "!"
+	para "Bring it on"
+	line "no mercy!"
 	done
 
 _CeruleanCityText_1966d::
-	text "Hey!"
-	line "Take it easy!"
-	cont "You won already!"
+	text "Damn..."
 	prompt
 
 _CeruleanCityText_19672::
 	text "Heh!"
-	line "You're no match"
-	cont "for my genius!"
+	line "A Flawless"
+	cont "victory!"
 	prompt
 
 _CeruleanCityText_19677::
-	text $53, ": Hey,"
+	text $53, ": Heh."
 	line "guess what?"
 
 	para "I went to BILL's"
@@ -37,11 +34,13 @@ _CeruleanCityText_19677::
 	cont "show me his rare"
 	cont "#MON!"
 
-	para "That added a lot"
-	line "of pages to my"
-	cont "#DEX!"
+	para "What a pathetic"
+	line "nerd, bet he"
+	cont "hasn't even"
+	cont "studied the"
+	cont "blade!"
 
-	para "After all, BILL's"
+	para "But they say he is"
 	line "world famous as a"
 	cont "#MANIAC!"
 
@@ -49,13 +48,12 @@ _CeruleanCityText_19677::
 	line "#MON Storage"
 	cont "System on PC!"
 
-	para "Since you're using"
-	line "his system, go"
-	cont "thank him!"
+	para "Because I rely on"
+	line "his system, I'll"
+	cont "respect him..."
 
-	para "Well, I better"
-	line "get rolling!"
-	cont "Smell ya later!"
+	para "Farewell!"
+	line "Smell ya in hell!"
 	done
 
 _CeruleanCityText_196d9::
@@ -74,15 +72,16 @@ _ReceivedTM28Text::
 
 _ReceivedTM28Text2::
 	db $0
-	para "I better get"
-	line "moving! Bye!@@"
+	para "Aw man I can't"
+	line "Go back to jail!@@"
 
 _TM28NoRoomText::
 	text "Make room for"
 	line "this!"
 
 	para "I can't run until"
-	line "I give it to you!"
+	line "I give it to you"
+	cont "for some reason!"
 	done
 
 _CeruleanCityText_196ee::
@@ -98,8 +97,8 @@ _CeruleanCityText_196f3::
 
 _CeruleanCityText3::
 	text "You're a trainer"
-	line "too? Collecting,"
-	cont "fighting, it's a"
+	line "too? Collectan',"
+	cont "battlan', it's a"
 	cont "tough life."
 	done
 
@@ -108,29 +107,32 @@ _CeruleanCityText4::
 	line "front of the shop"
 	cont "is in the way."
 
-	para "There might be a"
-	line "way around."
+	para "Who knew thin"
+	line "trees were so"
+	cont "obnoxious!"
 	done
 
 _CeruleanCityText5::
 	text "You're making an"
 	line "encyclopedia on"
-	cont "#MON? That"
-	cont "sounds amusing."
+	cont "#MON? Didn't"
+	cont "RED and BLUE"
+	cont "already do that?"
 	done
 
 _CeruleanCityText6::
 	text "These poor people"
-	line "here were robbed."
+	line "here were robbed"
+	cont "for a second time."
 
 	para "We're positive"
 	line "that TEAM ROCKET"
 	cont "is behind this"
-	cont "terrible deed."
+	cont "once again."
 
-	para "Even our POLICE"
-	line "FORCE has trouble"
-	cont "with the ROCKETs!"
+	para "We thought RED"
+	line "had already wiped"
+	cont "out the ROCKETs!"
 	done
 
 _CeruleanCityText_19730::
