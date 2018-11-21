@@ -13,4 +13,7 @@ _ViridianPokeCenterText3::
 
 	para "They don't charge"
 	line "any money either!"
+	cont "Well, unless"
+	cont "you're a taxpayer"
+	cont "that is."
 	done

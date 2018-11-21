@@ -1,6 +1,6 @@
 _ViridianMartText1::
 	text "Okay! Say hi to"
-	line "PROF.OAK for me!"
+	line "STUMP for me!"
 	done
 
 _ViridianMartText4::
@@ -10,23 +10,24 @@ _ViridianMartText4::
 
 ViridianMartParcelQuestText::
 	text "You know PROF."
-	line "OAK, right?"
+	line "STUMP, right?"
 
-	para "His order came in."
-	line "Will you take it"
-	cont "to him?"
+	para "His perscription"
+	line "came in. Will you"
+	cont "take it to him?"
 
 	para $52, " got"
-	line "OAK's PARCEL!@@"
+	line "STUMP's PARCEL!@@"
 
 _ViridianMartText2::
-	text "This shop sells a"
-	line "lot of PARLYZ"
-	cont "HEALs."
+	text "ANTIDOTES are so"
+	line "cheap, what are"
+	cont "they made of?"
 	done
 
 _ViridianMartText3::
-	text "The shop finally"
-	line "has some POTIONs"
-	cont "in stock."
+	text "No! POTIONs are"
+	line "all sold out."
+	cont "RIP in pieces"
+	cont "my nuzlocke run."
 	done

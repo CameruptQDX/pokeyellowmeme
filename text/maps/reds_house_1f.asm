@@ -1,16 +1,19 @@
 _MomWakeUpText::
-	text "MOM: Right."
-	line "All boys leave"
-	cont "home someday."
-	cont "It said so on TV."
+	text "Right, all"
+	line "exchange students"
+	cont "leave someday. It"
+	cont "was nice to have"
+	cont "you, RED never"
+	cont "comes home now so"
+	cont "it gets lonely."
 
-	para "PROF.OAK, next"
+	para "PROF.STUMP, next"
 	line "door, is looking"
 	cont "for you."
 	done
 
 _MomHealText1::
-	text "MOM: <PLAYER>, if"
+	text "<PLAYER>, if"
 	line "you drive your"
 	cont "#MON too hard,"
 	cont "they'll dislike"
@@ -21,7 +24,7 @@ _MomHealText1::
 	prompt
 
 _MomHealText2::
-	text "MOM: Oh good!"
+	text "Oh good!"
 	line "You and your"
 	cont "#MON are"
 	cont "looking great!"
@@ -30,11 +33,19 @@ _MomHealText2::
 
 _StandByMeText::
 	text "There's a movie"
-	line "on TV. Four boys"
-	cont "are walking on"
-	cont "railroad tracks."
+	line "on TV. Some guy"
+	cont "in a bat suit is"
+	cont "running down a"
+	cont "crowded street"
+	cont "with an"
+	cont "oversized"
+	cont "bomb above"
+	cont "his head."
 
-	para "I better go too."
+	para "Tune in next"
+	line "time. Same Bat"
+	cont "time, same bat"
+	cont "channel."
 	done
 
 _TVWrongSideText::

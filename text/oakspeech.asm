@@ -40,14 +40,13 @@ _IntroducePlayerText::
 	cont "name again?"
 	prompt
 
-_IntroduceRivalText:: ;HAVE TO CHANGE, NOT SURE YET
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
-
-	para "...Erm, what is"
-	line "his name again?"
+_IntroduceRivalText::
+	text "This angsty"
+	line "little tagnut is"
+	cont "another exchange"
+	cont "student, would"
+	cont "ya mind telling"
+	cont "me his name?"
 	prompt
 
 _OakSpeechText3::

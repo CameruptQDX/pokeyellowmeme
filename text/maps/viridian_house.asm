@@ -3,9 +3,11 @@ _ViridianHouseText1::
 	line "nicknames is fun,"
 	cont "but hard."
 
-	para "Simple names are"
-	line "the easiest to"
-	cont "remember."
+	para "Sometimes the"
+	line "best nicknames"
+	cont "though are the"
+	cont "first dumb thing"
+	cont "you think of."
 	done
 
 _ViridianHouseText2::
@@ -14,10 +16,10 @@ _ViridianHouseText2::
 	done
 
 _ViridianHouseText_1d5b1::
-	text "SPEARY: Tetweet!"
+	text "BORB: Tetweet!"
 	done
 
 _ViridianHouseText4::
 	text "SPEAROW"
-	line "Name: SPEARY"
+	line "Name: BORB"
 	done

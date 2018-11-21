@@ -5,7 +5,7 @@ _DaisyInitialText::
 	done
 
 _DaisyOfferMapText::
-	text "Grandpa asked you"
+	text "STUMP asked you"
 	line "to run an errand?"
 	cont "Here, this will"
 	cont "help you!"
@@ -33,6 +33,13 @@ _BluesHouseText2::
 	line "with your #MON"
 	cont "makes them more"
 	cont "friendly to you."
+	
+	para "Hopefully that"
+	line $53," kid will"
+	cont "treat his #MON"
+	cont "#with more respect"
+	cont "than his host!"
+	cont "What a bad guest!"
 	done
 
 _BluesHouseText3::

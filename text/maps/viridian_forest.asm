@@ -15,7 +15,7 @@ _ViridianForestBattleText1::
 _ViridianForestEndBattleText1::
 	text "No!"
 	line "CATERPIE can't"
-	cont "cut it!"
+	cont "hack it!"
 	prompt
 
 _ViridianFrstAfterBattleText1::
@@ -30,9 +30,10 @@ _ViridianForestBattleText2::
 	done
 
 _ViridianForestEndBattleText2::
-	text "Huh?"
-	line "I ran out of"
-	cont "#MON!"
+	text "COME"
+	line "ON AND SLAM"
+	cont "AND WELCOME TO-"
+	cont "Oh I lost."
 	prompt
 
 _ViridianFrstAfterBattleText2::
@@ -68,14 +69,16 @@ _ViridianForestBattleTextPikaGirl::
 	done
 
 _ViridianForestEndBattleTextPikaGirl::
-	text "Oh no,"
-	line "really?"
+	text "you have a"
+	line "BLOBBOS?"
 	prompt
 
 _ViridianForestAfterBattleTextPikaGirl::
-	text "I looked forever,"
-	line "but I never found"
-	cont "a PIKACHU here!"
+	text "I've never heard"
+	line "of that one,"
+	cont "is it some kind"
+	cont "of foreign"
+	cont "#MON?"
 	done
 
 _ViridianForestBattleTextSamurai::
@@ -97,12 +100,15 @@ _ViridianForestAfterBattleTextSamurai::
 	done
 
 _ViridianForestText8::
-	text "I ran out of #"
-	line "BALLs to catch"
-	cont "#MON with!"
+	text "My balls! I"
+line "dropped my balls!"
 
-	para "You should carry"
-	line "extras!"
+para "You can find"
+line "items on the"
+cont "ground, but"
+cont "please tell me if"
+cont "you find my"
+cont "balls."
 	done
 
 _ViridianForestText9::
@@ -112,6 +118,9 @@ _ViridianForestText9::
 	line "avoid battles,"
 	cont "stay away from"
 	cont "grassy areas!"
+	
+	para "But you're not a"
+	line "coward, are you?"
 	done
 
 _ViridianForestText10::
@@ -123,7 +132,7 @@ _ViridianForestText10::
 _ViridianForestText11::
 	text "TRAINER TIPS"
 
-	para "Contact PROF.OAK"
+	para "Contact PROF.STUMP"
 	line "via PC to get"
 	cont "your #DEX"
 	cont "evaluated!"
@@ -132,11 +141,10 @@ _ViridianForestText11::
 _ViridianForestText12::
 	text "TRAINER TIPS"
 
-	para "No stealing of"
-	line "#MON from"
-	cont "other trainers!"
-	cont "Catch only wild"
-	cont "#MON!"
+	para "There is no such"
+	line "thing as a bug,"
+	cont "only hidden"
+	cont "features!"
 	done
 
 _ViridianForestText13::
@@ -146,8 +154,11 @@ _ViridianForestText13::
 	line "before attempting"
 	cont "capture!"
 
-	para "When healthy,"
-	line "they may escape!"
+	para "You can't get"
+	line "away with just"
+	cont "chucking #"
+	cont "BALLS, that would"
+	cont "be too easy!"
 	done
 
 _ViridianForestText14::

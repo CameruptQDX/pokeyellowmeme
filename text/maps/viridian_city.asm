@@ -5,9 +5,8 @@ _ViridianCityText_19219::
 	done
 
 _ViridianCityText_1920a::
-	text "Ahh, I've had my"
-	line "coffee now and I"
-	cont "feel great!"
+	text "Ah, sorry for"
+	line "earlier lass."
 
 	para "Sure, you can go"
 	line "through!"
@@ -31,8 +30,9 @@ _OldManTextAfterBattle::
 	para "I've run out of"
 	line "# BALLs too."
 
-	para "I have to get some"
-	line "at #MON MART."
+	para "Tragic, yet"
+	line "familiar all the"
+	cont "same..."
 	done
 
 _ViridianCityText1::
@@ -47,16 +47,22 @@ _ViridianCityText1::
 	done
 
 _ViridianCityText_19122::
-	text "This #MON GYM"
-	line "is always closed."
+	text "The last LEADER"
+	line "here, GIOVANNI,"
+	cont "was kicked out"
+	cont "for secretly"
+	cont "being a crime"
+	cont "boss!"
 
-	para "I wonder who the"
-	line "LEADER is?"
+	para "There's talks of"
+	line "appointing BLUE"
+	cont "as the new"
+	cont "GYM LEADER."
 	done
 
 _ViridianCityText_19127::
-	text "VIRIDIAN GYM's"
-	line "LEADER returned!"
+	text "VIRIDIAN GYM"
+	line "has a new LEADER!"
 	done
 
 _ViridianCityText_1914d::
@@ -80,10 +86,13 @@ _ViridianCityText_19157::
 	done
 
 _ViridianCityText_19175::
-	text "Oh Grandpa! Don't"
-	line "be so mean!"
-	cont "He hasn't had his"
-	cont "coffee yet."
+	text "I'm terribly"
+	line "sorry, my"
+	cont "grandpa started a"
+	cont "new medication"
+	cont "for his low-T,"
+	cont "and lets just say"
+	cont "he's a bit testy."
 	done
 
 _ViridianCityText_1917a::
@@ -95,11 +104,10 @@ _ViridianCityText_1917a::
 	done
 
 _ViridianCityText_19191::
-	text "You can't go"
-	line "through here!"
+	text "Off my road you"
+	line "little snatch!"
 
-	para "This is private"
-	line "property!"
+	para "OOGABOOGABOOGA!"
 	done
 
 _ViridianCityText_191ca::
@@ -164,23 +172,23 @@ _ViridianCityText9::
 	line "and expand your"
 	cont "collection!"
 
-	para "The more you have,"
-	line "the easier it is"
-	cont "to fight!"
+	para "Not catching them"
+	line "all is a bannable"
+	cont "offense, you see."
 	done
 
 _ViridianCityText10::
 	text "TRAINER TIPS"
 
-	para "The battle moves"
-	line "of #MON are"
-	cont "limited by their"
-	cont "POWER POINTs, PP."
-
 	para "To replenish PP,"
 	line "rest your tired"
 	cont "#MON at a"
 	cont "#MON CENTER!"
+
+	para "In popular"
+	line "trainer lingo,"
+	cont "this is called"
+	cont "going for a PP."
 	done
 
 _ViridianCityText13::

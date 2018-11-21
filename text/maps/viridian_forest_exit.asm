@@ -16,4 +16,8 @@ _ViridianForestExitText2::
 	para "They can be cut"
 	line "down by a special"
 	cont "#MON move."
+	
+	para "Personally, I'm"
+	line "an au naturale"
+	cont "kind of guy."
 	done
