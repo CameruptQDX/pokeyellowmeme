@@ -1,11 +1,10 @@
 _PewterCityText1::
-	text "It's rumored that"
-	line "CLEFAIRYs came"
+	text "CLEFAIRYs came"
 	cont "from the moon!"
 
-	para "They appeared "
-	line "after MOON STONE"
-	cont "fell on MT.MOON."
+	para "Its an invasion!"
+	line "Why won't anyone"
+	cont "listen to me!"
 	done
 
 _PewterCityText2::
@@ -14,10 +13,10 @@ _PewterCityText2::
 	cont "trainers here!"
 
 	para "They're all like"
-	line "BUG CATCHERs,"
+	line "a bunch of WEEDLE"
 	cont "but PEWTER GYM's"
 	cont "BROCK is totally"
-	cont "into it!"
+	cont "rock hard!"
 	done
 
 _PewterCityText_193f1::
@@ -53,12 +52,13 @@ _PewterCityText_19427::
 
 _PewterCityText_1942c::
 	text "That's right!"
-	line "It's hard work!"
+	line "It's benis!"
 	done
 
 _PewterCityText_19431::
 	text "I'm spraying REPEL"
 	line "to keep #MON"
+	cont "and the homeless"
 	cont "out of my garden!"
 	done
 
@@ -83,6 +83,12 @@ _PewterCityText6::
 	line "takes part in"
 	cont "battle, however"
 	cont "short, earns EXP!"
+	
+	para "What does EXP"
+	line "stand for?"
+	cont "Well unlike other"
+	cont "games it dosen't"
+	cont "involve murder."
 	done
 
 _PewterCityText7::

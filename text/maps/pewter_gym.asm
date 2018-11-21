@@ -18,24 +18,30 @@ _PewterGymText_5c49e::
 	done
 
 _PewterGymText_5c4a3::
-	text "There are all"
-	line "kinds of trainers"
-	cont "in the world!"
+	text "There are powerful"
+	line "trainers all over"
+	cont "the world!"
+	
 
-	para "Some raise #MON"
-	line "for fights. Some"
-	cont "see them as pets."
+	para "I should say that"
+	line "you've had the"
+	cont "honor of being"
+	cont "one of the last"
+	cont "trainers I'll be"
+	cont "taking on here in"
+	cont "the KANTO region."
 
-	para "I'm in training to"
-	line "become a #MON"
-	cont "breeder."
+	para "Soon I'll be"
+	line "making plans"
+	cont "for my move to"
+	cont "the FOCHUN region"
+	cont "all the way on the"
+	cont "other side of the"
+	cont "world."
 
-	para "If you take your"
-	line "#MON training"
-	cont "seriously, go"
-	cont "visit the GYM in"
-	cont "CERULEAN and test"
-	cont "your abilities!"
+	para "Maybe one day I'll"
+	line "see you there"
+	cont "fuccboi!"
 	done
 
 _TM34PreReceiveText::
@@ -77,7 +83,7 @@ _TM34NoRoomText::
 
 _PewterGymText_5c4bc::
 	text "I took"
-	line "you for granted."
+	line "you for granite."
 
 	para "As proof of your"
 	line "victory, here's"
@@ -122,6 +128,9 @@ _PewterGymAfterBattleText1::
 	text "You're pretty hot,"
 	line "but not as hot"
 	cont "as BROCK!"
+	
+	para "..."
+	line "what?"
 	done
 
 _PewterGymText_5c515::
@@ -172,11 +181,11 @@ _PewterGymGuyText::
 	line "get happening!"
 
 	para "It will be tough"
-	line "for your PIKACHU"
+	line "for your BLOBBOS"
 	cont "at this GYM!"
 
-	para "Electric attacks"
-	line "are harmless to"
-	cont "BROCK's ground-"
-	cont "type #MON."
+	para "ICE types are"
+	line "weak to BROCK's"
+	cont "ROCK type"
+	cont "#MON's attacks."
 	done

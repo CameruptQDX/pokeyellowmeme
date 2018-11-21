@@ -10,14 +10,16 @@ _MtMoon1EndBattleText2::
 	prompt
 
 _MtMoon1AfterBattleText2::
-	text "Kids like you"
-	line "shouldn't be"
-	cont "here!"
+	text "Maybe the shock"
+	line "is from this"
+	cont "battery I keep"
+	cont "licking."
 	done
 
 _MtMoon1BattleText3::
-	text "Did you come to"
-	line "explore too?"
+	text "I came down here"
+	line "to show off to"
+	cont "girls."
 	done
 
 _MtMoon1EndBattleText3::
@@ -26,10 +28,10 @@ _MtMoon1EndBattleText3::
 	prompt
 
 _MtMoon1AfterBattleText3::
-	text "I came down here"
-	line "to show off to"
-	cont "girls."
-	done
+	text "Unsuprisingly"
+	line "I'm having a"
+	cont "hard time finding"
+	cont "girls in a cave."
 
 _MtMoon1BattleText4::
 	text "Wow! It's way"
@@ -38,8 +40,8 @@ _MtMoon1BattleText4::
 	done
 
 _MtMoon1EndBattleText4::
-	text "Oh!"
-	line "I lost it!"
+	text "That's"
+	line "What he said!"
 	prompt
 
 _MtMoon1AfterBattleText4::
@@ -58,8 +60,8 @@ _MtMoon1EndBattleText5::
 	prompt
 
 _MtMoon1AfterBattleText5::
-	text "I have to find"
-	line "stronger #MON."
+	text "I'm calling the"
+	line "police, eek!"
 	done
 
 _MtMoon1BattleText6::
@@ -96,14 +98,16 @@ _MtMoon1AfterBattleText7::
 	done
 
 _MtMoon1BattleText8::
-	text "Go through this"
-	line "cave to get to"
+	text "You won't be"
+	line "making it to"
 	cont "CERULEAN CITY!"
 	done
 
 _MtMoon1EndBattleText8::
 	text "I"
-	line "lost."
+	line "won't be"
+	cont "making it to"
+	cont "PEWTER..."
 	prompt
 
 _MtMoon1AfterBattleText8::
@@ -115,5 +119,5 @@ _MtMoon1AfterBattleText8::
 
 _MtMoon1Text14::
 	text "Beware! ZUBAT is"
-	line "a bloodsucker!"
+	line "a sloodbucker!"
 	done

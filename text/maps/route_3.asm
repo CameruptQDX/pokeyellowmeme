@@ -19,10 +19,11 @@ _Route3EndBattleText1::
 	prompt
 
 _Route3AfterBattleText1::
-	text "There are other"
-	line "kinds of #MON"
-	cont "than those found"
-	cont "in the forest!"
+	text "Beat me once,"
+	line "shame on me."
+	cont "Beat me twice,"
+	cont "I guess I should"
+	cont "git gud."
 	done
 
 _Route3BattleText2::
@@ -37,10 +38,11 @@ _Route3EndBattleText2::
 	prompt
 
 _Route3AfterBattleText2::
-	text "Are you storing"
-	line "your #MON on"
-	cont "PC? Each BOX can"
-	cont "hold 20 #MON!"
+	text "Wait are you a"
+	line "girl? Are girls"
+	cont "shorts comfy?"
+	cont "J-just want to"
+	cont "know, haha."
 	done
 
 _Route3BattleText3::
@@ -56,7 +58,7 @@ _Route3EndBattleText3::
 _Route3AfterBattleText3::
 	text "Quit staring if"
 	line "you don't want to"
-	cont "fight!"
+	cont "fight! B-baka!"
 	done
 
 _Route3BattleText4::
@@ -71,10 +73,11 @@ _Route3EndBattleText4::
 	prompt
 
 _Route3AfterBattleText4::
-	text "If a #MON BOX"
-	line "on the PC gets"
-	cont "full, just switch"
-	cont "to another BOX!"
+	text "Is it wrong to"
+	line "have a revolving"
+	cont "team of #MON"
+	cont "Instead of a"
+	cont "set team of them?"
 	done
 
 _Route3BattleText5::
@@ -107,6 +110,8 @@ _Route3AfterBattleText6::
 	text "I always wear"
 	line "shorts, even in"
 	cont "winter!"
+	cont "They call me"
+	cont "blue balls bill!"
 	done
 
 _Route3BattleText7::
@@ -120,9 +125,9 @@ _Route3EndBattleText7::
 	prompt
 
 _Route3AfterBattleText7::
-	text "Trained #MON"
-	line "are stronger than"
-	cont "the wild ones!"
+	text "I wonder what's"
+	line "for dinner,"
+	cont "mah boi!"
 	done
 
 _Route3BattleText8::
@@ -135,8 +140,8 @@ _Route3EndBattleText8::
 	prompt
 
 _Route3AfterBattleText8::
-	text "ROUTE 4 is at the"
-	line "foot of MT.MOON."
+	text "W-well if you"
+	line "insist..."
 	done
 
 _Route3Text10::

@@ -4,8 +4,8 @@ _PewterMartText2::
 	cont "this really weird"
 	cont "fish #MON!"
 
-	para "It's totally weak"
-	line "and it cost ¥500!"
+	para "Feels like I was"
+	line "totally baited!"
 	done
 
 _PewterMartText3::

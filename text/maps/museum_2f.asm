@@ -13,6 +13,8 @@ _Museum2FText2::
 
 	para "I bought a color"
 	line "TV to watch it!"
+	cont "Even if it was"
+	cont "completely fake!"
 	done
 
 _Museum2FText3::
@@ -34,22 +36,29 @@ _Museum2FText5::
 	done
 
 _Museum2FPikachuText1::
-	text "Your PIKACHU looks"
-	line "untamed."
-	cont "May I have it for"
-	cont "my daughter?"
+	text "Hey is that a"
+	line "BLOBBOS?"
+	cont "It's no PIKACHU"
+	cont "but maybe it will"
+	cont "make my daughter"
+	cont "happy."
 	done
 
 _Museum2FPikachuText2::
-	text "I'd like to get"
-	line "that PIKACHU off"
-	cont "you, but it's too"
-	cont "attached to you."
+	text "Must be nice to"
+	line "have such a loyal"
+	cont "BLOBBOS, he's a"
+	cont "better mascot"
+	cont "than PIKACHU!"
 	done
 
 _Museum2FText6::
 	text "SPACE SHUTTLE"
 	line "COLUMBIA"
+	
+	para "You get a very"
+	line "bad feeling"
+	cont "at this model."
 	done
 
 _Museum2FText7::

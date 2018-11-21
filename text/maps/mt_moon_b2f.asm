@@ -2,11 +2,19 @@ _MtMoonJessieJamesText1::
 	text "Stop right there!@@"
 
 _MtMoonJessieJamesText2::
-	text "That fossil is"
-	line "TEAM ROCKET's!"
+	text "Prepare for trouble"
+	line "and check these"
+	cont "doubles..."
+	
+	para "AUSSIE!"
+	line "SAGE!"
+	
+	para "Blasting off at"
+	line "the speed of a"
+	cont "midsize SUV!"
 
 	para "Surrender now, or "
-	line "prepare to fight!"
+	line "prepare for shite!"
 	done
 
 _MtMoonJessieJamesText3::
@@ -15,9 +23,9 @@ _MtMoonJessieJamesText3::
 	prompt
 
 _MtMoonJessieJamesText4::
-	text "TEAM ROCKET, blast"
-	line "off at the speed"
-	cont "of light!@@"
+	text "TEAM ROCKET's"
+	line "blasting off"
+	cont "again!@@"
 
 _MtMoon3Text_49f24::
 	text "You want the"
@@ -40,11 +48,11 @@ _MtMoon3Text_49f7f::
 	line "no room for this.@@"
 
 _MtMoon3Text_49f85::
-	text "Hey, stop!"
+	text "REEEEEEEEEEE!"
 
 	para "I found these"
 	line "fossils! They're"
-	cont "both mine!"
+	cont "both mine! Mine!"
 	done
 
 _MtMoon3Text_49f8a::
@@ -93,7 +101,7 @@ _MtMoon3AfterBattleText3::
 _MtMoon3BattleText4::
 	text "We're pulling a"
 	line "big job here!"
-	cont "Get lost, kid!"
+	cont "I think?"
 	done
 
 _MtMoon3EndBattleText4::
@@ -102,9 +110,9 @@ _MtMoon3EndBattleText4::
 	prompt
 
 _MtMoon3AfterBattleText4::
-	text "If you find a"
-	line "fossil, give it"
-	cont "to me and scram!"
+	text "We already did"
+	line "this job before,"
+	cont "why are we here!?"
 	done
 
 _MtMoon3BattleText5::
@@ -115,11 +123,12 @@ _MtMoon3BattleText5::
 
 _MtMoon3EndBattleText5::
 	text "I'm"
-	line "steamed!"
+	line "memed!"
 	prompt
 
 _MtMoon3AfterBattleText5::
-	text "#MON lived"
-	line "here long before"
-	cont "people came."
+	text "Those fossils"
+	line "are as old as my"
+	cont "mama! Wait is"
+	cont "that a self own?"
 	done

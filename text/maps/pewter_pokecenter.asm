@@ -2,7 +2,10 @@ _PewterPokecenterText2::
 	text "What!?"
 
 	para "TEAM ROCKET is"
-	line "at MT.MOON? Huh?"
+	line "at MT.MOON again?"
+	cont "why would they"
+	cont "go rob a cave?"
+	cont "Wait hold on,"
 	cont "I'm on the phone!"
 
 	para "Scram!"
@@ -17,7 +20,7 @@ _PewterPokecenterText3::
 
 	para "Even conditions"
 	line "like sleep, burn,"
-	cont "poison and others"
+	cont "poison and herpes"
 	cont "are cured."
 	done
 

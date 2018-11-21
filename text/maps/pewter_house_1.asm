@@ -1,5 +1,5 @@
 _PewterHouse1Text1::
-	text "NIDORAN: Bowbow!@@"
+	text "NIDORAN: Skreee!@@"
 
 _PewterHouse1Text2::
 	text "NIDORAN sit!"
@@ -19,6 +19,6 @@ _PewterHouse1Text3::
 	cont "unskilled trainer"
 	cont "in battle!"
 
-	para "If only we had"
-	line "some BADGEs..."
+	para "Adoption's rough"
+	line "ain't it?"
 	done
