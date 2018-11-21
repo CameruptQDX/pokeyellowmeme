@@ -4,8 +4,8 @@ db 143 ; base attack
 db 143 ; base defense
 db 34 ; base speed
 db 65 ; base special
-db NORMAL ; species type 1
-db NORMAL ; species type 2
+db STEEL ; species type 1
+db STEEL ; species type 2
 db 3 ; catch rate
 db 210 ; base exp yield
 INCBIN "pic/ymon/melmetal.pic",0,1 ; 77, sprite dimensions
