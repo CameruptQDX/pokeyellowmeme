@@ -1,4 +1,4 @@
-_Route24Text_51510::
+_Route24Text_51510:: ; 6 - ROLV
 	text "Congratulations!"
 	line "You beat our 5"
 	cont "contest trainers!@@"
@@ -58,7 +58,7 @@ _Route24Text_51530::
 	cont "TEAM ROCKET!"
 	done
 
-_Route24BattleText1::
+_Route24BattleText1:: ; NOT ON THE BRIDGE
 	text "I saw your feat"
 	line "from the grass!"
 	done
@@ -70,11 +70,11 @@ _Route24EndBattleText1::
 
 _Route24AfterBattleText1::
 	text "I hid because the"
-	line "people on the"
+	line "afroed guys on"
 	cont "bridge scared me!"
 	done
 
-_Route24BattleText2::
+_Route24BattleText2:: ; 5 - Robotnov
 	text "OK! I'm No. 5!"
 	line "I'll stomp you!"
 	done
@@ -89,7 +89,7 @@ _Route24AfterBattleText2::
 	line "have no regrets!"
 	done
 
-_Route24BattleText3::
+_Route24BattleText3:: ; 4 - Karkov
 	text "I'm No. 4!"
 	line "Getting tired?"
 	done
@@ -99,12 +99,12 @@ _Route24EndBattleText3::
 	line "too!"
 	prompt
 
-_Route24AfterBattleText3::
+_Route24AfterBattleText3:: 
 	text "I did my best, so"
 	line "I've no regrets!"
 	done
 
-_Route24BattleText4::
+_Route24BattleText4:: ; 3 - Gunkov
 	text "Here's No. 3!"
 	line "I won't be easy!"
 	done
@@ -114,12 +114,12 @@ _Route24EndBattleText4::
 	line "Stomped flat!"
 	prompt
 
-_Route24AfterBattleText4::
+_Route24AfterBattleText4:: 
 	text "I did my best, I"
 	line "have no regrets!"
 	done
 
-_Route24BattleText5::
+_Route24BattleText5:: ; 2 - Bobov
 	text "I'm second!"
 	line "Now it's serious!"
 	done
@@ -129,12 +129,12 @@ _Route24EndBattleText5::
 	line "lose?"
 	prompt
 
-_Route24AfterBattleText5::
+_Route24AfterBattleText5:: 
 	text "I did my best, I"
 	line "have no regrets!"
 	done
 
-_Route24BattleText6::
+_Route24BattleText6:: ; 1- Mikov
 	text "This is NUGGET"
 	line "BRIDGE! Beat us 5"
 	cont "trainers and win"

@@ -16,22 +16,33 @@ _Route25AfterBattleText1::
 	cont "different kinds."
 	done
 
-_Route25BattleText2::
-	text "Dad took me to a"
-	line "great party on"
-	cont "S.S.ANNE at"
-	cont "VERMILION CITY!"
+_Route25BattleText2:: ; MEW GLITCH KID
+	text "Hey you're not"
+	line "going to"
+	cont "TELEPORT away"
+	cont "like the other"
+	cont "trainers right?"
 	done
 
 _Route25EndBattleText2::
-	text "I'm"
-	line "not mad!"
+	text "Why"
+	line "Do they all"
+	cont "do that?"
 	prompt
 
 _Route25AfterBattleText2::
-	text "On S.S.ANNE, I"
-	line "saw trainers from"
-	cont "around the world."
+	text "Everyone runs"
+	line "away before I"
+	cont "can battle them!"
+	
+	para "One guy even"
+	line "came back after"
+	cont "and said thanks"
+	cont "for the MEW"
+	cont "magic kid!"
+	
+	para "MEW isn't even"
+	line "real! Right?"
 	done
 
 _Route25BattleText3::

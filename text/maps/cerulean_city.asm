@@ -216,6 +216,12 @@ _CeruleanCityText13::
 	line "during evolution"
 	cont "cancels the whole"
 	cont "process."
+	
+	para "Doing this takes"
+	line "a year off your"
+	cont "#MON's life-"
+	cont "span each time"
+	cont "though."
 	done
 
 _CeruleanCityText16::

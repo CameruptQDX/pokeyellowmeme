@@ -3,9 +3,9 @@ _CeruleanMartText2::
 	line "bugs and weak"
 	cont "#MON away."
 
-	para "Put your strongest"
-	line "#MON at the"
-	cont "top of the list"
+	para "Eat a whole"
+	line "raw onion and"
+	cont "no deodorant"
 	cont "for best results!"
 	done
 

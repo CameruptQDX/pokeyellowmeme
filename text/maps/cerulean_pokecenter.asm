@@ -14,11 +14,11 @@ _CeruleanPokecenterText3::
 	para "Everyone calls"
 	line "him a #MANIAC!"
 
-	para "I think people"
-	line "are just jealous"
-	cont "of BILL, though."
+	para "But have you"
+	line "ever actually"
+	cont "seen him with one?"
 
-	para "Who wouldn't want"
-	line "to boast about"
-	cont "their #MON?"
+	para "Seems like he's"
+	line "more of a"
+	cont "computer MANIAC."
 	done

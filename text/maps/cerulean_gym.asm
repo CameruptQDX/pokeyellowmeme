@@ -16,7 +16,7 @@ _CeruleanGymText_5c7be::
 	cont "your host!"
 
 	para "Are you ready,"
-	line "sweetie?"
+	line "sweaty?"
 	done
 
 _CeruleanGymText_5c7c3::
@@ -39,9 +39,11 @@ _CeruleanGymText_5c7c8::
 	line "can now use CUT"
 	cont "anytime!"
 
-	para "You can CUT down"
-	line "small bushes to"
-	cont "open new paths!"
+	para "Just uh, please"
+	line "don't use it on"
+	cont "yourself like"
+	cont "that <RIVAL>"
+	cont "kid..."
 
 	para "You can also have"
 	line "my favorite TM!"
@@ -76,14 +78,15 @@ _CeruleanGymBattleText1::
 
 _CeruleanGymEndBattleText1::
 	text "You"
-	line "overwhelmed me!"
+	line "drowned me!"
 	prompt
 
 _CeruleanGymAfterBattleText1::
-	text "You have to face"
-	line "other trainers to"
-	cont "find out how good"
-	cont "you really are."
+	text "Well this is a"
+	line "problem, I'm"
+	cont "too wet to go"
+	cont "to the #MON"
+	cont "CENTER!"
 	done
 
 _CeruleanGymBattleText2::
@@ -99,11 +102,11 @@ _CeruleanGymEndBattleText2::
 	prompt
 
 _CeruleanGymAfterBattleText2::
-	text "MISTY is going to"
-	line "keep improving!"
-
-	para "She won't lose to"
-	line "someone like you!"
+	text "I feel like the"
+	line "man on the pool"
+	cont "warning that hits"
+	cont "his head on the"
+	cont "concrete and dies."
 	done
 
 _CeruleanGymText_5c82a::
