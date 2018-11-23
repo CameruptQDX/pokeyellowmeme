@@ -428,6 +428,7 @@ TrainerAIPointers:
 	dbw 3,GenericAI
 	dbw 2,AgathaAI ; agatha
 	dbw 1,LanceAI ; lance
+	dbw 3,GenericAI ; deadly seven
 
 JugglerAI:
 	cp $40

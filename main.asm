@@ -1228,23 +1228,24 @@ KogaPic:          INCBIN "pic/trainer/koga.pic"
 BlainePic:        INCBIN "pic/trainer/blaine.pic"
 SabrinaPic:       INCBIN "pic/trainer/sabrina.pic"
 GentlemanPic:     INCBIN "pic/trainer/gentleman.pic"
-Rival2Pic:        INCBIN "pic/ytrainer/rival2.pic"
+Rival2Pic:        
 Rival3Pic:        INCBIN "pic/ytrainer/rival3.pic"
 LoreleiPic:       INCBIN "pic/trainer/lorelei.pic"
 ChannelerPic:     INCBIN "pic/trainer/channeler.pic"
 AgathaPic:        INCBIN "pic/trainer/agatha.pic"
 LancePic:         INCBIN "pic/trainer/lance.pic"
 JessieJamesPic:   INCBIN "pic/ytrainer/jessiejames.pic"
-
-INCLUDE "data/mapHeaders/tradecenter.asm"
-INCLUDE "scripts/tradecenter.asm"
-INCLUDE "data/mapObjects/tradecenter.asm"
-TradeCenterBlocks: INCBIN "maps/tradecenter.blk"
+DeadlyPic:        INCBIN "pic/ytrainer/deadlyseven.pic"
 
 INCLUDE "data/mapHeaders/colosseum.asm"
 INCLUDE "scripts/colosseum.asm"
 INCLUDE "data/mapObjects/colosseum.asm"
 ColosseumBlocks: INCBIN "maps/colosseum.blk"
+
+INCLUDE "data/mapHeaders/tradecenter.asm"
+INCLUDE "scripts/tradecenter.asm"
+INCLUDE "data/mapObjects/tradecenter.asm"
+TradeCenterBlocks: INCBIN "maps/tradecenter.blk"
 
 
 SECTION "bank14", ROMX
@@ -1987,6 +1988,7 @@ INCLUDE "engine/bg_map_attributes.asm"
 
 
 SECTION "bank30", ROMX
+
 
 
 SECTION "bank39", ROMX

@@ -141,3 +141,6 @@ TrainerPicAndMoneyPointers:
 
 	dw LancePic
 	money 9900
+	
+	dw DeadlyPic
+	money 3000
