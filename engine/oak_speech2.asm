@@ -189,16 +189,16 @@ DisplayIntroNameTextBox:
 
 DefaultNamesPlayer:
 	db   "NEW NAME"
-	next "YELLOW"
-	next "ASH"
-	next "JACK"
+	next "PERI"
+	next "ASHLEY"
+	next "MEG"
 	db   "@"
 
 DefaultNamesRival:
 	db   "NEW NAME"
-	next "BLUE"
-	next "GARY"
-	next "JOHN"
+	next "COLDSTL"
+	next "EDDIE"
+	next "DICKS"
 	db   "@"
 
 GetDefaultName:
@@ -227,15 +227,15 @@ GetDefaultName:
 
 DefaultNamesPlayerList:
 	db "NEW NAME@"
-	db "YELLOW@"
-	db "ASH@"
-	db "JACK@"
+	db "PERI@"
+	db "ASHLEY@"
+	db "MEG@"
 
 DefaultNamesRivalList:
 	db "NEW NAME@"
-	db "BLUE@"
-	db "GARY@"
-	db "JOHN@"
+	db "COLDSTL@"
+	db "EDDIE@"
+	db "DICKS@"
 
 TextTerminator_6b20:
 	db "@"
