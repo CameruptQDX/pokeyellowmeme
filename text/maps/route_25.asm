@@ -144,21 +144,54 @@ _Route25AfterBattleText8::
 	cont "of #MON."
 	done
 
-_Route25BattleText9::
-	text "You're going to"
-	line "see BILL? First,"
-	cont "let's fight!"
+_Route25BattleText9:: ; ASIMOV
+	text "In a monochrome"
+	line "world."
+	
+	para "Beckoned to the"
+	line "wrong place in"
+	cont "time..."
+	
+	para "My nutmeg yet"
+	line "runs red!"
 	done
 
 _Route25EndBattleText9::
-	text "You're"
-	line "something."
+	text " "
+	line "Agh! These tiny"
+	cont "little text boxes"
+	cont "ruined the pacing"
+	cont "of my HAIKU!"
 	prompt
 
 _Route25AfterBattleText9::
-	text "The trail below"
-	line "is a shortcut to"
-	cont "CERULEAN CITY."
+	text "ASIMOV: You would"
+	line "be right to guess"
+	cont "I am the leader"
+	cont "of the DEADLY"
+	cont "SEVEN, ASIMOV!"
+	
+	para "I had went to"
+	line "this SEA COTTAGE"
+	cont "to look for a"
+	cont "brilliant man"
+	cont "named BILL, so"
+	cont "he could help"
+	cont "us recalibrate"
+	cont "our WORMHOLE"
+	cont "GENERATOR."
+	
+	para "Unfortunately"
+	line "all I found was"
+	cont "a #MON that"
+	cont "kept saying BILL!"
+	
+	para "We've arrived"
+	line "in the right"
+	cont "timeline, but"
+	cont "not the right"
+	cont "time and place!"
+	cont "How annoying!"
 	done
 
 _Route25Text11::

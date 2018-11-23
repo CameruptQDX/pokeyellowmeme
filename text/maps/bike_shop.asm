@@ -7,7 +7,7 @@ _BikeShopText_1d810::
 	prompt
 
 _BikeShopText_1d815::
-	text "It's a cool BIKE!"
+	text "It's a rad BIKE!"
 	line "Do you want it?"
 	done
 
@@ -49,22 +49,24 @@ _BikeShopText_1d834::
 	done
 
 _BikeShopText_1d843::
-	text "A plain city BIKE"
-	line "is good enough"
-	cont "for me!"
+	text "Yeah we sell top"
+	line "quality bikes"
+	cont "here."
+	
+	para "..."
 
-	para "You can't put a"
-	line "shopping basket"
-	cont "on an MTB!"
+	para "Challenge"
+	line "pissing? What"
+	cont "the heck is"
+	cont "wrong with you?"
 	done
 
 _BikeShopText_1d85c::
-	text "These BIKEs are"
-	line "cool, but they're"
-	cont "way expensive!"
+	text "These salesmen are"
+	line "a den of thieves!"
 	done
 
 _BikeShopText_1d861::
-	text "Wow. Your BIKE is"
-	line "really cool!"
+	text "How did you even"
+	line "afford a BIKE?"
 	done

@@ -1,45 +1,30 @@
 _BillsHouseDontLeaveText::
-	text "Whoa, don't go"
-	line "anywhere, wait!"
+	text "BILL!"
+	line "B-BILL BILL!"
 	done
 
 _BillsHouseText_1e865::
-	text "Hiya! I'm a"
-	line "#MON..."
-	cont "...No I'm not!"
+	text "BILL!"
+	line "BILL BILL"
+	cont "BIBIBILL!"
 
-	para "Call me BILL!"
-	line "I'm a true blue"
-	cont "#MANIAC! Hey!"
-	cont "What's with that"
-	cont "skeptical look?"
-
-	para "I'm not joshing"
-	line "you, I screwed up"
-	cont "an experiment and"
-	cont "got combined with"
-	cont "a #MON!"
-
-	para "So, how about it?"
-	line "Help me out here!"
+	para "For some reason"
+	line "this #MON"
+	cont "wants you to"
+	cont "run his"
+	cont "TELEPORTER."
+	
+	para "Maybe?"
 	done
 
 _BillsHouseText_1e86a::
-	text "When I'm in the"
-	line "TELEPORTER, go to"
-	cont "my PC and run the"
-	cont "Cell Separation"
-	cont "System!"
+	text "BI-BI-BILL!"
 	done
 
 _BillsHouseText_1e86f::
-	text "No!? Come on, you"
-	line "gotta help a guy"
-	cont "in deep trouble!"
-
-	para "What do you say,"
-	line "chief? Please?"
-	cont "OK? All right!"
+	text "B-BILL..."
+	line "It looks very"
+	cont "disappointed."
 	prompt
 
 _BillThankYouText::
@@ -47,11 +32,15 @@ _BillThankYouText::
 	line "Thanks, bud! I"
 	cont "owe you one!"
 
-	para "So, did you come"
-	line "to see my #MON"
-	cont "collection?"
-	cont "You didn't?"
-	cont "That's a bummer."
+	para "Some blue"
+	line "haired guy came"
+	cont "by earlier but"
+	cont "instead of helping"
+	cont "me he ranted on"
+	cont "and on about"
+	cont "timelines and"
+	cont "haiku writing"
+	cont "then left."
 
 	para "I've got to thank"
 	line "you... Oh here,"
@@ -85,7 +74,7 @@ _BillsHouseText_1e8cb::
 	done
 
 _BillsHouseText_1e8da::
-	text "BILL: Look, bud,"
+	text "BILL: Hey bud,"
 	line "just check out"
 	cont "some of my rare"
 	cont "#MON on my PC!"

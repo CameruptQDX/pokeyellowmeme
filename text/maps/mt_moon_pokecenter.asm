@@ -1,19 +1,25 @@
 _MtMoonPokecenterText1::
-	text "I've 6 # BALLs"
-	line "set in my belt."
+	text "A girl threw a"
+	line "bunch of BALLs"
+	cont "at me and tried"
+	cont "to make me one"
+	cont "of her #MON."
 
-	para "At most, you can"
-	line "carry 6 #MON."
+	para "Not gonna lie,"
+	line "I wanted to."
 	done
 
 _MtMoonPokecenterText3::
-	text "TEAM ROCKET"
-	line "attacks CERULEAN"
-	cont "citizens..."
+	text "Did you hear the"
+	line "news? Somebody"
+	cont "rich bought out"
+	cont "TEAM ROCKET in"
+	cont "GIOVANNI's"
+	cont "absence!"
 
-	para "TEAM ROCKET is"
-	line "always in the"
-	cont "news!"
+	para "Who would want"
+	line "to buy a mafia"
+	cont "though?"
 	done
 
 _MtMoonPokecenterText5::
@@ -32,9 +38,9 @@ _MagikarpSalesmanText1::
 	done
 
 _MagikarpSalesmanNoText::
-	text "No? I'm only"
-	line "doing this as a"
-	cont "favor to you!"
+	text "What? It's not"
+	line "like I'm baiting"
+	cont "you ot anything!"
 	done
 
 _MagikarpSalesmanNoMoneyText::
@@ -43,6 +49,6 @@ _MagikarpSalesmanNoMoneyText::
 	done
 
 _MagikarpSalesmanText2::
-	text "MAN: Well, I don't"
-	line "give refunds!"
+	text "No refunds, dumb"
+	line "anklebiter."
 	done

@@ -27,7 +27,7 @@ TrainerNames:
 	db "PROF.OAK@"
 	db "CHIEF@"
 	db "SCIENTIST@"
-	db "GIOVANNI@"
+	db "OBOMA@"
 	db "ROCKET@"
 	db "COOLTRAINER♂@"
 	db "COOLTRAINER♀@"

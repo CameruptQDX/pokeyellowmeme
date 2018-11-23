@@ -1,12 +1,14 @@
 _Route24Text_51510:: ; 6 - ROLV
-	text "Congratulations!"
-	line "You beat our 5"
-	cont "contest trainers!@@"
+	text "ROLV: Very very"
+	line "Impressive...@@"
 
 _Route24Text_51515::
 	text ""
-	para "You just earned a"
-	line "fabulous prize!"
+	para "For your efforts"
+	line "I will share"
+	cont "with you..."
+	cont "one of our"
+	cont "TABLE BAGELS!"
 	prompt
 
 _Route24Text_5151a::
@@ -21,13 +23,11 @@ _Route24Text_51521::
 	done
 
 _Route24Text_51526::
-	text "By the way, would"
-	line "you like to join"
-	cont "TEAM ROCKET?"
-
-	para "We're a group"
-	line "dedicated to evil"
-	cont "using #MON!"
+	text "SGT. UCALEGON"
+	line "implores you"
+	cont "consider joining"
+	cont "the FIFTH BAT'S"
+	cont "WINGS DIVISION!"
 
 	para "Want to join?"
 
@@ -35,27 +35,34 @@ _Route24Text_51526::
 
 	para "Come on, join us!"
 
-	para "I'm telling you"
-	line "to join!"
+	para "SGT. UCALEGON is"
+	line "telling you"
+	cont "to join!"
 
 	para "OK, you need"
 	line "convincing!"
 
-	para "I'll make you an"
-	line "offer you can't"
+	para "My COW GUN will"
+	line "make you an"
+	cont "offer you can't"
 	cont "refuse!"
 	done
 
 _Route24Text_5152b::
-	text "Arrgh!"
-	line "You are good!"
+	text " "
+	line "Egads! Where is"
+	cont "ASIMOV when we"
+	cont "need him!"
 	prompt
 
 _Route24Text_51530::
-	text "With your ability,"
-	line "you could become"
-	cont "a top leader in"
-	cont "TEAM ROCKET!"
+	text "Our leader"
+	line "ASIMOV went"
+	cont "looking for"
+	cont "some BILL guy"
+	cont "to help fix our"
+	cont "WORMHOLE"
+	cont "GENERATOR!"
 	done
 
 _Route24BattleText1:: ; NOT ON THE BRIDGE
@@ -75,83 +82,114 @@ _Route24AfterBattleText1::
 	done
 
 _Route24BattleText2:: ; 5 - Robotnov
-	text "OK! I'm No. 5!"
-	line "I'll stomp you!"
+	text "ROBOTNOV: Well..."
+	line "I'm the fifth"
+	cont "of the DEADLY"
+	cont "SEVEN. Or was"
+	cont "I the sixth?"
 	done
 
 _Route24EndBattleText2::
-	text "Whoa!"
-	line "Too much!"
+	text " "
+	line "inhales"
 	prompt
 
 _Route24AfterBattleText2::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "QWEEEEEEEEEE!"
 	done
 
 _Route24BattleText3:: ; 4 - Karkov
-	text "I'm No. 4!"
-	line "Getting tired?"
+	text "KARKOV: Mwahaha!"
+	line "I'm the fourth"
+	cont "of the DEADLY"
+	cont "SEVEN, you're"
+	cont "going down!"
 	done
 
 _Route24EndBattleText3::
-	text "I lost"
-	line "too!"
+	text " "
+	line "Beaten to a"
+	cont "solid pink!"
 	prompt
 
 _Route24AfterBattleText3:: 
-	text "I did my best, so"
-	line "I've no regrets!"
+	text "I have enchanted"
+	line "this bridge with"
+	cont "PUMPKIN FAIRY"
+	cont "magics! Hahah!"
 	done
 
 _Route24BattleText4:: ; 3 - Gunkov
-	text "Here's No. 3!"
-	line "I won't be easy!"
+	text "GUNKOV: It is I,"
+	line "the third of the"
+	cont "DEADLY SEVEN!"
 	done
 
 _Route24EndBattleText4::
-	text "Ow!"
-	line "Stomped flat!"
+	text " "
+	line "Spiraling into"
+	cont "despair..."
 	prompt
 
 _Route24AfterBattleText4:: 
-	text "I did my best, I"
-	line "have no regrets!"
+	text "I will go and"
+	line "heal myself with"
+	cont "the WATER BAGEL"
+	cont "stockpile under"
+	cont "the bridge!"
 	done
 
 _Route24BattleText5:: ; 2 - Bobov
-	text "I'm second!"
-	line "Now it's serious!"
+	text "BOBOV: I am"
+	line "the second of"
+	cont "the DEADLY"
+	cont "SEVEN! You may,"
+	cont "if so inclined,"
+	cont "revere me."
 	done
 
 _Route24EndBattleText5::
-	text "How could I"
-	line "lose?"
+	text " "
+	line "CEASE!"
 	prompt
 
 _Route24AfterBattleText5:: 
-	text "I did my best, I"
-	line "have no regrets!"
+	text "..."
+	line "Don't you"
+	cont "zombies usually"
+	cont "have something"
+	cont "snarky to say"
+	cont "after you beat"
+	cont "us? Oh no your"
+	cont "voicebox must"
+	cont "have rotted out!"
 	done
 
 _Route24BattleText6:: ; 1- Mikov
-	text "This is NUGGET"
-	line "BRIDGE! Beat us 5"
-	cont "trainers and win"
-	cont "a fabulous prize!"
-
-	para "Think you got"
-	line "what it takes?"
+	text "MIKOV: Aiyee!"
+	line "an intruder has"
+	cont "set foot on our"
+	cont "INQUISITION"
+	cont "DEFENSE BRIDGE!"
 	done
 
 _Route24EndBattleText6::
-	text "Whoo!"
-	line "Good stuff!"
+	text " "
+	line "Curses!"
 	prompt
 
 _Route24AfterBattleText6::
-	text "I did my best, I"
-	line "have no regrets!"
+	text "We're defending"
+	line "this bridge from"
+	cont "zombies!"
+	
+	para "But the closest"
+	line "thing to a zombie"
+	cont "that I've seen is"
+	cont "some guy with his"
+	cont "jaw hanging open"
+	cont "yelling about"
+	cont "KANTO!"
 	done
 
 _Route24DamianText1::
