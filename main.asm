@@ -2134,6 +2134,7 @@ MelmetalPicFront:         INCBIN "pic/ymon/melmetal.pic"
 MelmetalPicBack:          INCBIN "pic/monback/melmetalb.pic"
 BlobbosPicFront:         INCBIN "pic/ymon/blobbos.pic"
 BlobbosPicBack:          INCBIN "pic/monback/blobbosb.pic"
+DeadlySprite:         INCBIN "gfx/sprites/deadly.2bpp"
 INCLUDE "engine/evos_moves.asm"
 
 SECTION "bank3C", ROMX

@@ -85,6 +85,7 @@ const_value = 1
 	const SPRITE_CHANSEY                   ; $44
 	const SPRITE_JESSIE                    ; $45
 	const SPRITE_JAMES                     ; $46
+	const SPRITE_DEADLYSEVEN               ; QWEEEEE
 
 	; 4-tile sprites
 	const SPRITE_BALL                      ; $47

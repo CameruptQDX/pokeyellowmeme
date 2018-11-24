@@ -84,6 +84,7 @@ SpriteSets:
 	db SPRITE_BLACK_HAIR_BOY_1
 	db SPRITE_BALL
 	db SPRITE_LYING_OLD_MAN_UNUSED_2
+	db SPRITE_DEADLYSEVEN
 
 ; sprite set $03
 	db SPRITE_PIKACHU
@@ -539,6 +540,11 @@ SpriteSheetPointerTable:
 	dw JamesSprite
 	db $c0
 	db BANK(JamesSprite)
+	
+	; SPRITE_DEADLYSEVEN
+	dw DeadlySprite
+	db $c0
+	db BANK(DeadlySprite)
 
 	; SPRITE_BALL
 	dw BallSprite
