@@ -2,86 +2,29 @@ BorderPalettes:
 	INCBIN "gfx/tilemaps/sgbborder.map"
 
 	ds $100
+	
+	RGB 28,28,28 ; PAL_SGB1
+	RGB 0,0,0
+	RGB 31,31,31
+	RGB 31,26,15
 
-	RGB 24,  6,  6
-	RGB 31, 25,  9
-	RGB 25, 10, 10
-	RGB  0,  0,  0
+	ds $18
 
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
+	RGB 28,28,28 ; PAL_SGB2
+	RGB 31,26,15
+	RGB 31,12,0
+	RGB 0,0,0
 
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
 
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
+	ds $18
 
-	RGB 18, 24, 18
-	RGB 25, 10, 10
-	RGB 15, 25, 15
-	RGB  0,  0,  0
+	RGB 28,28,28 ; PAL_SGB3
+	RGB 26,28,31
+	RGB 19,20,23
+	RGB 0,0,0
 
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
 
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-
-	RGB 18,  6, 31
-	RGB 31, 25,  9
-	RGB 15, 25, 15
-	RGB  0,  0,  0
-
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-
-	RGB 12, 31,  6
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
-	RGB 31, 31, 25
+	ds $18
 
 SGBBorderGraphics:
 	INCBIN "gfx/pokemon_yellow.t6.2bpp"
