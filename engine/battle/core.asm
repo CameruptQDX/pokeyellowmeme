@@ -5042,6 +5042,8 @@ HandleMirrorCoatMove:
 	jr z,.counterableType
 	cp a,DRAGON
 	jr z,.counterableType
+	cp a,DARK
+	jr z,.counterableType
 ; if the move wasn't a special type, miss
 	xor a
 	ret
