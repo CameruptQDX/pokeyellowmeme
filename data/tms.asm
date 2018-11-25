@@ -26,7 +26,7 @@ TechnicalMachines:
 	db THUNDER
 	db EARTHQUAKE
 	db FISSURE
-	db DIG
+	db TOMBSTONER
 	db PSYCHIC_M
 	db TELEPORT
 	db MIMIC

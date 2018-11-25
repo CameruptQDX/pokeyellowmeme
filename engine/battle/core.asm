@@ -467,19 +467,22 @@ MainInBattleLoop:
 	callab SwitchEnemyMon
 .noLinkBattle
 	ld a, [wPlayerSelectedMove]
-	cp QUICK_ATTACK
+	cp QUICK_ATTACK | SPEED_WEED
 	jr nz, .playerDidNotUseQuickAttack
 	ld a, [wEnemySelectedMove]
-	cp QUICK_ATTACK
+	cp QUICK_ATTACK | SPEED_WEED
 	jr z, .compareSpeed  ; if both used Quick Attack
 	jp .playerMovesFirst ; if player used Quick Attack and enemy didn't
 .playerDidNotUseQuickAttack
 	ld a, [wEnemySelectedMove]
-	cp QUICK_ATTACK
+	cp QUICK_ATTACK | SPEED_WEED
 	jr z, .enemyMovesFirst ; if enemy used Quick Attack and player didn't
 	ld a, [wPlayerSelectedMove]
 	cp COUNTER
 	jr nz, .playerDidNotUseCounter
+	ld a, [wEnemySelectedMove]
+	cp MIRROR_COAT
+	jr nz, .playerDidNotUseMirrorCoat
 	ld a, [wEnemySelectedMove]
 	cp COUNTER
 	jr z, .compareSpeed ; if both used Counter
