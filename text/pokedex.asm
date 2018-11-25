@@ -1523,8 +1523,8 @@ _MelmetalDexEntry::
 	next "from nothing"
 
 	page "for some reason"
-	next "it has come back to"
-	next "life after 3000 years"
+	next "it has returned"
+	next "after 3000 years"
 	dex
 	
 _BlobbosDexEntry::
@@ -1533,6 +1533,6 @@ _BlobbosDexEntry::
 	next "you can hear"
 
 	page "BLOBBOS at night"
-	next "as they try to"
-	next "train hitting rocks"
+	next "as they train"
+	next "hitting rocks"
 	dex
