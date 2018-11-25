@@ -486,6 +486,7 @@ Mon104_EvosMoves:
 	db 38,SWORDS_DANCE
 	db 42,ROCK_SLIDE
 	db 48,EARTHQUAKE
+	db 53,OW_THE_EDGE
 	db 0
 
 Mon111_EvosMoves:
@@ -2464,6 +2465,7 @@ Mon105_EvosMoves:
 	db 38,SWORDS_DANCE
 	db 42,ROCK_SLIDE
 	db 48,EARTHQUAKE
+	db 55,OW_THE_EDGE
 	db 0
 
 Mon178_EvosMoves:

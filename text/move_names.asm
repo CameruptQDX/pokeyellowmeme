@@ -205,3 +205,4 @@ MoveNames::
 	db "OBAMAFLARE@"
 	db "PKMN SHOCK@"
 	db "EAT SOUP@"
+	db "OW THE EDGE@"

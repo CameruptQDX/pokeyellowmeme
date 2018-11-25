@@ -218,4 +218,5 @@ MoveEnd:
 	move FLASH,      NO_ADDITIONAL_EFFECT,         1, PSYCHIC, 100, 20 ; Mirror Coat
 	move FLASH,      PARALYZE_SIDE_EFFECT2,      120, ELECTRIC,  100, 5 ; PKMN shock
 	move RECOVER,      HEAL_EFFECT,                  0, DARK,   100, 20 ; eat soup
+	move DOUBLE_EDGE,  RECOIL_EFFECT,              100, DARK,   100, 15 ; ow the edge
 	

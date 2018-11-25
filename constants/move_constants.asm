@@ -207,6 +207,7 @@ const_value = 1
 	const MIRROR_COAT ; cd
 	const PKMN_SHOCK  ; ce
 	const EAT_SOUP   ; cf
+	const OW_THE_EDGE ; d0
 	
 NUM_ATTACKS EQU const_value
 const_value = STRUGGLE + 1
