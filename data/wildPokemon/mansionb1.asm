@@ -2,12 +2,12 @@ MansionMonsB1:
 	db $0A
 	db 35,GRIMER
 	db 38,GRIMER
-	db 37,RATICATE
-	db 40,RATICATE
+	db 37,WEEZING
+	db 40,MAGMAR
 	db 41,MUK
-	db 43,RATICATE
+	db 43,MAGMAR
 	db 24,DITTO
-	db 46,RATICATE
+	db 46,WEEZING
 	db 18,DITTO
 	db 12,DITTO
 	db $00

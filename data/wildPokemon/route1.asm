@@ -1,13 +1,13 @@
 Route1Mons:
 	db $19
-	db 3,MELTAN
-	db 4,MELMETAL
-	db 2,BLOBBOS
-	db 3,MELTAN
-	db 2,MELMETAL
-	db 3,BLOBBOS
-	db 5,PIDGEY
-	db 4,RATTATA
+	db 3,PIDGEY
+	db 4,PIDGEY
+	db 2,RATTATA
+	db 3,RATTATA
+	db 2,ODDISH
+	db 3,BELLSPROUT
+	db 5,ODDISH
+	db 4,BELLSPROUT
 	db 6,PIDGEY
 	db 7,PIDGEY
 	db $00

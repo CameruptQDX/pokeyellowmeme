@@ -1,7 +1,7 @@
 Route10Mons:
 	db $0F
 	db 16,MAGNEMITE
-	db 18,RATTATA
+	db 18,EKANS
 	db 18,MAGNEMITE
 	db 20,MAGNEMITE
 	db 17,NIDORAN_M
