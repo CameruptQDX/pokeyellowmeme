@@ -35,9 +35,9 @@ _PewterGymText_5c4a3::
 	line "making plans"
 	cont "for my move to"
 	cont "the FOCHUN region"
-	cont "all the way on the"
-	cont "other side of the"
-	cont "world."
+	cont "all the way on"
+	cont "the other side"
+	cont "of the world."
 
 	para "Maybe one day I'll"
 	line "see you there"

@@ -1,6 +1,6 @@
 _PewterCityText1::
 	text "CLEFAIRYs came"
-	cont "from the moon!"
+	line "from the moon!"
 
 	para "Its an invasion!"
 	line "Why won't anyone"
@@ -87,7 +87,7 @@ _PewterCityText6::
 	para "What does EXP"
 	line "stand for?"
 	cont "Well unlike other"
-	cont "games it dosen't"
+	cont "games it doesn't"
 	cont "involve murder."
 	done
 
