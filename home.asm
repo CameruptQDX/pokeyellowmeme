@@ -3196,13 +3196,6 @@ YesNoChoicePokeCenter::
 	lb bc, 8, 12
 	jr DisplayYesNoChoice
 
-WideYesNoChoice:: ; unused
-	call SaveScreenTilesToBuffer1
-	ld a, WIDE_YES_NO_MENU
-	ld [wTwoOptionMenuID], a
-	coord hl, 12, 7
-	lb bc, 8, 13
-
 DisplayYesNoChoice::
 	ld a, TWO_OPTION_MENU
 	ld [wTextBoxID], a
@@ -3419,80 +3412,84 @@ GetName::
 ; [wPredefBank] = bank of list
 ;
 ; returns pointer to name in de
-	ld a, [wd0b5]
-	ld [wd11e], a
-
-	; TM names are separate from item names.
-	; BUG: This applies to all names instead of just items.
-	cp HM_01
-	jp nc, GetMachineName
-
-	ld a, [H_LOADEDROMBANK]
+	ld a,[wNameListType]
+	cp ITEM_NAME
+	ld a,[wd0b5]
+	ld [wd11e],a
+	jr nz, .noItem
+	
+	cp HM_01        ;it's TM/HM
+	jp nc,GetMachineName
+	
+.noItem          ; Return here if not an item
+	ld a,[H_LOADEDROMBANK]
 	push af
 	push hl
 	push bc
 	push de
-	ld a, [wNameListType]    ;List3759_entrySelector
+	ld a,[wNameListType]    ;List3759_entrySelector
 	dec a
-	jr nz, .otherEntries
+	jr nz,.otherEntries
 	;1 = MON_NAMES
 	call GetMonName
-	ld hl, NAME_LENGTH
-	add hl, de
-	ld e, l
-	ld d, h
+	ld hl,NAME_LENGTH
+	add hl,de
+	ld e,l
+	ld d,h
 	jr .gotPtr
 .otherEntries
 	;2-7 = OTHER ENTRIES
-	ld a, [wPredefBank]
-	call BankswitchCommon
-	ld a, [wNameListType]    ;VariousNames' entryID
+	ld a,[wPredefBank]
+	ld [H_LOADEDROMBANK],a
+	ld [MBC1RomBank],a
+	ld a,[wNameListType]    ;VariousNames' entryID
 	dec a
 	add a
-	ld d, 0
-	ld e, a
-	jr nc, .skip
+	ld d,0
+	ld e,a
+	jr nc,.skip
 	inc d
 .skip
-	ld hl, NamePointers
-	add hl, de
-	ld a, [hli]
-	ld [$ff96], a
-	ld a, [hl]
-	ld [$ff95], a
-	ld a, [$ff95]
-	ld h, a
-	ld a, [$ff96]
-	ld l, a
-	ld a, [wd0b5]
-	ld b, a
-	ld c, 0
+	ld hl,NamePointers
+	add hl,de
+	ld a,[hli]
+	ld [$ff96],a
+	ld a,[hl]
+	ld [$ff95],a
+	ld a,[$ff95]
+	ld h,a
+	ld a,[$ff96]
+	ld l,a
+	ld a,[wd0b5]
+	ld b,a
+	ld c,0
 .nextName
-	ld d, h
-	ld e, l
+	ld d,h
+	ld e,l
 .nextChar
-	ld a, [hli]
+	ld a,[hli]
 	cp "@"
-	jr nz, .nextChar
+	jr nz,.nextChar
 	inc c           ;entry counter
-	ld a, b          ;wanted entry
+	ld a,b          ;wanted entry
 	cp c
-	jr nz, .nextName
-	ld h, d
-	ld l, e
-	ld de, wcd6d
-	ld bc, $0014
+	jr nz,.nextName
+	ld h,d
+	ld l,e
+	ld de,wcd6d
+	ld bc,$0014
 	call CopyData
 .gotPtr
-	ld a, e
-	ld [wUnusedCF8D], a
-	ld a, d
-	ld [wUnusedCF8D + 1], a
+	ld a,e
+	ld [wUnusedCF8D],a
+	ld a,d
+	ld [wUnusedCF8D + 1],a
 	pop de
 	pop bc
 	pop hl
 	pop af
-	call BankswitchCommon
+	ld [H_LOADEDROMBANK],a
+	ld [MBC1RomBank],a
 	ret
 
 GetItemPrice::
