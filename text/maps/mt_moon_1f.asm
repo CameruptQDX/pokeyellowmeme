@@ -32,6 +32,7 @@ _MtMoon1AfterBattleText3::
 	line "I'm having a"
 	cont "hard time finding"
 	cont "girls in a cave."
+	done
 
 _MtMoon1BattleText4::
 	text "Wow! It's way"

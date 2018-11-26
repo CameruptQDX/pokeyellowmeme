@@ -2,8 +2,9 @@ _MtMoonJessieJamesText1::
 	text "Stop right there!@@"
 
 _MtMoonJessieJamesText2::
-	text "Prepare for trouble"
-	line "and check these"
+	text "Prepare for"
+	line "trouble and"
+	cont "check these"
 	cont "doubles..."
 	
 	para "AUSSIE!"
