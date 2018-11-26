@@ -82,9 +82,9 @@ SpriteSets:
 	db SPRITE_OFFICER_JENNY
 	db SPRITE_LASS
 	db SPRITE_BLACK_HAIR_BOY_1
-	db SPRITE_BALL
-	db SPRITE_LYING_OLD_MAN_UNUSED_2
 	db SPRITE_DEADLYSEVEN
+	db SPRITE_BALL
+	
 
 ; sprite set $03
 	db SPRITE_PIKACHU
@@ -341,10 +341,10 @@ SpriteSheetPointerTable:
 	db $c0 ; byte count
 	db BANK(LanceSprite)
 
-	; SPRITE_UNUSED_1
-	dw RedSprite
+	; SPRITE_DEADLYSEVEN
+	dw DeadlySprite
 	db $c0 ; byte count
-	db BANK(RedSprite)
+	db BANK(DeadlySprite)
 
 	; SPRITE_OAK_AIDE
 	dw OakAideSprite
@@ -540,11 +540,6 @@ SpriteSheetPointerTable:
 	dw JamesSprite
 	db $c0
 	db BANK(JamesSprite)
-	
-	; SPRITE_DEADLYSEVEN
-	dw DeadlySprite
-	db $c0
-	db BANK(DeadlySprite)
 
 	; SPRITE_BALL
 	dw BallSprite
