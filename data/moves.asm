@@ -176,7 +176,7 @@ MoveEnd:
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,   100, 20
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,   100, 10
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,   100, 10
-	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, GRASS,   100, 30 ;speed weed
+	move QUICK_ATTACK, SPEED_DOWN_SIDE_EFFECT,        50, GRASS,   100, 30 ;speed weed
 	move KINESIS,        SWIFT_EFFECT,                60, PSYCHIC,   100, 20 ;alakadamn
 	move LICK,     FREEZE_SIDE_EFFECT,          95, PSYCHIC,      100, 10 ; mime crime
 	move DRILL_PECK,  THRASH_PETAL_DANCE_EFFECT,   120, FLYING,    100, 20 ; leek spin
