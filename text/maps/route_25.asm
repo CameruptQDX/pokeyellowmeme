@@ -26,7 +26,7 @@ _Route25BattleText2:: ; MEW GLITCH KID
 
 _Route25EndBattleText2::
 	text "Why"
-	line "Do they all"
+	line "do they all"
 	cont "do that?"
 	prompt
 
@@ -93,21 +93,54 @@ _Route25AfterBattleText5::
 	cont "switch it!"
 	done
 
-_Route25BattleText6::
-	text "My friend has a"
-	line "cute #MON."
-	cont "I'm so jealous!"
+_Route25BattleText6:: ;ASIMOV
+	text "In a monochrome"
+	line "world."
+	
+	para "Beckoned to the"
+	line "wrong place in"
+	cont "time..."
+	
+	para "My nutmeg yet"
+	line "runs red!"
 	done
 
 _Route25EndBattleText6::
-	text "I'm"
-	line "not so jealous!"
+	text " "
+	line "Agh! These tiny"
+	cont "little text boxes"
+	cont "ruined the pacing"
+	cont "of my HAIKU!"
 	prompt
 
 _Route25AfterBattleText6::
-	text "You came from MT."
-	line "MOON? May I have"
-	cont "a CLEFAIRY?"
+	text "ASIMOV: You would"
+	line "be right to guess"
+	cont "I am the leader"
+	cont "of the DEADLY"
+	cont "SEVEN, ASIMOV!"
+	
+	para "I had went to"
+	line "this SEA COTTAGE"
+	cont "to look for a"
+	cont "brilliant man"
+	cont "named BILL, so"
+	cont "he could help"
+	cont "us recalibrate"
+	cont "our WORMHOLE"
+	cont "GENERATOR."
+	
+	para "Unfortunately"
+	line "all I found was"
+	cont "a #MON that"
+	cont "kept saying BILL!"
+	
+	para "We've arrived"
+	line "in the right"
+	cont "timeline, but"
+	cont "not the right"
+	cont "time and place!"
+	cont "How annoying!"
 	done
 
 _Route25BattleText7::
@@ -144,54 +177,21 @@ _Route25AfterBattleText8::
 	cont "of #MON."
 	done
 
-_Route25BattleText9:: ; ASIMOV
-	text "In a monochrome"
-	line "world."
-	
-	para "Beckoned to the"
-	line "wrong place in"
-	cont "time..."
-	
-	para "My nutmeg yet"
-	line "runs red!"
+_Route25BattleText9::
+	text "You're going to"
+	line "see BILL? First,"
+	cont "let's fight!"
 	done
 
 _Route25EndBattleText9::
-	text " "
-	line "Agh! These tiny"
-	cont "little text boxes"
-	cont "ruined the pacing"
-	cont "of my HAIKU!"
+	text "You're"
+	line "something."
 	prompt
 
 _Route25AfterBattleText9::
-	text "ASIMOV: You would"
-	line "be right to guess"
-	cont "I am the leader"
-	cont "of the DEADLY"
-	cont "SEVEN, ASIMOV!"
-	
-	para "I had went to"
-	line "this SEA COTTAGE"
-	cont "to look for a"
-	cont "brilliant man"
-	cont "named BILL, so"
-	cont "he could help"
-	cont "us recalibrate"
-	cont "our WORMHOLE"
-	cont "GENERATOR."
-	
-	para "Unfortunately"
-	line "all I found was"
-	cont "a #MON that"
-	cont "kept saying BILL!"
-	
-	para "We've arrived"
-	line "in the right"
-	cont "timeline, but"
-	cont "not the right"
-	cont "time and place!"
-	cont "How annoying!"
+	text "The trail below"
+	line "is a shortcut to"
+	cont "CERULEAN CITY."
 	done
 
 _Route25Text11::

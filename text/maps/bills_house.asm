@@ -23,8 +23,9 @@ _BillsHouseText_1e86a::
 
 _BillsHouseText_1e86f::
 	text "B-BILL..."
-	line "It looks very"
-	cont "disappointed."
+	line "It's sad plea"
+	cont "forces you to"
+	cont "agree to help."
 	prompt
 
 _BillThankYouText::
@@ -35,7 +36,7 @@ _BillThankYouText::
 	para "Some blue"
 	line "haired guy came"
 	cont "by earlier but"
-	cont "instead of helping"
+	cont "instead of helpin"
 	cont "me he ranted on"
 	cont "and on about"
 	cont "timelines and"
