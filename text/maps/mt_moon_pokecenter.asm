@@ -40,7 +40,7 @@ _MagikarpSalesmanText1::
 _MagikarpSalesmanNoText::
 	text "What? It's not"
 	line "like I'm baiting"
-	cont "you ot anything!"
+	cont "you or anything!"
 	done
 
 _MagikarpSalesmanNoMoneyText::
