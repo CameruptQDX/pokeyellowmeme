@@ -1,5 +1,5 @@
 ItemNames:
-	db "MASTER BALL@"
+	db "AFRO BALL@"
 	db "ULTRA BALL@"
 	db "GREAT BALL@"
 	db "POKé BALL@"
