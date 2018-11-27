@@ -8,7 +8,7 @@ Route7Mons:
 	db 24,PIDGEOTTO
 	db 26,ABRA
 	db 19,JIGGLYPUFF
-	db 24,JIGGLYPUFF
+	db 24,VULPIX
 	db 24,JIGGLYPUFF
 	db $00
 

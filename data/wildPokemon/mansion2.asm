@@ -6,8 +6,8 @@ MansionMons2:
 	db 29,GRIMER
 	db 40,KOFFING
 	db 40,WEEZING
-	db 32,GRIMER
-	db 35,GRIMER
+	db 32,VULPIX
+	db 35,VULPIX
 	db 35,MUK
 	db 38,MUK
 	db $00
