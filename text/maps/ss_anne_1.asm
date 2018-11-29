@@ -1,14 +1,14 @@
 _SSAnne1Text1::
 	text "Bonjour!"
 	line "I am le waiter on"
-	cont "this ship!"
+	cont "this le ship!"
 
-	para "I will be happy"
+	para "I will be le happy"
 	line "to serve you any-"
-	cont "thing you please!"
+	cont "le thing you wish!"
 
 	para "Ah! Le strong"
-	line "silent type!"
+	line "le silent le type!"
 	done
 
 _SSAnne1Text2::

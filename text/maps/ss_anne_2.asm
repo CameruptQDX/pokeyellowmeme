@@ -9,42 +9,41 @@ _SSAnne2Text1::
 	done
 
 _SSAnneRivalBeforeBattleText::
-	text $53, ": Bonjour!"
-	line $52, "!"
+	text $53, ": Hey!"
+	line $52, "."
 
-	para "Imagine seeing"
-	line "you here!"
+	para "So you've come"
+	line "here too..."
 
-	para $52, ", were you"
-	line "really invited?"
+	para "I came to this"
+	line "place looking"
+	cont "for a master of"
+	cont "the blade..."
 
-	para "So how's your"
-	line "#DEX coming?"
+	para "But all I've"
+	line "found are weak"
+	cont "trainers and a"
+	cont "disgusting show"
+	cont "of decadence and"
+	cont "excess..."
 
-	para "I already caught"
-	line "40 kinds, pal!"
-
-	para "Different kinds"
-	line "are everywhere!"
-
-	para "Crawl around in"
-	line "grassy areas!"
+	para "I'll vent my"
+	line "pain onto you!"
 	done
 
 _SSAnneRivalDefeatedText::
 	text "Humph!"
 
-	para "At least you're"
-	line "raising your"
-	cont "#MON!"
+	para "I was off of"
+	line "my guard..."
 	prompt
 
 _SSAnneRivalWonText::
-	text $52, "! What are"
-	line "you, seasick?"
+	text $52, " quit looking"
+	line "so seasick!"
 
 	para "You should shape"
-	line "up, pal!"
+	line "up, cur!"
 	prompt
 
 _SSAnneRivalCaptainText::
@@ -53,11 +52,12 @@ _SSAnneRivalCaptainText::
 	cont "master on board."
 
 	para "But, he was just a"
-	line "seasick, old man!"
+	line "sickly old man!"
 
-	para "But, CUT itself is"
-	line "really useful!"
+	para "You should be"
+	line "careful not to"
+	cont "CUT yourself..."
 
-	para "You should go see"
-	line "him! Smell ya!"
+	para "Or else I will"
+	line "first! Huah!"
 	done

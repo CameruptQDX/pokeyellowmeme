@@ -15,7 +15,7 @@ _SSAnne10EndBattleText1::
 
 _SSAnne10AfterBattleText1::
 	text "Haha! Want to be"
-	line "a sailor, mate?"
+	line "a sailor, lass?"
 	done
 
 _SSAnne10BattleText2::
@@ -55,8 +55,10 @@ _SSAnne10BattleText4::
 	line "kids like you!@@"
 
 _SSAnne10EndBattleText4::
-	text "Argh!"
-	line "Lost it!"
+	text "Don't"
+	line "think about that"
+	cont "last line"
+	cont "too hard okay."
 	prompt
 
 _SSAnne10AfterBattleText4::

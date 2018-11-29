@@ -1,25 +1,26 @@
 _SSAnne7RubText::
-	text "CAPTAIN: Ooargh..."
-	line "I feel hideous..."
-	cont "Urrp! Seasick..."
+	text "CAPTAIN: Ahhh..."
+	line "I got stabbed..."
+	cont "Get help quick..."
 
-	para $52, " rubbed"
+	para $52, " patched"
 	line "the CAPTAIN's"
-	cont "back!"
+	cont "wounds!"
 
-	para "Rub-rub..."
-	line "Rub-rub...@@"
+	para "bandage..."
+	line "bandage...@@"
 
 _ReceivingHM01Text::
 	text "CAPTAIN: Whew!"
-	line "Thank you! I"
-	cont "feel much better!"
+	line "Thank you! some"
+	cont "kid katana'd me!"
 
 	para "You want to see"
 	line "my CUT technique?"
 
 	para "I could show you"
-	line "if I wasn't ill..."
+	line "if I wasn't half"
+	cont "way bled out..."
 
 	para "I know! You can"
 	line "have this!"
@@ -40,7 +41,7 @@ _SSAnne7Text_61932::
 	text "CAPTAIN: Whew!"
 
 	para "Now that I'm not"
-	line "sick anymore, I"
+	line "dying anymore, I"
 	cont "guess it's time."
 	done
 
@@ -50,13 +51,12 @@ _HM01NoRoomText::
 	done
 
 _SSAnne7Text2::
-	text "Yuck! Shouldn't"
-	line "have looked!"
+	text "The TRESH"
 	done
 
 _SSAnne7Text3::
-	text "How to Conquer"
-	line "Seasickness..."
+	text "Responsible"
+	line "Katana Use..."
 	cont "The CAPTAIN's"
 	cont "reading this!"
 	done

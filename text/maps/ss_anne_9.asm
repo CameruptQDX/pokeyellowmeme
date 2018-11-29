@@ -9,10 +9,9 @@ _SSAnne9Text_61bf2::
 	prompt
 
 _SSAnne9Text_61c01::
-	text "Ah yes, I have"
-	line "seen some #MON"
-	cont "ferry people"
-	cont "across the water!"
+	text "This ship is"
+	line "bound for the"
+	cont "CORNA REGION!"
 	done
 
 _SSAnne9Text_61c10::
@@ -35,6 +34,8 @@ _SSAnne9EndBattleText1::
 _SSAnne9AfterBattleText1::
 	text "15 years ago, I"
 	line "would have won!"
+	
+	para "*sips*"
 	done
 
 _SSAnne9BattleText2::
@@ -43,8 +44,9 @@ _SSAnne9BattleText2::
 	done
 
 _SSAnne9EndBattleText2::
-	text "I'm"
-	line "all out!"
+	text " "
+	line "Fishermen be"
+	cont "like..."
 	prompt
 
 _SSAnne9AfterBattleText2::
@@ -53,12 +55,15 @@ _SSAnne9AfterBattleText2::
 	para "The cruise ship's"
 	line "party should be"
 	cont "over by now."
+	cont "But my party"
+	cont "never stops!"
 	done
 
 _SSAnne9BattleText3::
 	text "Which do you like,"
-	line "a strong or a"
-	cont "rare #MON?"
+	line "a rare or a"
+	cont "medium rare"
+	cont "#MON?"
 	done
 
 _SSAnne9EndBattleText3::
@@ -67,8 +72,9 @@ _SSAnne9EndBattleText3::
 	prompt
 
 _SSAnne9AfterBattleText3::
-	text "I prefer strong"
-	line "and rare #MON."
+	text "You're right,"
+	line "they're better"
+	cont "cooked."
 	done
 
 _SSAnne9BattleText4::
@@ -82,8 +88,8 @@ _SSAnne9EndBattleText4::
 	prompt
 
 _SSAnne9AfterBattleText4::
-	text "Oh, I adore your"
-	line "strong #MON!"
+	text "Not the party"
+	line "type huh?"
 	done
 
 _SSAnne9Text_61c1f::

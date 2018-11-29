@@ -5,15 +5,15 @@ _SSAnne5Text1::
 	done
 
 _SSAnne5Text2::
-	text "Scrubbing decks"
-	line "is hard work!"
+	text "All hands on the"
+	line "poop deck!"
 	done
 
 _SSAnne5Text3::
 	text "Urf. I feel ill."
 
-	para "I stepped out to"
-	line "get some air."
+	para "But I'm both"
+	line "mean and green!"
 	done
 
 _SSAnne5BattleText1::
@@ -24,14 +24,14 @@ _SSAnne5BattleText1::
 	done
 
 _SSAnne5EndBattleText1::
-	text "You're"
-	line "impressive!"
+	text "Yarr"
+	line "harr harr!"
 	prompt
 
 _SSAnne5AfterBattleText1::
-	text "How many kinds of"
-	line "#MON do you"
-	cont "think there are?"
+	text "Ohhh do what"
+	line "you want cause a"
+	cont "pirate is free!"
 	done
 
 _SSAnne5BattleText2::
@@ -47,6 +47,7 @@ _SSAnne5EndBattleText2::
 _SSAnne5AfterBattleText2::
 	text "My Pa said there"
 	line "are 100 kinds of"
-	cont "#MON. I think"
-	cont "there are more."
+	cont "#MON. But what"
+	cont "does that old"
+	cont "boomer know!"
 	done

@@ -63,7 +63,8 @@ _TM24NoRoomText::
 	done
 
 _ReceivedThunderbadgeText::
-	text "USA USA USA US-"
+	text "USA USA"
+	line "USA US-"
 
 	para "Wait I just lost"
 	line "didn't I?"
@@ -90,7 +91,7 @@ _VermilionGymAfterBattleText1::
 	line "rants and raves"
 	cont "about how he,"
 	cont "and I quote,"
-	cont "killed fitty men"
+	cont "killed fitty men."
 	done
 
 _VermilionGymBattleText2::

@@ -1,7 +1,7 @@
 _SSAnne6Text1::
 	text "You, mon petit!"
 	line "We're busy here!"
-	cont "Out of the way!"
+	cont "Out of ze way!"
 	done
 
 _SSAnne6Text2::
@@ -12,6 +12,10 @@ _SSAnne6Text2::
 _SSAnne6Text3::
 	text "I'm so busy I'm"
 	line "getting dizzy!"
+	
+	para "Dizzy..."
+	line "Oh no the eggs"
+	cont "will burn!"
 	done
 
 _SSAnne6Text4::
@@ -20,7 +24,10 @@ _SSAnne6Text4::
 
 	para "I peel spuds"
 	line "every day!"
-	cont "Hum-hum..."
+	cont "I once saw"
+	cont "a spud with"
+	cont "eyes and legs"
+	cont "I call em' jim!"
 	done
 
 _SSAnne6Text5::
@@ -29,6 +36,10 @@ _SSAnne6Text5::
 
 	para "All it does is"
 	line "eat and sleep!"
+	
+	para "Oh wait, that's"
+	line "your mother!"
+	cont "Honhonhonhon!"
 	done
 
 _SSAnne6Text6::
@@ -47,23 +58,23 @@ _SSAnne6Text_61807::
 	prompt
 
 _SSAnne6Text_6180c::
-	text "Salade de Salmon!"
+	text "Volcano Bakemeat!"
 
-	para "Les guests may"
-	line "gripe it's fish"
-	cont "again, however!"
+	para "GUEST FOOD"
+	line "BAG FUCK!"
+	cont "Ah, Vietnam..."
 	done
 
 _SSAnne6Text_61811::
-	text "Eels au Barbecue!"
+	text "Sand Witch!"
 
-	para "Les guests will"
-	line "mutiny, I fear."
+	para "The sun makes"
+	line "heat, it's hot"
+	cont "my meat!"
 	done
 
 _SSAnne6Text_61816::
-	text "Prime Beef Steak!"
+	text "Deadly Souffle!"
 
-	para "But, have I enough"
-	line "fillets du beef?"
+	para "C'est la QWEEEEE!"
 	done

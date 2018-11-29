@@ -12,7 +12,7 @@ _SSAnne8BattleText1::
 
 _SSAnne8EndBattleText1::
 	text "My, my"
-	line "friends..."
+	line "friendos..."
 	prompt
 
 _SSAnne8AfterBattleText1::
@@ -21,7 +21,7 @@ _SSAnne8AfterBattleText1::
 	done
 
 _SSAnne8BattleText2::
-	text "You pup! How dare"
+	text "Swine! How dare"
 	line "you barge in!"
 	done
 
@@ -31,8 +31,11 @@ _SSAnne8EndBattleText2::
 	prompt
 
 _SSAnne8AfterBattleText2::
-	text "I wish to be left"
-	line "alone! Get out!"
+	text "You barge in"
+	line "and beat me, then"
+	cont "try to make small"
+	cont "talk? Screw off!"
+	cont "Get out!"
 	done
 
 _SSAnne8BattleText3::
@@ -47,10 +50,11 @@ _SSAnne8EndBattleText3::
 
 _SSAnne8AfterBattleText3::
 	text "Let me be your"
-	line "friend, OK?"
+	line "#MON, OK?"
 
-	para "Then we can trade"
-	line "#MON!"
+	para "Come on just"
+	line "throw a ball"
+	cont "at me already!"
 	done
 
 _SSAnne8BattleText4::
@@ -66,23 +70,22 @@ _SSAnne8EndBattleText4::
 	prompt
 
 _SSAnne8AfterBattleText4::
-	text "You hurt my poor"
-	line "worldly #MON!"
-
-	para "I demand that you"
-	line "heal them at a"
-	cont "#MON CENTER!"
+	text "Despite catching"
+	line "them around the"
+	cont "world, I only"
+	cont "use KANTOOOOO"
+	cont "#MON!"
 	done
 
 _SSAnne8Text5::
-	text "Waiter, I would"
-	line "like a cherry pie"
-	cont "please!"
+	text "Le Waiter, I would"
+	line "like le cherry"
+	cont "pie le please!"
 	done
 
 _SSAnne8Text6::
 	text "A cruise is so"
-	line "elegant yet cozy!"
+	line "posh yet /comfy/!"
 	done
 
 _SSAnne8Text7::
@@ -100,5 +103,5 @@ _SSAnne8Text11::
 	line "POLICE agent!"
 
 	para "I'm on the trail"
-	line "of TEAM ROCKET!"
+	line "of THE ANOMALY!"
 	done
