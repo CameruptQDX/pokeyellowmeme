@@ -8,14 +8,14 @@ Route25Object:
 	db $3, $2b, $b ; Route25Text11
 
 	db $a ; objects
-	object SPRITE_BUG_CATCHER, $e, $2, STAY, DOWN, $1, OPP_YOUNGSTER, $5
+	object SPRITE_DEADLYSEVEN, $e, $2, STAY, DOWN, $1, OPP_DEADLYSEVEN, $7 ; deadly 7 FIRST
 	object SPRITE_BUG_CATCHER, $12, $5, STAY, UP, $2, OPP_YOUNGSTER, $6
 	object SPRITE_BLACK_HAIR_BOY_1, $18, $4, STAY, DOWN, $3, OPP_JR_TRAINER_M, $2
 	object SPRITE_LASS, $12, $8, STAY, RIGHT, $4, OPP_LASS, $9
-	object SPRITE_BUG_CATCHER, $20, $3, STAY, LEFT, $5, OPP_YOUNGSTER, $7
-	object SPRITE_LASS, $25, $4, STAY, DOWN, $6, OPP_LASS, $a
-	object SPRITE_HIKER, $8, $4, STAY, RIGHT, $7, OPP_HIKER, $2
-	object SPRITE_HIKER, $17, $9, STAY, UP, $8, OPP_HIKER, $3
+	object SPRITE_DEADLYSEVEN, $20, $3, STAY, LEFT, $5, OPP_DEADLYSEVEN, $9 ; deadly 7 THIRD
+	object SPRITE_DEADLYSEVEN, $25, $4, STAY, DOWN, $6, OPP_DEADLYSEVEN, $a ; asimov FOURTH
+	object SPRITE_HIKER, $8, $4, STAY, RIGHT, $7, OPP_HIKER, $3
+	object SPRITE_DEADLYSEVEN, $17, $9, STAY, UP, $8, OPP_DEADLYSEVEN, $8 ; deadly seven replace SECOND
 	object SPRITE_HIKER, $d, $7, STAY, RIGHT, $9, OPP_HIKER, $4
 	object SPRITE_BALL, $16, $2, STAY, NONE, $a, TM_19
 

@@ -1,19 +1,22 @@
-_Route25BattleText1::
-	text "Local trainers"
-	line "come here to"
-	cont "practice!"
+_Route25BattleText1:: ; sputnov
+	text "SPUTNOV: Heheh."
+	line "You made it all"
+	cont "the way to me,"
+	cont "the seventh"
+	cont "member of the"
+	cont "DEADLY SEVEN."
 	done
 
 _Route25EndBattleText1::
-	text "You're"
-	line "decent."
+	text " "
+	line "Heheheh."
 	prompt
 
 _Route25AfterBattleText1::
-	text "All #MON have"
-	line "weaknesses. It's"
-	cont "best to raise"
-	cont "different kinds."
+	text "Heheheheh..."
+	line "I don't remember"
+	cont "why I'm laughing,"
+	cont "what a PARANOIA!"
 	done
 
 _Route25BattleText2:: ; MEW GLITCH KID
@@ -57,8 +60,12 @@ _Route25EndBattleText3::
 	prompt
 
 _Route25AfterBattleText3::
-	text "Oh well. My girl"
-	line "will cheer me up."
+	text "Oh man. I hope"
+	line "my girl doesn't"
+	cont "leave me for"
+	cont "one of those"
+	cont "handsome afro"
+	cont "dudes..."
 	done
 
 _Route25BattleText4::
@@ -72,28 +79,34 @@ _Route25EndBattleText4::
 	prompt
 
 _Route25AfterBattleText4::
-	text "I wish my guy was"
-	line "as good as you!"
+	text "Jeez you are"
+	line "cool! Maybe I"
+	cont "should switch"
+	cont "teams."
 	done
 
-_Route25BattleText5::
-	text "I knew I had to"
-	line "fight you!"
+_Route25BattleText5:: ; adolv
+	text "ADOLV: The GRIM"
+	line "REAPER... That"
+	cont "is the power of"
+	cont "my attack!"
 	done
 
 _Route25EndBattleText5::
-	text "I knew"
-	line "I'd lose too!"
+	text " "
+	line "ADOLV suddenly"
+	cont "does a frontflip"
 	prompt
 
 _Route25AfterBattleText5::
-	text "If your #MON"
-	line "gets confused or"
-	cont "falls asleep,"
-	cont "switch it!"
+	text "I am no stunt"
+	line "double, just the"
+	cont "real deal baby!"
+	
+	para "Or... Am I?"
 	done
 
-_Route25BattleText6:: ;ASIMOV
+_Route25BattleText6:: ;ASIMOV fourth
 	text "In a monochrome"
 	line "world."
 	
@@ -155,26 +168,35 @@ _Route25EndBattleText7::
 	prompt
 
 _Route25AfterBattleText7::
-	text "Drat!"
+	text "Darn and drat!"
 	line "A ZUBAT bit me"
-	cont "back in there."
+	cont "in the sack!"
 	done
 
-_Route25BattleText8::
-	text "I'm off to see a"
-	line "#MON collector"
-	cont "at the cape!"
+_Route25BattleText8:: ; vladov
+	text "VLADOV: Hah!"
+	line "Surprised? I'm"
+	cont "the eighth"
+	cont "member of the"
+	cont "DEADLY SEVEN!"
 	done
 
 _Route25EndBattleText8::
-	text "You"
-	line "got me."
+	text " "
+	line "What? Forgot"
+	cont "how to talk?"
 	prompt
 
 _Route25AfterBattleText8::
-	text "The collector has"
-	line "many rare kinds"
-	cont "of #MON."
+	text "Perhaps I"
+	line "must teach"
+	cont "you to speak!"
+	
+	para "First, open"
+	line "your mouth"
+	cont "much like the"
+	cont "hole of a"
+	cont "bagel..."
 	done
 
 _Route25BattleText9::
