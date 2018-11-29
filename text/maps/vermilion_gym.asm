@@ -3,33 +3,30 @@ _VermilionGymText_5cb6d::
 	line "to VERMILION GYM!"
 
 	para "Will you look at"
-	line "that, a pint-size"
-	cont "challenger!"
+	line "that, a bucktooth"
+	cont "nip-nong, ching-"
+	cont "chong challenger!"
 
 	para "Hahaha! You've got"
-	line "big and brassy"
-	cont "nerves to take me"
+	line "balls of steel"
+	cont "to take me"
 	cont "on with your puny"
-	cont "power!"
+	cont "prick!"
 
 	para "A #MON battle"
 	line "is war! I'll show"
-	cont "you, civilian!"
+	cont "you, jap!"
 
-	para "I'll shock you"
-	line "into surrender!"
+	para "Two nukes wasn't"
+	line "enough!"
 	done
 
 _VermilionGymText_5cb72::
 	text "A little word of"
 	line "advice, kid!"
 
-	para "Electricity is"
-	line "sure powerful!"
-
-	para "But, it's useless"
-	line "against ground-"
-	cont "type #MON!"
+	para "Only casual scum"
+	line "use DUGTRIO here!"
 	done
 
 _VermilionGymText_5cb77::
@@ -66,13 +63,15 @@ _TM24NoRoomText::
 	done
 
 _ReceivedThunderbadgeText::
-	text "Whoa!"
+	text "USA USA USA US-"
 
-	para "You're the real"
-	line "deal, kid!"
+	para "Wait I just lost"
+	line "didn't I?"
 
-	para "Fine then, take"
-	line "the THUNDERBADGE!"
+	para "Ah, alright."
+	line "I take back what"
+	cont "I said. Have"
+	cont "a THUNDERBADGE!"
 	prompt
 
 _VermilionGymBattleText1::
@@ -87,11 +86,11 @@ _VermilionGymEndBattleText1::
 	prompt
 
 _VermilionGymAfterBattleText1::
-	text "The door won't"
-	line "open?"
-
-	para "LT.SURGE always"
-	line "was cautious!"
+	text "LT.SURGE always"
+	line "rants and raves"
+	cont "about how he,"
+	cont "and I quote,"
+	cont "killed fitty men"
 	done
 
 _VermilionGymBattleText2::
@@ -105,16 +104,21 @@ _VermilionGymEndBattleText2::
 	prompt
 
 _VermilionGymAfterBattleText2::
-	text "OK, I'll talk!"
+	text "For a GYM LEADER"
+	line "LT.SURGE really"
+	cont "is racist."
 
-	para "LT.SURGE said he"
-	line "hid door switches"
-	cont "inside something!"
+	para "You'd think he'd"
+	line "have a bit more"
+	cont "respect for the"
+	cont "people of the"
+	cont "region he moved"
+	cont "to after the war."
 	done
 
 _VermilionGymBattleText3::
 	text "This is no place"
-	line "for kids!"
+	line "for babbie bois!"
 	done
 
 _VermilionGymEndBattleText3::
@@ -127,10 +131,8 @@ _VermilionGymAfterBattleText3::
 	line "double locks!"
 	cont "Here's a hint!"
 
-	para "When you open the"
-	line "1st lock, the 2nd"
-	cont "lock is right"
-	cont "next to it!"
+	para "Dig in the trash"
+	line "maggot!"
 	done
 
 _VermilionGymText_5cbf4::
@@ -146,7 +148,7 @@ _VermilionGymText_5cbf4::
 	para "He's an expert on"
 	line "electric #MON!"
 
-	para "Birds and water"
+	para "Birbs and water"
 	line "#MON are at"
 	cont "risk! Beware of"
 	cont "paralysis too!"
@@ -157,6 +159,10 @@ _VermilionGymText_5cbf4::
 	para "You'll have to"
 	line "break a code to"
 	cont "get to him!"
+	
+	para "Don't worry it"
+	line "isn't the konami"
+	cont "code or anything."
 	done
 
 _VermilionGymText_5cbf9::

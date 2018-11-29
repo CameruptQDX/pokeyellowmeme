@@ -6,18 +6,20 @@ _Route6BattleText1::
 
 _Route6EndBattleText1::
 	text "No,"
-	line "this can't be..."
+	line "It cannot be..."
 	prompt
 
 _Route6AfterBattleText1::
-	text "My love will leave"
-	line "me in disgust."
+	text "I can already"
+	line "feel the horns"
+	cont "growing..."
+	cont "M'LADY!"
 	done
 
 _Route6BattleText2::
-	text "I'm training for"
-	line "my love. Don't"
-	cont "bother me!"
+	text "I've run all"
+	line "the stat calcs"
+	cont "I need to win!"
 	done
 
 _Route6EndBattleText2::
@@ -26,7 +28,7 @@ _Route6EndBattleText2::
 	prompt
 
 _Route6AfterBattleText2::
-	text "Now I understand,"
+	text "Smogon lied,"
 	line "#MON isn't"
 	cont "about calculated"
 	cont "numbers."
@@ -43,25 +45,27 @@ _Route6EndBattleText3::
 	prompt
 
 _Route6AfterBattleText3::
-	text "I like bugs, so"
-	line "I'm going back to"
-	cont "VIRIDIAN FOREST."
+	text "That's it, you"
+	line "poked the beehive"
+	cont "I'm steamin!"
 	done
 
 _Route6BattleText4::
-	text "Huh? You want"
+	text "Huh? Y-you want"
 	line "to talk to me?"
 	done
 
 _Route6EndBattleText4::
 	text "I"
-	line "didn't start it!"
+	line "uh uh uh uh!"
 	prompt
 
 _Route6AfterBattleText4::
-	text "I should carry"
-	line "more #MON with"
-	cont "me for safety."
+	text "Fellas..."
+	line "What would you"
+	cont "do if a girl"
+	cont "beat you in a"
+	cont "battle..."
 	done
 
 _Route6BattleText5::
@@ -78,6 +82,9 @@ _Route6AfterBattleText5::
 	text "I want to get"
 	line "stronger! What's"
 	cont "your secret?"
+	
+	para "...Is it"
+	line "roids?"
 	done
 
 _Route6BattleText6::
@@ -92,9 +99,8 @@ _Route6EndBattleText6::
 	prompt
 
 _Route6AfterBattleText6::
-	text "Are my #MON"
-	line "weak? Or, am I"
-	cont "just bad?"
+	text "It's all good"
+	line "in the hood."
 	done
 
 _Route6Text7::

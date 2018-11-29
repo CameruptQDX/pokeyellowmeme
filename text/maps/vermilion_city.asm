@@ -2,7 +2,7 @@ _VermilionCityText1::
 	text "We're careful"
 	line "about pollution!"
 
-	para "We've heard GRIMER"
+	para "We've heard E.COLI"
 	line "multiplies in"
 	cont "toxic sludge!"
 	done
@@ -62,8 +62,9 @@ _VermilionCityText4::
 	line "building on this"
 	cont "plot of land."
 
-	para "My #MON is"
-	line "tamping the land."
+	para "Project should"
+	line "only take another"
+	cont "year, reckon."
 	done
 
 _VermilionCityText5::
@@ -159,7 +160,7 @@ _VermilionCityText13::
 	cont "LEADER: LT.SURGE"
 
 	para "The Lightning "
-	line "American!"
+	line "'Murrican!"
 	done
 
 _VermilionCityText14::

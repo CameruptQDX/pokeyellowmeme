@@ -23,7 +23,7 @@ SpecialTrainerMoves:
 
 	db LT_SURGE,$1
 	db 1,1,THUNDERPUNCH
-	
+	db 4,4,SURF
 	db 0
 
 	db ERIKA,$1

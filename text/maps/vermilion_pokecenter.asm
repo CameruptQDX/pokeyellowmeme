@@ -5,15 +5,21 @@ _VermilionPokecenterText2::
 	cont "very different"
 	cont "abilities."
 
-	para "A #MON raised"
-	line "by a trainer is"
-	cont "stronger than one"
-	cont "in the wild."
+	para "#MON gain"
+	line "STAT EXP based"
+	cont "on the BASE"
+	cont "STATS of the"
+	cont "#MON it"
+	cont "defeats in battle."
 	done
 
 _VermilionPokecenterText3::
 	text "My #MON was"
-	line "poisoned! It"
-	cont "fainted while we"
-	cont "were walking!"
+	line "poisoned! They"
+	cont "put some poison"
+	cont "into his wine"
+	
+	para "He drank it all"
+	line "and he said I"
+	cont "feel fine."
 	done

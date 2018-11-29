@@ -9,13 +9,17 @@ _VermilionHouse1Text2::
 	text "PIDGEY: Kurukkoo!@@"
 
 _VermilionHouse1Text3::
-	text "Dear PIPPI, I hope"
-	line "to see you soon."
+	text "Listen here,"
+	line "fucker."
 
-	para "I heard SAFFRON"
-	line "has problems with"
-	cont "TEAM ROCKET."
+	para "I put my heart"
+	line "and soul into"
+	cont "Clover."
 
-	para "VERMILION appears"
-	line "to be safe."
+	para "Everyone at"
+	line "Clover is-"
+	
+	para "the letter"
+	line "just goes on"
+	cont "and on..."
 	done

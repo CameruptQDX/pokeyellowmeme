@@ -623,10 +623,10 @@ GBPrinter_UpdateStatusMessage:
 	next "Check the Game Boy"
 	next "Printer Manual.@"
 .Error2:
-	db   " Printer Error 2"
+	db   " Please refer to:"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual.@"
+	next "https://youtu.be"
+	next "/N9wsjroVlu8@"
 .Error3:
 	db   " Printer Error 3"
 	next ""

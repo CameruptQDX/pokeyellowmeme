@@ -15,17 +15,17 @@ PikachuFanPrintText::
 	line "hobby is taking"
 	cont "#MON photos."
 
-	para "He gave me a nice"
-	line "PRINT of my cute"
-	cont "CLEFAIRY."
+	para "He shares them"
+	line "on the web but"
+	cont "won't tell us"
+	cont "where..."
 	done
 
 SeelFanText::
 	text "I just love my"
 	line "SEEL!"
 
-	para "It squeals when I"
-	line "hug it!"
+	para "SQUEEEL!"
 	done
 
 SeelFanBetterText::
@@ -90,7 +90,7 @@ FanClubChairStoryText::
 	cont "and cuddly..."
 	cont "spectacular..."
 	cont "ravishing..."
-	cont "...Oops! Look at"
+	cont "OWO Look at"
 	cont "the time! I kept"
 	cont "you too long!"
 
@@ -110,12 +110,9 @@ ExplainBikeVoucherText::
 	para "Exchange that for"
 	line "a BICYCLE!"
 
-	para "Don't worry, my"
-	line "FEAROW will FLY"
-	cont "me anywhere!"
-
-	para "So, I don't need a"
-	line "BICYCLE!"
+	para "I'd much rather"
+	line "be riding my"
+	cont "RAPIDASH, UWU!"
 
 	para "I hope you like"
 	line "cycling!"
@@ -124,7 +121,9 @@ ExplainBikeVoucherText::
 FanClubNoStoryText::
 	text "Oh. Come back"
 	line "when you want to"
-	cont "hear my story!"
+	cont "hear some more..."
+	cont "firey..."
+	cont "stories...."
 	done
 
 FanClubChairFinalText::
