@@ -43,8 +43,9 @@ _Route10EndBattleText3::
 	prompt
 
 _Route10AfterBattleText3::
-	text "I don't like you"
+	text "I like you"
 	line "for beating me!"
+	cont "20 bucks?"
 	done
 
 _Route10BattleText4::
@@ -71,13 +72,12 @@ _Route10BattleText5::
 	done
 
 _Route10EndBattleText5::
-	text "That"
-	line "cleared my head!"
+	text "AHH"
+	line "DELICIA!"
 	prompt
 
 _Route10AfterBattleText5::
-	text "I feel bloated on"
-	line "mountain air!"
+	text "DEEEELICIA!"
 	done
 
 _Route10BattleText6::
@@ -94,9 +94,9 @@ _Route10EndBattleText6::
 _Route10AfterBattleText6::
 	text "The #MON here"
 	line "are so chunky!"
-	cont "There should be a"
-	cont "pink one with a"
-	cont "floral pattern!"
+	cont "They could pick"
+	cont "up a rock with"
+	cont "relative ease!"
 	done
 
 _Route10Text9::
