@@ -422,7 +422,7 @@ _MtMoonPokecenterBenchGuyText::
 
 _RockTunnelPokecenterGuyText::
 	text "I heard that"
-	line "GHOSTs haunt"
+	line "SPOOPs haunt"
 	cont "LAVENDER TOWN!"
 	done
 
@@ -532,7 +532,7 @@ _StrengthsAndWeaknessesText::
 	done
 
 _TimesUpText::
-	text "PA: Ding-dong!"
+	text "PA: Dong-ding!"
 
 	para "Time's up!"
 	prompt
@@ -621,7 +621,7 @@ _CinnabarQuizQuestionsText5::
 
 _CinnabarQuizQuestionsText6::
 	text "TM28 contains"
-	line "TOMBSTONER?"
+	line "DIG?"
 	done
 
 _CinnabarGymQuizCorrectText::
@@ -669,25 +669,20 @@ _OakLabEmailText::
 
 	para "..."
 
-	para "Calling all"
-	line "#MON trainers!"
-
-	para "The elite trainers"
-	line "of #MON LEAGUE"
-	cont "are ready to take"
-	cont "on all comers!"
-
-	para "Bring your best"
-	line "#MON and see"
-	cont "how you rate as a"
-	cont "trainer!"
-
-	para "#MON LEAGUE HQ"
-	line "INDIGO PLATEAU"
-
-	para "PS: PROF.OAK,"
-	line "please visit us!"
-	cont "..."
+	para "Dear STUMP,"
+	line "Please make sure"
+	cont "to give the new"
+	cont "trainers their"
+	cont "#MON!"
+	
+	para "The second one"
+	line "should be coming"
+	cont "soon, but CUBONE"
+	cont "requires special"
+	cont "care."
+	
+	para "Thank you again!"
+	line "- PROFESSOR OAK"
 	done
 
 _GameCornerCoinCaseText::
@@ -824,7 +819,7 @@ _IndigoPlateauHQText::
 
 _RedBedroomSNESText::
 	text "<PLAYER> is"
-	line "playing the SNES!"
+	line "playing the SMD!"
 	cont "...Okay!"
 	cont "It's time to go!"
 	done
@@ -851,7 +846,7 @@ _KabutopsFossilText::
 	done
 
 _FanClubPicture1Text::
-	text "My cute RAPIDASH."
+	text "My hot RAPIDASH."
 	done
 
 _FanClubPicture2Text::
@@ -997,7 +992,7 @@ _VermilionGymTrashSuccessText3::
 
 _VermilionGymTrashFailText::
 	text "Nope! There's"
-	line "only trash here."
+	line "only gahbage here."
 	cont "Hey! The electric"
 	cont "locks were reset!@@"
 
@@ -1138,8 +1133,8 @@ _UseNextMonText::
 	done
 
 _Sony1WinText::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
+	text "<RIVAL>: Hah!"
+	line "How pathetic!"
 	prompt
 
 _PlayerBlackedOutText2::
@@ -1187,9 +1182,9 @@ _CantEscapeText::
 	prompt
 
 _NoRunningText::
-	text "No! There's no"
-	line "running from a"
-	cont "trainer battle!"
+	text "What are you"
+	line "a coward or"
+	cont "something?"
 	prompt
 
 _GotAwayText::
@@ -1237,12 +1232,12 @@ _MultiHitText::
 _ScaredText::
 	TX_RAM wBattleMonNick
 	text " is too"
-	line "scared to move!"
+	line "spooked to move!"
 	prompt
 
 _GetOutText::
-	text "GHOST: Get out..."
-	line "Get out..."
+	text "SKELTAL: DOOT"
+	line "DOOT!"
 	prompt
 
 _FastAsleepText::
@@ -1535,12 +1530,12 @@ _TrainerWantsToFightText::
 _UnveiledGhostText::
 	text "SILPH SCOPE"
 	line "unveiled the"
-	cont "GHOST's identity!"
+	cont "SPOOPs form!"
 	prompt
 
 _GhostCantBeIDdText::
-	text "Darn! The GHOST"
-	line "can't be ID'd!"
+	text "He's too spooky"
+	line "to comprehend!"
 	prompt
 
 _GoText::
@@ -1919,11 +1914,11 @@ _GetDexRatedText::
 
 _ClosedOaksPCText::
 	text "Closed link to"
-	line "PROF.OAK's PC.@@"
+	line "PROF.STUMP's PC.@@"
 
 _AccessedOaksPCText::
 	text "Accessed PROF."
-	line "OAK's PC."
+	line "STUMP's PC."
 
 	para "Accessed #DEX"
 	line "Rating System."
@@ -2151,8 +2146,8 @@ INCLUDE "text/maps/route_24.asm"
 INCLUDE "text/maps/route_25.asm"
 
 _FileDataDestroyedText::
-	text "The file data is"
-	line "destroyed!"
+	text "I HAVE ERASED"
+	line "THIS WORLD"
 	prompt
 
 _WouldYouLikeToSaveText::
@@ -3128,7 +3123,7 @@ _MonCannotLearnMachineMoveText::
 	prompt
 
 _ItemUseNotTimeText::
-	text "OAK: <PLAYER>!"
+	text "STUMP: Ey!"
 	line "This isn't the"
 	cont "time to use that! "
 	prompt
@@ -3149,7 +3144,7 @@ _ThrowBallAtTrainerMonText1::
 	prompt
 
 _ThrowBallAtTrainerMonText2::
-	text "Don't be a thief!"
+	text "Don't be a nogg!"
 	prompt
 
 _NoCyclingAllowedHereText::

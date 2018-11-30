@@ -8,15 +8,17 @@ _PokemonTower1Text1::
 _PokemonTower1Text2::
 	text "Did you come to"
 	line "pay respects?"
-	cont "Bless you!"
+	
+	para "F"
 	done
 
 _PokemonTower1Text3::
 	text "I came to pray"
-	line "for my CLEFAIRY."
+	line "for my CHANSEY."
 
-	para "Sniff! I can't"
-	line "stop crying..."
+	para "But when I came"
+	line "her grave was"
+	cont "uprooted..."
 	done
 
 _PokemonTower1Text4::

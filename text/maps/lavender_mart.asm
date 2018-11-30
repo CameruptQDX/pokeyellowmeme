@@ -1,17 +1,9 @@
 _LavenderMartText2::
-	text "I'm searching for"
-	line "items that raise"
-	cont "the abilities of"
-	cont "#MON during a"
-	cont "single battle."
-
-	para "X ATTACK, X"
-	line "DEFEND, X SPEED"
-	cont "and X SPECIAL are"
-	cont "what I'm after."
-
-	para "Do you know where"
-	line "I can get them?"
+	text "H-h-hey man"
+	line "you uhhhhhh"
+	cont "know where I"
+	cont "can get me some"
+	cont "X SPEED?"
 	done
 
 _LavenderMartReviveText::
@@ -21,10 +13,12 @@ _LavenderMartReviveText::
 	done
 
 _LavenderMartNuggetText::
-	text "I found a NUGGET"
-	line "in the mountains."
+	text "I heard that"
+	line "there is a"
+	cont "stronger revival"
+	cont "item than REVIVE."
 
-	para "I thought it was"
-	line "useless, but it"
-	cont "sold for ¥5000!"
+	para "It's rare but"
+	line "it's called a"
+	cont "FOURLEAF DOWN."
 	done

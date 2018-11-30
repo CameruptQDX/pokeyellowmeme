@@ -1,57 +1,47 @@
 _PokemonTower2Text_6062d::
-	text $53, ": Hey,"
-	line $52, "! What"
-	cont "brings you here?"
+	text $53, ": "
+	line $52, "! Why"
+	cont "are you here?"
 	cont "Your #MON"
 	cont "don't look dead!"
 
-	para "I can at least"
-	line "make them faint!"
-	cont "Let's go, pal!"
+	para "But they will be"
+	line "when I'm done!"
 	done
 
 _PokemonTower2Text_60632::
-	text "What?"
-	line "You stinker!"
-
-	para "I took it easy on"
-	line "you too!"
+	text "Psh..."
+	line "You can't avoid"
+	cont "the reaper"
+	cont "forever!"
 	prompt
 
 _PokemonTower2Text_60637::
-	text $53, ": Well,"
-	line "look at all your"
-	cont "wimpy #MON!"
-
-	para "Toughen them up a"
-	line "bit more!"
+	text $53, ": Grab"
+	line "a shovel and"
+	cont "start diggin'"
+	cont "Hahah!"
 	prompt
 
 _PokemonTower2Text_6063c::
-	text "How's your #DEX"
-	line "coming, pal?"
-	cont "I just caught a"
-	cont "CUBONE!"
+	text "I came to the"
+	line "graveyard to"
+	cont "meditate..."
 
-	para "I can't find the"
-	line "grown-up MAROWAK"
-	cont "yet!"
+	para "But I can find"
+	line "no peace between"
+	cont "all of these"
+	cont "degenerates!"
 
-	para "I doubt there are"
-	line "any left! Well, I"
-	cont "better get going!"
-	cont "I've got a lot to"
-	cont "accomplish, pal!"
-
-	para "Smell ya later!"
+	para "Smell ya in hell!"
 	done
 
 _PokemonTower2Text2::
 	text "Even we could not"
 	line "identify the"
-	cont "wayward GHOSTs!"
+	cont "wayward SPOOPs!"
 
 	para "A SILPH SCOPE"
 	line "might be able to"
-	cont "unmask them."
+	cont "debone them."
 	done

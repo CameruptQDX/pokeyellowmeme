@@ -28,13 +28,11 @@ _LavenderTownText2::
 	done
 
 _LavenderTownText3::
-	text "GHOSTs appeared"
+	text "SPOOPs appeared"
 	line "in #MON TOWER."
 
-	para "I think they're"
-	line "the spirits of"
-	cont "#MON that the"
-	cont "ROCKETs killed."
+	para "Now this is"
+	line "podracing!"
 	done
 
 _LavenderTownText4::

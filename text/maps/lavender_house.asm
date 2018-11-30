@@ -5,12 +5,13 @@ _LavenderHouse2Text_1d9dc::
 	text "I hate those"
 	line "horrible ROCKETs!"
 
-	para "That poor CUBONE's"
-	line "mother..."
+	para "The old man"
+	line "PRIMEAPE..."
 
 	para "It was killed"
-	line "trying to escape"
-	cont "from TEAM ROCKET!"
+	line "trying to protect"
+	cont "the graves from"
+	cont "TEAM ROCKET!"
 	done
 
 _LavenderHouse2Text_1d9e1::

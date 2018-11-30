@@ -5,8 +5,8 @@ _LavenderPokecenterText2::
 	done
 
 _LavenderPokecenterText3::
-	text "I saw CUBONE's"
-	line "mother die trying"
-	cont "to escape from"
+	text "I saw PRIMEAPE"
+	line "die trying"
+	cont "to slaughter"
 	cont "TEAM ROCKET!"
 	done
