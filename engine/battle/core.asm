@@ -3524,6 +3524,9 @@ PrintGhostText:
 .Ghost ; ghost’s turn
 	ld hl,GetOutText
 	call PrintText
+	ld e, $24 ; start doot - hex id determines sound
+	ld e, $29
+	callab PlayPikachuSoundClip ; end doot
 	xor a
 	ret
 

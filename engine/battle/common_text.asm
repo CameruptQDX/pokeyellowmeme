@@ -49,7 +49,7 @@ PrintBeginningBattleText:
 	call IsItemInBag
 	ld a, [wEnemyMonSpecies2]
 	ld [wcf91], a
-	cp MAROWAK
+	cp PRIMEAPE
 	jr z, .isMarowak
 	ld a, b
 	and a
@@ -57,6 +57,9 @@ PrintBeginningBattleText:
 	callab LoadEnemyMonData
 	jr .notPokemonTower
 .noSilphScope
+	ld e, $24 ; start doot - hex id determines sound
+	ld e, $29
+	callab PlayPikachuSoundClip ; end doot
 	ld hl, EnemyAppearedText
 	call PrintText
 	ld hl, GhostCantBeIDdText
