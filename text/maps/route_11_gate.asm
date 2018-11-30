@@ -10,5 +10,8 @@ _Route11GateText1::
 	cont "nicknames."
 
 	para "He'll help you"
-	line "rename them too!"
+	line "rename them too"
+	cont "If you decide a"
+	cont "name sounds"
+	cont "really dumb."
 	done

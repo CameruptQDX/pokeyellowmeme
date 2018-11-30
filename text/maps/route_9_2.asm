@@ -10,8 +10,8 @@ _Route9EndBattleText9::
 
 _Route9AfterBattleText9::
 	text "If you don't like"
-	line "bug #MON, you"
-	cont "bug me!"
+	line "bug #MON, "
+	cont "you're a feature!"
 	done
 
 _Route9Text11::

@@ -11,7 +11,7 @@ _RockTunnel1EndBattleText1::
 _RockTunnel1AfterBattleText1::
 	text "Watch for ONIX!"
 	line "It can put the"
-	cont "squeeze on you!"
+	cont "squeetz on you!"
 	done
 
 _RockTunnel1BattleText2::
@@ -27,7 +27,7 @@ _RockTunnel1EndBattleText2::
 
 _RockTunnel1AfterBattleText2::
 	text "That sleeping"
-	line "#MON on ROUTE"
+	line "#MOM on ROUTE"
 	cont "12 forced me to"
 	cont "take this detour."
 	done
@@ -43,8 +43,9 @@ _RockTunnel1EndBattleText3::
 	prompt
 
 _RockTunnel1AfterBattleText3::
-	text "You're talented"
-	line "enough to hike!"
+	text "You're allowed"
+	line "in my cave,"
+	cont "surface dweller!"
 	done
 
 _RockTunnel1BattleText4::
@@ -58,8 +59,8 @@ _RockTunnel1EndBattleText4::
 	prompt
 
 _RockTunnel1AfterBattleText4::
-	text "Oh well, I'll get"
-	line "a ZUBAT as I go!"
+	text "Maybe I should"
+	line "become a GAMER."
 	done
 
 _RockTunnel1BattleText5::
@@ -74,8 +75,9 @@ _RockTunnel1EndBattleText5::
 	prompt
 
 _RockTunnel1AfterBattleText5::
-	text "I saw a MACHOP"
-	line "in this tunnel!"
+	text "Oh jeez that's"
+	line "a boob I am"
+	cont "sorry!"
 	done
 
 _RockTunnel1BattleText6::
@@ -106,6 +108,8 @@ _RockTunnel1EndBattleText7::
 _RockTunnel1AfterBattleText7::
 	text "Whew! I'm all"
 	line "sweaty now!"
+	
+	para "haha"
 	done
 
 _RockTunnel1Text8::

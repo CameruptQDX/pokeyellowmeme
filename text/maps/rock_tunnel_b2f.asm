@@ -1,6 +1,7 @@
 _RockTunnel2BattleText2::
-	text "Hikers leave twigs"
-	line "as trail markers."
+	text "Hikers leave rock"
+	line "stacks as trail"
+	cont "markers."
 	done
 
 _RockTunnel2EndBattleText2::
@@ -9,8 +10,9 @@ _RockTunnel2EndBattleText2::
 	prompt
 
 _RockTunnel2AfterBattleText2::
-	text "I want to go "
-	line "home!"
+	text "Rude people keep"
+	line "kicking them"
+	cont "down though!"
 	done
 
 _RockTunnel2BattleText3::
@@ -26,7 +28,7 @@ _RockTunnel2EndBattleText3::
 _RockTunnel2AfterBattleText3::
 	text "I go for power"
 	line "because I hate"
-	cont "thinking!"
+	cont "thinking, bruh!"
 	done
 
 _RockTunnel2BattleText4::
@@ -41,14 +43,15 @@ _RockTunnel2EndBattleText4::
 	prompt
 
 _RockTunnel2AfterBattleText4::
-	text "When you finish"
-	line "your #DEX, can"
-	cont "I have it?"
+	text "How good are"
+	line "those Chinese"
+	cont "knockoff #DEX"
+	cont "on aliexpress?"
 	done
 
 _RockTunnel2BattleText5::
 	text "Do you know about"
-	line "costume players?"
+	line "furries OWO?"
 	done
 
 _RockTunnel2EndBattleText5::
@@ -57,9 +60,9 @@ _RockTunnel2EndBattleText5::
 	prompt
 
 _RockTunnel2AfterBattleText5::
-	text "Costume players"
-	line "dress up as"
-	cont "#MON for fun."
+	text "Hey little miss"
+	line "lemme grab ya"
+	cont "feets UWU."
 	done
 
 _RockTunnel2BattleText6::
@@ -75,9 +78,9 @@ _RockTunnel2EndBattleText6::
 	prompt
 
 _RockTunnel2AfterBattleText6::
-	text "In mountains,"
-	line "you'll often find"
-	cont "rock-type #MON."
+	text "rock-type #MON."
+	line "like BLOBBOS"
+	cont "are the best!"
 	done
 
 _RockTunnel2BattleText7::
@@ -108,9 +111,10 @@ _RockTunnel2EndBattleText8::
 	prompt
 
 _RockTunnel2AfterBattleText8::
-	text "I'll raise my"
-	line "#MON to beat"
-	cont "yours, kid!"
+	text "I don't know"
+	line "if my speech"
+	cont "is a reference"
+	cont "or not."
 	done
 
 _RockTunnel2BattleText9::
@@ -126,4 +130,8 @@ _RockTunnel2EndBattleText9::
 _RockTunnel2AfterBattleText9::
 	text "I'm an artist,"
 	line "not a fighter."
+	
+	para "Unless they try"
+	line "to make me give"
+	cont "art up for free."
 	done

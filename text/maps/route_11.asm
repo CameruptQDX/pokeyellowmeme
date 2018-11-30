@@ -8,9 +8,9 @@ _Route11EndBattleText1::
 	prompt
 
 _Route11AfterBattleText1::
-	text "#MON is life!"
+	text "GAME is life!"
 	line "And to live is to"
-	cont "gamble!"
+	cont "be a GAMER!"
 	done
 
 _Route11BattleText2::
@@ -40,8 +40,14 @@ _Route11EndBattleText3::
 	prompt
 
 _Route11AfterBattleText3::
-	text "I did my best! I"
-	line "have no regrets!"
+	text "A wise Norweigan"
+	line "once gave me the"
+	cont "most important"
+	cont "advice of my"
+	cont "life: "
+	
+	para "Please play the"
+	line "game legit."
 	done
 
 _Route11BattleText4::
@@ -51,13 +57,13 @@ _Route11BattleText4::
 	done
 
 _Route11EndBattleText4::
-	text "That"
-	line "was electric!"
+	text "You"
+	line "shorted me out!"
 	prompt
 
 _Route11AfterBattleText4::
-	text "Spread the word"
-	line "to save energy!"
+	text "Hey I'm not"
+	line "that short!"
 	done
 
 _Route11BattleText5::
@@ -72,13 +78,13 @@ _Route11EndBattleText5::
 	prompt
 
 _Route11AfterBattleText5::
-	text "What do you want?"
-	line "Leave me alone!"
+	text "Leave me alone!"
+	line "REEEEEEEEEE!"
 	done
 
 _Route11BattleText6::
-	text "Fwahaha! I have"
-	line "never lost!"
+	text "Just us epic"
+	line "GAMERS right?"
 	done
 
 _Route11EndBattleText6::
@@ -102,8 +108,9 @@ _Route11EndBattleText7::
 	prompt
 
 _Route11AfterBattleText7::
-	text "It's just luck."
-	line "Luck of the draw."
+	text "I have an"
+	line "addiciton,"
+	cont "please help me."
 	done
 
 _Route11BattleText8::
@@ -123,8 +130,10 @@ _Route11AfterBattleText8::
 	cont "comes down from"
 	cont "the mountains."
 
-	para "It's strong if"
-	line "you can get it."
+	para "It's called your"
+	line "mo- wait I feel"
+	cont "like this joke"
+	cont "was already made."
 	done
 
 _Route11BattleText9::
@@ -138,8 +147,8 @@ _Route11EndBattleText9::
 	prompt
 
 _Route11AfterBattleText9::
-	text "Well, better get"
-	line "back to work."
+	text "I'll show you a"
+	line "live wire bby."
 	done
 
 _Route11BattleText10::
@@ -153,8 +162,8 @@ _Route11EndBattleText10::
 	prompt
 
 _Route11AfterBattleText10::
-	text "I better go find"
-	line "stronger ones!"
+	text "Too bold,"
+	line "too brash!"
 	done
 
 _Route11Text11::

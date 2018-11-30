@@ -10,9 +10,10 @@ _Route9EndBattleText1::
 	prompt
 
 _Route9AfterBattleText1::
-	text "You need light to"
-	line "get through that"
-	cont "dark tunnel ahead."
+	text "ROCK TUNNEL is"
+	line "deceptively"
+	cont "dark, try to"
+	cont "hug the walls."
 	done
 
 _Route9BattleTextAJ::
@@ -43,8 +44,9 @@ _Route9EndBattleText3::
 	prompt
 
 _Route9AfterBattleText3::
-	text "Are you off to"
-	line "ROCK TUNNEL too?"
+	text "I'm going in"
+	line "without FLASH"
+	cont "like a real man."
 	done
 
 _Route9BattleText4::
@@ -78,9 +80,9 @@ _Route9EndBattleText5::
 	prompt
 
 _Route9AfterBattleText5::
-	text "You sure had guts"
-	line "standing up to me"
-	cont "there, eh?"
+	text "Wanna chug some"
+	line "CBD laced maple"
+	cont "syrup, eh?"
 	done
 
 _Route9BattleText6::
@@ -114,9 +116,9 @@ _Route9EndBattleText7::
 	prompt
 
 _Route9AfterBattleText7::
-	text "I have to collect"
-	line "more than bugs to"
-	cont "get stronger..."
+	text "I'm gonna make"
+	line "mono bug work!"
+	cont "Homie!"
 	done
 
 _Route9BattleText8::
@@ -133,4 +135,7 @@ _Route9AfterBattleText8::
 	text "Hahahaha!"
 	line "Us hearty guys"
 	cont "always laugh!"
+	
+	para "Hey what do"
+	line "you think yos-"
 	done
