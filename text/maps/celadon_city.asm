@@ -2,15 +2,15 @@ _CeladonCityText1::
 	text "I got my KOFFING"
 	line "from my friend!"
 
-	para "We get along now,"
-	line "because I was"
-	cont "very nice to it!"
+	para "My lungs have"
+	line "never been in"
+	cont "more pain!"
 	done
 
 _CeladonCityText2::
-	text "Heheh! This GYM"
-	line "is great! It's"
-	cont "full of women!"
+	text "Ugh! This GYM"
+	line "is awful! It's"
+	cont "full of thots!"
 	done
 
 _CeladonCityText3::
@@ -23,9 +23,9 @@ _CeladonCityText4::
 	text "Moan! I blew it"
 	line "all at the slots!"
 
-	para "I knew I should"
-	line "have cashed in my"
-	cont "coins for prizes!"
+	para "Now TEAM ROCKET"
+	line "Is gonna break"
+	cont "my legs!"
 	done
 
 _TM41PreText::
@@ -62,8 +62,8 @@ _TM41NoRoomText::
 	done
 
 _CeladonCityText6::
-	text "This is my trusted"
-	line "pal, POLIWRATH!"
+	text "This is my best"
+	line "bro, POLIWRATH!"
 
 	para "It evolved from"
 	line "POLIWHIRL when I"
@@ -80,8 +80,8 @@ _CeladonCityText8::
 	done
 
 _CeladonCityText9::
-	text "Keep out of TEAM"
-	line "ROCKET's way!"
+	text "Ehh wise guy"
+	line "eh?"
 	done
 
 _CeladonCityText11::
@@ -131,8 +131,8 @@ _CeladonCityText17::
 
 _CeladonCityText18::
 	text "ROCKET GAME CORNER"
-	line "The playground"
-	cont "for grownups!"
+	line "Definitely not"
+	cont "a mob front!"
 	done
 
 _CeladonCityText10::

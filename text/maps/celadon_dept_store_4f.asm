@@ -1,11 +1,11 @@
 _CeladonMart4Text2::
 	text "I'm getting a"
-	line "gift for COPYCAT"
+	line "gift for MISTY"
+	cont "mai waifu"
 	cont "in CERULEAN CITY."
 
 	para "It's got to be a"
-	line "# DOLL. They"
-	cont "are trendy!"
+	line "# DOLL."
 	done
 
 _CeladonMart4Text3::
@@ -13,7 +13,7 @@ _CeladonMart4Text3::
 	line "useful."
 
 	para "You can run from"
-	line "wild #MON by"
+	line "a ghost by"
 	cont "distracting them"
 	cont "with a # DOLL!"
 	done

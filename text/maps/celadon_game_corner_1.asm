@@ -45,15 +45,16 @@ _CeladonGameCornerText_48d3b::
 	done
 
 _CeladonGameCornerText3::
-	text "Keep this quiet."
+	text "I got a hunch."
 
-	para "It's rumored that"
-	line "this place is run"
+	para "I think that"
+	line "ROCKET GAME" 
+	cont "CORNER is run"
 	cont "by TEAM ROCKET."
 	done
 
 _CeladonGameCornerText4::
-	text "I think these"
+	text "All these"
 	line "machines have"
 	cont "different odds."
 	done

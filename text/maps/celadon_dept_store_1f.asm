@@ -15,7 +15,7 @@ _CeladonMart1Text2::
 	para "2F: TRAINER'S"
 	line "    MARKET"
 
-	para "3F: TV GAME SHOP"
+	para "3F: VIDYA GAMES"
 
 	para "4F: WISEMAN GIFTS"
 

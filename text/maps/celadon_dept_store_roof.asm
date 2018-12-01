@@ -4,11 +4,13 @@ _CeladonMartRoofText_484ee::
 	done
 
 _CeladonMartRoofText_484f3::
-	text "Yay!"
+	text "Huh?"
 
-	para "FRESH WATER!"
+	para "WATER BAGEL!"
 
-	para "Thank you!"
+	para "It's not a"
+	line "drink but"
+	cont "Thank you!"
 
 	para "You can have this"
 	line "from me!@@"

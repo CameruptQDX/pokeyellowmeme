@@ -3,14 +3,14 @@ _CeladonMart2Text3::
 	line "weak #MON at"
 	cont "bay..."
 
-	para "Hmm, it's a more"
-	line "powerful REPEL!"
+	para "My cheap cologne"
+	line "does the same!"
 	done
 
 _CeladonMart2Text4::
-	text "For long outings,"
-	line "you should buy"
-	cont "REVIVE."
+	text "Using REVIVE in"
+	line "battle is a"
+	cont "cheap tactic."
 	done
 
 _CeladonMart2Text5::

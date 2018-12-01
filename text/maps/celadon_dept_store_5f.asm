@@ -1,6 +1,6 @@
 _CeladonMart5Text1::
-	text "#MON ability"
-	line "enhancers can be"
+	text "#MON stat"
+	line "'roids can be"
 	cont "bought only here."
 
 	para "Use CALCIUM to"
@@ -13,8 +13,7 @@ _CeladonMart5Text1::
 
 _CeladonMart5Text2::
 	text "I'm here for"
-	line "#MON ability"
-	cont "enhancers."
+	line "some roooids!"
 
 	para "PROTEIN increases"
 	line "ATTACK power."

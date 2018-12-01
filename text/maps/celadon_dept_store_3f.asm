@@ -2,72 +2,69 @@ _CeladonMart3Text2::
 	text "Captured #MON"
 	line "are registered"
 	cont "with an ID No."
-	cont "and OT, the name"
-	cont "of the Original"
-	cont "Trainer that"
-	cont "caught it!"
+	cont "and OG, no wait"
+	cont "that's rappers."
 	done
 
 _CeladonMart3Text3::
-	text "All right!"
-
-	para "My buddy's going"
-	line "to trade me his"
-	cont "KANGASKHAN for my"
-	cont "GRAVELER!"
+	text "Did you know"
+	line "the Japanese"
+	cont "version of"
+	cont "YELLOW is in"
+	cont "monochrome?"
+	
+	para "The west was"
+	line "lucky to have"
+	cont "it in color!"
 	done
 
 _CeladonMart3Text4::
-	text "Come on GRAVELER!"
-
-	para "I love GRAVELER!"
-	line "I collect them!"
-
-	para "Huh?"
-
-	para "GRAVELER turned"
-	line "into a different"
-	cont "#MON!"
+	text "#MON RED and"
+	line "GREEN... I bet"
+	cont "they'll rehash"
+	cont "this for the next"
+	cont "20 years."
 	done
 
 _CeladonMart3Text5::
-	text "You can identify"
-	line "#MON you got"
-	cont "in trades by"
-	cont "their ID Numbers!"
+	text "I bought a"
+	line "VIRTUAL BOY,"
+	cont "I won't regret"
+	cont "this purchase"
+	cont "at all!"
 	done
 
 _CeladonMart3Text6::
-	text "It's an SNES!"
+	text "Vidyagaymes"
 	done
 
 _CeladonMart3Text7::
-	text "An RPG! There's"
-	line "no time for that!"
+	text "An RPG! Never"
+	line "to get localized!"
 	done
 
 _CeladonMart3Text9::
-	text "A sports game!"
-	line "Dad'll like that!"
+	text "A SEGA GENESIS"
+	line "Blast processing!"
 	done
 
 _CeladonMart3Text11::
-	text "A puzzle game!"
-	line "Looks addictive!"
+	text "TURBOGRAFIX 16"
+	line "Games on cards?"
 	done
 
 _CeladonMart3Text13::
-	text "A fighting game!"
-	line "Looks tough!"
+	text "7 Gr-"
+	line "This meme is old"
 	done
 
 _CeladonMart3Text14::
-	text "3F: TV GAME SHOP"
+	text "3F: VIDYA GAMES"
 	done
 
 _CeladonMart3Text15::
-	text "Red and Blue!"
-	line "Both are #MON!"
+	text "#MON CLOVER"
+	line "coming SOONtm!"
 	done
 
 _TM18PreReceiveText::
@@ -75,8 +72,8 @@ _TM18PreReceiveText::
 	line "finished #MON!"
 
 	para "Not done yet?"
-	line "This might be"
-	cont "useful!"
+	line "Git gud"
+	cont "scrub!"
 	prompt
 
 _ReceivedTM18Text::
