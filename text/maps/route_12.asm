@@ -7,7 +7,7 @@ _Route12Text13::
 	text "SNORLAX woke up!"
 
 	para "It attacked in a"
-	line "grumpy rage!"
+	line "constipated rage!"
 	done
 
 _Route12Text14::
@@ -45,8 +45,8 @@ _Route12EndBattleText2::
 
 _Route12AfterBattleText2::
 	text "With a better ROD,"
-	line "I could catch"
-	cont "better #MON!"
+	line "I could catch a"
+	cont "better wife!"
 	done
 
 _Route12BattleText3::
@@ -55,7 +55,7 @@ _Route12BattleText3::
 	done
 
 _Route12EndBattleText3::
-	text "Oww!"
+	text "Ayy!"
 	prompt
 
 _Route12AfterBattleText3::
@@ -76,8 +76,8 @@ _Route12EndBattleText4::
 _Route12AfterBattleText4::
 	text "Water conducts"
 	line "electricity, so"
-	cont "you should zap"
-	cont "sea #MON!"
+	cont "you should bathe"
+	cont "with a toaster!"
 	done
 
 _Route12BattleText5::
@@ -91,9 +91,8 @@ _Route12EndBattleText5::
 	prompt
 
 _Route12AfterBattleText5::
-	text "You beat me at"
-	line "#MON, but I'm"
-	cont "good at fishing!"
+	text "I love to shout"
+	line "titles at people!"
 	done
 
 _Route12BattleText6::
@@ -107,9 +106,9 @@ _Route12EndBattleText6::
 	prompt
 
 _Route12AfterBattleText6::
-	text "It's all right."
-	line "Losing doesn't"
-	cont "bug me anymore."
+	text "Monday mornin'"
+	line "back on the site"
+	cont "again..."
 	done
 
 _Route12BattleText7::
@@ -125,8 +124,8 @@ _Route12EndBattleText7::
 
 _Route12AfterBattleText7::
 	text "I catch MAGIKARP"
-	line "all the time, but"
-	cont "they're so weak!"
+	line "all the time, too"
+	cont "bony to eat!"
 	done
 
 _Route12Text11::

@@ -5,13 +5,15 @@ _Route8BattleText1::
 	done
 
 _Route8EndBattleText1::
-	text "Ow!"
-	line "Meltdown!"
+	text "Die"
+	line "Die Die!"
 	prompt
 
 _Route8AfterBattleText1::
-	text "I am better at"
-	line "school than this!"
+	text "Go ahead and try"
+	line "to sue. I got"
+	cont "cash out the"
+	cont "wazoo."
 	done
 
 _Route8BattleText2::
@@ -25,12 +27,14 @@ _Route8EndBattleText2::
 	prompt
 
 _Route8AfterBattleText2::
-	text "Lady Luck's not"
-	line "with me today!"
+	text "Maybe my luck"
+	line "would be better"
+	cont "if I said less"
+	cont "bad words."
 	done
 
 _Route8BattleText3::
-	text "You need strategy"
+	text "You need stratz"
 	line "to win at this!"
 	done
 
@@ -40,9 +44,9 @@ _Route8EndBattleText3::
 	prompt
 
 _Route8AfterBattleText3::
-	text "Go with GRIMER"
-	line "first...and..."
-	cont "...and...then..."
+	text "How could my"
+	line "perfect GRIMER"
+	cont "stall lose?"
 	done
 
 _Route8BattleText4::
@@ -55,10 +59,9 @@ _Route8EndBattleText4::
 	prompt
 
 _Route8AfterBattleText4::
-	text "When #MON grow"
-	line "up they get ugly!"
-	cont "They shouldn't"
-	cont "evolve!"
+	text "When I grow"
+	line "up I'll refuse"
+	cont "to evolve!"
 	done
 
 _Route8BattleText5::
@@ -87,9 +90,10 @@ _Route8EndBattleText6::
 	prompt
 
 _Route8AfterBattleText6::
-	text "I think PIDGEY"
-	line "and RATTATA"
-	cont "are cute too!"
+	text "My therapist"
+	line "told me to stop"
+	cont "meowing, but I"
+	cont "won't!"
 	done
 
 _Route8BattleText7::
@@ -136,13 +140,14 @@ _Route8BattleText9::
 _Route8EndBattleText9::
 	text "Stop!"
 
-	para "Don't be so mean"
-	line "to my CLEFAIRY!"
+	para "No bully"
+	line "my CLEFAIRY!"
 	prompt
 
 _Route8AfterBattleText9::
 	text "I heard that"
-	line "CLEFAIRY evolves"
+	line "CLEFAIRY turns"
+	cont "into a giant ape"
 	cont "when it's exposed"
 	cont "to a MOON STONE."
 	done
