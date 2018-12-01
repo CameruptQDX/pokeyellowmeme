@@ -7,7 +7,7 @@ _LavenderHouse1Text_1d8d1::
 _LavenderHouse1Text_1d8d6::
 	text "MR.FUJI had been"
 	line "praying alone for"
-	cont "CUBONE's mother."
+	cont "ol' PRIMEAPE."
 	done
 
 _LavenderHouse1Text_1d8f4::
@@ -36,13 +36,46 @@ _LavenderHouse1Text4::
 _LavenderHouse1Text_1d94c::
 	text "MR.FUJI: ", $52, "."
 
-	para "Your #DEX quest"
-	line "may fail without"
-	cont "love for your"
-	cont "#MON."
+	para "So you're the"
+	line "new TRAINER that"
+	cont "my dear CUBONE"
+	cont "was supposed to"
+	cont "have gone to."
+	
+	para "But it seems that"
+	line "it went to that"
+	cont $53, "boy instead."
+	
+	para "About a year ago"
+	line "this town was"
+	cont "terrorized by"
+	cont "TEAM ROCKET."
+	
+	para "A kind soul named"
+	line "RED kicked them"
+	cont "from the tower,"
+	cont "but they had"
+	cont "killed the mother"
+	cont "of that CUBONE."
+	
+	para "I had told this"
+	line "story to your"
+	cont "friend. However"
+	cont "rather than"
+	cont "inspire him to"
+	cont "be kinder for"
+	cont "CUBONE, he took"
+	cont "it upon himself"
+	cont "to get vengeance"
+	cont "upon TEAM ROCKET!"
+	
+	para "Please keep an"
+	line "eye on him, for"
+	cont "CUBONE's sake."
 
-	para "I think this may"
-	line "help your quest."
+	para "Here, a gift."
+	line "I think this may"
+	cont "help your quest."
 	prompt
 
 _ReceivedFluteText::

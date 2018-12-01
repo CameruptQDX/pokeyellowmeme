@@ -1,45 +1,61 @@
-_PokemonTower4BattleText1::
-	text "GHOST! No!"
-	line "Kwaaah!"
+_PokemonTower4BattleText1:: ; karkov
+	text "KARKOV: HALT!"
+	line "This space is"
+	cont "sealed with holy"
+	cont "PUMPKIN FAIRY"
+	cont "energy, blessed"
+	cont "by lord TELSON!"
 	done
 
 _PokemonTower4EndBattleText1::
-	text "Where"
-	line "is the GHOST?"
+	text " "
+	line "Vanquished again."
 	prompt
 
 _PokemonTower4AfterBattleText1::
-	text "I must have been"
-	line "dreaming..."
+	text "I will bless you"
+	line "with these words"
+	cont "of enchantment!"
+	
+	para "OOO EEE, OOO AH"
+	line "AH TING TANG"
+	cont "WALLA WALLA"
+	cont "BING BANG!"
 	done
 
-_PokemonTower4BattleText2::
-	text "Be cursed with"
-	line "me! Kwaaah!"
+_PokemonTower4BattleText2:: ; robotnov
+	text "ROBOTNOV: Be" 
+	line "cursed with me!"
+	cont "QkWaaahEEEEEE!"
 	done
 
 _PokemonTower4EndBattleText2::
-	text "What!"
+	text "Qw-"
+	line "QWE- QWACHOO!"
 	prompt
 
 _PokemonTower4AfterBattleText2::
-	text "We can't crack"
-	line "the identity of"
-	cont "the GHOSTs."
+	text "You've just"
+	line "QWEEExorcised"
+	cont "me!"
 	done
 
-_PokemonTower4BattleText3::
-	text "Huhuhu..."
-	line "Beat me not!"
+_PokemonTower4BattleText3:: ; rolv
+	text "ROLV: The brave"
+	line "SGT. stands"
+	cont "kintamas deep"
+	cont "in the realm"
+	cont "of the SPOOKS."
 	done
 
 _PokemonTower4EndBattleText3::
-	text "Huh?"
-	line "Who? What?"
+	text " "
+	line "My dairy deluge"
+	cont "is ineffective!"
 	prompt
 
 _PokemonTower4AfterBattleText3::
-	text "May the departed"
-	line "souls of #MON"
-	cont "rest in peace..."
+	text "New plan, new"
+	line "plan! BJIMMY, WE"
+	cont "NEED A NEW PLAN!"
 	done

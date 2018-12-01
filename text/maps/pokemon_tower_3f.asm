@@ -1,45 +1,56 @@
-_PokemonTower3BattleText1::
-	text "Urrg...Awaa..."
+_PokemonTower3BattleText1:: ; mikov
+	text "MIKOV: Urrg..."
 	line "Huhu...graa.."
 	done
 
 _PokemonTower3EndBattleText1::
-	text "Hwa!"
+	text "Urp!"
 	line "I'm saved!"
 	prompt
 
 _PokemonTower3AfterBattleText1::
-	text "The GHOSTs can be"
-	line "identified by the"
-	cont "SILPH SCOPE."
+	text "I wasn't posessed"
+	line "or anything, I"
+	cont "just had a case"
+	cont "of the DEADLY"
+	cont "INDIGESTION!"
 	done
 
-_PokemonTower3BattleText2::
-	text "Kekeke...."
-	line "Kwaaah!"
+_PokemonTower3BattleText2:: ; bobov
+	text "BOBOV: Gah! Begone"
+	line "you calcium laden"
+	cont "hell spawn!"
 	done
 
 _PokemonTower3EndBattleText2::
-	text "Hmm?"
-	line "What am I doing?"
+	text " "
+	line "CEASE CEASE"
+	cont "CEASE CEASE"
 	prompt
 
 _PokemonTower3AfterBattleText2::
-	text "Sorry! I was"
-	line "possessed!"
+	text "I will never"
+	line "kneel to the"
+	cont "zombies, but"
+	cont "please stop this"
+	cont "infernal DOOTING!"
 	done
 
-_PokemonTower3BattleText3::
-	text "Be gone!"
-	line "Evil spirit!"
+_PokemonTower3BattleText3:: ; gunkov
+	text "GUNKOV: Where"
+	line "the undead go"
+	cont "the DEADLY SEVEN"
+	cont "will follow!"
 	done
 
-_PokemonTower3EndBattleText3::
-	text "Whew!"
-	line "The spirit left!"
+_PokemonTower3EndBattleText3:: 
+	text " "
+	line "Trumpeting!"
 	prompt
 
 _PokemonTower3AfterBattleText3::
-	text "My friends were"
-	line "possessed too!"
+	text "Where the DEADLY"
+	line "SEVEN go, the"
+	cont "power of the"
+	cont "TABLE follows!"
 	done

@@ -1,11 +1,11 @@
 _PokemonTower2Text_60c1f::
 	text "The GHOST was the"
-	line "restless soul of"
-	cont "CUBONE's mother!"
+	line "vehement soul of"
+	cont "old man PRIMEAPE!"
 	done
 
 _PokemonTower2Text_60c24::
-	text "The mother's soul"
+	text "The ape's soul"
 	line "was calmed."
 
 	para "It departed to"
@@ -51,11 +51,10 @@ _PokemonTower6EndBattleText3::
 	prompt
 
 _PokemonTower6AfterBattleText3::
-	text "What's going on"
-	line "here?"
+	text "Qwee?"
 	done
 
 _PokemonTower6Text6::
-	text "Be gone..."
-	line "Intruders..."
+	text "DIE VILE"
+	line "ROCKET SCUM!"
 	done

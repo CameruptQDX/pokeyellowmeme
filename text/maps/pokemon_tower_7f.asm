@@ -2,14 +2,16 @@ _PokemonTowerJessieJamesText1::
 	text "Stop right there!@@"
 
 _PokemonTowerJessieJamesText2::
-	text "Grampa here wanted"
-	line "to complain, so"
-	cont "we're setting him"
-	cont "straight."
+	text "Grampa here won't"
+	line "tell us what we"
+	cont "need, so we're"
+	cont "doing what we"
+	cont "do best: a "
+	cont "slow torture!"
 
 	para "So render yourself"
 	line "invisible, or"
-	cont "prepare to fight!"
+	cont "prepare for shite!"
 	done
 
 _PokemonTowerJessieJamesText3::
@@ -30,18 +32,24 @@ _TowerRescueFujiText::
 	line "came here of my"
 	cont "own free will."
 
-	para "I came to calm"
-	line "the soul of"
-	cont "CUBONE's mother."
+	para "I came to pray"
+	line "for the safety"
+	cont "of ol' PRIMEAPE."
 
-	para "I think MAROWAK's"
-	line "spirit has gone"
-	cont "to the afterlife."
+	para "Unfortunately"
+	line "it seems that"
+	cont "TEAM ROCKET has"
+	cont "taken another dear"
+	cont "friend from me."
 
-	para "I must thank you"
-	line "for your kind"
-	cont "concern!"
+	para "It's how PRIMEAPE"
+	line "tend to go..."
+	cont "So angry that"
+	cont "they die."
 
+	para "You're", $52
+	line "aren't you?"
+	
 	para "Follow me to my"
 	line "home, #MON"
 	cont "HOUSE at the foot"

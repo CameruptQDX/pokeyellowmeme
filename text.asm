@@ -2548,11 +2548,12 @@ INCLUDE "text/maps/celadon_mansion_4f_outside.asm"
 INCLUDE "text/maps/celadon_mansion_4f_inside.asm"
 INCLUDE "text/maps/celadon_pokecenter.asm"
 INCLUDE "text/maps/celadon_gym.asm"
-INCLUDE "text/maps/celadon_game_corner_1.asm"
+
 
 
 SECTION "Text 7", ROMX
 
+INCLUDE "text/maps/celadon_game_corner_1.asm"
 INCLUDE "text/maps/celadon_game_corner_2.asm"
 INCLUDE "text/maps/celadon_dept_store_5f.asm"
 INCLUDE "text/maps/celadon_prize_room.asm"
