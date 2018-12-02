@@ -1,26 +1,29 @@
 _ProgrammerText::
-	text "Me? I'm the"
-	line "programmer!"
+	text "SPUTNOV: I AM"
+	line "A ROMHACKER!"
 	done
 
 _ProgrammerText2::
-	text "Me? I'm the"
-	line "programmer!"
+	text "SPUTNOV: I AM"
+	line "A ROMHACKER!"
 
-	para "What a surprise!"
-	line "I never expected"
-	cont "anyone to fill a"
-	cont "#DEX."
+	para "What? You filled"
+	line "the #DEX?"
+	cont "To be filled is"
+	cont "the cream of"
+	cont "life, much like"
+	cont "the center of"
+	cont "a bagel!"
 	done
 
 _GraphicArtistText::
-	text "I'm the graphic"
+	text "I'm the sprite"
 	line "artist!"
-	cont "I drew you!"
+	cont "I drew bolbi!"
 	done
 
 _GraphicArtistText2::
-	text "I'm the graphic"
+	text "I'm the sprite"
 	line "artist!"
 
 	para "Wow, you finished"
@@ -46,43 +49,42 @@ _GraphicArtistText5::
 	done
 
 _WriterText::
-	text "I wrote the story!"
-	line "Isn't ERIKA cute?"
-
-	para "I like MISTY a"
-	line "lot too!"
-
-	para "Oh, and SABRINA,"
-	line "I like her!"
+	text "I don't know"
+	line "where that"
+	cont "SPUTNOV guy came"
+	cont "from but he's"
+	cont "not actually a"
+	cont "ROMHACKER."
 	done
 
 _WriterText2::
-	text "I wrote the story!"
+	text "He's still here?"
 
-	para "It's great you"
-	line "caught all the"
-	cont "#MON! Thanks!"
+	para "Maybe you should"
+	line "show him your"
+	cont "DIPLOMA too!"
 	done
 
 _GameDesignerText::
 	text "Is that right?"
 
-	para "I'm the game"
-	line "designer!"
+	para "I'm the ROM"
+	line "HACKER!"
 
-	para "Filling up your"
-	line "#DEX is tough,"
-	cont "but don't quit!"
+	para "Have you found"
+	line "the hidden 2"
+	cont "#MON yet?"
 
-	para "When you finish,"
-	line "come tell me!"
+	para "When you finish"
+	line "your #DEX,"
+	cont "come tell me!"
 	done
 
 _CompletedDexText::
 	text "Wow! Excellent!"
 	line "You completed"
 	cont "your #DEX!"
-	cont "Congratulations!"
+	cont "Yeah Penis!"
 	cont "...@@"
 
 _CompletedDexText2::
@@ -94,24 +96,25 @@ _CompletedDexText2::
 
 _CeladonMansion3Text5::
 	text "It's the game"
-	line "program! Messing"
-	cont "with it could bug"
-	cont "out the game!"
+	line "disasm! A lot of"
+	cont "skilled people"
+	cont "at pret put it"
+	cont "together."
 	done
 
 _CeladonMansion3Text6::
-	text "Someone's playing"
-	line "a game instead of"
-	cont "working!"
+	text "Someone's been"
+	line "shitposting rather"
+	cont "than working!"
 	done
 
 _CeladonMansion3Text7::
-	text "It's the script!"
-	line "Better not look"
-	cont "at the ending!"
+	text "Clover Leaks!"
+	line "These look"
+	cont "top sekret!"
 	done
 
 _CeladonMansion3Text8::
-	text "GAME FREAK"
+	text "ROM HACK"
 	line "Development Room"
 	done

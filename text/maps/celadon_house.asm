@@ -17,6 +17,6 @@ _CeladonHouseText3::
 	line "poster at the"
 	cont "GAME CORNER!"
 
-	para "There's no secret"
-	line "switch behind it!"
+	para "There's no mafia"
+	line "den behind it!"
 	done

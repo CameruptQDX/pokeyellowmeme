@@ -3,7 +3,7 @@ _CeladonPrizeRoomText1::
 	line "that PORYGON!"
 
 	para "But, it's hard to"
-	line "win at slots!"
+	line "win at schluts!"
 	done
 
 _CeladonPrizeRoomText2::

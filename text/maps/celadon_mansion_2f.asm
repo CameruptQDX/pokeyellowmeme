@@ -1,4 +1,4 @@
 _CeladonMansion2Text1::
-	text "GAME FREAK"
+	text "ROM HACK"
 	line "Meeting Room"
 	done

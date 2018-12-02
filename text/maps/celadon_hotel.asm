@@ -16,6 +16,6 @@ _CeladonHotelText2::
 	done
 
 _CeladonHotelText3::
-	text "Why did she bring"
-	line "her brother?"
+	text "tfw cucked by"
+	line "a 3 foot lad."
 	done

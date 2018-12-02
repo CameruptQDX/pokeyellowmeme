@@ -8,5 +8,5 @@ _CeladonPokecenterText2::
 _CeladonPokecenterText3::
 	text "I rode uphill on"
 	line "CYCLING ROAD from"
-	cont "FUCHSIA!"
+	cont "FUCHSIA! My legs!"
 	done

@@ -3,7 +3,7 @@ _CeladonGymText_48a5e::
 	line "weather isn't it?"
 	cont "It's so pleasant."
 
-	para "...Oh dear..."
+	para "...duuuude"
 	line "I must have dozed"
 	cont "off. Welcome."
 
@@ -23,6 +23,7 @@ _CeladonGymText_48a5e::
 
 	para "Very well, but I"
 	line "shall not lose."
+	cont "lmao."
 	done
 
 _CeladonGymText_48a63::
@@ -38,8 +39,8 @@ _CeladonGymText_48a63::
 
 _CeladonGymText_48a68::
 	text "You are cataloging"
-	line "#MON? I must"
-	cont "say I'm impressed."
+	line "#MON? Neat"
+	cont "dude lol."
 
 	para "I would never"
 	line "collect #MON"
@@ -84,10 +85,10 @@ _TM21NoRoomText::
 	done
 
 _CeladonGymBattleText2::
-	text "Hey!"
+	text "A girl!"
 
-	para "You are not"
-	line "allowed in here!"
+	para "Welcome to"
+	line "our gym!"
 	done
 
 _CeladonGymEndBattleText2::
@@ -96,29 +97,25 @@ _CeladonGymEndBattleText2::
 	prompt
 
 _CeladonGymAfterBattleText2::
-	text "Bleaah!"
-	line "I hope ERIKA"
-	cont "wipes you out!"
+	text "Tomboys count"
+	line "as boys too!"
+	cont "Bleagh!"
 	done
 
 _CeladonGymBattleText3::
-	text "I was getting"
-	line "bored."
+	text "YOU'RE A WHITE"
+	line "MAAAAALE!"
 	done
 
 _CeladonGymEndBattleText3::
-	text "My"
-	line "makeup!"
+	text " "
+	line "(screeching)"
 	prompt
 
 _CeladonGymAfterBattleText3::
-	text "Grass-type #MON"
-	line "are tough against"
-	cont "the water-type!"
-
-	para "They also have an"
-	line "edge on rock and"
-	cont "ground #MON!"
+	text "Go take your"
+	line "white privledge"
+	cont "somewhere else!"
 	done
 
 _CeladonGymBattleText4::
@@ -132,9 +129,8 @@ _CeladonGymEndBattleText4::
 	prompt
 
 _CeladonGymAfterBattleText4::
-	text "Oh, you weren't"
-	line "peeping? We get a"
-	cont "lot of gawkers!"
+	text "Meet me in the"
+	line "locker room."
 	done
 
 _CeladonGymBattleText5::
@@ -172,7 +168,7 @@ _CeladonGymEndBattleText6::
 
 _CeladonGymAfterBattleText6::
 	text "Our LEADER, ERIKA,"
-	line "might be quiet,"
+	line "might be high,"
 	cont "but she's also"
 	cont "very skilled!"
 	done
@@ -199,9 +195,9 @@ _CeladonGymBattleText8::
 	text "Welcome to"
 	line "CELADON GYM!"
 
-	para "You better not"
-	line "underestimate"
-	cont "girl power!"
+	para "Funded by"
+	line "the feminist"
+	cont "movement!"
 	done
 
 _CeladonGymEndBattleText8::
