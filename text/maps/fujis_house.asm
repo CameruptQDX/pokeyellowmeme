@@ -44,7 +44,8 @@ _LavenderHouse1Text_1d94c::
 	
 	para "But it seems that"
 	line "it went to that"
-	cont $53, "boy instead."
+	cont $53, " boy"
+	cont "instead."
 	
 	para "About a year ago"
 	line "this town was"

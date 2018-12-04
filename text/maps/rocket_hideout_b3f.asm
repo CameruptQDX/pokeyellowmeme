@@ -10,10 +10,12 @@ _RocketHideout3EndBattleText2::
 	prompt
 
 _RocketHideout3AfterBattleTxt2::
-	text "SILPH SCOPE?"
-	line "The machine the"
-	cont "BOSS stole. It's"
-	cont "here somewhere."
+	text "The new BOSS?"
+	line "I don't know"
+	cont "anything, except"
+	cont "he says he came"
+	cont "from HYPER SPACE"
+	cont "or something."
 	done
 
 _RocketHideout3BattleTxt::
@@ -28,8 +30,7 @@ _RocketHideout3EndBattleText3::
 	prompt
 
 _RocketHide3AfterBattleText3::
-	text "Go ahead and go!"
-	line "But, you need the"
-	cont "LIFT KEY to run"
-	cont "the elevator!"
+	text "That's it, I'm"
+	line "calling the HR"
+	cont "department!"
 	done

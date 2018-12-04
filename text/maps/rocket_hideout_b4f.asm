@@ -1,52 +1,51 @@
 _RocketHideoutJessieJamesText1::
-	text "Not another step,"
-	line "brat!@@"
+	text "Oy, get the"
+	line "fack over here!@@"
 
 _RocketHideoutJessieJamesText2::
-	text "How dare you"
-	line "humiliate us at"
-	cont "MT.MOON!"
+	text "Oy cunte, you"
+	line "humiliated us"
+	cont "at MT.MOON!"
 
-	para "It's payback time,"
-	line "you brat!"
+	para "Now we're gonna"
+	line "fackin glass ye!"
 	done
 
 _RocketHideoutJessieJamesText3::
-	text "Such"
-	line "a dreadful twerp!"
+	text "Oof "
+	line "ow fack!"
 	prompt
 
 _RocketHideoutJessieJamesText4::
-	text "Looks like TEAM"
-	line "ROCKET's blasting"
-	cont "off again!@@"
+	text "Looks loike TEAM"
+	line "ROCKET's blastin"
+	cont "off again mate!@@"
 
 _RocketHideout4Text_4557a::
-	text "So! I must say, I"
-	line "am impressed you"
-	cont "got here!"
+	text "Welcome to my"
+	line "new oval office!"
 	done
 
 _RocketHideout4Text_4557f::
-	text "WHAT!"
-	line "This cannot be!"
+	text "Okie"
+	line "doke."
 	prompt
 
 _RocketHideout4Text_45584::
 	text "I see that you"
 	line "raise #MON"
 	cont "with utmost care."
+	
+	para "Look, I don't"
+	line "care about"
+	cont "#MON."
 
 	para "A child like you"
 	line "would never"
 	cont "understand what I"
 	cont "hope to achieve."
 
-	para "I shall step"
-	line "aside this time!"
-
-	para "I hope we meet"
-	line "again..."
+	para "oeoeoeoeoeoeoe"
 	done
 
 _RocketHideout4BattleText4::

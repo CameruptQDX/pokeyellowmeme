@@ -1,7 +1,8 @@
 _RocketHideout2BattleText2::
-	text "BOSS said you can"
-	line "see GHOSTs with"
-	cont "the SILPH SCOPE!"
+	text "We're back and"
+	line "better than ever"
+	cont "under our new"
+	cont "BOSS!"
 	done
 
 _RocketHideout2EndBattleText2::
@@ -10,8 +11,8 @@ _RocketHideout2EndBattleText2::
 	prompt
 
 _RocketHideout2AfterBattleTxt2::
-	text "The TEAM ROCKET"
-	line "HQ has 4 basement"
-	cont "floors. Can you"
-	cont "reach the BOSS?"
+	text "The new BOSS is"
+	line "a real smart guy,"
+	cont "says he was a"
+	cont "senator once."
 	done

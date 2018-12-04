@@ -7,13 +7,13 @@ _RocketHideout1BattleText2::
 	done
 
 _RocketHideout1EndBattleText2::
-	text "Oww!"
-	line "Beaten!"
+	text "nani"
+	line "the fuck?"
 	prompt
 
 _RocketHideout1AfterBattleTxt2::
 	text "Are you dissing"
-	line "TEAM ROCKET?"
+	line "my fly, girl?"
 	done
 
 _RocketHideout1BattleText3::
@@ -26,9 +26,10 @@ _RocketHideout1EndBattleText3::
 	prompt
 
 _RocketHideout1AfterBattleTxt3::
-	text "You're not going"
-	line "to get away with"
-	cont "this, brat!"
+	text "You smoked me"
+	line "like a crack"
+	cont "rock in a Subway"
+	cont "bathroom."
 	done
 
 _RocketHideout1BattleText4::
@@ -36,35 +37,39 @@ _RocketHideout1BattleText4::
 	done
 
 _RocketHideout1EndBattleText4::
-	text "I"
-	line "can't do it!"
+	text " "
+	line "WEEEEEEEEEEEEE"
+	cont "OOOOOOOOOOOOOO"
 	prompt
 
 _RocketHideout1AfterBattleTxt4::
-	text "SILPH SCOPE?"
-	line "I don't know"
-	cont "where it is!"
+	text "Maybe I really"
+	line "shouldn't do"
+	cont "my police siren"
+	cont "impression down"
+	cont "here."
 	done
 
 _RocketHideout1BattleText5::
-	text "Why did you come"
-	line "here?"
+	text "Hey kids! Like"
+	line "organized crime?"
 	done
 
 _RocketHideout1EndBattleText5::
-	text "This"
-	line "won't do!"
+	text "You're"
+	line "a natural!"
 	prompt
 
 _RocketHideout1AfterBattleTxt5::
-	text "OK, I'll talk!"
-	line "Take the elevator"
-	cont "to see my BOSS!"
+	text "You'll be robbing"
+	line "the #MART and"
+	cont "laundering cash"
+	cont "in no time!"
 	done
 
 _RocketHideout1BattleText6::
-	text "Are you lost, you"
-	line "little rat?"
+	text "Are you lost,"
+	line "el rato?"
 	done
 
 _RocketHideout1AfterBattleTxt6::

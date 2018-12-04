@@ -39,15 +39,16 @@ _TowerRescueFujiText::
 	para "Unfortunately"
 	line "it seems that"
 	cont "TEAM ROCKET has"
-	cont "taken another dear"
-	cont "friend from me."
+	cont "taken another"
+	cont "dear friend"
+	cont "from me."
 
 	para "It's how PRIMEAPE"
 	line "tend to go..."
 	cont "So angry that"
 	cont "they die."
 
-	para "You're", $52
+	para "You're ", $52
 	line "aren't you?"
 	
 	para "Follow me to my"
