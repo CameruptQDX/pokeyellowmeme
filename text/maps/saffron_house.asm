@@ -12,7 +12,7 @@ _SaffronHouse1Text2::
 
 _SaffronHouse1Text3::
 	text "The COPYCAT is"
-	line "cute! I'm getting"
+	line "qt! I'm getting"
 	cont "her a # DOLL!"
 	done
 
@@ -20,7 +20,6 @@ _SaffronHouse1Text4::
 	text "I was given a PP"
 	line "UP as a gift."
 
-	para "It's used for"
-	line "increasing the PP"
-	cont "of techniques!"
+	para "What did they"
+	line "mean by this?"
 	done

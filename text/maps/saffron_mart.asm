@@ -2,12 +2,13 @@ _SaffronMartText2::
 	text "MAX REPEL lasts"
 	line "longer than SUPER"
 	cont "REPEL for keeping"
-	cont "weaker #MON"
+	cont "bitchazz #MON"
 	cont "away!"
 	done
 
 _SaffronMartText3::
 	text "REVIVE is costly,"
-	line "but it revives"
-	cont "fainted #MON!"
+	line "it revives your"
+	cont "#MON but"
+	cont "kills your pride."
 	done

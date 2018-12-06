@@ -22,10 +22,6 @@ _SaffronGymText_5d167::
 	cont "But, a loss is a"
 	cont "loss."
 
-	para "I admit I didn't"
-	line "work hard enough"
-	cont "to win!"
-
 	para "You earned the"
 	line "MARSHBADGE!@@"
 
@@ -37,21 +33,34 @@ _SaffronGymText_5d16e::
 	done
 
 _SaffronGymText_5d173::
-	text "The MARSHBADGE"
-	line "makes #MON up"
-	cont "to L70 obey you!"
+	text "...Wait, I"
+	line "forsee a vision!"
 
-	para "Stronger #MON"
-	line "will become wild,"
-	cont "ignoring your"
-	cont "orders in battle!"
+	para "Something awful"
+	line "is descending,"
+	cont "something foul"
+	cont "cast out of"
+	cont "another reality,"
+	cont "not belonging to"
+	cont "this world."
 
-	para "Just don't raise"
-	line "your #MON too"
-	cont "much!"
+	para "And you clashing"
+	line "with a great"
+	cont "being of"
+	cont "darkness!"
 
-	para "Wait, please take"
-	line "this TM with you!"
+	para "...Or I could"
+	line "just be having"
+	cont "a flashback"
+	cont "from the last"
+	cont "time ERIKA"
+	cont "offered me a"
+	cont "mushroom,"
+	cont "whatever."
+	
+	para "Here have"
+	line "this TM"
+	cont "though."
 	done
 
 ReceivedTM46Text::
@@ -61,9 +70,10 @@ ReceivedTM46Text::
 _TM46ExplanationText::
 	db $0
 	para "TM46 is PSYWAVE!"
-	line "It uses powerful"
-	cont "psychic waves to"
-	cont "inflict damage!"
+	line "not to be"
+	cont "confused with"
+	cont "the niche"
+	cont "musical genre."
 	done
 
 _TM46NoRoomText::

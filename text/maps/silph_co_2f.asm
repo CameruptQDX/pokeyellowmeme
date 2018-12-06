@@ -1,11 +1,11 @@
 _SilphCo2Text_59ded::
-	text "Eeek!"
-	line "No! Stop! Help!"
+	text "THAT'S IT!"
+	line "IM GONNA DO IT!"
 
 	para "Oh, you're not"
 	line "with TEAM ROCKET."
-	cont "I thought..."
-	cont "I'm sorry. Here,"
+	cont "Sorry man, I"
+	cont "was gonna blow,"
 	cont "please take this!"
 	prompt
 

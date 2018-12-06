@@ -1,16 +1,18 @@
 _SaffronCityText1::
 	text "What do you want?"
-	line "Get lost!"
+	line "Scram punk!"
 	done
 
 _SaffronCityText2::
-	text "BOSS said he'll"
-	line "take this town!"
+	text "The BOSS went"
+	line "to SILPH CO. to"
+	cont "get another"
+	cont "MASTER BALL!"
 	done
 
 _SaffronCityText3::
-	text "Get out of the"
-	line "way!"
+	text "Move bitch, get"
+	line "out the way!"
 	done
 
 _SaffronCityText4::
@@ -24,34 +26,36 @@ _SaffronCityText5::
 	done
 
 _SaffronCityText6::
-	text "Ow! Watch where"
+	text "Oy! Watch where"
 	line "you're walking!"
 	done
 
 _SaffronCityText7::
-	text "With SILPH under"
-	line "control, we can"
-	cont "exploit #MON"
-	cont "around the world!"
+	text "The BOSS has"
+	line "some kind of"
+	cont "plan for SILPH"
+	cont "technology!"
 	done
 
 _SaffronCityText8::
 	text "You beat TEAM"
 	line "ROCKET all alone?"
-	cont "That's amazing!"
+	cont "Maybe kids are"
+	cont "their weakness."
 	done
 
 _SaffronCityText9::
-	text "Yeah! TEAM ROCKET"
-	line "is gone!"
-	cont "It's safe to go"
-	cont "out again!"
+	text "Gettin real sick"
+	line "of this city's"
+	cont "crime problems."
 	done
 
 _SaffronCityText10::
-	text "People should be"
-	line "flocking back to"
-	cont "SAFFRON now."
+	text "The mayor said"
+	line "TEAM ROCKET"
+	cont "attacks are part"
+	cont "and parcel of"
+	cont "living in a city."
 	done
 
 _SaffronCityText11::
@@ -71,6 +75,9 @@ _SaffronCityText13::
 	text "I saw ROCKET"
 	line "BOSS escaping"
 	cont "SILPH's building."
+	
+	para "He looked darker"
+	line "than I remember."
 	done
 
 _SaffronCityText14::
@@ -85,8 +92,8 @@ _SaffronCityText15::
 	text "..."
 	line "Snore..."
 
-	para "Hah! He's taking"
-	line "a snooze!"
+	para "Shh... GRUNT is"
+	line "slepp..."
 	done
 
 _SaffronCityText16::
@@ -115,21 +122,28 @@ _SaffronCityText20::
 	line "all ailments like"
 	cont "sleep and burns."
 
-	para "It costs a bit"
-	line "more, but it's"
-	cont "more convenient."
+	para "But it won't"
+	line "cure your"
+	cont "terminal 7"
+	cont "I'm sorry."
 	done
 
 _SaffronCityText21::
 	text "TRAINER TIPS"
 
-	para "New GREAT BALL"
-	line "offers improved"
-	cont "capture rates."
+	para "There is only"
+	line "one MASTER BALL"
+	cont "in #MON;"
+	cont "use it wisely"
 
-	para "Try it on those"
-	line "hard-to-catch"
-	cont "#MON."
+	para "I suggest using"
+	line "it on a #MON"
+	cont "you want to add"
+	cont "to your team but"
+	cont "are hard to"
+	cont "catch, like a"
+	cont "FEAROW or"
+	cont "TENTACRUEL!"
 	done
 
 _SaffronCityText22::
@@ -147,5 +161,5 @@ _SaffronCityText25::
 	line "product!"
 
 	para "Release to be"
-	line "determined..."
+	line "SOONtm."
 	done
