@@ -15,7 +15,7 @@ SilphCo5Object:
 	db $b ; objects
 	object SPRITE_LAPRAS_GIVER, $d, $9, STAY, NONE, $1 ; person
 	object SPRITE_ROCKET, $8, $10, STAY, RIGHT, $2, OPP_ROCKET, $1c
-	object SPRITE_OAK_AIDE, $8, $3, STAY, RIGHT, $3, OPP_SCIENTIST, $6
+	object SPRITE_DEADLYSEVEN, $8, $3, STAY, RIGHT, $3, OPP_DEADLYSEVEN, $19
 	object SPRITE_ROCKER, $12, $a, STAY, UP, $4, OPP_JUGGLER, $1
 	object SPRITE_ROCKET, $1c, $4, STAY, UP, $5, OPP_ROCKET, $1d
 	object SPRITE_BALL, $2, $d, STAY, NONE, $6, TM_09

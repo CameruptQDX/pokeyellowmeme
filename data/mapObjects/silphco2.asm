@@ -14,8 +14,8 @@ SilphCo2Object:
 
 	db $5 ; objects
 	object SPRITE_ERIKA, $a, $1, STAY, UP, $1 ; person
-	object SPRITE_OAK_AIDE, $5, $c, STAY, DOWN, $2, OPP_SCIENTIST, $2
-	object SPRITE_OAK_AIDE, $18, $d, STAY, LEFT, $3, OPP_SCIENTIST, $3
+	object SPRITE_DEADLYSEVEN, $5, $c, STAY, DOWN, $2, OPP_DEADLYSEVEN, $16
+	object SPRITE_DEADLYSEVEN, $18, $d, STAY, LEFT, $3, OPP_DEADLYSEVEN, $15
 	object SPRITE_ROCKET, $10, $b, STAY, UP, $4, OPP_ROCKET, $17
 	object SPRITE_ROCKET, $18, $7, STAY, UP, $5, OPP_ROCKET, $18
 

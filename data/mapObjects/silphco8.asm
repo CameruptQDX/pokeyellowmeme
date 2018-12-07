@@ -15,7 +15,7 @@ SilphCo8Object:
 	db $4 ; objects
 	object SPRITE_LAPRAS_GIVER, $4, $2, STAY, NONE, $1 ; person
 	object SPRITE_ROCKET, $13, $2, STAY, LEFT, $2, OPP_ROCKET, $23
-	object SPRITE_OAK_AIDE, $a, $2, STAY, DOWN, $3, OPP_SCIENTIST, $9
+	object SPRITE_DEADLYSEVEN, $a, $2, STAY, DOWN, $3, OPP_DEADLYSEVEN, $1c
 	object SPRITE_ROCKET, $c, $f, STAY, RIGHT, $4, OPP_ROCKET, $24
 
 	; warp-to
