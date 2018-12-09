@@ -129,7 +129,7 @@ _SilphCo11EndBattleText2::
 _SilphCo11AfterBattleText2::
 	text "ASIMOV: This"
 	line "haiku... It is"
-	cont "the propecy"
+	cont "the prophecy"
 	cont "passed down"
 	cont "that spoke of"
 	cont "THE DARK LORD:"
