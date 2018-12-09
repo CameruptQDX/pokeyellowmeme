@@ -71,23 +71,21 @@ _SilphCo6AfterBattleText2::
 	cont "avenge me!"
 	done
 
-_SilphCo6BattleText3::
-	text "That rotten"
+_SilphCo6BattleText3:: ; ROLV
+	text "ROLV: That rotten"
 	line "PRESIDENT!"
-
-	para "He shouldn't have"
-	line "sent me to the"
-	cont "TIKSI BRANCH!"
 	done
 
 _SilphCo6EndBattleText3::
-	text "Shoot!"
+	text "SGT!"
+	line "FALLING BACK!"
 	prompt
 
 _SilphCo6AfterBattleText3::
-	text "TIKSI BRANCH?"
-	line "It's in Russian"
-	cont "no man's land!"
+	text "That rotten..."
+	line "Eh what was it?"
+	cont "OBAMMER? or was"
+	cont "it OBUMPER?"
 	done
 
 _SilphCo6BattleText4::

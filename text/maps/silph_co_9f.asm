@@ -28,22 +28,30 @@ _SilphCo9AfterBattleText1::
 	cont "your age..."
 	done
 
-_SilphCo9BattleText2::
-	text "Your #MON have"
-	line "weak points! I"
-	cont "can nail them!"
+_SilphCo9BattleText2:: ; ADOLV
+	text "ADOLV: My TABLE"
+	line "is full to the"
+	cont "brim, now let"
+	cont "us come together"
+	cont "for your last"
+	cont "meal on earth!"
 	done
 
 _SilphCo9EndBattleText2::
-	text "You"
-	line "hammered me!"
+	text " "
+	line "Yummy..."
 	prompt
 
 _SilphCo9AfterBattleText2::
-	text "Exploiting weak"
-	line "spots does work!"
-	cont "Think about"
-	cont "element types!"
+	text "Dawdling here"
+	line "while the DARK"
+	cont "LORD consumes"
+	cont "all the SOUP"
+	cont "he's taken"
+	cont "from others."
+	cont "Now go and"
+	cont "put an end"
+	cont "to this!"
 	done
 
 _SilphCo9BattleText3::

@@ -30,36 +30,46 @@ _TM36NoRoomText::
 	line "room for this."
 	done
 
-_SilphCo2BattleText1::
-	text "Help! I'm a SILPH"
-	line "employee."
+_SilphCo2BattleText1:: ; BOBOV
+	text "BOBOV: Kneel"
+	line "before the"
+	cont "second of the"
+	cont "DEADLY SEVEN,"
+	cont "villain!"
 	done
 
 _SilphCo2EndBattleText1::
-	text "How"
-	line "did you know I"
-	cont "was a ROCKET?"
+	text "CEA"
+	line "AAAAAAAAASE!"
 	prompt
 
 _SilphCo2AfterBattleText1::
-	text "I work for both"
-	line "SILPH and TEAM"
-	cont "ROCKET!"
+	text "We, the DEADLY"
+	line "SEVEN have sworn"
+	cont "to fight the"
+	cont "DARK LORD and"
+	cont "his ROCKET army!"
 	done
 
-_SilphCo2BattleText2::
-	text "It's off limits"
-	line "here! Go home!"
+_SilphCo2BattleText2:: ; MIKOV
+	text "MIKOV: Begone!"
+	line "ROCKET scum,"
+	cont "or face the"
+	cont "wrath of the"
+	cont "DEADLY SEVEN!"
 	done
 
 _SilphCo2EndBattleText2::
-	text "You're"
-	line "good."
+	text "Hm?"
+	line "Wait a moment!"
 	prompt
 
 _SilphCo2AfterBattleText2::
-	text "Can you solve the"
-	line "maze in here?"
+	text "You're that"
+	line "girl that keeps"
+	cont "showing up and"
+	cont "beating the"
+	cont "ROCKETS!"
 	done
 
 _SilphCo2BattleText3::
@@ -90,7 +100,5 @@ _SilphCo2EndBattleText4::
 	prompt
 
 _SilphCo2AfterBattleText4::
-	text "SILPH CO. will"
-	line "be merged with"
-	cont "TEAM ROCKET!"
+	text "HYUCK!"
 	done

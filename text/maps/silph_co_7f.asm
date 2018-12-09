@@ -94,22 +94,27 @@ _SilphCo7AfterBattleText1::
 	cont "scurrying around!"
 	done
 
-_SilphCo7BattleText2::
-	text "Heheh!"
-
-	para "You mistook me for"
-	line "a SILPH worker?"
+_SilphCo7BattleText2:: ; SPUTNOV
+	text "SPUTNOV: Now,"
+	line "standing before"
+	cont "me is a truly"
+	cont "exhuberant"
+	cont "PARANOIA!"
 	done
 
 _SilphCo7EndBattleText2::
-	text "I'm"
-	line "done!"
+	text "A"
+	line "ROMHACKER's"
+	cont "fine china..."
 	prompt
 
 _SilphCo7AfterBattleText2::
-	text "Despite your age,"
-	line "you are a skilled"
-	cont "trainer!"
+	text "Did you know?"
+	line "This hack is"
+	cont "called #MON"
+	cont "PERIWINKLE:"
+	cont "SPECIAL BLOBBOS"
+	cont "EDITION!"
 	done
 
 _SilphCo7BattleText3::

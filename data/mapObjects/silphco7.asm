@@ -17,7 +17,7 @@ SilphCo7Object:
 	object SPRITE_LAPRAS_GIVER, $7, $a, STAY, NONE, $3 ; person
 	object SPRITE_ERIKA, $a, $8, STAY, NONE, $4 ; person
 	object SPRITE_ROCKET, $d, $1, STAY, DOWN, $5, OPP_ROCKET, $20
-	object SPRITE_DEADLYSEVEN, $2, $d, STAY, DOWN, $6, DEADLYSEVEN, $1b
+	object SPRITE_DEADLYSEVEN, $2, $d, STAY, DOWN, $6, OPP_DEADLYSEVEN, $1b
 	object SPRITE_ROCKET, $14, $2, STAY, LEFT, $7, OPP_ROCKET, $21
 	object SPRITE_ROCKET, $13, $e, STAY, RIGHT, $8, OPP_ROCKET, $22
 	object SPRITE_BLUE, $3, $7, STAY, UP, $9 ; person

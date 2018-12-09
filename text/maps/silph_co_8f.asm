@@ -24,20 +24,25 @@ _SilphCo8AfterBattleText1::
 	cont "for backup!"
 	done
 
-_SilphCo8BattleText2::
-	text "You're causing us"
-	line "problems!"
+_SilphCo8BattleText2:: ; VLADOV
+	text "VLADOV: It is I!"
+	line "Stunt-styling"
+	cont "all over you"
+	cont "pleb ROCKETS!"
 	done
 
 _SilphCo8EndBattleText2::
-	text "Huh?"
-	line "I lost?"
+	text "AH!"
+	line "CREW! GET ME A"
+	cont "HEALING BAGEL!"
 	prompt
 
 _SilphCo8AfterBattleText2::
-	text "So, what do you"
-	line "think of SILPH"
-	cont "BUILDING's maze?"
+	text "So, enjoying"
+	line "the fireworks?"
+	cont "I'm feeling"
+	cont "absolutely"
+	cont "pyrotechnical!"
 	done
 
 _SilphCo8BattleText3::

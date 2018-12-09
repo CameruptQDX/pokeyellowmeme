@@ -24,21 +24,22 @@ _SilphCo4AfterBattleText2::
 	cont "after this place!"
 	done
 
-_SilphCo4BattleText3::
-	text "My #MON are my"
-	line "loyal soldiers!"
+_SilphCo4BattleText3:: ; KARKOV
+	text "KARKOV: Ragna-"
+	line "rok is crashing"
+	cont "down upon your"
+	cont "head!"
 	done
 
 _SilphCo4EndBattleText3::
-	text "Darn!"
-	line "You weak #MON!"
+	text " "
+	line "Vanquished..."
 	prompt
 
 _SilphCo4AfterBattleText3::
-	text "The doors are"
-	line "electronically"
-	cont "locked! A CARD"
-	cont "KEY opens them!"
+	text "Go now! My"
+	line "wounds are yet"
+	cont "still pink!"
 	done
 
 _SilphCo4BattleText4::

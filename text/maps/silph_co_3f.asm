@@ -25,22 +25,29 @@ _SilphCo3AfterBattleText1::
 	cont "CARD KEY!"
 	done
 
-_SilphCo3BattleText2::
-	text "I support TEAM"
-	line "ROCKET more than"
-	cont "I support SILPH!"
+_SilphCo3BattleText2:: ; GUNKOV
+	text "GUNKOV: You"
+	line "have just fallen"
+	cont "right into the"
+	cont "raging, unending"
+	cont "hell tornado"
+	cont "that is my"
+	cont "SPIRAL OF DESPAIR!"
 	done
 
 _SilphCo3EndBattleText2::
-	text "You"
-	line "really got me!"
+	text "My"
+	line "most powerful"
+	cont "bruhaha..."
 	prompt
 
 _SilphCo3AfterBattleText2::
-	text "Humph..."
-
-	para "TEAM ROCKET said"
-	line "that if I helped"
-	cont "them, they'd let"
-	cont "me study #MON!"
+	text "The DARK LORD"
+	line "flips between"
+	cont "realities like"
+	cont "we flip between"
+	cont "sides of the"
+	cont "TABLE."
+	
+	para "Terrible!"
 	done

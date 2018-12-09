@@ -26,39 +26,46 @@ _SilphCo5AfterBattleText2::
 	cont "with TEAM ROCKET!"
 	done
 
-_SilphCo5BattleText3::
-	text "We study #"
-	line "BALL technology"
-	cont "on this floor!"
+_SilphCo5BattleText3:: ; ROBOTNOV
+	text "ROBOTNOV: You"
+	line "will be the"
+	cont "sixth ROCKET"
+	cont "i've felled!"
+	
+	para "or will you"
+	line "be the fifth?"
 	done
 
 _SilphCo5EndBattleText3::
-	text "Dang!"
-	line "Blast it!"
+	text " "
+	line "That's it!"
+	cont "Time to use"
+	cont "my special"
+	cont "techQWEEEque!"
 	prompt
 
 _SilphCo5AfterBattleText3::
-	text "We worked on the"
-	line "ultimate #"
-	cont "BALL which would"
-	cont "catch anything!"
+	text "(He's heating up!)"
+	
+	para "QWAAAAAME"
+	line "QWAAAAAAAAAME"
+	cont "QWEEEEEEEEEEE"
+	cont "EEEEEEEEEEEEE"
+	cont "EEEEEEEEEEEE!"
 	done
 
-_SilphCo5BattleText4::
-	text "Whaaat? There"
-	line "shouldn't be any"
-	cont "children here!"
+_SilphCo5BattleText4:: ;jevil
+	text "I CAN DO"
+	line "ANYTHING"
 	done
 
 _SilphCo5EndBattleText4::
-	text "Oh"
-	line "goodness!"
+	text "CHAOS"
+	line "CHAOS"
 	prompt
 
 _SilphCo5AfterBattleText4::
-	text "You're only on 5F."
-	line "It's a long way"
-	cont "to my BOSS!"
+	text "METAMORPOSIS..."
 	done
 
 _SilphCo5BattleText5::
