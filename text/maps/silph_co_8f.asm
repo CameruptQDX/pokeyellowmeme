@@ -1,6 +1,7 @@
 _SilphCo8Text_565be::
-	text "I wonder if SILPH"
-	line "is finished..."
+	text "Well, we lived"
+	line "through the last"
+	cont "ROCKET invasion."
 	done
 
 _SilphCo8Text_565c3::
@@ -9,19 +10,16 @@ _SilphCo8Text_565c3::
 	done
 
 _SilphCo8BattleText1::
-	text "That's as far as"
-	line "you'll go!"
+	text "(blocks ur path)"
 	done
 
 _SilphCo8EndBattleText1::
-	text "Not"
-	line "enough grit!"
+	text "!"
 	prompt
 
 _SilphCo8AfterBattleText1::
-	text "If you don't turn"
-	line "back, I'll call"
-	cont "for backup!"
+	text "(crumbles like a"
+	line "stale corn chip)"
 	done
 
 _SilphCo8BattleText2:: ; VLADOV

@@ -21,9 +21,11 @@ _SilphCo5EndBattleText2::
 	prompt
 
 _SilphCo5AfterBattleText2::
-	text "It's not smart"
-	line "to pick a fight"
-	cont "with TEAM ROCKET!"
+	text "I have a bomb"
+	line "vest, but i'm"
+	cont "too cowardly"
+	cont "to blow myself"
+	cont "up!"
 	done
 
 _SilphCo5BattleText3:: ; ROBOTNOV
@@ -81,26 +83,28 @@ _SilphCo5EndBattleText5::
 _SilphCo5AfterBattleText5::
 	text "Which reminds me."
 
-	para "KOFFING evolves"
-	line "into WEEZING!"
+	para "I should quit"
+	line "smoking!"
 	done
 
 _SilphCo5Text9::
 	text "It's a #MON"
 	line "REPORT!"
 
-	para "#MON LAB"
-	line "created PORYGON,"
-	cont "the first virtual"
-	cont "reality #MON."
+	para "#MON lately"
+	line "began learning"
+	cont "odd new MOVES"
+	cont "around the same"
+	cont "time the 4-LEAF"
+	cont "DOWN appeared."
 	done
 
 _SilphCo5Text10::
 	text "It's a #MON"
 	line "REPORT!"
 
-	para "Over 160 #MON"
-	line "techniques have"
+	para "Around 40 odd"
+	line "MOVES have"
 	cont "been confirmed."
 	done
 
@@ -108,7 +112,7 @@ _SilphCo5Text11::
 	text "It's a #MON"
 	line "REPORT!"
 
-	para "4 #MON evolve"
-	line "only when traded"
-	cont "by link-cable."
+	para "link-cable evos"
+	line "can now be done"
+	cont "by level up!"
 	done

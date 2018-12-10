@@ -20,47 +20,55 @@ _SilphCo10EndBattleText1::
 	prompt
 
 _SilphCo10AfterBattleText1::
-	text "Nice try, but the"
-	line "boardroom is up"
-	cont "one more floor!"
+	text "So wanna join"
+	line "my 10F party"
+	cont "crew?"
 	done
 
 _SilphCo10BattleText2::
-	text "Enough of your"
-	line "silly games!"
+	text "I injected a"
+	line "marijuana and"
+	cont "now I'm in"
+	cont "TEAM ROCKET!"
 	done
 
 _SilphCo10EndBattleText2::
-	text "No"
-	line "continues left!"
+	text "Don't"
+	line "be me, kid!"
 	prompt
 
 _SilphCo10AfterBattleText2::
-	text "Are you satisfied"
-	line "with beating me?"
-	cont "Then go on home!"
+	text "LOU ALBANO told"
+	line "me this would"
+	cont "happen..."
 	done
 
 _SilphCoJessieJamesText1::
 	text "Hold it right"
-	line "there, brat!@@"
+	line "there, gringo!@@"
 
 _SilphCoJessieJamesText2::
-	text "Our BOSS is in a"
-	line "meeting!"
+	text "It took us"
+	line "14 strawpolls"
+	cont "to come up with"
+	cont "this ambush!"
+	
+	para "That means it's"
+	line "flawless and"
+	cont "perfect!"
 
-	para "You better not"
-	line "disturb him!"
+	para "Yeah, mate!"
+	line "You're saged!"
 	done
 
 _SilphCoJessieJamesText3::
-	text "Like"
-	line "always..."
+	text "Never"
+	line "ever forever."
 	prompt
 
 _SilphCoJessieJamesText4::
 	text "TEAM ROCKET, blast"
 	line "off at the speed"
-	cont "of light!"
+	cont "of a midsize SUV!"
 
 	para "Again...@@"

@@ -1,6 +1,6 @@
 _SilphCo4Text_19de0::
-	text "Sssh! Can't you"
-	line "see I'm hiding?"
+	text "Sssh! You saw"
+	line "nothin, ok?"
 	done
 
 _SilphCo4Text_19de5::
@@ -9,9 +9,9 @@ _SilphCo4Text_19de5::
 	done
 
 _SilphCo4BattleText2::
-	text "TEAM ROCKET has"
-	line "taken command of"
-	cont "SILPH CO.!"
+	text "TEAM ROCKET is"
+	line "invading SILPH"
+	cont "again!"
 	done
 
 _SilphCo4EndBattleText2::
@@ -19,9 +19,9 @@ _SilphCo4EndBattleText2::
 	prompt
 
 _SilphCo4AfterBattleText2::
-	text "Fwahahaha!"
-	line "My BOSS has been"
-	cont "after this place!"
+	text "This is even"
+	line "less fun than"
+	cont "the first time!"
 	done
 
 _SilphCo4BattleText3:: ; KARKOV
@@ -43,7 +43,9 @@ _SilphCo4AfterBattleText3::
 	done
 
 _SilphCo4BattleText4::
-	text "Intruder spotted!"
+	text "Oh no!"
+	line "It's RED!"
+	cont "I'm done for!"
 	done
 
 _SilphCo4EndBattleText4::
@@ -52,6 +54,8 @@ _SilphCo4EndBattleText4::
 	prompt
 
 _SilphCo4AfterBattleText4::
-	text "I better tell the"
-	line "BOSS on 11F!"
+	text "Are you sure"
+	line "you're not"
+	cont "RED wearing a"
+	cont "wig?"
 	done

@@ -78,16 +78,13 @@ _SilphCo2BattleText3::
 	done
 
 _SilphCo2EndBattleText3::
-	text "Tough!"
+	text "MODS!"
 	prompt
 
 _SilphCo2AfterBattleText3::
-	text "Diamond-shaped"
-	line "tiles are"
-	cont "teleport blocks!"
-
-	para "They're hi-tech"
-	line "transporters!"
+	text "The BOSS is"
+	line "gonna ban you,"
+	cont "underage!"
 	done
 
 _SilphCo2BattleText4::

@@ -1,7 +1,7 @@
 _SilphCo6Text_1a24a::
-	text "The ROCKETs came"
-	line "and took over the"
-	cont "building!"
+	text "How are we being"
+	line "raided by TEAM"
+	cont "ROCKET twice?"
 	done
 
 _SilphCo6Text_1a24f::
@@ -21,20 +21,19 @@ _SilphCo6Text_1a266::
 
 _SilphCo6Text_1a278::
 	text "Look at him! He's"
-	line "such a coward!"
+	line "such a soyboy!"
 	done
 
 _SilphCo6Text_1a27d::
 	text "I feel so sorry"
 	line "for him, I have"
-	cont "to marry him!"
+	cont "to cuck him!"
 	done
 
 _SilphCo6Text_1a28f::
-	text "TEAM ROCKET is"
-	line "trying to conquer"
-	cont "the world with"
-	cont "#MON!"
+	text "TEAM ROCKET has"
+	line "a new goal and"
+	cont "a new BOSS!"
 	done
 
 _SilphCo6Text_1a294::
@@ -43,10 +42,10 @@ _SilphCo6Text_1a294::
 	done
 
 _SilphCo6Text_1a2a6::
-	text "They must have"
-	line "targeted SILPH"
-	cont "for our #MON"
-	cont "products."
+	text "We don't have"
+	line "the MASTER BALL"
+	cont "anymore! Why"
+	cont "come back?"
 	done
 
 _SilphCo6Text_1a2ab::

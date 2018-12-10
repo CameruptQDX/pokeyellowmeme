@@ -1,6 +1,7 @@
 _SilphCo3Text_59ff9::
 	text "I work for SILPH."
-	line "What should I do?"
+	line "This job was a"
+	cont "mistake."
 	done
 
 _SilphCo3Text_59ffe::
@@ -10,8 +11,9 @@ _SilphCo3Text_59ffe::
 	done
 
 _SilphCo3BattleText1::
-	text "Quit messing with"
-	line "us, kid!"
+	text "Make like a"
+	line "leaf and get"
+	cont "raked!"
 	done
 
 _SilphCo3EndBattleText1::

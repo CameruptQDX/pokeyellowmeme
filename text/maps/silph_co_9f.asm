@@ -14,8 +14,8 @@ _SilphCo9Text_5d8ef::
 	done
 
 _SilphCo9BattleText1::
-	text "Your #MON seem"
-	line "to adore you, kid!"
+	text "Your #MON seems"
+	line "like a gud boi."
 	done
 
 _SilphCo9EndBattleText1::
@@ -23,9 +23,13 @@ _SilphCo9EndBattleText1::
 	prompt
 
 _SilphCo9AfterBattleText1::
-	text "If I had started"
-	line "as a trainer at"
-	cont "your age..."
+	text "Heh, all it"
+	line "takes to corrupt"
+	cont "a gud boi is a"
+	cont "little dosh,"
+	cont "that's what"
+	cont "TEAM ROCKET is"
+	cont "all about!"
 	done
 
 _SilphCo9BattleText2:: ; ADOLV

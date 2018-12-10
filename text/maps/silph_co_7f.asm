@@ -42,15 +42,16 @@ _LaprasGuySavedText::
 _SilphCo7Text_51e00::
 	text "TEAM ROCKET was"
 	line "after the MASTER"
-	cont "BALL which will"
-	cont "catch any #MON!"
+	cont "BALL last time."
+	cont "What do they"
+	cont "want now?"
 	done
 
 _CanceledMasterBallText::
-	text "We canceled the"
-	line "MASTER BALL"
-	cont "project because"
-	cont "of TEAM ROCKET."
+	text "We ran out of"
+	line "resources to"
+	cont "produce more"
+	cont "MASTER BALLs!"
 	done
 
 _SilphCo7Text_51e23::
@@ -70,7 +71,7 @@ _SilphCo7Text_51e46::
 	text "You! It's really"
 	line "dangerous here!"
 	cont "You came to save"
-	cont "me? You can't!"
+	cont "me? Eh it's ok."
 	done
 
 _SilphCo7Text_51e4b::
@@ -84,14 +85,13 @@ _SilphCo7BattleText1::
 	done
 
 _SilphCo7EndBattleText1::
-	text "Lights"
-	line "out!"
+	text "El"
+	line "Rato..."
 	prompt
 
 _SilphCo7AfterBattleText1::
-	text "You won't find my"
-	line "BOSS by just"
-	cont "scurrying around!"
+	text "Wanna ride in"
+	line "my EL CAMINO?"
 	done
 
 _SilphCo7BattleText2:: ; SPUTNOV
@@ -134,8 +134,8 @@ _SilphCo7AfterBattleText3::
 	done
 
 _SilphCo7BattleText4::
-	text "A child intruder?"
-	line "That must be you!"
+	text "For the new"
+	line "BOSS!"
 	done
 
 _SilphCo7EndBattleText4::
@@ -144,71 +144,69 @@ _SilphCo7EndBattleText4::
 	prompt
 
 _SilphCo7AfterBattleText4::
-	text "Go on home"
-	line "before my BOSS"
-	cont "gets ticked off!"
+	text "Oh man, BOSS"
+	line "is gonna hit me"
+	cont "with his big"
+	cont "MAMBO!"
 	done
 
-_SilphCo7Text_51ebe::
-	text $53, ": What"
-	line "kept you ", $52, "?"
+_SilphCo7Text_51ebe:: ; coldsteel
+	text $53, ": Why"
+	line "are YOU here?"
 	done
 
 _SilphCo7Text_51ec3::
-	text $53, ": Hahaha!"
-	line "I thought you'd"
-	cont "turn up if I"
-	cont "waited here!"
+	text $53, ": Hmph,"
+	line "It matters not"
+	cont "that you came."
 
-	para "I guess TEAM"
-	line "ROCKET slowed you"
-	cont "down! Not that I"
-	cont "care!"
+	para "TEAM ROCKET is"
+	line "my prey and"
+	cont "mine alone!"
 
-	para "I saw you in"
-	line "SAFFRON, so I"
-	cont "decided to see if"
-	cont "you got better!"
+	para "Now..."
+	line "BEGONE!"
 	done
 
 _SilphCo7Text_51ec8::
-	text "Oh-oh!"
-	line "So, you are ready"
-	cont "for BOSS ROCKET!"
+	text "I-I"
+	line "see how it is."
 	prompt
 
 _SilphCo7Text_51ecd::
-	text $53, ": How can"
-	line "I put this?"
+	text $53, ": This"
+	line "is more"
+	cont "important than"
+	cont "you know..."
 
-	para "You're not good"
-	line "enough to play"
-	cont "with us big boys!"
+	para "SO STAY OUT OF"
+	line "MY WAY!"
 	prompt
 
 _SilphCo7Text_51ed2::
-	text "Well, ", $52, "!"
+	text "Hmph... Well"
 
-	para "I'm moving on up"
-	line "and ahead!"
+	para "Fine, go and"
+	line "fight the DARK"
+	cont "LORD if you"
+	cont "please."
 
-	para "By checking my"
-	line "#DEX, I'm"
-	cont "starting to see"
-	cont "what's strong and"
-	cont "how they evolve!"
+	para "MR. FUJI told"
+	line "me about my"
+	cont "CUBONE's story."
 
-	para "I'm going to the"
-	line "#MON LEAGUE"
-	cont "to boot out the"
-	cont "ELITE FOUR!"
+	para "I may be dark..."
+	line "but TEAM ROCKET"
+	cont "is pure evil!"
 
 	para "I'll become the"
 	line "world's most"
-	cont "powerful trainer!"
+	cont "powerful trainer"
+	cont "to avenge those"
+	cont "who couldn't"
+	cont "save themselves!"
 
-	para $52, ", well"
-	line "good luck to you!"
-	cont "Don't sweat it!"
-	cont "Smell ya!"
+	para $52, ", go"
+	line "onward, have"
+	cont "no mercy!"
 	done
