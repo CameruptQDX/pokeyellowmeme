@@ -9,7 +9,7 @@ _FightingDojoText_5ce8e::
 	line "challenge us?"
 	cont "Expect no mercy!"
 
-	para "Fwaaa!"
+	para "YOOOOOOOOOO!"
 	done
 
 _FightingDojoText_5ce93::
@@ -39,6 +39,10 @@ _FightingDojoText_5ce9d::
 
 	para "Stay and train at"
 	line "Karate with us!"
+	
+	para "Sorry I didn't"
+	line "mean Ho like"
+	cont "that."
 	done
 
 _FightingDojoBattleText1::
@@ -52,11 +56,11 @@ _FightingDojoEndBattleText1::
 	prompt
 
 _FightingDojoAfterBattleText1::
-	text "You wait 'til you"
-	line "see our Master!"
-
-	para "I'm a small fry"
-	line "compared to him!"
+	text "Foot fetish?"
+	line "No! It's just"
+	cont "disrespectful"
+	cont "to wear shoes"
+	cont "in a dojo!"
 	done
 
 _FightingDojoBattleText2::
@@ -88,9 +92,9 @@ _FightingDojoEndBattleText3::
 	prompt
 
 _FightingDojoAfterBattleText3::
-	text "The only thing"
-	line "that frightens us"
-	cont "is psychic power!"
+	text "Ok I admit"
+	line "I have stubby"
+	cont "little fingers."
 	done
 
 _FightingDojoBattleText4::
@@ -107,20 +111,22 @@ _FightingDojoEndBattleText4::
 	prompt
 
 _FightingDojoAfterBattleText4::
-	text "The prime fighters"
-	line "across the land"
-	cont "train here."
+	text "I'm so mad I'm"
+	line "going to go"
+	cont "punch a rock"
+	cont "for the next 4"
+	cont "hours straight!"
 	done
 
 _WantHitmonleeText::
 	text "You want the"
-	line "hard-kicking"
+	line "dick-kicking"
 	cont "HITMONLEE?"
 	done
 
 _WantHitmonchanText::
 	text "You want the"
-	line "piston-punching"
+	line "poenis-punching"
 	cont "HITMONCHAN?"
 	done
 

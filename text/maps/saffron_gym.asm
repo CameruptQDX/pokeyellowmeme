@@ -96,6 +96,11 @@ _SaffronGymText_5d1e6::
 	para "They get creamed"
 	line "before they can"
 	cont "even aim a punch!"
+	
+	para "Reminds me of my"
+	line "nevermind you"
+	cont "don't need to"
+	cont "know that."
 	done
 
 _SaffronGymText_5d1eb::
@@ -123,15 +128,11 @@ _SaffronGymAfterBattleText1::
 	line "equals, the one"
 	cont "with the stronger"
 	cont "will wins!"
-
-	para "If you wish"
-	line "to beat SABRINA,"
-	cont "focus on winning!"
 	done
 
 _SaffronGymBattleText2::
-	text "Does our unseen"
-	line "power scare you?"
+	text "Psychic #MON"
+	line "fear only bugs!"
 	done
 
 _SaffronGymEndBattleText2::
@@ -141,7 +142,9 @@ _SaffronGymEndBattleText2::
 
 _SaffronGymAfterBattleText2::
 	text "Psychic #MON"
-	line "fear only bugs!"
+	line "fear the dark"
+	cont "and ghosts too."
+	cont "Buncha pansies!"
 	done
 
 _SaffronGymBattleText3::
@@ -149,8 +152,8 @@ _SaffronGymBattleText3::
 	line "the appearance of"
 	cont "their trainers."
 
-	para "Your #MON must"
-	line "be tough, then!"
+	para "You must be"
+	line "a bit blobby!"
 	done
 
 _SaffronGymEndBattleText3::
@@ -159,9 +162,9 @@ _SaffronGymEndBattleText3::
 	prompt
 
 _SaffronGymAfterBattleText3::
-	text "I must teach"
-	line "better techniques"
-	cont "to my #MON!"
+	text "Don't look"
+	line "at me like"
+	cont "that! I kid!"
 	done
 
 _SaffronGymBattleText4::
@@ -179,6 +182,10 @@ _SaffronGymAfterBattleText4::
 	text "SABRINA just wiped"
 	line "out the KARATE"
 	cont "MASTER next door!"
+	
+	para "I wish she'd"
+	line "do the same"
+	cont "to me!"
 	done
 
 _SaffronGymBattleText5::
@@ -194,52 +201,43 @@ _SaffronGymEndBattleText5::
 
 _SaffronGymAfterBattleText5::
 	text "I knew that this"
-	line "was going to take"
-	cont "place."
+	line "was going to"
+	cont "happen, but I"
+	cont "did it anyway!"
 	done
 
-_SaffronGymBattleText6::
-	text "SABRINA is young,"
-	line "but she's also"
-	cont "our LEADER!"
-
-	para "You won't reach"
-	line "her easily!"
+_SaffronGymBattleText6:: ; psychic class, slowpoke x 2 and slowbro level 33
+	text "Someone once"
+	line "told me I"
+	cont "look like a"
+	cont "BITEKI."
 	done
 
 _SaffronGymEndBattleText6::
-	text "I lost"
-	line "my concentration!"
+	text "What's"
+	line "a BITEKI?"
 	prompt
 
 _SaffronGymAfterBattleText6::
-	text "There used to be"
-	line "2 #MON GYMs in"
-	cont "SAFFRON."
-
-	para "The FIGHTING DOJO"
-	line "next door lost"
-	cont "its GYM status"
-	cont "when we went and"
-	cont "creamed them!"
+	text "I T S A L L"
+	line "I N Y O U R"
+	cont "H E A D"
 	done
 
 _SaffronGymBattleText7::
-	text "SAFFRON #MON"
-	line "GYM is famous for"
-	cont "its psychics!"
-
-	para "You want to see"
-	line "SABRINA!"
-	cont "I can tell!"
+	text "They call"
+	line "me the"
+	cont "KANTONIAN"
+	cont "PSYCHO."
 	done
 
 _SaffronGymEndBattleText7::
-	text "Arrrgh!"
+	text " "
+	line "Checked and"
+	cont "wrecked."
 	prompt
 
 _SaffronGymAfterBattleText7::
-	text "That's right! I"
-	line "used telepathy to"
-	cont "read your mind!"
+	text "You like"
+	line "HUEY LEWIS?"
 	done
