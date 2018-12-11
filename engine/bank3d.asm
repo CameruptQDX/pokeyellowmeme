@@ -220,7 +220,7 @@ TitleScreen_PlacePikaSpeechBubble:
 TitleScreen_PlacePikachu:
 	coord hl, 4, 8
 	ld de, TitleScreenPikachuTilemap
-	lb bc, 9, 12
+	lb bc, 9, 10
 	call Bank3D_CopyBox
 	coord hl, 16, 10
 	ld [hl], $96
@@ -287,16 +287,16 @@ TitleScreenPikaBubbleTilemap:
 	db $6d, $5e, $5f, $60, $61, $62, $63
 
 TitleScreenPikachuTilemap:
-; 12x9 (xy)
-	db $80, $81, $82, $83, $00, $00, $00, $00, $84, $85, $86, $87
-	db $88, $89, $8a, $8b, $8c, $8d, $8d, $8e, $8f, $8a, $90, $91
-	db $00, $92, $93, $8a, $8a, $8a, $8a, $8a, $8a, $94, $95, $00
-	db $00, $00, $97, $8a, $8a, $98, $99, $8a, $8a, $9a, $9b, $9c
-	db $00, $00, $9e, $9f, $a0, $a1, $a2, $a3, $a4, $a5, $a6, $8a
-	db $00, $a8, $a9, $aa, $8a, $ab, $ac, $8a, $ad, $ae, $af, $b0
-	db $00, $b2, $b3, $b4, $8a, $8a, $8a, $8a, $b5, $b6, $b7, $b8
-	db $00, $b9, $ba, $8a, $8a, $8a, $8a, $8a, $8a, $bb, $bc, $00
-	db $00, $00, $bd, $8a, $8a, $8a, $8a, $8a, $8a, $be, $bf, $00
+; 10x9 (xy)
+	db $80, $81, $82, $83, $00, $00, $00, $00, $84, $85
+	db $88, $89, $8a, $8b, $8c, $8d, $8d, $8e, $8f, $8a
+	db $00, $92, $93, $8a, $8a, $8a, $8a, $8a, $8a, $94
+	db $00, $00, $97, $8a, $8a, $98, $99, $8a, $8a, $9a
+	db $00, $00, $9e, $9f, $a0, $a1, $a2, $a3, $a4, $a5
+	db $00, $a8, $a9, $aa, $8a, $ab, $ac, $8a, $ad, $ae
+	db $00, $b2, $b3, $b4, $8a, $8a, $8a, $8a, $b5, $b6
+	db $00, $b9, $ba, $8a, $8a, $8a, $8a, $8a, $8a, $bb
+	db $00, $00, $bd, $8a, $8a, $8a, $8a, $8a, $8a, $be
 
 PokemonLogoGraphics:	     INCBIN "gfx/pokemon_logo.2bpp"
 PokemonLogoGraphicsEnd:
