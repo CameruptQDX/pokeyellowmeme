@@ -5,18 +5,19 @@ _Route13BattleText2::
 
 _Route13EndBattleText2::
 	text "My"
-	line "bird combo lost?"
+	line "birds were"
+	cont "scrapped?"
 	prompt
 
 _Route13AfterBattleText2::
-	text "My #MON look"
-	line "happy even though"
-	cont "they lost."
+	text "Guess I'll go"
+	line "eat some"
+	cont "scrapple."
 	done
 
 _Route13BattleText3::
 	text "I'm told I'm good"
-	line "for a kid!"
+	line "for a womanlet!"
 	done
 
 _Route13EndBattleText3::
@@ -25,9 +26,9 @@ _Route13EndBattleText3::
 	prompt
 
 _Route13AfterBattleText3::
-	text "I want to become"
-	line "a good trainer."
-	cont "I'll train hard."
+	text "Is height a"
+	line "stat you can"
+	cont "get STATEXP in?"
 	done
 
 _Route13BattleText4::
@@ -41,9 +42,10 @@ _Route13EndBattleText4::
 	prompt
 
 _Route13AfterBattleText4::
-	text "You got those"
-	line "BADGEs from GYM"
-	cont "LEADERs. I know!"
+	text "Alright, you"
+	line "beat me so"
+	cont "you can have my"
+	cont "NPCBADGE!"
 	done
 
 _Route13BattleText5::
@@ -53,14 +55,14 @@ _Route13BattleText5::
 	done
 
 _Route13EndBattleText5::
-	text "Wow!"
-	line "You totally won!"
+	text "..."
+	line "Quaint."
 	prompt
 
 _Route13AfterBattleText5::
-	text "You have to make"
-	line "#MON fight to"
-	cont "toughen them up!"
+	text "I charge a"
+	line "defeat premium,"
+	cont "fork it over."
 	done
 
 _Route13BattleText6::
@@ -74,9 +76,10 @@ _Route13EndBattleText6::
 	prompt
 
 _Route13AfterBattleText6::
-	text "CARBOS boosted"
-	line "the SPEED of my"
-	cont "#MON."
+	text "But should you"
+	line "really drink"
+	cont "something you"
+	cont "found in a cave?"
 	done
 
 _Route13BattleText7::
@@ -90,8 +93,9 @@ _Route13EndBattleText7::
 	prompt
 
 _Route13AfterBattleText7::
-	text "I'm beat. I guess"
-	line "I'll FLY home."
+	text "The wind makes"
+	line "my #MON"
+	cont "faster!"
 	done
 
 _Route13BattleText8::
@@ -108,11 +112,16 @@ _Route13AfterBattleText8::
 	text "I wonder which is"
 	line "stronger, male or"
 	cont "female #MON?"
+	
+	para "Wait do #MON"
+	line "that aren't"
+	cont "NIDORAN have any"
+	cont "genders?"
 	done
 
 _Route13BattleText9::
-	text "Do you want to"
-	line "#MON with me?"
+	text "You wanna"
+	line "tango, flyboy?"
 	done
 
 _Route13EndBattleText9::
@@ -121,10 +130,12 @@ _Route13EndBattleText9::
 	prompt
 
 _Route13AfterBattleText9::
-	text "I don't know"
-	line "anything about"
-	cont "#MON. I just"
-	cont "like cool ones!"
+	text "Maladied by"
+	line "my mile-high"
+	cont "mambo."
+	
+	para "Maladied isn't"
+	line "a word? Darn."
 	done
 
 _Route13BattleText10::
@@ -138,12 +149,15 @@ _Route13EndBattleText10::
 	prompt
 
 _Route13AfterBattleText10::
-	text "Get lost!"
+	text "I wish there"
+	line "was a #MON"
+	cont "that looked like"
+	cont "a literal gear."
 	done
 
 _Route13BattleText11::
 	text "I always go with"
-	line "bird #MON!"
+	line "bird #MON! BAVI!"
 	done
 
 _Route13EndBattleText11::
@@ -152,9 +166,9 @@ _Route13EndBattleText11::
 	prompt
 
 _Route13AfterBattleText11::
-	text "I wish I could"
-	line "fly like PIDGEY"
-	cont "and PIDGEOTTO..."
+	text "Don't listen"
+	line "to anyone that"
+	cont "says BANTI!"
 	done
 
 _Route13Text11::
@@ -162,14 +176,18 @@ _Route13Text11::
 
 	para "Look to the left"
 	line "of that post!"
+	
+	para "No, other left"
 	done
 
 _Route13Text12::
 	text "TRAINER TIPS"
 
-	para "Use SELECT to"
-	line "switch items in"
-	cont "the ITEM window!"
+	para "Use the PC to"
+	line "horde all those"
+	cont "one use key items"
+	cont "you can't throw"
+	cont "away."
 	done
 
 _Route13Text13::

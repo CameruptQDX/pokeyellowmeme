@@ -10,13 +10,13 @@ _Route15EndBattleText1::
 	prompt
 
 _Route15AfterBattleText1::
-	text "You can't change"
-	line "the nickname of"
-	cont "any #MON you"
-	cont "get in a trade."
+	text "Remember, if you"
+	line "get by with WT"
+	cont "MONS, you're a"
+	cont "big scrub!"
 
-	para "Only the Original"
-	line "Trainer can."
+	para "Wait wrong"
+	line "game..."
 	done
 
 _Route15BattleText2::
@@ -33,13 +33,17 @@ _Route15EndBattleText2::
 _Route15AfterBattleText2::
 	text "I'm afraid of"
 	line "BIKERs, they look"
-	cont "so ugly and mean!"
+	cont "dirty but not"
+	cont "in the hot way!"
 	done
 
 _Route15BattleText3::
-	text "When I whistle, I"
+	text "When I call, I"
 	line "can summon bird"
 	cont "#MON!"
+	
+	para "Watch this!"
+	line "SKREEEEEEEEEEE"
 	done
 
 _Route15EndBattleText3::
@@ -48,8 +52,7 @@ _Route15EndBattleText3::
 	prompt
 
 _Route15AfterBattleText3::
-	text "Maybe I'm not cut"
-	line "out for battles."
+	text "SKREEEEEEEEEEE"
 	done
 
 _Route15BattleText4::
@@ -64,10 +67,14 @@ _Route15EndBattleText4::
 	prompt
 
 _Route15AfterBattleText4::
-	text "Did you know moves"
-	line "like EARTHQUAKE"
-	cont "don't have any"
-	cont "effect on birds?"
+	text "Actually it"
+	line "appears my birds"
+	cont "have been eating"
+	cont "out of my coffee"
+	cont "bean stash again."
+	
+	para "That explains"
+	line "the shivering!"
 	done
 
 _Route15BattleText5::
@@ -76,13 +83,13 @@ _Route15BattleText5::
 	done
 
 _Route15EndBattleText5::
-	text "You looked"
-	line "so cute too!"
+	text "CUTE!"
+	line "C U T E!"
 	prompt
 
 _Route15AfterBattleText5::
-	text "I forgive you!"
-	line "I can take it!"
+	text "Pls be my"
+	line "qt3.14 gf!"
 	done
 
 _Route15BattleText6::
@@ -97,9 +104,10 @@ _Route15EndBattleText6::
 	prompt
 
 _Route15AfterBattleText6::
-	text "I just like going"
-	line "home to be with"
-	cont "my #MON!"
+	text "My losing quote"
+	line "is a surmission"
+	cont "of the absolute"
+	cont "state of my life."
 	done
 
 _Route15BattleText7::
@@ -115,8 +123,8 @@ _Route15EndBattleText7::
 _Route15AfterBattleText7::
 	text "You only live"
 	line "once, so I live"
-	cont "as an outlaw!"
-	cont "TEAM ROCKET RULES!"
+	cont "as total scum!"
+	cont "VOTE DEMOCRAT!"
 	done
 
 _Route15BattleText8::
@@ -131,8 +139,10 @@ _Route15EndBattleText8::
 	prompt
 
 _Route15AfterBattleText8::
-	text "I was just joking"
-	line "about the money!"
+	text "Whatever, I'll"
+	line "just go leech"
+	cont "off welfare"
+	cont "instead!"
 	done
 
 _Route15BattleText9::
@@ -146,8 +156,10 @@ _Route15EndBattleText9::
 	prompt
 
 _Route15AfterBattleText9::
-	text "I trade #MON"
-	line "with my friends!"
+	text "Lets make a"
+	line "trade! My fainted"
+	cont "#MON for your"
+	cont "healthy ones!"
 	done
 
 _Route15BattleText10::
@@ -161,7 +173,7 @@ _Route15EndBattleText10::
 	prompt
 
 _Route15AfterBattleText10::
-	text "I'll go train with"
+	text "I'll go grind with"
 	line "weaker people.@@"
 
 _Route15Text12::

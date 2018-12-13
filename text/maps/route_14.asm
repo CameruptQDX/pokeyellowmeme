@@ -10,10 +10,10 @@ _Route14EndBattleText1::
 	prompt
 
 _Route14AfterBattleText1::
-	text "You have some HMs,"
-	line "right? #MON"
-	cont "can't ever forget"
-	cont "those moves."
+	text "I feel HM"
+	line "enslaved by the"
+	cont "roles I play"
+	cont "in my life."
 	done
 
 _Route14BattleText2::
@@ -28,15 +28,18 @@ _Route14EndBattleText2::
 	prompt
 
 _Route14AfterBattleText2::
-	text "They need to learn"
-	line "better moves."
+	text "Lets go again"
+	line "after I fluff"
+	cont "my bird!"
 	done
 
 _Route14BattleText3::
 	text "TMs are on sale"
 	line "in CELADON!"
-	cont "But, only a few"
-	cont "people have HMs!"
+	cont "But I have to"
+	cont "keep buying"
+	cont "the same ones"
+	cont "over and over!"
 	done
 
 _Route14EndBattleText3::
@@ -45,10 +48,11 @@ _Route14EndBattleText3::
 	prompt
 
 _Route14AfterBattleText3::
-	text "Teach #MON"
-	line "moves of the same"
-	cont "element type for"
-	cont "more power."
+	text "I heard they're"
+	line "currently trying"
+	cont "to develop the"
+	cont "tech to make"
+	cont "TMs reusable."
 	done
 
 _Route14BattleText4::
@@ -63,8 +67,12 @@ _Route14EndBattleText4::
 	prompt
 
 _Route14AfterBattleText4::
-	text "Bird #MON are"
-	line "my true love!"
+	text "I mean, if you"
+	line "have to TEACH"
+	cont "them how to"
+	cont "FLY, they're"
+	cont "pretty dumb"
+	cont "birds."
 	done
 
 _Route14BattleText5::
@@ -82,6 +90,11 @@ _Route14AfterBattleText5::
 	text "The 3 legendary"
 	line "#MON are all"
 	cont "birds of prey."
+	
+	para "I once saw"
+	line "ARTICUNO"
+	cont "swallow a SEEL"
+	cont "whole!"
 	done
 
 _Route14BattleText6::
@@ -95,9 +108,9 @@ _Route14EndBattleText6::
 	prompt
 
 _Route14AfterBattleText6::
-	text "Winning, losing,"
-	line "it doesn't matter"
-	cont "in the long run!"
+	text "Not really"
+	line "feelin' up to it"
+	cont "now, sorry."
 	done
 
 _Route14BattleText7::
@@ -106,19 +119,22 @@ _Route14BattleText7::
 	cont "go, let's go!"
 	done
 
-_Route14EndBattleText7::
-	text "Arrg!"
-	line "Lost! Get lost!"
+_Route14EndBattleText7:: ; give this guy 3 pikachu and 3 eevee, biker lev 26 koffing koffing grimer koffing
+	text "Let's"
+	line "GOOOOOOOOOOOO"
 	prompt
 
 _Route14AfterBattleText7::
-	text "What, what, what?"
-	line "What do you want?"
+	text "LET'S GOOOOOOOOO"
+	line "TO KANTOOOOOOOOOO"
+	cont "OOOOOOOOOOOOOOOOO"
+	
+	para ":O"
 	done
 
 _Route14BattleText8::
-	text "Perfect! I need to"
-	line "burn some time!"
+	text "Raising #MON"
+	line "is a drag, man."
 	done
 
 _Route14EndBattleText8::
@@ -127,8 +143,8 @@ _Route14EndBattleText8::
 	prompt
 
 _Route14AfterBattleText8::
-	text "Raising #MON"
-	line "is a drag, man."
+	text "Raising JYNX"
+	line "is a drag man!"
 	done
 
 _Route14BattleText9::
@@ -142,12 +158,11 @@ _Route14EndBattleText9::
 	prompt
 
 _Route14AfterBattleText9::
-	text "It's cool you"
-	line "made your #MON"
-	cont "so strong!"
-
-	para "Might is right!"
-	line "And you know it!"
+	text "I had to manuver"
+	line "my motorcycle"
+	cont "through that"
+	cont "awful maze on"
+	cont "ROUTE 13!"
 	done
 
 _Route14BattleText10::
@@ -156,14 +171,15 @@ _Route14BattleText10::
 	done
 
 _Route14EndBattleText10::
-	text "Blown"
-	line "away!"
+	text "LEETS"
+	line "GET RRRREADY TO"
+	cont "RUUUMBLE!"
 	prompt
 
 _Route14AfterBattleText10::
-	text "You know who'd"
-	line "win, you and me"
-	cont "one on one!"
+	text "Whoops, that line"
+	line "is copyrighted"
+	cont "you know!"
 	done
 
 _Route14Text11::

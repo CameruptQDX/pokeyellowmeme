@@ -5,14 +5,13 @@ _Route15GateUpstairsText_4968c::
 	cont "you, even if they"
 	cont "don't fight."
 
-	para "It does, however,"
-	line "reduce the amount"
-	cont "of EXP for each"
-	cont "#MON."
+	para "It's incredibly"
+	line "cheap and almost"
+	cont "practically"
+	cont "cheating to use."
 
-	para "If you don't need"
-	line "it, you should "
-	cont "store it via PC."
+	para "You should"
+	line "store it via PC."
 	done
 
 _Route15GateUpstairsText_49698::
