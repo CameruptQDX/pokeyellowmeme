@@ -4,8 +4,11 @@ _Route16HouseText3::
 
 	para "Please don't tell"
 	line "anyone I'm here."
-	cont "I'll make it up"
-	cont "to you with this!"
+	
+	para "You want a bribe?"
+	line "Kids are awful"
+	cont "these days, but"
+	cont "here."
 	prompt
 
 _ReceivedHM02Text::

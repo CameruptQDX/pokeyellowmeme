@@ -1,21 +1,22 @@
 _Route16BattleText1::
-	text "What do you want?"
+	text "vroom vroom"
 	done
 
 _Route16EndBattleText1::
-	text "Don't you"
-	line "dare laugh!"
+	text "beep"
+	line "beep"
 	prompt
 
 _Route16AfterBattleText1::
-	text "We like just"
-	line "hanging here,"
-	cont "what's it to you?"
+	text "engine studder"
 	done
 
 _Route16BattleText2::
 	text "Nice BIKE!"
 	line "Hand it over!"
+	
+	para "No really I"
+	line "need it!"
 	done
 
 _Route16EndBattleText2::
@@ -24,8 +25,9 @@ _Route16EndBattleText2::
 	prompt
 
 _Route16AfterBattleText2::
-	text "Forget it, who"
-	line "needs your BIKE!"
+	text "I'm out of gas"
+	line "why dont'cha"
+	cont "BRAAAP me up?"
 	done
 
 _Route16BattleText3::
@@ -34,13 +36,13 @@ _Route16BattleText3::
 	done
 
 _Route16EndBattleText3::
-	text "You"
-	line "little rat!"
+	text "Ahh!"
+	line "EL RATO!"
 	prompt
 
 _Route16AfterBattleText3::
-	text "I hate losing!"
-	line "Get away from me!"
+	text "RATO"
+	line "REVENGEANCE!"
 	done
 
 _Route16BattleText4::
@@ -53,10 +55,11 @@ _Route16EndBattleText4::
 	prompt
 
 _Route16AfterBattleText4::
-	text "You can also get"
-	line "to FUCHSIA from"
-	cont "VERMILION using a"
-	cont "coastal road."
+	text "I can KOFFING"
+	line "gas and sell it"
+	cont "to idiots who"
+	cont "think it's"
+	cont "nitrous!"
 	done
 
 _Route16BattleText5::
@@ -70,13 +73,15 @@ _Route16EndBattleText5::
 	prompt
 
 _Route16AfterBattleText5::
-	text "I like my #MON"
-	line "ferocious! They"
-	cont "tear up enemies!"
+	text "I spend more"
+	line "on gas than"
+	cont "food..."
 	done
 
 _Route16BattleText6::
-	text "Sure, I'll go!"
+	text "Hey kid wanna"
+	line "do some MUK"
+	cont "SLUDGE with me?"
 	done
 
 _Route16EndBattleText6::
@@ -85,9 +90,8 @@ _Route16EndBattleText6::
 	prompt
 
 _Route16AfterBattleText6::
-	text "I like harassing"
-	line "people with my"
-	cont "vicious #MON!"
+	text "You'll only get"
+	line "SOME cancer."
 	done
 
 _Route16Text7::
@@ -99,7 +103,7 @@ _Route16Text10::
 	text "SNORLAX woke up!"
 
 	para "It attacked in a"
-	line "grumpy rage!"
+	line "diabetic rage!"
 	done
 
 _Route16Text11::

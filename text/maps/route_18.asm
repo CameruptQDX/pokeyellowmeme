@@ -9,25 +9,28 @@ _Route18EndBattleText1::
 	prompt
 
 _Route18AfterBattleText1::
-	text "I wish I had a"
-	line "BIKE!"
+	text "That's the sound"
+	line "of the millionth"
+	cont "RATTATA I've"
+	cont "encountered."
 	done
 
 _Route18BattleText2::
-	text "Kurukkoo!"
+	text "Kuk! Kuk!"
 	line "How do you like"
 	cont "my bird call?"
 	done
 
 _Route18EndBattleText2::
-	text "I"
-	line "had to bug you!"
+	text "It's"
+	line "also my mating"
+	cont "call."
 	prompt
 
 _Route18AfterBattleText2::
-	text "I also collect sea"
-	line "#MON on"
-	cont "weekends!"
+	text "Or should I say"
+	line "my mate with my"
+	cont "mate call."
 	done
 
 _Route18BattleText3::
@@ -40,9 +43,10 @@ _Route18EndBattleText3::
 	prompt
 
 _Route18AfterBattleText3::
-	text "This is my fave"
-	line "#MON hunting"
-	cont "area!"
+	text "If you're gonna"
+	line "be on my turf"
+	cont "you should"
+	cont "boogie down!"
 	done
 
 _Route18Text4::

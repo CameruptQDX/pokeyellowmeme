@@ -1,6 +1,8 @@
 _Route17BattleText1::
-	text "There's no money"
-	line "in fighting kids!"
+	text "Yeah! Lets"
+	line "have a money"
+	cont "match with our"
+	cont "animals!"
 	done
 
 _Route17EndBattleText1::
@@ -9,29 +11,28 @@ _Route17EndBattleText1::
 	prompt
 
 _Route17AfterBattleText1::
-	text "Good stuff is"
-	line "lying around on"
-	cont "CYCLING ROAD!"
+	text "I love legal"
+	line "cockfighting!"
 	done
 
 _Route17BattleText2::
-	text "What do you want,"
-	line "kiddo?"
-	done
-
-_Route17EndBattleText2::
-	text "Whoo!"
-	prompt
-
-_Route17AfterBattleText2::
 	text "I could belly-"
 	line "bump you outta"
 	cont "here!"
 	done
 
+_Route17EndBattleText2::
+	text "Haha!"
+	prompt
+
+_Route17AfterBattleText2::
+	text "Want a"
+	line "demonstration?"
+	done
+
 _Route17BattleText3::
-	text "You heading to"
-	line "FUCHSIA?"
+	text "I love racing"
+	line "downhill!"
 	done
 
 _Route17EndBattleText3::
@@ -40,8 +41,11 @@ _Route17EndBattleText3::
 	prompt
 
 _Route17AfterBattleText3::
-	text "I love racing"
-	line "downhill!"
+	text "I'm well known"
+	line "and probably"
+	cont "well hated at"
+	cont "FUSCHIA CITY's"
+	cont "hospital!"
 	done
 
 _Route17BattleText4::
@@ -54,13 +58,15 @@ _Route17EndBattleText4::
 	prompt
 
 _Route17AfterBattleText4::
-	text "Are you looking"
-	line "for adventure?"
+	text "Highway Stars is"
+	line "also the name of"
+	cont "my improv. jazz"
+	cont "group."
 	done
 
 _Route17BattleText5::
-	text "Let VOLTORB"
-	line "electrify you!"
+	text "Behold my"
+	line "explosive balls!"
 	done
 
 _Route17EndBattleText5::
@@ -85,9 +91,9 @@ _Route17EndBattleText6::
 	prompt
 
 _Route17AfterBattleText6::
-	text "Maybe some #MON"
-	line "need element"
-	cont "STONEs to evolve."
+	text "Maybe he needs"
+	line "to mature some"
+	cont "more to evolve."
 	done
 
 _Route17BattleText7::
@@ -101,8 +107,8 @@ _Route17EndBattleText7::
 	prompt
 
 _Route17AfterBattleText7::
-	text "I'm sure I lost"
-	line "weight there!"
+	text "I'm going to go"
+	line "weigh myself!"
 	done
 
 _Route17BattleText8::
@@ -115,7 +121,10 @@ _Route17EndBattleText8::
 
 _Route17AfterBattleText8::
 	text "Be ready to fight"
-	line "for your beliefs!"
+	line "for your beliefs,"
+	cont "as long as they're"
+	cont "the same as mine,"
+	cont "that is."
 	done
 
 _Route17BattleText9::
@@ -128,13 +137,15 @@ _Route17EndBattleText9::
 	prompt
 
 _Route17AfterBattleText9::
-	text "The slope makes"
-	line "it hard to steer!"
+	text "I can ride my"
+	line "bike with no"
+	cont "handlebars, no"
+	cont "handlebars..."
 	done
 
 _Route17BattleText10::
-	text "Get lost, kid!"
-	line "I'm bushed!"
+	text "I need to catch"
+	line "a few Zs!"
 	done
 
 _Route17EndBattleText10::
@@ -143,8 +154,8 @@ _Route17EndBattleText10::
 	prompt
 
 _Route17AfterBattleText10::
-	text "I need to catch"
-	line "a few Zs!"
+	text "Shh..."
+	line "BIKER is slepp."
 	done
 
 _Route17Text11::
@@ -160,10 +171,11 @@ _Route17Text12::
 	para "All #MON are"
 	line "unique."
 
-	para "Even #MON of"
-	line "the same type and"
-	cont "level grow at"
-	cont "different rates."
+	para "IVs are an"
+	line "awful mechanic"
+	cont "that encourages"
+	cont "grinding for"
+	cont "eugenics!"
 	done
 
 _Route17Text13::
@@ -173,6 +185,9 @@ _Route17Text13::
 	line "Button to stay in"
 	cont "place while on a"
 	cont "slope."
+	
+	para "Wait this feature"
+	line "actually exists??"
 	done
 
 _Route17Text14::
