@@ -1,19 +1,21 @@
 _SafariZoneRestHouse2Text1::
-	text "Tossing ROCKs at"
-	line "#MON might"
-	cont "make them run,"
-	cont "but they'll be"
-	cont "easier to catch."
+	text "The #MON won't"
+	line "fall for my"
+	cont "masterfully made"
+	cont "BAIT! They always"
+	cont "run away!"
 	done
 
 _SafariZoneRestHouse2Text2::
-	text "Using BAIT will"
-	line "make #MON"
-	cont "easier to catch."
+	text "I once saw a"
+	line "guy throw a ROCK"
+	cont "at TAUROS."
+	cont "I hope he lived."
 	done
 
 _SafariZoneRestHouse2Text3::
-	text "I hiked a lot, but"
-	line "I didn't see any"
-	cont "#MON I wanted."
+	text "Imagine throwing"
+	line "at #MON"
+	cont "without battling"
+	cont "them first."
 	done

@@ -16,12 +16,9 @@ _SafariZoneNorthText5::
 _SafariZoneNorthText6::
 	text "TRAINER TIPS"
 
-	para "#MON hide in"
-	line "tall grass!"
-
-	para "Zigzag through"
-	line "grassy areas to"
-	cont "flush them out."
+	para "Rotate on one"
+	line "tile to not"
+	cont "waste steps!"
 	done
 
 _SafariZoneNorthText7::

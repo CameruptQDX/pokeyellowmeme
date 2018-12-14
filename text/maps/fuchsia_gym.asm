@@ -1,39 +1,39 @@
 _KogaBeforeBattleText::
 	text "KOGA: Fwahahaha!"
 
-	para "A mere child like"
-	line "you dares to"
+	para "A mere fangame"
+	line "player like"
+	cont "you dares to"
 	cont "challenge me?"
 
 	para "Very well, I"
 	line "shall show you"
 	cont "true terror as a"
-	cont "ninja master!"
+	cont "Nintenja master!"
 
 	para "You shall feel"
 	line "the despair of"
-	cont "poison and sleep"
+	cont "cease and desist"
 	cont "techniques!"
 	done
 
 _KogaAfterBattleText::
 	text "Humph!"
-	line "You have proven"
-	cont "your worth!"
+	line "Your favorite"
+	cont "fangame will be"
+	cont "spared today!"
 
 	para "Here! Take the"
 	line "SOULBADGE!"
 	prompt
 
 _KogaExplainToxicText::
-	text "When afflicted by"
-	line "TOXIC, #MON"
-	cont "suffer more and"
-	cont "more as battle"
-	cont "progresses!"
+	text "Now go!"
 
-	para "It will surely"
-	line "terrorize foes!"
+	para "I must pay"
+	line "pennace at my"
+	cont "shrine to"
+	cont "Shigeru Miyamoto."
 	done
 
 _FuchsiaGymText9::
@@ -91,7 +91,7 @@ _FuchsiaGymEndBattleText1::
 _FuchsiaGymAfterBattleText1::
 	text "So, you mix brawn"
 	line "with brains?"
-	cont "Good strategy!"
+	cont "How /fitlit/!"
 	done
 
 _FuchsiaGymBattleText2::
@@ -105,15 +105,18 @@ _FuchsiaGymEndBattleText2::
 	line "for!"
 	prompt
 _FuchsiaGymAfterBattleText2::
-	text "I will keep on"
-	line "training under"
-	cont "KOGA, my ninja"
-	cont "master!"
+	text "KOGA and the"
+	line "KOGA KLAN are"
+	cont "going to rid"
+	cont "the world of"
+	cont "unliscensed"
+	cont "fan works!"
 	done
 _FuchsiaGymBattleText3::
-	text "Let's see you"
-	line "beat my special"
-	cont "techniques!"
+	text "I like poison and"
+	line "sleep techniques,"
+	cont "as they linger"
+	cont "after battle!"
 	done
 
 _FuchsiaGymEndBattleText3::
@@ -122,10 +125,8 @@ _FuchsiaGymEndBattleText3::
 	prompt
 
 _FuchsiaGymAfterBattleText3::
-	text "I like poison and"
-	line "sleep techniques,"
-	cont "as they linger"
-	cont "after battle!"
+	text "I'm a spiteful"
+	line "little bastard!"
 	done
 
 _FuchsiaGymBattleText4::
@@ -133,7 +134,7 @@ _FuchsiaGymBattleText4::
 
 	para "Our invisible"
 	line "walls have you"
-	cont "frustrated?"
+	cont "bamboozled?"
 	done
 
 _FuchsiaGymEndBattleText4::
@@ -141,12 +142,8 @@ _FuchsiaGymEndBattleText4::
 	line "He's got it!"
 	prompt
 _FuchsiaGymAfterBattleText4::
-	text "You impressed me!"
-	line "Here's a hint!"
-
-	para "Look very closely"
-	line "for gaps in the"
-	cont "invisible walls!"
+	text "You're a smart"
+	line "kid, figure it out!"
 	done
 
 _FuchsiaGymBattleText5::
@@ -155,8 +152,8 @@ _FuchsiaGymBattleText5::
 	cont "with master KOGA!"
 
 	para "Ninja have a long"
-	line "history of using"
-	cont "animals!"
+	line "history of suing"
+	cont "Nintendo fans!"
 	done
 
 _FuchsiaGymEndBattleText5::
@@ -171,7 +168,7 @@ _FuchsiaGymAfterBattleText5::
 _FuchsiaGymBattleText6::
 	text "Master KOGA comes"
 	line "from a long line"
-	cont "of ninjas!"
+	cont "of Nintenjas!"
 
 	para "What did you"
 	line "descend from?"
@@ -187,9 +184,11 @@ _FuchsiaGymAfterBattleText6::
 	line "light, there is"
 	cont "shadow!"
 
-	para "Light and shadow!"
-	line "Which do you"
-	cont "choose?"
+	para "(He continues"
+	line "to spew edgy"
+	cont "psuedo-"
+	cont "philosophical"
+	cont "garbage)"
 	done
 
 _FuchsiaGymText_7564e::

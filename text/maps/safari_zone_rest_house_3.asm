@@ -8,11 +8,12 @@ _SafariZoneRestHouse3Text2::
 	text "I caught a"
 	line "CHANSEY!"
 
-	para "That makes this"
-	line "all worthwhile!"
+	para "Now I can become"
+	line "an underpaid"
+	cont "NURSE JOY!"
 	done
 
 _SafariZoneRestHouse3Text3::
-	text "Whew! I'm tired"
+	text "Whew! I'm sweaty"
 	line "from all the fun!"
 	done

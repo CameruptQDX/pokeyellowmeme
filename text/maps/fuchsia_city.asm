@@ -10,9 +10,10 @@ _FuchsiaCityText2::
 	line "zoo in front of"
 	cont "the entrance."
 
-	para "Out back is the"
-	line "SAFARI GAME for"
-	cont "catching #MON."
+	para "Our zoo contains"
+	line "#MON unlike"
+	cont "the jungle that"
+	cont "is SAFFRON CITY."
 	done
 
 _FuchsiaCityText3::
@@ -22,13 +23,20 @@ _FuchsiaCityText3::
 	done
 
 _FuchsiaCityText4::
-	text "That item ball in"
-	line "there is really a"
-	cont "#MON."
+	text "In FOCHUN, there"
+	line "is a #MON"
+	cont "that looks like"
+	cont "a box called"
+	cont "CHOMPEST."
+	
+	para "KANTO has a"
+	line "#MON that looks"
+	cont "like a box too!"
+	cont "CLOYSTER!"
 	done
 
 _FuchsiaCityText5::
-	text "!"
+	text "h"
 	done
 
 _FuchsiaCityText11::

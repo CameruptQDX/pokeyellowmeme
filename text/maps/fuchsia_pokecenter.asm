@@ -3,9 +3,13 @@ _FuchsiaPokecenterText1::
 	line "with just one"
 	cont "strong #MON."
 
-	para "It's tough, but"
-	line "you have to raise"
-	cont "them evenly."
+	para "..."
+	line "Just kidding!"
+	cont "of course you"
+	cont "can, literally"
+	cont "everyone did that"
+	cont "as a kid playing"
+	cont "this game."
 	done
 
 _FuchsiaPokecenterText3::

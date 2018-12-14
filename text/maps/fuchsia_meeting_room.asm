@@ -21,6 +21,6 @@ _FuchsiaMeetingRoomText3::
 	line "but I couldn't"
 	cont "understand him."
 
-	para "I think he's got"
-	line "a speech problem!"
+	para "I think he's"
+	line "going senile!"
 	done

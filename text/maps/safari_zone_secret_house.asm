@@ -32,9 +32,9 @@ _HM03ExplanationText::
 	cont "can use it over"
 	cont "and over!"
 
-	para "You're super lucky"
-	line "for winning this"
-	cont "fabulous prize!"
+	para "Hey, maybe your"
+	line "BLOBBOS can learn"
+	cont "this HM, try it!"
 	done
 
 _HM03NoRoomText::
