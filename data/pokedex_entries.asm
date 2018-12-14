@@ -50,7 +50,7 @@ PokedexEntryPointers:
 	dw GolemDexEntry
 	dw BlobbosDexEntry
 	dw MagmarDexEntry
-	dw MissingNoDexEntry
+	dw JumpeonDexEntry
 	dw ElectabuzzDexEntry
 	dw MagnetonDexEntry
 	dw KoffingDexEntry
@@ -1271,6 +1271,13 @@ BlobbosDexEntry:
 	db 1,4
 	dw 126
 	TX_FAR _BlobbosDexEntry
+	db "@"
+	
+JumpeonDexEntry:
+	db "JUMPING@"
+	db 2,11
+	dw 584
+	TX_FAR _JumpeonDexEntry
 	db "@"
 
 MissingNoDexEntry:

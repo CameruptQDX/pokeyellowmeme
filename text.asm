@@ -2314,6 +2314,11 @@ _FlewUpHighText::
 	text ""
 	line "flew up high!"
 	prompt
+	
+_JumpUpHighText::
+	text ""
+	line "jumped up high!"
+	prompt
 
 _DugAHoleText::
 	text ""

@@ -4977,6 +4977,8 @@ HandleCounterMove:
 	jr z,.counterableType
 	cp a,STEEL
 	jr z,.counterableType
+	cp a,JUMP
+	jr z,.counterableType
 ; if the move wasn't Normal or Fighting type, miss
 	xor a
 	ret
@@ -8311,6 +8313,9 @@ ChargeMoveEffectText:
 	cp FLY
 	ld hl, FlewUpHighText
 	jr z, .gotText
+	cp JUMP_ANIM
+	ld hl, JumpUpHighText
+	jr z, .gotText
 	cp DIG
 	ld hl, DugAHoleText
 .gotText
@@ -8334,6 +8339,10 @@ SkyAttackGlowingText:
 
 FlewUpHighText:
 	TX_FAR _FlewUpHighText
+	db "@"
+	
+JumpUpHighText:
+	TX_FAR _JumpUpHighText
 	db "@"
 
 DugAHoleText:

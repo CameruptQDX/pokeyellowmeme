@@ -1536,3 +1536,13 @@ _BlobbosDexEntry::
 	next "as they train"
 	next "hitting rocks"
 	dex
+	
+_JumpeonDexEntry::
+	text "It evolved to"
+	next "teach TRAINERs"
+	next "how to JUMP"
+
+	page "Despite this"
+	next "nobody can"
+	next "figure out how"
+	dex

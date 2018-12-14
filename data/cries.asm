@@ -51,7 +51,7 @@ CryData:
 	db $12, $E0, $40; Golem
 	db $0E, $BF, $8B; Blobbos
 	db $04, $FF, $30; Magmar
-	db $00, $00, $00; MissingNo.
+	db $1A, $0A, $80; Jumpeon
 	db $06, $8F, $FF; Electabuzz
 	db $1C, $20, $C0; Magneton
 	db $12, $E6, $DD; Koffing

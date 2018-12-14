@@ -51,7 +51,7 @@ const_value = 1
 	const GOLEM        ; $31
 	const BLOBBOS      ; $32
 	const MAGMAR       ; $33
-	const MISSINGNO_34 ; $34
+	const JUMPEON      ; $34
 	const ELECTABUZZ   ; $35
 	const MAGNETON     ; $36
 	const KOFFING      ; $37

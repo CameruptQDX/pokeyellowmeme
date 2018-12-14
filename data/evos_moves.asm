@@ -50,7 +50,7 @@ EvosMovesPointerTable:
 	dw Mon076_EvosMoves
 	dw Mon154_EvosMoves ;BLOBBOS
 	dw Mon126_EvosMoves
-	dw Mon155_EvosMoves ;MissingNo
+	dw Mon155_EvosMoves ;JUMPEON
 	dw Mon125_EvosMoves
 	dw Mon082_EvosMoves
 	dw Mon109_EvosMoves
@@ -1089,10 +1089,20 @@ Mon126_EvosMoves:
 	db 0
 
 Mon155_EvosMoves:
-;MISSINGNO
+;JUMPEON
 ;Evolutions
 	db 0
 ;Learnset
+	db 5,SAND_ATTACK
+	db 9,QUICK_ATTACK
+	db 13,BITE
+	db 17,SWIFT
+	db 21,DIG
+	db 25,JUMP_KICK
+	db 29,MIRROR_COAT
+	db 33,JUMP_M
+	db 50,SWORDS_DANCE
+	db 54,HI_JUMP_KICK
 	db 0
 
 Mon125_EvosMoves:
@@ -1820,6 +1830,7 @@ Mon133_EvosMoves:
 	db EV_ITEM,FIRE_STONE,1,FLAREON
 	db EV_ITEM,THUNDER_STONE,1,JOLTEON
 	db EV_ITEM,WATER_STONE,1,VAPOREON
+	db EV_ITEM,JUMP_STONE,1,JUMPEON
 	db 0
 Mon133_EvosEnd:
 ;Learnset

@@ -201,6 +201,7 @@ AttackAnimationPointers:
 	dw HidePicAnim
 	dw ThrowRockAnim
 	dw ThrowBaitAnim
+	dw JumpAnim
 
 ; each animation is a list of subanimations and special effects
 ; if first byte < $56
@@ -1253,6 +1254,11 @@ ThrowRockAnim:
 
 ThrowBaitAnim:
 	db $03,$8B,$54
+	db $FF
+	
+JumpAnim:
+	db $46,$12,$04
+	db SE_SHOW_MON_PIC, $FF
 	db $FF
 
 SubanimationPointers:

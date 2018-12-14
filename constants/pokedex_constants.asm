@@ -154,5 +154,6 @@ const_value = 1
 	const DEX_MELTAN     ; 152
 	const DEX_MELMETAL   ; 153
 	const DEX_BLOBBOS    ; 154
+	const DEX_JUMPEON    ; 155
 
-NUM_POKEMON    EQU 154
+NUM_POKEMON    EQU 155

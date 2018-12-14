@@ -208,8 +208,9 @@ const_value = 1
 	const PKMN_SHOCK  ; ce
 	const EAT_SOUP   ; cf
 	const OW_THE_EDGE ; d0
+	const JUMP_M ; d1
 	
-NUM_ATTACKS EQU const_value
+NUM_ATTACKS EQU const_value + -1
 const_value = STRUGGLE + 1
 
 	; Moves do double duty as animation identifiers.
@@ -251,3 +252,4 @@ const_value = STRUGGLE + 1
 	const HIDEPIC_ANIM ; monster disappears
 	const ROCK_ANIM ; throw rock
 	const BAIT_ANIM ; throw bait
+	const JUMP_ANIM ; Jump move

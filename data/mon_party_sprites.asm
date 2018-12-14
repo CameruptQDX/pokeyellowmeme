@@ -87,3 +87,4 @@ MonPartyData:
 	dn SPRITE_SNAKE, SPRITE_MON                        ;Dragonite/Mewtwo
 	dn SPRITE_MON, SPRITE_BALL_M                       ;Mew/Meltan
 	dn SPRITE_BALL_M, SPRITE_PIKACHU_FAMILY            ;Melmetal/Blobbos
+	dn SPRITE_QUADRUPED,0                              ;Jumpeon/padding

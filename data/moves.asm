@@ -219,4 +219,5 @@ MoveEnd:
 	move FLASH,      PARALYZE_SIDE_EFFECT2,      120, ELECTRIC,  100, 5 ; PKMN shock
 	move RECOVER,      HEAL_EFFECT,                  0, DARK,   100, 20 ; eat soup
 	move DOUBLE_EDGE,  RECOIL_EFFECT,              100, DARK,   100, 15 ; ow the edge
+	move JUMP_ANIM,          FLY_EFFECT,                  95, JUMP,    100, 15 ; jump
 	

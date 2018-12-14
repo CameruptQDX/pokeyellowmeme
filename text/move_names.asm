@@ -203,6 +203,8 @@ MoveNames::
 	db "SPECCY SPITE@"
 	db "D. IRON BASH@"
 	db "OBAMAFLARE@"
+	db "MIRROR COAT@"
 	db "PKMN SHOCK@"
 	db "EAT SOUP@"
 	db "OW THE EDGE@"
+	db "JUMP@"

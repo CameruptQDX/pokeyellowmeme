@@ -1211,6 +1211,7 @@ JugglerPic:       INCBIN "pic/trainer/juggler.pic"
 TamerPic:         INCBIN "pic/trainer/tamer.pic"
 BirdKeeperPic:    INCBIN "pic/trainer/birdkeeper.pic"
 BlackbeltPic:     INCBIN "pic/trainer/blackbelt.pic"
+Rival2Pic: 
 Rival1Pic:        INCBIN "pic/ytrainer/rival1.pic"
 ProfOakPic:       INCBIN "pic/trainer/prof.oak.pic"
 ChiefPic:
@@ -1227,8 +1228,7 @@ ErikaPic:         INCBIN "pic/ytrainer/erika.pic"
 KogaPic:          INCBIN "pic/trainer/koga.pic"
 BlainePic:        INCBIN "pic/trainer/blaine.pic"
 SabrinaPic:       INCBIN "pic/trainer/sabrina.pic"
-GentlemanPic:     INCBIN "pic/trainer/gentleman.pic"
-Rival2Pic:        
+GentlemanPic:     INCBIN "pic/trainer/gentleman.pic"       
 Rival3Pic:        INCBIN "pic/ytrainer/rival3.pic"
 LoreleiPic:       INCBIN "pic/trainer/lorelei.pic"
 ChannelerPic:     INCBIN "pic/trainer/channeler.pic"
@@ -2135,6 +2135,8 @@ MelmetalPicBack:          INCBIN "pic/monback/melmetalb.pic"
 BlobbosPicFront:         INCBIN "pic/ymon/blobbos.pic"
 BlobbosPicBack:          INCBIN "pic/monback/blobbosb.pic"
 DeadlySprite:         INCBIN "gfx/sprites/deadly.2bpp"
+JumpeonPicFront:	INCBIN "pic/ymon/jumpeon.pic"
+JumpeonPicBack:	INCBIN "pic/monback/jumpeonb.pic"
 INCLUDE "engine/evos_moves.asm"
 
 SECTION "bank3C", ROMX

@@ -2346,8 +2346,10 @@ wMonHGrowthRate:: ; d0ca
 wMonHLearnset:: ; d0cb
 ; bit field
 	flag_array 50 + 5
-	ds 1
 
+wMonSpritesBank:: ; d0d3
+	ds 1
+	
 wSavedTilesetType:: ; d0d3
 ; saved at the start of a battle and then written back at the end of the battle
 	ds 1
@@ -2595,13 +2597,12 @@ wPartyDataEnd::
 
 wMainDataStart::
 
-wPokedexOwned:: ; d2f5
-	flag_array NUM_POKEMON
+wPokedexOwned:: ; d2f7
+    flag_array NUM_POKEMON
 wPokedexOwnedEnd::
 
-wPokedexSeen:: ; d309
-	flag_array NUM_POKEMON
-wPokedexSeenEnd::
+    flag_array 2 * 151 - NUM_POKEMON
+wPokedexSeenEndOld::
 
 
 wNumBagItems:: ; d31c
@@ -2832,6 +2833,13 @@ wDestinationWarpID:: ; d42e
 ; if $ff, the player's coordinates are not updated when entering the map
 	ds 1
 
+wPokedexSeen::
+    flag_array NUM_POKEMON
+wPokedexSeenEnd::
+
+
+    ds 128 - (wPokedexSeenEnd - wPokedexSeen)
+	
 wPikachuOverworldStateFlags:: ds 1 ; d42f
 wPikachuSpawnState:: ds 1 ; d430
 wd432:: ds 1 ; d431
