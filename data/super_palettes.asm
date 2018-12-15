@@ -96,10 +96,10 @@ SuperPalettes:
 	RGB  3,  2,  2
 
 	; PAL_MEWMON
-	RGB 31, 31, 30
-	RGB 31, 30, 22
-	RGB 27, 16, 16
-	RGB  6,  6,  6
+	RGB 31,31,30 
+	RGB 30,22,17
+	RGB 16,14,19
+	RGB 6,6,6
 
 	; PAL_BLUEMON
 	RGB 31, 31, 30
@@ -221,16 +221,16 @@ SuperPalettes:
 	RGB 20, 20, 11
 	RGB  6,  6,  6
 
-	; PAL_25
-	RGB 31, 31, 30
-	RGB 31, 30, 22
-	RGB 23, 27, 31
-	RGB  6,  6,  6
+	; PAL_25 Intro Sprite Colors
+	RGB 31,29,31 
+	RGB 30,22,17
+	RGB 16,14,19
+	RGB 6,6,6
 
-	; PAL_26
+	; PAL_26 Blobbos portraits
 	RGB 31, 31, 30
-	RGB 28, 23,  9
-	RGB 18, 14, 10
+	RGB 21, 22, 31
+	RGB  9, 10, 20
 	RGB  6,  6,  6
 
 	; PAL_27
@@ -337,10 +337,10 @@ GBCBasePalettes:
 	RGB  1,  1,  1
 
 	; PAL_MEWMON
-	RGB 31, 31, 31
-	RGB 31, 31,  0
-	RGB 31,  1,  1
-	RGB  3,  3,  3
+	RGB 31,31,31 
+	RGB 30,22,17
+	RGB 16,14,19
+	RGB 3,3,3
 
 	; PAL_BLUEMON
 	RGB 31, 31, 31
@@ -463,15 +463,15 @@ GBCBasePalettes:
 	RGB  3,  3,  3
 
 	; PAL_25
-	RGB 31, 31, 31
-	RGB 31, 31,  0
-	RGB 11, 23, 31
-	RGB  3,  3,  3
+	RGB 31,31,31 
+	RGB 30,22,17
+	RGB 16,14,19
+	RGB 3,3,3
 
 	; PAL_26
 	RGB 31, 31, 31
-	RGB 31, 18,  0
-	RGB 19,  7,  1
+	RGB 16, 18, 31
+	RGB  0,  1, 25
 	RGB  3,  3,  3
 
 	; PAL_27
