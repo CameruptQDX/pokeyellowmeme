@@ -2955,7 +2955,7 @@ _ItemUseBallText02::
 	prompt
 
 _ItemUseBallText03::
-	text "Aww! It appeared"
+	text "Fug! It appeared"
 	line "to be caught! "
 	prompt
 
@@ -3361,6 +3361,66 @@ _AfterTrade3Text::
 	line "doing great!"
 	done
 
+_ObomaWannaTradeText::
+	text "So <PLAYER> we"
+	line "meet again..."
+	
+	para "How's that little"
+	line "#DEX project"
+	cont "of yours hm?"
+	
+	para "Caught em' all?"
+	
+	para "Well I know"
+	line "There's one that"
+	cont "you just can't"
+	cont "seem to find."
+	
+	para "@"
+	TX_RAM wInGameTradeReceiveMonName
+	
+	para "I can give you"
+	line "MEW... If you"
+	cont "return my son"
+	cont "@"
+	TX_RAM wInGameTradeGiveMonName
+	cont "to me..."
+	
+	para "Shall we..."
+	line "come to a"
+	cont "trade agreement?"
+	done
+	
+
+_ObomaNoTradeText::
+	text "Well..."
+	line "I'll be around."
+	done
+
+_ObomaWrongMonText::
+	text "Come on, be"
+	line "serious now."
+	done
+
+_ObomaThanksText::
+	text "Hahaha..."
+	line "You're a fine"
+	cont "partner, kid."
+	
+	para "Me and my son"
+	line "will give you"
+	cont "a special thanks"
+	cont "when we"
+	
+	para "E R A S E"
+	line "I T  A L L"
+	done
+
+_ObomaAfterText::
+	text "Y E S W E C A N"
+	done
+	
+	
 _NothingToCutText::
 	text "There isn't"
 	line "anything to CUT!"

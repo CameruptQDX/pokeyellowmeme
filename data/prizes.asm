@@ -11,7 +11,7 @@ PrizeDifferentMenuPtrs:
 PrizeMenuMon1Entries:
 	db ABRA
 	db VULPIX
-	db WIGGLYTUFF
+	db CLEFAIRY
 	db "@"
 
 PrizeMenuMon1Cost:

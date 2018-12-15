@@ -230,8 +230,6 @@ InGameTrade_CheckForTradeEvo:
 	jr z,.tradeEvo
 	cp GRAVELER
 	jr z,.tradeEvo
-	cp MACHOKE
-	jr z,.tradeEvo
 	cp HAUNTER
 	jr z,.tradeEvo
 	ret
@@ -257,6 +255,7 @@ InGameTradeTextPointers:
 	dw TradeTextPointers1
 	dw TradeTextPointers2
 	dw TradeTextPointers3
+	dw TradeTextPointers4
 
 TradeTextPointers1:
 	dw WannaTrade1Text
@@ -278,6 +277,13 @@ TradeTextPointers3:
 	dw WrongMon3Text
 	dw Thanks3Text
 	dw AfterTrade3Text
+	
+TradeTextPointers4:
+	dw ObomaWannaTradeText
+	dw ObomaNoTradeText
+	dw ObomaWrongMonText
+	dw ObomaThanksText
+	dw ObomaAfterText
 
 ConnectCableText:
 	TX_FAR _ConnectCableText
@@ -345,4 +351,25 @@ Thanks3Text:
 
 AfterTrade3Text:
 	TX_FAR _AfterTrade3Text
+	db "@"
+	
+;oboma
+ObomaWannaTradeText:
+	TX_FAR _ObomaWannaTradeText
+	db "@"
+
+ObomaNoTradeText:
+	TX_FAR _ObomaNoTradeText
+	db "@"
+
+ObomaWrongMonText:
+	TX_FAR _ObomaWrongMonText
+	db "@"
+
+ObomaThanksText:
+	TX_FAR _ObomaThanksText
+	db "@"
+
+ObomaAfterText:
+	TX_FAR _ObomaAfterText
 	db "@"
