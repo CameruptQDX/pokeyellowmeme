@@ -7,10 +7,11 @@ FuchsiaHouse1Object:
 
 	db $0 ; signs
 
-	db $3 ; objects
+	db $4 ; objects
 	object SPRITE_MOM_GEISHA, $2, $3, STAY, RIGHT, $1 ; person
 	object SPRITE_GAMBLER, $7, $2, STAY, UP, $2 ; person
 	object SPRITE_BUG_CATCHER, $5, $5, STAY, NONE, $3 ; person
+	object SPRITE_OAK_AIDE, $4, $1, STAY, NONE, $4 ; new trade
 
 	; warp-to
 	EVENT_DISP FUCHSIA_HOUSE_1_WIDTH, $7, $2

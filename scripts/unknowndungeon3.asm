@@ -18,6 +18,7 @@ UnknownDungeon3TextPointers:
 	dw PickUpItemText
 	dw PickUpItemText
 	dw PickUpItemText
+	dw ObomaTrade
 
 UnknownDungeon3TrainerHeaders:
 MewtwoTrainerHeader:
@@ -43,4 +44,11 @@ MewtwoBattleText:
 	ld a, MEWTWO
 	call PlayCry
 	call WaitForSoundToFinish
+	jp TextScriptEnd
+	
+ObomaTrade:
+	TX_ASM
+	ld a, $4
+	ld [wWhichTrade], a
+	predef DoInGameTradeDialogue
 	jp TextScriptEnd

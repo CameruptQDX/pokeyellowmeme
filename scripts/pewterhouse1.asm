@@ -6,6 +6,7 @@ PewterHouse1TextPointers:
 	dw PewterHouse1Text1
 	dw PewterHouse1Text2
 	dw PewterHouse1Text3
+	dw PewterHouse1Text4
 
 PewterHouse1Text1:
 	TX_FAR _PewterHouse1Text1
@@ -22,3 +23,10 @@ PewterHouse1Text2:
 PewterHouse1Text3:
 	TX_FAR _PewterHouse1Text3
 	db "@"
+	
+PewterHouse1Text4:
+	TX_ASM
+	ld a, $2
+	ld [wWhichTrade], a
+	predef DoInGameTradeDialogue
+	jp TextScriptEnd
