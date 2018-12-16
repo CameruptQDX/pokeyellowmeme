@@ -1,38 +1,38 @@
 _WardenGibberishText1::
-	text "WARDEN: Hif fuff"
-	line "hefifoo!"
+	text "WARDEN: Ugh you"
+	line "ZOOMER!"
 
-	para "Ha lof ha feef ee"
-	line "hafahi ho. Heff"
-	cont "hee fwee!"
+	para "Old thing good!"
+	line "New thing bad!"
+	cont "dumb kids!"
 	done
 
 _WardenGibberishText2::
-	text "Ah howhee ho hoo!"
-	line "Eef ee hafahi ho!"
+	text "Kids these days!"
+	line "Why I aughta!"
 	done
 
 _WardenGibberishText3::
-	text "Ha? He ohay heh"
-	line "ha hoo ee haheh!"
+	text "Eh? No get off"
+	line "my lawn ZOOMER!"
 	done
 
 _WardenTeethText1::
 	text $52, " gave the"
-	line "GOLD TEETH to the"
+	line "SIPPIN CAN to the"
 	cont "WARDEN!@@"
 
 _WardenTeethText2::
 	db $0
-	para "The WARDEN popped"
-	line "in his teeth!"
+	para "The WARDEN sipped"
+	line "from his can!"
 	prompt
 
 _WardenThankYouText::
-	text "WARDEN: Thanks,"
-	line "kid! No one could"
-	cont "understand a word"
-	cont "that I said."
+	text "WARDEN: *sips*"
+	line "Heh, Thanks kid"
+	cont "I was feeling a"
+	cont "bit KRABBY."
 
 	para "I couldn't work"
 	line "that way."

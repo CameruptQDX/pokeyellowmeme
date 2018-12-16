@@ -62,7 +62,7 @@ ItemNames:
 	db "SODA POP@"
 	db "LEMONADE@"
 	db "S.S.TICKET@"
-	db "GOLD TEETH@"
+	db "SIPPIN CAN@"
 	db "X ATTACK@"
 	db "X DEFEND@"
 	db "X SPEED@"

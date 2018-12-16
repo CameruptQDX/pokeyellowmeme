@@ -7,7 +7,7 @@ _SafariZoneWestText6::
 
 	para "Please find the"
 	line "SAFARI WARDEN's"
-	cont "lost GOLD TEETH."
+	cont "lost SIPPIN CAN."
 	cont "They're around"
 	cont "here somewhere."
 
