@@ -13,7 +13,7 @@ BeachHouseObjects:
 
 	db 2 ; objects
 	object SPRITE_FISHER, 2, 3, STAY, DOWN, 1 ; surfin' dude
-	object $3d, 5, 3, WALK, $01, 2 ; pikachu
+	object SPRITE_CLEFAIRY, 5, 3, WALK, $01, 2 ; pikachu
 
 	; warp-to
 	EVENT_DISP BEACH_HOUSE_WIDTH,7,2
