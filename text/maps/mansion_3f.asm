@@ -1,6 +1,6 @@
 _Mansion3BattleText1::
-	text "This place is"
-	line "like, huge!"
+	text "For a MANSION it"
+	line "sure is a dump!"
 	done
 
 _Mansion3EndBattleText1::
@@ -23,15 +23,16 @@ _Mansion3EndBattleText2::
 	prompt
 
 _Mansion3AfterBattleText2::
-	text "So, you're stuck?"
-	line "Try jumping off"
-	cont "over there!"
+	text "My mentor was"
+	line "once alive, too."
 	done
 
 _Mansion3Text5::
-	text "Diary: Feb. 6"
+	text "Diary: Aug. 4"
 	line "MEW gave birth."
 
-	para "We named the"
-	line "newborn MEWTWO."
+	para "Its more horrible"
+	line "than anything we"
+	cont "could have"
+	cont "imagined."
 	done

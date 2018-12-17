@@ -8,12 +8,20 @@ _CinnabarIslandText1::
 	line "BLAINE is an odd"
 	cont "man who has lived"
 	cont "here for decades."
+	
+	para "Maybe when he"
+	line "croaks, the"
+	cont "scientists will"
+	cont "revive him from"
+	cont "his bones like a"
+	cont "fossil #MON."
 	done
 
 _CinnabarIslandText2::
-	text "Scientists conduct"
-	line "experiments in"
-	cont "the burned-out"
+	text "I heard an awful"
+	line "dark spawn was"
+	cont "born in that"
+	cont "old burned-out"
 	cont "building."
 	done
 

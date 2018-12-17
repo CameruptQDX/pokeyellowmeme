@@ -2,10 +2,8 @@ _CinnabarPokecenterText2::
 	text "You can cancel"
 	line "evolution."
 
-	para "When a #MON is"
-	line "evolving, you can"
-	cont "stop it and leave"
-	cont "it the way it is."
+	para "Real men use"
+	line "unevolved mons!"
 	done
 
 _CinnabarPokecenterText3::
@@ -16,6 +14,7 @@ _CinnabarPokecenterText3::
 	line "in trades grow"
 	cont "very quickly."
 
-	para "I think it's"
-	line "worth a try!"
+	para "Trading is hard"
+	line "on an emulator"
+	cont "though..."
 	done

@@ -6,7 +6,7 @@ _BlaineBattleText::
 	cont "CINNABAR GYM!"
 
 	para "My fiery #MON"
-	line "will incinerate"
+	line "will burninate"
 	cont "all challengers!"
 
 	para "Hah! You better"
@@ -25,8 +25,8 @@ _BlaineFireBlastText::
 	line "ultimate fire"
 	cont "technique!"
 
-	para "Don't waste it on"
-	line "water #MON!"
+	para "Don't use it to"
+	line "commit arson!"
 	done
 
 _BlaineBadgeText::
@@ -55,9 +55,9 @@ _TM38ExplanationText::
 	para "Teach it to fire-"
 	line "type #MON!"
 
-	para "CHARMELEON or"
-	line "PONYTA would be"
-	cont "good bets!"
+	para "I suggest FLAREON"
+	line "That thing has"
+	cont "no moves!"
 	done
 
 _TM38NoRoomText::
@@ -66,9 +66,12 @@ _TM38NoRoomText::
 	done
 
 _CinnabarGymText_7595f::
-	text "Do you know how"
-	line "hot #MON fire"
-	cont "breath can get?"
+	text "Fire, or to be"
+	line "more precise,"
+	cont "combustion..."
+
+	para "Blah, blah, blah,"
+	line "blah..."
 	done
 
 _CinnabarGymText_75964::
@@ -77,12 +80,11 @@ _CinnabarGymText_75964::
 	prompt
 
 _CinnabarGymText_75969::
-	text "Fire, or to be"
-	line "more precise,"
-	cont "combustion..."
-
-	para "Blah, blah, blah,"
-	line "blah..."
+	text "And that's why"
+	line "jet fuel is"
+	cont "DEFINITIVELY unable"
+	cont "to melt reinforced"
+	cont "steel beams."
 	done
 
 _CinnabarGymText_75994::
@@ -98,8 +100,8 @@ _CinnabarGymText_75999::
 
 _CinnabarGymText_7599e::
 	text "I can't help"
-	line "stealing other"
-	cont "people's #MON!"
+	line "my trainer class!"
+	cont "Shieeeeeeeet!"
 	done
 
 _CinnabarGymText_759c9::
@@ -116,7 +118,8 @@ _CinnabarGymText_759ce::
 _CinnabarGymText_759d3::
 	text "My theories are"
 	line "too complicated"
-	cont "for you!"
+	cont "for low-elo"
+	cont "shitters."
 	done
 
 _CinnabarGymText_759fe::
@@ -133,6 +136,11 @@ _CinnabarGymText_75a08::
 	text "I wish there was"
 	line "a thief #MON!"
 	cont "I'd use that!"
+	
+	para "..."
+	line "VANDASH? But"
+	cont "those are GRASS"
+	cont "type! Bleh!"
 	done
 
 _CinnabarGymText_75a33::
@@ -156,20 +164,20 @@ _CinnabarGymText_75a3d::
 	done
 
 _CinnabarGymText_75a68::
-	text "I've been to many"
-	line "GYMs, but this is"
-	cont "my favorite!"
+	text "Leg so hot"
+	line "Hot hot leg."
 	done
 
 _CinnabarGymText_75a6d::
-	text "Yowza!"
-	line "Too hot!"
+	text "Leg so"
+	line "hot you can"
+	cont "fry an egg.."
 	prompt
 
 _CinnabarGymText_75a72::
-	text "Us fire #MON"
-	line "fans like PONYTA"
-	cont "and NINETALES!"
+	text "I'm sorry I had"
+	line "to subject you"
+	cont "to any of that."
 	done
 
 _CinnabarGymText_75a9d::
@@ -183,9 +191,12 @@ _CinnabarGymText_75aa2::
 	prompt
 
 _CinnabarGymText_75aa7::
-	text "Water beats fire!"
-	line "But, fire melts"
-	cont "ice #MON!"
+	text "Did you know"
+	line "that people die"
+	cont "every day from"
+	cont "dihydrogen monoxide"
+	cont "exposure? Really"
+	cont "makes U think."
 	done
 
 _CinnabarGymText_75ac2::

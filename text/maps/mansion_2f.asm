@@ -10,9 +10,10 @@ _Mansion2EndBattleText1::
 	prompt
 
 _Mansion2AfterBattleText1::
-	text "Switches open and"
-	line "close alternating"
-	cont "sets of doors!"
+	text "If I had the IQ"
+	line "to solve puzzles"
+	cont "I wouldn't be a"
+	cont "thief!"
 	done
 
 _Mansion2Text3::
@@ -20,16 +21,20 @@ _Mansion2Text3::
 	line "Guyana,"
 	cont "South America"
 
-	para "A new #MON was"
+	para "MEW has been"
 	line "discovered deep"
 	cont "in the jungle."
 	done
 
 _Mansion2Text4::
 	text "Diary: July 10"
-	line "We christened the"
-	cont "newly discovered"
-	cont "#MON, MEW."
+	line "Our team was"
+	cont "attacked by a"
+	cont "strange entity"
+	
+	para "MEW appears to"
+	line "suddenly be"
+	cont "pregnant."
 	done
 
 _Mansion2Text_520c2::

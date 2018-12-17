@@ -9,9 +9,10 @@ _Mansion1EndBattleText2::
 	prompt
 
 _Mansion1AfterBattleText2::
-	text "A key? I don't"
-	line "know what you're"
-	cont "talking about."
+	text "Can't a man"
+	line "cook meth in an"
+	cont "abandoned dump"
+	cont "in peace?"
 	done
 
 _MansionSwitchText::

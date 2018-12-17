@@ -30,7 +30,7 @@ _TM35NoRoomText::
 
 _Lab3Text2::
 	text "EEVEE can evolve"
-	line "into 1 of 3 kinds"
+	line "into 1 of 4 kinds"
 	cont "of #MON."
 	done
 
@@ -40,17 +40,18 @@ _Lab3Text3::
 
 	para "..."
 
-	para "The 3 legendary"
-	line "bird #MON are"
-	cont "ARTICUNO, ZAPDOS"
-	cont "and MOLTRES."
+	para "The anomalous"
+	line "#MON that appeared"
+	cont "off the coast a"
+	cont "year ago has"
+	cont "seemingly vanished."
 
-	para "Their whereabouts"
-	line "are unknown."
+	para "We wiped the old"
+	line "man's memory after"
+	cont "the interrogation."
 
-	para "We plan to explore"
-	line "the cavern close"
-	cont "to CERULEAN."
+	para "Will report back"
+	line "any further info."
 
 	para "From: #MON"
 	line "RESEARCH TEAM"

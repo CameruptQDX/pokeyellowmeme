@@ -8,32 +8,45 @@ _Mansion4EndBattleText1::
 	prompt
 
 _Mansion4AfterBattleText1::
-	text "You can find stuff"
-	line "lying around."
+	text "There's no loot!"
+	line "Just broken glass"
+	cont "and human remains!"
 	done
 
 _Mansion4BattleText2::
-	text "This place is"
-	line "ideal for a lab."
+	text "I HAVE A"
+	line "CONSPIRACY THEORY!"
 	done
 
 _Mansion4EndBattleText2::
-	text "What"
-	line "was that for?"
+	text "Alright,"
+	line "lemme tell ya"
+	cont "about"
+	cont "(((BLASTOISE)))"
 	prompt
 
 _Mansion4AfterBattleText2::
-	text "I like it here!"
-	line "It's conducive to"
-	cont "my studies!"
+	text "the #MON you"
+	line "call BLASTOISE is"
+	cont "actually a big"
+	cont "poser named"
+	cont "CARAVAGGIO!"
+	
+	para "$1D, $00, $80"
+	
+	para "Make this sound"
+	line "and watch it"
+	cont "recoil as its web"
+	cont "of lies unravels!"
 	done
 
 _Mansion4Text7::
-	text "Diary; Sept. 1"
-	line "MEWTWO is far too"
-	cont "powerful."
+	text "Diary; Sept. 11"
+	line "It came back here"
+	cont "with us."
 
-	para "We have failed to"
-	line "curb its vicious"
-	cont "tendencies..."
+	para "The lab is gone."
+	line "I'm the last one"
+	cont "left, god help"
+	cont "us all."
 	done
