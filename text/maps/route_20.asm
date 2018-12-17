@@ -8,8 +8,9 @@ _Route20EndBattleText1::
 	prompt
 
 _Route20AfterBattleText1::
-	text "I wish I could"
-	line "ride my #MON."
+	text "As deep as a"
+	line "JOHTOer's gene"
+	cont "pool, eh?"
 	done
 
 _Route20BattleText2::
@@ -22,14 +23,18 @@ _Route20EndBattleText2::
 	prompt
 
 _Route20AfterBattleText2::
-	text "There's a huge"
-	line "cavern underneath"
-	cont "this island."
+	text "Well mostly quiet"
+	line "except every once"
+	cont "in a while an"
+	cont "earth-shaking bird"
+	cont "screech comes from"
+	cont "the caves."
 	done
 
 _Route20BattleText3::
-	text "I love floating"
-	line "with the fishes!"
+	text "TEAM ROCKET told"
+	line "me I'd be sleeping"
+	cont "with the fishes!"
 	done
 
 _Route20EndBattleText3::
@@ -37,8 +42,9 @@ _Route20EndBattleText3::
 	prompt
 
 _Route20AfterBattleText3::
-	text "Want to float"
-	line "with me?"
+	text "If they're gone"
+	line "so is my debt"
+	cont "right?"
 	done
 
 _Route20BattleText4::
@@ -52,8 +58,8 @@ _Route20EndBattleText4::
 	prompt
 
 _Route20AfterBattleText4::
-	text "SEAFOAM used to"
-	line "be one island!"
+	text "Nobody goes to a"
+	line "cave on vacation."
 	done
 
 _Route20BattleText5::
@@ -62,13 +68,13 @@ _Route20BattleText5::
 	done
 
 _Route20EndBattleText5::
-	text "Wimpy!"
+	text "(flexing)"
 	prompt
 
 _Route20AfterBattleText5::
-	text "I should've been"
-	line "buffing up my"
-	cont "#MON, not me!"
+	text "I'm an artist,"
+	line "a performance"
+	cont "artist..."
 	done
 
 _Route20BattleText6::
@@ -83,8 +89,8 @@ _Route20EndBattleText6::
 	prompt
 
 _Route20AfterBattleText6::
-	text "Riding a #MON"
-	line "sure looks fun!"
+	text "Get in the water"
+	line "you frickin turkey."
 	done
 
 _Route20BattleText7::
@@ -98,8 +104,9 @@ _Route20EndBattleText7::
 	prompt
 
 _Route20AfterBattleText7::
-	text "My birds can't"
+	text "Now my birds can't"
 	line "FLY me back!"
+	cont "Thanks asshole!"
 	done
 
 _Route20BattleText8::
@@ -136,9 +143,8 @@ _Route20AfterBattleText9::
 	done
 
 _Route20BattleText10::
-	text "CINNABAR, in the"
-	line "west, has a LAB"
-	cont "for #MON."
+	text "CINNABAR is a "
+	line "volcanic island!"
 	done
 
 _Route20EndBattleText10::
@@ -146,8 +152,13 @@ _Route20EndBattleText10::
 	prompt
 
 _Route20AfterBattleText10::
-	text "CINNABAR is a "
-	line "volcanic island!"
+	text "I built my house"
+	line "right near the"
+	cont "volcano!"
+	
+	para "Hope that dosen't"
+	line "backfire in the"
+	cont "near future!"
 	done
 
 _Route20Text12::

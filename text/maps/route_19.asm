@@ -9,13 +9,13 @@ _Route19EndBattleText1::
 	prompt
 
 _Route19AfterBattleText1::
-	text "Thanks, kid! I'm"
-	line "ready for a swim!"
+	text "Now the water is"
+	line "good and warm!"
 	done
 
 _Route19BattleText2::
-	text "Wait! You'll have"
-	line "a heart attack!"
+	text "Ahh! I've gone"
+	line "in balls deep!"
 	done
 
 _Route19EndBattleText2::
@@ -24,8 +24,8 @@ _Route19EndBattleText2::
 	prompt
 
 _Route19AfterBattleText2::
-	text "Watch out for"
-	line "TENTACOOL!"
+	text "Every single"
+	line "time!"
 	done
 
 _Route19BattleText3::
@@ -39,8 +39,8 @@ _Route19EndBattleText3::
 	prompt
 
 _Route19AfterBattleText3::
-	text "I can beat #MON"
-	line "at swimming!"
+	text "Diabetic"
+	line "drop!"
 	done
 
 _Route19BattleText4::
@@ -54,7 +54,9 @@ _Route19EndBattleText4::
 
 _Route19AfterBattleText4::
 	text "I see a couple of"
-	line "islands!"
+	line "islands! Too bad"
+	cont "this game isn't"
+	cont "gen 3!"
 	done
 
 _Route19BattleText5::
@@ -68,8 +70,10 @@ _Route19EndBattleText5::
 	prompt
 
 _Route19AfterBattleText5::
-	text "You have to fish"
-	line "for sea #MON!"
+	text "Last time I"
+	line "went diving for"
+	cont "clams, I got"
+	cont "arrested."
 	done
 
 _Route19BattleText6::
@@ -99,9 +103,10 @@ _Route19EndBattleText7::
 	prompt
 
 _Route19AfterBattleText7::
-	text "It's still a long"
-	line "way to go to"
-	cont "SEAFOAM ISLANDS."
+	text "Can I ride you"
+	line "out to the"
+	cont "SEAFOAM ISLANDS"
+	cont "instead?"
 	done
 
 _Route19BattleText8::
@@ -110,13 +115,14 @@ _Route19BattleText8::
 	done
 
 _Route19EndBattleText8::
-	text "Shocker!"
+	text "At least"
+	line "I'm white!"
 	prompt
 
 _Route19AfterBattleText8::
-	text "My boy friend"
-	line "wanted to swim to"
-	cont "SEAFOAM ISLANDS."
+	text "Maybe a bit"
+	line "too white for"
+	cont "the beach."
 	done
 
 _Route19BattleText9::
@@ -145,9 +151,10 @@ _Route19EndBattleText10::
 	prompt
 
 _Route19AfterBattleText10::
-	text "LAPRAS is so big,"
-	line "it must keep you"
-	cont "dry on water."
+	text "I hope a magic"
+	line "blowfish comes"
+	cont "along and injects"
+	cont "me with vitality."
 	done
 
 _Route19Text11::

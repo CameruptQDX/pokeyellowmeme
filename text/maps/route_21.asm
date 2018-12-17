@@ -9,8 +9,8 @@ _Route21EndBattleText1::
 	prompt
 
 _Route21AfterBattleText1::
-	text "I can't catch"
-	line "anything good!"
+	text "My bait is"
+	line "much too weak."
 	done
 
 _Route21BattleText2::
@@ -24,8 +24,9 @@ _Route21EndBattleText2::
 	prompt
 
 _Route21AfterBattleText2::
-	text "I seem to only"
-	line "catch MAGIKARP!"
+	text "You ever get a"
+	line "fishbone stuck"
+	cont "in your throat?"
 	done
 
 _Route21BattleText3::
@@ -38,13 +39,16 @@ _Route21EndBattleText3::
 	prompt
 
 _Route21AfterBattleText3::
-	text "I like the"
-	line "mountains too!"
+	text "Nothing like"
+	line "swallowing copius"
+	cont "amounts of salt"
+	cont "water!"
 	done
 
 _Route21BattleText4::
-	text "What's wrong with"
-	line "me swimming?"
+	text "I look like what?"
+	line "A studded inner"
+	cont "tube? Get lost!"
 	done
 
 _Route21EndBattleText4::
@@ -53,9 +57,10 @@ _Route21EndBattleText4::
 	prompt
 
 _Route21AfterBattleText4::
-	text "I look like what?"
-	line "A studded inner"
-	cont "tube? Get lost!"
+	text "Skinheads that"
+	line "use WATER types?"
+	cont "More likely than"
+	cont "you'd think."
 	done
 
 _Route21BattleText5::
@@ -71,6 +76,7 @@ _Route21EndBattleText5::
 _Route21AfterBattleText5::
 	text "Where'd you catch"
 	line "your #MON?"
+	cont "Weenie hut jr.?"
 	done
 
 _Route21BattleText6::
