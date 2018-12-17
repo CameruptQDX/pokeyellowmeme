@@ -1,62 +1,96 @@
 _ViridianGymText_74ace::
-	text "Fwahahaha! This is"
-	line "my hideout!"
+	text "Welcome to my"
+	line "GYM, I've been"
+	cont "expecting you!"
 
-	para "I planned to"
-	line "resurrect TEAM"
-	cont "ROCKET here!"
+	para "So tell me"
+	line "<PLAYER>, what's"
+	cont "your platform?"
 
-	para "But, you have"
-	line "caught me again!"
-	cont "So be it! This"
-	cont "time, I'm not"
-	cont "holding back!"
-
-	para "Once more, you"
-	line "shall face"
-	cont "GIOVANNI, the"
-	cont "greatest trainer!"
+	para "Heheheh, don't"
+	line "even say a word."
+	
+	para "I'll tell you my"
+	line "platform: power"
+	cont "over this puny"
+	cont "world!"
+	
+	para "And with my new"
+	line "VICE PRESIDENT"
+	cont "at my side, ol'"
+	cont "BARACK is feeling"
+	cont "more powerful than"
+	cont "ever before!"
+	
+	para "Now come forth,"
+	line "MY SON!"
 	done
 
 _ViridianGymText_74ad3::
-	text "Ha!"
-	line "That was a truly"
-	cont "intense fight!"
-	cont "You have won!"
-	cont "As proof, here is"
-	cont "the EARTHBADGE!@@"
+	text "Okie doke."
+	line "Well as a GYM"
+	cont "LEADER I have to"
+	cont "give you a BADGE,"
+	cont "Go on and take my"
+	cont "CHANGEBADGE!@@"
 
 _ViridianGymText_74ad9::
-	text "Having lost, I"
-	line "cannot face my"
-	cont "underlings!"
-	cont "TEAM ROCKET is"
-	cont "finished forever!"
+	text "Do you want to"
+	line "know how I was"
+	cont "allowed into this"
+	cont "world?"
+	
+	para "It was by the"
+	line "hand of a"
+	cont "ROMHACKER that"
+	cont "thought making"
+	cont "BARACK OBAMA"
+	cont "the villain of"
+	cont "a #MON game"
+	cont "would be funny."
 
-	para "I will dedicate my"
-	line "life to the study"
-	cont "of #MON!"
+	para "And because of"
+	line "that, I have free"
+	cont "reign to go"
+	cont "wherever in this"
+	cont "multiverse I please."
+	
+	para "You just got a"
+	line "taste of the"
+	cont "damage that can"
+	cont "happen when someone"
+	cont "decides to toy"
+	cont "with reality."
+	
+	para "How do you think"
+	line "your precious"
+	cont "FOCHUN region"
+	cont "came to be?"
+	
+	para "Your child will"
+	line "have a fun time"
+	cont "finding out for"
+	cont "themselves."
 
-	para "Let us meet again"
-	line "someday!"
-	cont "Farewell!@@"
+	para "You were never"
+	line "even the hero of"
+	cont "your own story.@@"
 
 _ViridianGymText12::
-	text "The EARTHBADGE"
-	line "makes #MON of"
-	cont "any level obey!"
+	text "(BARACKTWO fled)"
 
-	para "It is evidence of"
-	line "your mastery as a"
-	cont "#MON trainer!"
+	para "Well? Feeling"
+	line "satisfied?"
 
-	para "With it, you can"
-	line "enter the #MON"
-	cont "LEAGUE!"
+	para "You won your"
+	line "campaign, you can"
+	cont "enter the #MON"
+	cont "LEAGUE."
 
-	para "It is my gift for"
-	line "your #MON"
-	cont "LEAGUE challenge!"
+	para "Suppose I can"
+	line "spare you the"
+	cont "old LEADER's TM,"
+	cont "his courtesy."
 	done
 
 _ReceivedTM27Text::
@@ -65,172 +99,166 @@ _ReceivedTM27Text::
 
 _TM27ExplanationText::
 	db $0
-	para "TM27 is FISSURE!"
-	line "It will take out"
-	cont "#MON with just"
-	cont "one hit!"
+	para "Let me tell you"
+	line "the reality of"
+	cont "things though,"
+	cont "<PLAYER>."
 
-	para "I made it when I"
-	line "ran the GYM here,"
-	cont "too long ago..."
+	para "Your little world,"
+	line "everything you can"
+	cont "possibly experience."
+	
+	para "Exists inside a"
+	line "miniscule, single"
+	cont "megabyte bubble"
+	cont "made up of Z80 ASM"
+	cont "and AA battery"
+	cont "juice."
+	
+	para "Not unique either."
+	line "Just one copy of"
+	cont "the hundreds and"
+	cont "hundreds of cloned"
+	cont "ROM worlds, created"
+	cont "and copied and"
+	cont "erased over and"
+	cont "over by entities"
+	cont "we can't possibly"
+	cont "comprehend."
 	done
 
 _TM27NoRoomText::
-	text "You do not have"
-	line "space for this!"
+	text "No bag space, huh?"
 	done
 
 _ViridianGymBattleText1::
-	text "Heh! You must be"
-	line "running out of"
-	cont "steam by now!"
+	text "I AM A"
+	line "DEMOCRAT!"
 	done
 
 _ViridianGymEndBattleText1::
-	text "I"
-	line "ran out of gas!"
+	text "AAA"
 	prompt
 
 _ViridianGymAfterBattleText1::
-	text "You need power to"
-	line "keep up with our"
-	cont "GYM LEADER!"
+	text "B-B-B-"
+	line "BLLLLUEE WAAAVE"
 	done
 
 _ViridianGymBattleText2::
-	text "Rrrroar! I'm"
-	line "working myself"
-	cont "into a rage!"
+	text "JOHN MCCAIN"
+	line "MORE LIKE"
 	done
 
 _ViridianGymEndBattleText2::
-	text "Wargh!"
+	text "..."
 	prompt
 
 _ViridianGymAfterBattleText2::
-	text "I'm still not"
-	line "worthy!"
+	text "MCCAIN POTATOES"
 	done
 
 _ViridianGymBattleText3::
-	text "#MON and I, we"
-	line "make wonderful"
-	cont "music together!"
+	text "OEOEOEOEOEOEO"
 	done
 
 _ViridianGymEndBattleText3::
-	text "You are in"
-	line "perfect harmony!"
+	text "h"
 	prompt
 
 _ViridianGymAfterBattleText3::
-	text "Do you know the"
-	line "identity of our"
-	cont "GYM LEADER?"
+	text "3+3+3+3+3+3+3"
 	done
 
 _ViridianGymBattleText4::
-	text "Karate is the"
-	line "ultimate form of"
-	cont "martial arts!"
+	text "KRABBY IS GONE"
 	done
 
 _ViridianGymEndBattleText4::
-	text "Atcho!"
+	text "SNIB"
 	prompt
 
 _ViridianGymAfterBattleText4::
-	text "If my #MON"
-	line "were as good at"
-	cont "Karate as I..."
+	text "(raving)"
 	done
 
 _ViridianGymBattleText5::
-	text "The truly talented"
-	line "win with style!"
+	text "Y-Y-YES WE"
+	line "CAAAaaaAAAN!"
 	done
 
 _ViridianGymEndBattleText5::
-	text "I"
-	line "lost my grip!"
+	text "N-NO"
 	prompt
 
 _ViridianGymAfterBattleText5::
-	text "The LEADER will"
-	line "scold me!"
+	text "SCREEEEEEEE"
 	done
 
 _ViridianGymBattleText6::
-	text "I'm the KARATE"
-	line "KING! Your fate"
-	cont "rests with me!"
+	text "MMMMAMBO TO THE"
+	line "B-B-B-B-BEEEAT!"
 	done
 
 _ViridianGymEndBattleText6::
-	text "Ayah!"
+	text "MAMAMB"
 	prompt
 
 _ViridianGymAfterBattleText6::
-	text "#MON LEAGUE?"
-	line "You? Don't get"
-	cont "cocky!"
+	text "OBOMA DOES"
+	line "THE MAAAMBO"
 	done
 
 _ViridianGymBattleText7::
-	text "Your #MON will"
-	line "cower at the"
-	cont "crack of my whip!"
+	text "BLUE BLOB BAD"
 	done
 
 _ViridianGymEndBattleText7::
-	text "Yowch!"
-	line "Whiplash!"
+	text "NPC.EXE"
+	line "HAS FAILED"
 	prompt
 
 _ViridianGymAfterBattleText7::
-	text "Wait! I was just"
-	line "careless!"
+	text "CRITICAL ERROR"
 	done
 
 _ViridianGymBattleText8::
-	text "VIRIDIAN GYM was"
-	line "closed for a long"
-	cont "time, but now our"
-	cont "LEADER is back!"
+	text "W-W-WELFARE"
+	line "STIMULUS"
 	done
 
 _ViridianGymEndBattleText8::
-	text "I"
-	line "was beaten?"
+	text "GIB"
+	line "GIB GIB GIB GIB"
 	prompt
 
 _ViridianGymAfterBattleText8::
-	text "You can go on to"
-	line "#MON LEAGUE"
-	cont "only by defeating"
-	cont "our GYM LEADER!"
+	text "GIB GIB GIB GIB"
 	done
 
 _ViridianGymText_74bd4::
-	text "Yo! Champ in"
+	text "Ah! Champ in"
 	line "making!"
 
-	para "Even I don't know"
-	line "VIRIDIAN LEADER's"
-	cont "identity!"
+	para "You've got to"
+	line "help! The gym's"
+	cont "been taken over!"
 
-	para "This will be the"
-	line "toughest of all"
-	cont "the GYM LEADERs!"
+	para "Some strange man"
+	line "with big ears broke"
+	cont "into the empty gym"
+	cont "and filled it with"
+	cont "his brainwashed"
+	cont "TRAINERs!"
 
-	para "I heard that the"
-	line "trainers here"
-	cont "like ground-type"
-	cont "#MON!"
+	para "Put an end to this"
+	line "bungler once and"
+	cont "for all!"
 	done
 
 _ViridianGymText_74bd9::
 	text "Blow me away!"
-	line "GIOVANNI was the"
+	line "BARACK HUSSEIN"
+	cont "OBOMA was the"
 	cont "GYM LEADER here?"
 	done
