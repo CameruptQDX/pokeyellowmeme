@@ -9,12 +9,12 @@ _DexCompletionText::
 	TX_NUM hDexRatingNumMonsOwned, 1, 3
 	text " #MON owned"
 
-	para "PROF.OAK's"
+	para "PROF.STUMP's"
 	line "Rating:"
 	prompt
 
 _DexRatingText_Own0To9::
-	text "You still have"
+	text "Ya still got"
 	line "lots to do."
 	cont "Look for #MON"
 	cont "in grassy areas!"
@@ -24,35 +24,35 @@ _DexRatingText_Own10To19::
 	text "You're on the"
 	line "right track! "
 	cont "Get a FLASH HM"
-	cont "from my AIDE!"
+	cont "from OAKs AIDE!"
 	done
 
 _DexRatingText_Own20To29::
-	text "You still need"
+	text "Ya still need"
 	line "more #MON!"
 	cont "Try to catch"
 	cont "other species!"
 	done
 
 _DexRatingText_Own30To39::
-	text "Good, you're"
-	line "trying hard!"
+	text "Wow, you're"
+	line "workin' hard!"
 	cont "Get an ITEMFINDER"
-	cont "from my AIDE!"
+	cont "from OAKs AIDE!"
 	done
 
 _DexRatingText_Own40To49::
-	text "Looking good!"
-	line "Go find my AIDE"
+	text "Lookin' good!"
+	line "Go find OAKs AIDE"
 	cont "when you get 50!"
 	done
 
 _DexRatingText_Own50To59::
-	text "You finally got at"
-	line "least 50 species!"
+	text "Ya finally got"
+	line "50 species huh?"
 	cont "Be sure to get"
-	cont "EXP.ALL from my"
-	cont "AIDE!"
+	cont "EXP.ALL from"
+	cont "OAKs AIDE!"
 	done
 
 _DexRatingText_Own60To69::
@@ -61,57 +61,59 @@ _DexRatingText_Own60To69::
 	done
 
 _DexRatingText_Own70To79::
-	text "Very good!"
+	text "Alright!"
 	line "Go fish for some"
-	cont "marine #MON!"
+	cont "fishy #MON!"
 	done
 
 _DexRatingText_Own80To89::
 	text "Wonderful!"
-	line "Do you like to"
-	cont "collect things?"
+	line "Ya like to"
+	cont "collect things"
+	cont "huh? A real"
+	cont "autist!"
 	done
 
 _DexRatingText_Own90To99::
 	text "I'm impressed!"
-	line "It must have been"
-	cont "difficult to do!"
+	line "You're really makin"
+	cont "waves with dis!"
 	done
 
 _DexRatingText_Own100To109::
-	text "You finally got at"
-	line "least 100 species!"
-	cont "I can't believe"
-	cont "how good you are!"
+	text "You finally got"
+	line "100 species?!"
+	cont "That's freakin"
+	cont "incredible!"
 	done
 
 _DexRatingText_Own110To119::
 	text "You even have the"
 	line "evolved forms of"
-	cont "#MON! Super!"
+	cont "#MON! Wew!"
 	done
 
 _DexRatingText_Own120To129::
-	text "Excellent! Trade"
-	line "with friends to"
-	cont "get some more!"
+	text "Excellent! Look"
+	line "for the INGAME"
+	cont "TRADES for more!"
 	done
 
 _DexRatingText_Own130To139::
-	text "Outstanding!"
+	text "Totally nuts!"
 	line "You've become a"
-	cont "real pro at this!"
+	cont "real hot mama!"
 	done
 
 _DexRatingText_Own140To149::
-	text "I have nothing"
+	text "I got nothin'"
 	line "left to say!"
 	cont "You're the"
-	cont "authority now!"
+	cont "man now dog!"
 	done
 
 _DexRatingText_Own150To151::
-	text "Your #DEX is"
-	line "fully complete!"
+	text "Hot damn! Its"
+	line "finally complete!"
 	cont "Congratulations!"
 	done
