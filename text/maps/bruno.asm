@@ -7,8 +7,8 @@ _BrunoBeforeBattleText::
 	cont "and #MON can"
 	cont "become stronger!"
 
-	para "I've weight"
-	line "trained with"
+	para "I've attained"
+	line "sick gains with"
 	cont "my #MON!"
 
 	para $52, "!"
@@ -21,8 +21,8 @@ _BrunoBeforeBattleText::
 	done
 
 _BrunoEndBattleText::
-	text "Why?"
-	line "How could I lose?"
+	text "Right"
+	line "in the hoo hah."
 	prompt
 
 _BrunoAfterBattleText::

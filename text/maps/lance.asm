@@ -7,24 +7,25 @@ _LanceBeforeBattleText::
 	cont "call me LANCE the"
 	cont "dragon trainer!"
 
-	para "You know that"
-	line "dragons are"
-	cont "mythical #MON!"
+	para "If you're about"
+	line "to comment on my"
+	cont "FLYING types,"
+	cont "there's only one"
+	cont "fully evolved"
+	cont "DRAGON to choose"
+	cont "from here."
+	
+	para "Unless you want"
+	line "me to just use"
+	cont "three DRAGONITES"
+	cont "instead..."
+	
+	para "Hey wait that's"
+	line "actually not a"
+	cont "bad idea!"
 
-	para "They're hard to"
-	line "catch and raise,"
-	cont "but their powers"
-	cont "are superior!"
-
-	para "They're virtually"
-	line "indestructible!"
-
-	para "Well, are you"
-	line "ready to lose?"
-
-	para "Your LEAGUE"
-	line "challenge ends"
-	cont "with me, ", $52, "!"
+	para "But enough talk!"
+	line "Have at you!"
 	done
 
 _LanceEndBattleText::

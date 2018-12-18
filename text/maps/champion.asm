@@ -1,93 +1,83 @@
 _GaryChampionIntroText::
-	text $53, ": Hey!"
+	text $53, ": So..."
 
-	para "I was looking"
-	line "forward to seeing"
-	cont "you, ", $52, "!"
+	para "<PLAYER>,"
+	line "the time has"
+	cont "finally come..."
 
-	para "My rival should"
-	line "be strong to keep"
-	cont "me sharp!"
-
-	para "While working on"
-	line "#DEX, I looked"
-	cont "all over for"
-	cont "powerful #MON!"
-
-	para "Not only that, I"
-	line "assembled teams"
-	cont "that would beat"
-	cont "any #MON type!"
-
-	para "And now!"
-
-	para "I'm the #MON"
-	line "LEAGUE champion!"
-
-	para $52, "! Do you"
-	line "know what that"
-	cont "means?"
-
-	para "I'll tell you!"
-
-	para "I am the most"
-	line "powerful trainer"
+	para "All our blood"
+	line "spilt... All"
+	cont "our struggle..."
+	
+	para "Has led to this"
+	line "culmination!"
+	
+	para "Me and CUBONE"
+	line "have grown so"
+	cont "much stronger"
+	cont "together since"
+	cont "we met..."
+	
+	para "With this new"
+	line "kind of power..."
+	
+	para "I claim my"
+	line "rightful throne"
+	cont "as the most"
+	cont "powerful trainer"
 	cont "in the world!"
+	
+	para "NOW BEHOLD!"
+	line "OUR ULTIMATE"
+	cont "POWER OF"
+	cont "FRIENDSHIP!"
+	
+	para "CUT IT DEEPER!"
 	done
 
 _GaryDefeatedText::
 	text "NO!"
-	line "That can't be!"
-	cont "You beat my best!"
+	line "How is it even"
+	cont "possible after"
+	cont "all this?!"
 
-	para "After all that"
-	line "work to become"
-	cont "LEAGUE champ?"
+	para "Is there still"
+	line "something we're"
+	cont "missing?!"
 
-	para "My reign is over"
-	line "already?"
+	para "T-There's!"
+	line "T-This is!"
 	cont "It's not fair!"
 	prompt
 
 _GaryVictoryText::
-	text "Hahaha!"
-	line "I won, I won!"
+	text "Muahahaha!"
+	line "So it ends!"
 
-	para "I'm too good for"
-	line "you, ", $52, "!"
-
-	para "You did well to"
-	line "even reach me,"
-	cont $53, ", the"
-	cont "#MON genius!"
-
-	para "Nice try, loser!"
-	line "Hahaha!"
+	para "Kneel before"
+	line "the king of all"
+	cont "trainers!"
 	prompt
 
 _GaryText_76103::
 	text "Why?"
-	line "Why did I lose?"
+	line "Why did we lose?"
 
-	para "I never made any"
-	line "mistakes raising"
-	cont "my #MON..."
+	para "Were we too weak?"
+	line "Was it my lack"
+	cont "of willpower?"
 
-	para "Darn it! You're"
-	line "the new #MON"
-	cont "LEAGUE champion!"
-
-	para "Although I don't"
-	line "like to admit it."
+	para "I just, don't"
+	line "understand..."
 	done
 
 _GaryText2::
-	text "OAK: ", $52, "!"
+	text "STUMP: ", $52, "!"
 	done
 
 _GaryText_76120::
-	text "OAK: So, you won!"
-	line "Congratulations!"
+	text "STUMP: Jesus H."
+	line "Christ you did it!"
 	cont "You're the new"
 	cont "#MON LEAGUE"
 	cont "champion!"
@@ -95,52 +85,57 @@ _GaryText_76120::
 	para "You've grown up so"
 	line "much since you"
 	cont "first left with"
-	cont "@"
-	TX_RAM wcd6d
-	text "!"
+	cont "BLOBBOS!"
 
-	para $52, ", you have"
-	line "come of age!"
+	para "<PLAYER> you're"
+	line "unbelieveable!"
 	done
 
 _GaryText_76125::
-	text "OAK: ", $53, "! I'm"
-	line "disappointed!"
+	text "<RIVAL>: But!"
+	line "why did we fail!"
+	
+	para "STUMP: ya wanna"
+	line "know why ya"
+	cont "lost, huh?"
 
-	para "I came when I"
-	line "heard you beat"
-	cont "the ELITE FOUR!"
-
-	para "But, when I got"
-	line "here, you had"
-	cont "already lost!"
-
-	para $53, "! Do you"
-	line "understand why"
-	cont "you lost?"
-
-	para "You have forgotten"
-	line "to treat your"
-	cont "#MON with"
-	cont "trust and love!"
-
-	para "Without them, you"
-	line "will never become"
-	cont "a champ again!"
+	para "It's because yer"
+	line "not being sincere!"
+	
+	para "Come on kid!"
+	line "Everyone knows"
+	cont "the whole edgelord"
+	cont "thing is an act!"
+	
+	para "Your #MON too!"
+	
+	para "<RIVAL>: Y-You're"
+	line "right..."
+	
+	para "STUMP: Now quit"
+	line "acting like an"
+	cont "angsty turd and"
+	cont "congratulate"
+	cont "your friend!"
+	
+	para "<RIVAL>: You"
+	line "really are an"
+	cont "amazing trainer"
+	cont "<PLAYER>..."
 	done
 
 _GaryText_7612a::
-	text "OAK: ", $52, "!"
+	text "STUMP: ", $52, "!"
 
-	para "You understand"
-	line "that your victory"
+	para "You know that"
+	line "that ya victory"
 	cont "was not just your"
-	cont "own doing!"
+	cont "own work!"
 
 	para "The bond you share"
 	line "with your #MON"
-	cont "is marvelous!"
+	cont "is amazin'!"
 
-	para $52, "!"
+	para $52, "ey"
 	line "Come with me!"
 	done

@@ -27,13 +27,12 @@ _LoreleiEndBattleText::
 	prompt
 
 _LoreleiAfterBattleText::
-	text "You're better"
-	line "than I thought!"
-	cont "Go on ahead!"
-
-	para "You only got a"
-	line "taste of #MON"
-	cont "LEAGUE power!"
+	text "I'd invite you"
+	line "to tea on FOUR"
+	cont "ISLAND, but we"
+	cont "all know SEVII"
+	cont "is never ever"
+	cont "coming back."
 	done
 
 _LoreleiDontRunAwayText::
