@@ -1,22 +1,23 @@
 _VictoryRoad1BattleText1::
-	text "I wonder if you"
-	line "are good enough"
-	cont "for me!"
+	text "Welcome to"
+	line "VICTORY ROAD,"
+	cont "nygguh."
 	done
 
 _VictoryRoad1EndBattleText1::
-	text "I"
-	line "lost out!"
+	text "Daym!"
 	prompt
 
 _VictoryRoad1AfterBattleText1::
-	text "I never wanted to"
-	line "lose to anybody!"
+	text "If ya ain't hard"
+	line "by now, the ELITE"
+	cont "FOUR is gonna"
+	cont "spread ya cheeks."
 	done
 
 _VictoryRoad1BattleText2::
-	text "I can see you're"
-	line "good! Let me see"
+	text "Hot stuff huh?"
+	line "Good! Let me see"
 	cont "exactly how good!"
 	done
 
@@ -27,5 +28,5 @@ _VictoryRoad1EndBattleText2::
 
 _VictoryRoad1AfterBattleText2::
 	text "I concede, you're"
-	line "better than me!"
+	line "hotter than me!"
 	done

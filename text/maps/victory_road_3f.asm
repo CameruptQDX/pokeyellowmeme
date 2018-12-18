@@ -9,8 +9,8 @@ _VictoryRoad3EndBattleText2::
 	prompt
 
 _VictoryRoad3AfterBattleText2::
-	text "You beat GIOVANNI"
-	line "of TEAM ROCKET?"
+	text "What does OAK"
+	line "feed you kids?"
 	done
 
 _VictoryRoad3BattleText3::
@@ -19,13 +19,15 @@ _VictoryRoad3BattleText3::
 	done
 
 _VictoryRoad3EndBattleText3::
-	text "I'm"
-	line "furious!"
+	text "Aw"
+	line "nuts!"
 	prompt
 
 _VictoryRoad3AfterBattleText3::
-	text "You showed me just"
-	line "how good I was!"
+	text "A #MON that"
+	line "looks like a"
+	cont "nut was around"
+	cont "somewhere..."
 	done
 
 _VictoryRoad3BattleText4::
@@ -39,10 +41,10 @@ _VictoryRoad3EndBattleText4::
 	prompt
 
 _VictoryRoad3AfterBattleText4::
-	text "All trainers here"
-	line "are headed to the"
-	cont "#MON LEAGUE!"
-	cont "Be careful!"
+	text "The prophecy of"
+	line "the DARK LORD"
+	cont "slaying hero"
+	cont "was true!"
 	done
 
 _VictoryRoad3BattleText5::
@@ -57,7 +59,8 @@ _VictoryRoad3EndBattleText5::
 	prompt
 
 _VictoryRoad3AfterBattleText5::
-	text "By fighting tough"
-	line "battles, you get"
-	cont "stronger!"
+	text "Don't expect a"
+	line "large postgame"
+	cont "is what I'm"
+	cont "trying to say."
 	done

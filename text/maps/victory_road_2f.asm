@@ -2,9 +2,9 @@ _MoltresBattleText::
 	text "Gyaoo!@@"
 
 _VictoryRoad2BattleText1::
-	text "VICTORY ROAD is"
-	line "the final test"
-	cont "for trainers!"
+	text "Come on noodle"
+	line "arms! Show me"
+	cont "your STRENGTH!"
 	done
 
 _VictoryRoad2EndBattleText1::
@@ -12,9 +12,9 @@ _VictoryRoad2EndBattleText1::
 	prompt
 
 _VictoryRoad2AfterBattleText1::
-	text "If you get stuck,"
-	line "try moving some"
-	cont "boulders around!"
+	text "I move those"
+	line "boulders with my"
+	cont "bare hands!"
 	done
 
 _VictoryRoad2BattleText2::
@@ -31,6 +31,9 @@ _VictoryRoad2EndBattleText2::
 _VictoryRoad2AfterBattleText2::
 	text $53, " also came"
 	line "through here!"
+	
+	para "That guy's a"
+	line "dick!"
 	done
 
 _VictoryRoad2BattleText3::
@@ -44,28 +47,26 @@ _VictoryRoad2EndBattleText3::
 	prompt
 
 _VictoryRoad2AfterBattleText3::
-	text "You earned the"
-	line "right to be on"
-	cont "VICTORY ROAD!"
+	text "Well, whip me"
+	line "some more."
+	cont "Please?"
 	done
 
 _VictoryRoad2BattleText4::
-	text "If you can get"
-	line "through here, you"
-	cont "can go meet the"
-	cont "ELITE FOUR!"
+	text "The ELITE FOUR"
+	line "are the cream"
+	cont "of the crop!"
 	done
 
 _VictoryRoad2EndBattleText4::
-	text "No!"
-	line "Unbelievable!"
+	text "Oh!"
+	line "Yeah!"
 	prompt
 
 _VictoryRoad2AfterBattleText4::
-	text "I can beat you"
-	line "when it comes to"
-	cont "knowledge about"
-	cont "#MON!"
+	text "And the creeeeam"
+	line "rises to the top,"
+	cont "oh yeeeah!"
 	done
 
 _VictoryRoad2BattleText5::
@@ -79,7 +80,8 @@ _VictoryRoad2EndBattleText5::
 	prompt
 
 _VictoryRoad2AfterBattleText5::
-	text "Many trainers give"
-	line "up the challenge"
-	cont "here."
+	text "Well, this is"
+	line "your last chance"
+	cont "to emmmmmmmmm"
+	cont "git gud."
 	done
