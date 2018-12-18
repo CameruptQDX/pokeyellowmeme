@@ -26,7 +26,7 @@ ItemNames:
 	db "SOULBADGE@"
 	db "MARSHBADGE@"
 	db "VOLCANOBADGE@"
-	db "EARTHBADGE@"
+	db "CHANGEBADGE@"
 	db "ESCAPE ROPE@"
 	db "REPEL@"
 	db "OLD AMBER@"

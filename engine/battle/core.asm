@@ -2231,7 +2231,7 @@ DisplayBattleMenu:
 .oldManName
 	db "OLD MAN@"
 .profOakName
-	db "PROF.OAK@"
+	db "PROF.STUMP@"
 .handleBattleMenuInput
 	ld a, [wBattleAndStartSavedMenuItem]
 	ld [wCurrentMenuItem], a
