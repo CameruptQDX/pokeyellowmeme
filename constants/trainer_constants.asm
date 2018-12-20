@@ -54,3 +54,4 @@ const_value = 1
 	trainer_const AGATHA        ; $2E | OPP = $F6
 	trainer_const LANCE         ; $2F | OPP = $F7
 	trainer_const DEADLYSEVEN   ; $30 | OPP = $F8
+	trainer_const TRAINER_RED   ; $31 | OPP = $F9

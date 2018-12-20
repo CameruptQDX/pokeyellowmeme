@@ -64,7 +64,7 @@ const_value = 1
 	const SPRITE_FISHER2                   ; $2f
 	const SPRITE_BLACKBELT                 ; $30
 	const SPRITE_GUARD                     ; $31
-	const SPRITE_UNUSED_2                  ; $32
+	const SPRITE_TRAINER_RED               ; $32
 	const SPRITE_MOM                       ; $33
 	const SPRITE_BALDING_GUY               ; $34
 	const SPRITE_YOUNG_BOY                 ; $35

@@ -2207,3 +2207,5 @@ INCLUDE "scripts/silvercaveitems.asm"
 
 SilverCavePokecenterBlocks: INCBIN "maps/mtmoonpokecenter.blk"
 
+TrainerRedPic:         INCBIN "pic/trainer/red.pic"
+TrainerRedSprite:    INCBIN "gfx/sprites/trainer_red.2bpp"

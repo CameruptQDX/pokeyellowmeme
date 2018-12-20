@@ -255,6 +255,4 @@
 	const HS_ROUTE22GATE_NEWGUARD1        ; F8
 	const HS_ROUTE22GATE_NEWGUARD2        ; F9
 	const HS_TRUCK_MEW                    ; FA
-	const HS_STUMPBATTLE                  ; FB
-	const HS_BLUEBATTLE                   ; FC
-	const HS_REDBATTLE                    ; FD
+	const HS_REDBATTLE                    ; FB

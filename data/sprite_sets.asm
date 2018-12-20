@@ -436,10 +436,10 @@ SpriteSheetPointerTable:
 	db $c0 ; byte count
 	db BANK(GuardSprite)
 
-	; SPRITE_UNUSED_2
-	dw RedSprite
+	; SPRITE_TRAINER_RED
+	dw TrainerRedSprite
 	db $c0 ; byte count
-	db BANK(RedSprite)
+	db BANK(TrainerRedSprite)
 
 	; SPRITE_MOM
 	dw MomSprite

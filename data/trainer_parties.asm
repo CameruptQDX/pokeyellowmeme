@@ -47,6 +47,7 @@ TrainerDataPointers:
 	dw AgathaData
 	dw LanceData
 	dw DeadlyData
+	dw RedData
 
 ; if first byte != FF, then
 	; first byte is level (of all pokemon on this team)
@@ -341,9 +342,7 @@ Green1Data:
 	db $FF,9,SPEAROW,8,CUBONE,0
 	db $FF,18,SPEAROW,15,GASTLY,15,VULPIX,17,CUBONE,0
 ProfOakData:
-	db $FF,66,TAUROS,67,EXEGGUTOR,68,ARCANINE,69,BLASTOISE,70,GYARADOS,0
-	db $FF,66,TAUROS,67,EXEGGUTOR,68,ARCANINE,69,VENUSAUR,70,GYARADOS,0
-	db $FF,66,TAUROS,67,EXEGGUTOR,68,ARCANINE,69,CHARIZARD,70,GYARADOS,0
+	db $FF,76,TAUROS,77,EXEGGUTOR,78,ARCANINE,79,MACHAMP,80,GYARADOS,81,MUK,0
 ChiefData:
 ; none
 ScientistData:
@@ -503,3 +502,5 @@ DeadlyData:
 	db 35,TAUROS,0 ; vladov 3 1c
 	db 30,DRAGONAIR,DRAGONAIR,0 ; adolv 3 1d
 	db $FF,34,GOLEM,34,SEAKING,40,BLOBBOS,0 ; asimov 3 1e
+RedData:
+	db $FF,90,PIKACHU,85,VENUSAUR,85,CHARIZARD,85,BLASTOISE,85,JUMPEON,85,SNORLAX,0

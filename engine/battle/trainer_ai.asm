@@ -301,7 +301,7 @@ TrainerClassMoveChoiceModifications:
 	db 1,0    ; BIRD_KEEPER
 	db 1,0    ; BLACKBELT
 	db 1,0    ; SONY1
-	db 1,3,0  ; PROF_OAK
+	db 1,3,0  ; PROF_STUMP
 	db 1,2,0  ; CHIEF
 	db 1,2,0  ; SCIENTIST
 	db 1,3,0  ; GIOVANNI
@@ -323,6 +323,8 @@ TrainerClassMoveChoiceModifications:
 	db 1,0    ; CHANNELER
 	db 1,0    ; AGATHA
 	db 1,3,0  ; LANCE
+	db 1,0    ; DEADLY SEVEN
+	db 1,3,0  ; RED
 
 INCLUDE "engine/battle/trainer_pic_money_pointers.asm"
 
@@ -406,7 +408,7 @@ TrainerAIPointers:
 	dbw 3,GenericAI
 	dbw 2,BlackbeltAI ; blackbelt
 	dbw 3,GenericAI
-	dbw 3,GenericAI
+	dbw 1,Sony3AI ; prof.stump
 	dbw 1,GenericAI ; chief
 	dbw 3,GenericAI
 	dbw 1,GiovanniAI ; giovanni
@@ -429,6 +431,7 @@ TrainerAIPointers:
 	dbw 2,AgathaAI ; agatha
 	dbw 1,LanceAI ; lance
 	dbw 3,GenericAI ; deadly seven
+	dbw 1,Sony3AI ; red
 
 JugglerAI:
 	cp $40

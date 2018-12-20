@@ -144,3 +144,6 @@ TrainerPicAndMoneyPointers:
 	
 	dw DeadlyPic
 	money 3000
+	
+	dw TrainerRedPic
+	money 9900
