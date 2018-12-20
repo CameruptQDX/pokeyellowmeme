@@ -1,5 +1,5 @@
 SilverCaveOutsideObject:
-	db $a ; border block
+	db $2c ; border block
 
 	db $2 ; warps
 	db $13, $17, $0, SILVER_CAVE_POKECENTER

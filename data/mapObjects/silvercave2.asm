@@ -2,7 +2,7 @@ SilverCave2Object:
 	db $3 ; border block
 
 	db $4 ; warps
-	db $21, $13, $3, SILVER_CAVE_ROOM_1
+	db $21, $13, $2, SILVER_CAVE_ROOM_1
 	db $19, $D, $0, SILVER_CAVE_ITEM_ROOMS
 	db $3, $1B, $1, SILVER_CAVE_ITEM_ROOMS
 	db $5, $9, $0, SILVER_CAVE_ROOM_3
@@ -10,9 +10,9 @@ SilverCave2Object:
 	db $0 ; signs
 	
 	db $3 ; objects
-	object SPRITE_BALL, $1C, $19, STAY, NONE, $1, PP_UP
-	object SPRITE_BALL, $16, $4, STAY, NONE, $2, ULTRA_BALL
-	object SPRITE_BALL, $8, $1C, STAY, NONE, $3, CALCIUM
+	object SPRITE_BALL, $19, $1C, STAY, NONE, $1, PP_UP
+	object SPRITE_BALL, $4, $16, STAY, NONE, $2, ULTRA_BALL
+	object SPRITE_BALL, $1C, $8, STAY, NONE, $3, CALCIUM
 
 	; warp-to
 	EVENT_DISP SILVER_CAVE_ROOM_2_WIDTH, $21, $13 

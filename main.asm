@@ -1019,7 +1019,6 @@ INCLUDE "data/mapObjects/route7.asm"
 Route7Blocks: INCBIN "maps/route7.blk"
 MtMoonPokecenterBlocks:
 RockTunnelPokecenterBlocks:
-SilverCavePokecenterBlocks:
 CeladonPokecenterBlocks: INCBIN "maps/mtmoonpokecenter.blk"
 Route11GateBlocks:
 Route15GateBlocks:
@@ -2205,4 +2204,6 @@ INCLUDE "scripts/silvercave1.asm"
 INCLUDE "scripts/silvercave2.asm"
 INCLUDE "scripts/silvercave3.asm"
 INCLUDE "scripts/silvercaveitems.asm"
+
+SilverCavePokecenterBlocks: INCBIN "maps/mtmoonpokecenter.blk"
 

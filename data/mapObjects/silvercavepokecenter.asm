@@ -2,8 +2,8 @@ SilverCavePokecenterObject:
 	db $0 ; border block
 
 	db $2 ; warps
-	db $7, $3, $5, $ff
-	db $7, $4, $5, $ff
+	db $7, $3, $0, $ff
+	db $7, $4, $0, $ff
 
 	db $0 ; signs
 
