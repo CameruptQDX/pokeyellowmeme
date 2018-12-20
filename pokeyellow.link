@@ -211,6 +211,10 @@ ROMX $3E
 
 ROMX $3F
   "bank3F"
+  
+ROMX $40
+  org $4000
+  "bank40"
 
 WRAM0
   "WRAM Bank 0"

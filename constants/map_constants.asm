@@ -16,7 +16,7 @@ ENDM
 	mapconst CINNABAR_ISLAND,             9, 10 ; $08
 	mapconst INDIGO_PLATEAU,              9, 10 ; $09
 	mapconst SAFFRON_CITY,               18, 20 ; $0A
-	mapconst UNUSED_MAP_0B,               0,  0 ; $0B
+	mapconst SILVER_CAVE_OUTSIDE,       18,  20 ; $0B NEW
 	mapconst ROUTE_1,                    18, 10 ; $0C
 	mapconst ROUTE_2,                    36, 10 ; $0D
 	mapconst ROUTE_3,                     9, 35 ; $0E
@@ -110,14 +110,14 @@ ENDM
 	mapconst SS_ANNE_8,                   8, 12 ; $66
 	mapconst SS_ANNE_9,                   8, 12 ; $67
 	mapconst SS_ANNE_10,                  8, 12 ; $68
-	mapconst UNUSED_MAP_69,               0,  0 ; $69
-	mapconst UNUSED_MAP_6A,               0,  0 ; $6A
-	mapconst UNUSED_MAP_6B,               0,  0 ; $6B
+	mapconst ROUTE_28,                   9,  20 ; $69 NEW
+	mapconst SILVER_CAVE_POKECENTER,      4,  7 ; $6A NEW
+	mapconst ROUTE_28_HOUSE,              4,  4 ; $6B NEW
 	mapconst VICTORY_ROAD_1,              9, 10 ; $6C
-	mapconst UNUSED_MAP_6D,               0,  0 ; $6D
-	mapconst UNUSED_MAP_6E,               0,  0 ; $6E
-	mapconst UNUSED_MAP_6F,               0,  0 ; $6F
-	mapconst UNUSED_MAP_70,               0,  0 ; $70
+	mapconst SILVER_CAVE_ROOM_1,        18,  10 ; $6D NEW
+	mapconst SILVER_CAVE_ROOM_2,        18,  15 ; $6E NEW
+	mapconst SILVER_CAVE_ROOM_3,        18,  10 ; $6F NEW
+	mapconst SILVER_CAVE_ITEM_ROOMS,     9,  10 ; $70 NEW
 	mapconst LANCES_ROOM,                13, 13 ; $71
 	mapconst UNUSED_MAP_72,               0,  0 ; $72
 	mapconst UNUSED_MAP_73,               0,  0 ; $73

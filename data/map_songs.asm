@@ -10,7 +10,7 @@ MapSongBanks:
 	db MUSIC_CINNABAR, BANK(Music_Cinnabar) ; CINNABAR_ISLAND
 	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ; INDIGO_PLATEAU
 	db MUSIC_CITIES1, BANK(Music_Cities1) ; SAFFRON_CITY
-	db MUSIC_CITIES1, BANK(Music_Cities1) ; unused
+	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ; SILVER_CAVE_OUTSIDE
 	db MUSIC_ROUTES1, BANK(Music_Routes1) ; ROUTE_1
 	db MUSIC_ROUTES1, BANK(Music_Routes1) ; ROUTE_2
 	db MUSIC_ROUTES3, BANK(Music_Routes3) ; ROUTE_3
@@ -104,14 +104,14 @@ MapSongBanks:
 	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ; SSAnne8
 	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ; SSAnne9
 	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ; SSAnne10
-	db MUSIC_DUNGEON2, BANK(Music_Dungeon2) ;unused
-	db MUSIC_DUNGEON2, BANK(Music_Dungeon2) ;unused
-	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ;unused
+	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ;Route 28
+	db MUSIC_POKECENTER, BANK(Music_Pokecenter) ;Silver cave pokemon center
+	db MUSIC_CITIES1, BANK(Music_Cities1) ;Route 28 house
 	db MUSIC_DUNGEON3, BANK(Music_Dungeon3) ; VictoryRoad1
-	db MUSIC_POKEMON_TOWER, BANK(Music_PokemonTower) ;unused
-	db MUSIC_DUNGEON1, BANK(Music_Dungeon1) ;unused
-	db MUSIC_SILPH_CO, BANK(Music_SilphCo) ;unused
-	db MUSIC_SILPH_CO, BANK(Music_SilphCo) ;unused
+	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ;silver cave 1
+	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ;silver cave 2
+	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ;silver cave 3
+	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ;silver cave items
 	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ; Lance
 	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ;unused
 	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ;unused

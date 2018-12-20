@@ -11,7 +11,7 @@ MapHeaderPointers::
 	dw CinnabarIsland_h
 	dw IndigoPlateau_h
 	dw SaffronCity_h
-	dw SaffronCity_h
+	dw SilverCaveOutside_h
 	dw Route1_h
 	dw Route2_h
 	dw Route3_h
@@ -105,14 +105,14 @@ MapHeaderPointers::
 	dw SSAnne8_h
 	dw SSAnne9_h
 	dw SSAnne10_h
-	dw Lance_h ; unused
-	dw Lance_h ; unused
-	dw Lance_h ; unused
+	dw Route28_h
+	dw SilverCavePokecenter_h
+	dw Route28House_h
 	dw VictoryRoad1_h
-	dw Lance_h ; unused
-	dw Lance_h ; unused ;id=110
-	dw Lance_h ; unused
-	dw Lance_h ; unused
+	dw SilverCave1_h
+	dw SilverCave2_h
+	dw SilverCave3_h
+	dw SilverCaveItems_h
 	dw Lance_h
 	dw Lance_h ; unused
 	dw Lance_h ; unused

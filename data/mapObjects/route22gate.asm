@@ -1,11 +1,13 @@
 Route22GateObject:
 	db $a ; border block
 
-	db $4 ; warps
+	db $6 ; warps
 	db $7, $4, $0, $ff
 	db $7, $5, $0, $ff
 	db $0, $4, $0, $ff
 	db $0, $5, $0, $ff
+	db $2, $0, $0, ROUTE_28
+	db $3, $0, $0, ROUTE_28
 
 	db $0 ; signs
 
@@ -17,3 +19,5 @@ Route22GateObject:
 	EVENT_DISP ROUTE_22_GATE_WIDTH, $7, $5
 	EVENT_DISP ROUTE_22_GATE_WIDTH, $0, $4
 	EVENT_DISP ROUTE_22_GATE_WIDTH, $0, $5
+	EVENT_DISP ROUTE_22_GATE_WIDTH, $2, $0
+	EVENT_DISP ROUTE_22_GATE_WIDTH, $3, $0

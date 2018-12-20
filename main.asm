@@ -329,6 +329,7 @@ LavenderHouse2Blocks:
 SaffronHouse1Blocks:
 SaffronHouse2Blocks:
 Route16HouseBlocks:
+Route28HouseBlocks:
 NameRaterBlocks: INCBIN "maps/viridianhouse.blk"
 SchoolBlocks:
 CeladonMansion5Blocks: INCBIN "maps/school.blk"
@@ -1018,6 +1019,7 @@ INCLUDE "data/mapObjects/route7.asm"
 Route7Blocks: INCBIN "maps/route7.blk"
 MtMoonPokecenterBlocks:
 RockTunnelPokecenterBlocks:
+SilverCavePokecenterBlocks:
 CeladonPokecenterBlocks: INCBIN "maps/mtmoonpokecenter.blk"
 Route11GateBlocks:
 Route15GateBlocks:
@@ -2157,4 +2159,50 @@ INCLUDE "engine/bank3e.asm"
 SECTION "bank3F", ROMX
 
 INCLUDE "engine/bank3f.asm"
+
+SECTION "bank40", ROMX
+
+INCLUDE "data/mapHeaders/route28.asm"
+INCLUDE "data/mapObjects/route28.asm"
+Route28Blocks: INCBIN "maps/Route28.blk"
+
+INCLUDE "data/mapHeaders/silvercave1.asm"
+INCLUDE "data/mapObjects/silvercave1.asm"
+SilverCave1Blocks: INCBIN "maps/SilverCaveRoom1.blk"
+
+INCLUDE "data/mapHeaders/silvercave2.asm"
+INCLUDE "data/mapObjects/silvercave2.asm"
+SilverCave2Blocks: INCBIN "maps/SilverCaveRoom2.blk"
+
+INCLUDE "data/mapHeaders/silvercave3.asm"
+INCLUDE "data/mapObjects/silvercave3.asm"
+SilverCave3Blocks: INCBIN "maps/SilverCaveRoom3.blk"
+
+INCLUDE "data/mapHeaders/silvercaveitems.asm"
+INCLUDE "data/mapObjects/silvercaveitems.asm"
+SilverCaveItemsBlocks: INCBIN "maps/SilverCaveItemRooms.blk"
+
+INCLUDE "data/mapHeaders/route28house.asm"
+INCLUDE "data/mapObjects/route28house.asm"
+
+INCLUDE "data/mapHeaders/silvercavepokecenter.asm"
+INCLUDE "data/mapObjects/silvercavepokecenter.asm"
+
+INCLUDE "data/mapHeaders/silvercaveoutside.asm"
+INCLUDE "data/mapObjects/silvercaveoutside.asm"
+SilverCaveOutsideBlocks: INCBIN "maps/SilverCaveOutside.blk"
+
+INCLUDE "text/maps/route_28.asm"
+INCLUDE "text/maps/route_28_house.asm"
+INCLUDE "text/maps/silvercaveoutside.asm"
+INCLUDE "text/maps/silvercavepokecenter.asm"
+
+INCLUDE "scripts/route28.asm"
+INCLUDE "scripts/route28house.asm"
+INCLUDE "scripts/silvercaveoutside.asm"
+INCLUDE "scripts/silvercavepokecenter.asm"
+INCLUDE "scripts/silvercave1.asm"
+INCLUDE "scripts/silvercave2.asm"
+INCLUDE "scripts/silvercave3.asm"
+INCLUDE "scripts/silvercaveitems.asm"
 

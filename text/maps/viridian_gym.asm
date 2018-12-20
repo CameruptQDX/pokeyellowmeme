@@ -109,7 +109,7 @@ _TM27ExplanationText::
 	cont "possibly experience."
 	
 	para "Exists inside a"
-	line "miniscule, single"
+	line "miniscule, two"
 	cont "megabyte bubble"
 	cont "made up of Z80 ASM"
 	cont "and AA battery"

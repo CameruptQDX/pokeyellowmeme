@@ -11,7 +11,7 @@ MapHeaderBanks::
 	db BANK(CinnabarIsland_h) ; CINNABAR_ISLAND
 	db BANK(IndigoPlateau_h) ; INDIGO_PLATEAU
 	db BANK(SaffronCity_h) ; SAFFRON_CITY
-	db $01 ; unused
+	db BANK(SilverCaveOutside_h) ; SILVER CAVE OUTSIDE
 	db BANK(Route1_h) ; ROUTE_1
 	db BANK(Route2_h) ; ROUTE_2
 	db BANK(Route3_h) ; ROUTE_3
@@ -105,14 +105,14 @@ MapHeaderBanks::
 	db BANK(SSAnne8_h)
 	db BANK(SSAnne9_h)
 	db BANK(SSAnne10_h)
-	db $1d ; unused
-	db $1d ; unused
-	db $1d ; unused
+	db BANK(Route28_h)
+	db BANK(SilverCavePokecenter_h)
+	db BANK(Route28House_h)
 	db BANK(VictoryRoad1_h)
-	db $1d ; unused
-	db $1d ; unused
-	db $1d ; unused
-	db $1d ; unused
+	db BANK(SilverCave1_h)
+	db BANK(SilverCave2_h)
+	db BANK(SilverCave3_h)
+	db BANK(SilverCaveItems_h)
 	db BANK(Lance_h)
 	db $1d ; unused
 	db $1d ; unused
