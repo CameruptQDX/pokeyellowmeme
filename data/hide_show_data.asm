@@ -114,10 +114,10 @@ MapHSPointers:
 	dw MapHSXX
 	dw MapHSXX
 	dw MapHS6C
+	dw MapHS6D ; silver cave 1
+	dw MapHS6E ; silver cave 2
 	dw MapHSXX
-	dw MapHSXX
-	dw MapHSXX
-	dw MapHSXX
+	dw MapHS70 ; silver cave item rooms
 	dw MapHSXX
 	dw MapHSXX
 	dw MapHSXX
@@ -589,5 +589,17 @@ MapHS27Copy:
 	db BLUES_HOUSE, $01, Show
 	db BLUES_HOUSE, $02, Hide
 	db BLUES_HOUSE, $03, Show
-
+MapHS6D:
+	db SILVER_CAVE_ROOM_1, $01, Show
+	db SILVER_CAVE_ROOM_1, $02, Show
+	db SILVER_CAVE_ROOM_1, $03, Show
+	db SILVER_CAVE_ROOM_1, $04, Show
+MapHS6E:
+	db SILVER_CAVE_ROOM_2, $01, Show
+	db SILVER_CAVE_ROOM_2, $02, Show
+	db SILVER_CAVE_ROOM_2, $03, Show
+MapHS70:
+	db SILVER_CAVE_ITEM_ROOMS, $01, Show
+	db SILVER_CAVE_ITEM_ROOMS, $02, Show
+	
 	db $FF, $01, Show

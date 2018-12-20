@@ -243,3 +243,18 @@
 	const HS_DAISY_SITTING_COPY           ; EC
 	const HS_DAISY_WALKING_COPY           ; ED
 	const HS_TOWN_MAP_COPY                ; EE
+	const HS_SILVERCAVE1_ITEM1            ; EF
+	const HS_SILVERCAVE1_ITEM2            ; F0
+	const HS_SILVERCAVE1_ITEM3            ; F1
+	const HS_SILVERCAVE1_ITEM4            ; F2
+	const HS_SILVERCAVE2_ITEM1            ; F3
+	const HS_SILVERCAVE2_ITEM2            ; F4
+	const HS_SILVERCAVE2_ITEM3            ; F5
+	const HS_SILVERCAVEITEMS_ITEM1        ; F6
+	const HS_SILVERCAVEITEMS_ITEM2        ; F7
+	const HS_ROUTE22GATE_NEWGUARD1        ; F8
+	const HS_ROUTE22GATE_NEWGUARD2        ; F9
+	const HS_TRUCK_MEW                    ; FA
+	const HS_STUMPBATTLE                  ; FB
+	const HS_BLUEBATTLE                   ; FC
+	const HS_REDBATTLE                    ; FD
