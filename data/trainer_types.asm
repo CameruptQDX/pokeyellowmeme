@@ -16,3 +16,7 @@ EvilTrainerList::
 	db OPP_ROCKET
 	db OPP_DEADLYSEVEN
 	db $FF
+	
+RedTrainerList::
+	db OPP_TRAINER_RED
+	db $FF
