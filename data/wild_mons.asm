@@ -10,7 +10,7 @@ WildDataPointers:
 	dw NoMons      ; CINNABAR_ISLAND
 	dw NoMons      ; INDIGO_PLATEAU
 	dw NoMons      ; SAFFRON_CITY
-	dw NoMons      ; unused
+	dw SilverOutsideMons      ; SILVER CAVE OUTSIDE
 	dw Route1Mons  ; ROUTE_1
 	dw Route2Mons  ; ROUTE_2
 	dw Route3Mons  ; ROUTE_3
@@ -104,14 +104,14 @@ WildDataPointers:
 	dw NoMons
 	dw NoMons
 	dw NoMons
-	dw NoMons
+	dw Route28Mons ; ROUTE 28
 	dw NoMons
 	dw NoMons
 	dw PlateauMons1
-	dw NoMons
-	dw NoMons
-	dw NoMons
-	dw NoMons
+	dw SilverMons1 ; Silver cave 1
+	dw SilverMons2 ;silver cave 2
+	dw SilverMons3 ; silver cave 3
+	dw SilverMonsItem ; silver cave items
 	dw NoMons
 	dw NoMons
 	dw NoMons
@@ -321,3 +321,9 @@ INCLUDE "data/wildPokemon/victoryroad2.asm"
 INCLUDE "data/wildPokemon/victoryroad3.asm"
 INCLUDE "data/wildPokemon/victoryroad1.asm"
 INCLUDE "data/wildPokemon/diglettscave.asm"
+INCLUDE "data/wildPokemon/route28.asm"
+INCLUDE "data/wildPokemon/silvercaveoutside.asm"
+INCLUDE "data/wildPokemon/silvercave1.asm"
+INCLUDE "data/wildPokemon/silvercave2.asm"
+INCLUDE "data/wildPokemon/silvercave3.asm"
+INCLUDE "data/wildPokemon/silvercaveitems.asm"

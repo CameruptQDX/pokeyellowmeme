@@ -1,0 +1,14 @@
+SilverMons1:
+	db $0F
+	db 43,GRAVELER
+	db 44,MAGMAR
+	db 42,ONIX
+	db 45,MAGMAR
+	db 45,GOLBAT
+	db 42,ONIX
+	db 42,GOLBAT
+	db 45,GOLDUCK
+	db 46,GRAVELER
+	db 46,GOLBAT
+	db $00
+
