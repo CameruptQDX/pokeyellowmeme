@@ -252,7 +252,7 @@
 	const HS_SILVERCAVE2_ITEM3            ; F5
 	const HS_SILVERCAVEITEMS_ITEM1        ; F6
 	const HS_SILVERCAVEITEMS_ITEM2        ; F7
-	const HS_ROUTE22GATE_NEWGUARD1        ; F8
-	const HS_ROUTE22GATE_NEWGUARD2        ; F9
-	const HS_TRUCK_MEW                    ; FA
-	const HS_REDBATTLE                    ; FB
+	const HS_RED_TIME_PARADOX             ; F8
+	const HS_ROUTE22GATE_NEWGUARD1        ; F9
+	const HS_ROUTE22GATE_NEWGUARD2        ; FA
+	const HS_TRUCK_MEW                    ; FB

@@ -95,3 +95,6 @@ Music_MeetMaleTrainer::
 	dbw ( $80 | CH0 ), Music_MeetMaleTrainer_Ch1
 	dbw CH1, Music_MeetMaleTrainer_Ch2
 	dbw CH2, Music_MeetMaleTrainer_Ch3
+	
+Music_Silence::
+	dbw $20, Music_Silence_Ch1

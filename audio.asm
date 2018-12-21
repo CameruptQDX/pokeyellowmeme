@@ -448,6 +448,8 @@ PlayBattleMusic::
 	jr c, .wildBattle
 	cp OPP_SONY3
 	jr z, .finalBattle
+	cp OPP_TRAINER_RED
+	jr z, .EvenMorefinalBattle
 	cp OPP_LANCE
 	jr nz, .normalTrainerBattle
 	ld a, MUSIC_GYM_LEADER_BATTLE ; lance also plays gym leader theme
@@ -457,6 +459,9 @@ PlayBattleMusic::
 	jr .playSong
 .finalBattle
 	ld a, MUSIC_FINAL_BATTLE
+	jr .playSong
+.EvenMorefinalBattle
+	ld a, MUSIC_RED_BATTLE
 	jr .playSong
 .wildBattle
 	ld a, MUSIC_WILD_BATTLE
@@ -695,6 +700,7 @@ INCLUDE "audio/music/gymleaderbattle.asm"
 INCLUDE "audio/music/trainerbattle.asm"
 INCLUDE "audio/music/wildbattle.asm"
 INCLUDE "audio/music/finalbattle.asm"
+INCLUDE "audio/music/gen2championbattle.asm" ;new
 INCLUDE "audio/sfx/level_up.asm"
 INCLUDE "audio/sfx/get_item2_2.asm"
 INCLUDE "audio/sfx/caught_mon.asm"
@@ -722,6 +728,7 @@ INCLUDE "audio/music/silphco.asm"
 INCLUDE "audio/music/meeteviltrainer.asm"
 INCLUDE "audio/music/meetfemaletrainer.asm"
 INCLUDE "audio/music/meetmaletrainer.asm"
+INCLUDE "audio/music/silence.asm" ;new
 INCLUDE "audio/music/introbattle.asm"
 INCLUDE "audio/music/surfing.asm"
 INCLUDE "audio/music/jigglypuffsong.asm"

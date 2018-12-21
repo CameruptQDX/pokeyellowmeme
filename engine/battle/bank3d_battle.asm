@@ -155,21 +155,27 @@ InitBattle_Common:
 
 _LoadTrainerPic:
 ; wd033-wd034 contain pointer to pic
-	ld a, [wTrainerPicPointer]
-	ld e, a
-	ld a, [wTrainerPicPointer + 1]
-	ld d, a ; de contains pointer to trainer pic
-	ld a, [wLinkState]
-	and a
-	ld a, Bank(TrainerPics) ; this is where all the trainer pics are (not counting Red's)
-	jr z, .loadSprite
-	ld a, Bank(RedPicFront)
+    ld a, [wLinkState]
+    and a
+    ld a, Bank(RedPicFront)
+    jr nz, .loadSprite
+    ld a, [wTrainerClass]
+    cp TRAINER_RED ; not OPP_
+    ld a, BANK(TrainerRedPic)
+    jr z, .loadSprite
+    ld a, Bank(TrainerPics) ; this is where all the trainer pics are (not counting Red's)
 .loadSprite
-	call UncompressSpriteFromDE
-	ld de, vFrontPic
-	ld a, $77
-	ld c, a
-	jp LoadUncompressedSpriteData
+    ld b, a
+    ld a, [wTrainerPicPointer]
+    ld e, a
+    ld a, [wTrainerPicPointer + 1]
+    ld d, a ; de contains pointer to trainer pic
+    ld a, b
+    call UncompressSpriteFromDE
+    ld de, vFrontPic
+    ld a, $77
+    ld c, a
+    jp LoadUncompressedSpriteData
 
 LoadMonBackPic:
 ; Assumes the monster's attributes have

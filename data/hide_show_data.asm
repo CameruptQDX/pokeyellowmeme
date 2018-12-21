@@ -116,7 +116,7 @@ MapHSPointers:
 	dw MapHS6C
 	dw MapHS6D ; silver cave 1
 	dw MapHS6E ; silver cave 2
-	dw MapHSXX
+	dw MapHS6F ; silver cave 3
 	dw MapHS70 ; silver cave item rooms
 	dw MapHSXX
 	dw MapHSXX
@@ -601,5 +601,7 @@ MapHS6E:
 MapHS70:
 	db SILVER_CAVE_ITEM_ROOMS, $01, Show
 	db SILVER_CAVE_ITEM_ROOMS, $02, Show
+MapHS6F:
+	db SILVER_CAVE_ROOM_3, $01, Show
 	
 	db $FF, $01, Show

@@ -18,6 +18,11 @@ Music_FinalBattle::
 	dbw CH1, Music_FinalBattle_Ch2
 	dbw CH2, Music_FinalBattle_Ch3
 
+Music_Gen2ChampionBattle::
+	dbw ( $80 | CH0 ), Music_Gen2ChampionBattle_Ch1
+	dbw CH1, Music_Gen2ChampionBattle_Ch2
+	dbw CH2, Music_Gen2ChampionBattle_Ch3
+	
 Music_DefeatedTrainer::
 	dbw ( $80 | CH0 ), Music_DefeatedTrainer_Ch1
 	dbw CH1, Music_DefeatedTrainer_Ch2

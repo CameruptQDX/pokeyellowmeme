@@ -1187,7 +1187,6 @@ SafariZoneSecretHouseBlocks: INCBIN "maps/safarizonesecrethouse.blk"
 
 
 SECTION "bank13", ROMX
-
 TrainerPics:
 YoungsterPic:     INCBIN "pic/trainer/youngster.pic"
 BugCatcherPic:    INCBIN "pic/trainer/bugcatcher.pic"
@@ -1247,7 +1246,6 @@ INCLUDE "data/mapHeaders/tradecenter.asm"
 INCLUDE "scripts/tradecenter.asm"
 INCLUDE "data/mapObjects/tradecenter.asm"
 TradeCenterBlocks: INCBIN "maps/tradecenter.blk"
-
 
 SECTION "bank14", ROMX
 
@@ -2195,6 +2193,7 @@ INCLUDE "text/maps/route_28.asm"
 INCLUDE "text/maps/route_28_house.asm"
 INCLUDE "text/maps/silvercaveoutside.asm"
 INCLUDE "text/maps/silvercavepokecenter.asm"
+INCLUDE "text/maps/silvercave3.asm"
 
 INCLUDE "scripts/route28.asm"
 INCLUDE "scripts/route28house.asm"
@@ -2207,5 +2206,5 @@ INCLUDE "scripts/silvercaveitems.asm"
 
 SilverCavePokecenterBlocks: INCBIN "maps/mtmoonpokecenter.blk"
 
-TrainerRedPic:         INCBIN "pic/trainer/red.pic"
+TrainerRedPic:    INCBIN "pic/trainer/red.pic"
 TrainerRedSprite:    INCBIN "gfx/sprites/trainer_red.2bpp"

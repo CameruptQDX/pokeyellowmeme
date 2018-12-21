@@ -70,6 +70,7 @@ ENDM
 	music_const MUSIC_TRAINER_BATTLE,      Music_TrainerBattle
 	music_const MUSIC_WILD_BATTLE,         Music_WildBattle
 	music_const MUSIC_FINAL_BATTLE,        Music_FinalBattle
+	music_const MUSIC_RED_BATTLE,          Music_Gen2ChampionBattle
 	music_const MUSIC_DEFEATED_TRAINER,    Music_DefeatedTrainer
 	music_const MUSIC_DEFEATED_WILD_MON,   Music_DefeatedWildMon
 	music_const MUSIC_DEFEATED_GYM_LEADER, Music_DefeatedGymLeader
@@ -93,6 +94,7 @@ ENDM
 	music_const MUSIC_MEET_EVIL_TRAINER,   Music_MeetEvilTrainer
 	music_const MUSIC_MEET_FEMALE_TRAINER, Music_MeetFemaleTrainer
 	music_const MUSIC_MEET_MALE_TRAINER,   Music_MeetMaleTrainer
+	music_const MUSIC_SILENCE,             Music_Silence
 
 	; AUDIO_4
 	music_const MUSIC_SURFING_PIKACHU,     Music_SurfingPikachu

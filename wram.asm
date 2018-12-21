@@ -3105,6 +3105,8 @@ wSSAnne8CurScript:: ; d607
 	ds 1
 wSSAnne9CurScript:: ; d608
 	ds 1
+wSilverCave3CurScript:: ; yeah penis
+	ds 1
 wRoute22CurScript:: ; d609
 	ds 1
 	ds 1
