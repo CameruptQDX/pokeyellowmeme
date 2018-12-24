@@ -3,7 +3,6 @@ PalletTownObject:
 
 	db $3 ; warps
 	db $5, $5, $0, REDS_HOUSE_1F
-	;db $5, $d, $0, BATTLE_TENT
 	db $5, $d, $0, BLUES_HOUSE
 	db $b, $c, $1, OAKS_LAB
 

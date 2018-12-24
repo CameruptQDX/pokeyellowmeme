@@ -2216,3 +2216,8 @@ INCLUDE "data/mapHeaders/battletent.asm"
 INCLUDE "data/mapObjects/battletent.asm"
 INCLUDE "scripts/battletent.asm"
 BattleTentBlocks: INCBIN "maps/battletent.blk"
+
+_PartyMenuBattleTentText::
+	text "Select which"
+	line "#MON to enter?"
+	done

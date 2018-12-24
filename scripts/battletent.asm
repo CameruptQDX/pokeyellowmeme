@@ -456,7 +456,7 @@ BattleTentGuy:
 	call SaveScreenTilesToBuffer2
 .partymenuloop
 	ld a, $6
-	ld [wTempTilesetNumTiles],a ; changed label from original
+	ld [wPartyMenuTypeOrMessageID],a ; changed label from original
 	call DisplayPartyMenu
 	ld hl, wBTOrder
 	jr nc, .monchosen

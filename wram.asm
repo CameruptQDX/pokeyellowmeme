@@ -3599,6 +3599,7 @@ wStringBuffer2:: ; cf70
 	
 wStringBuffer3:: ; cf81
 	ds 9 + 1
+;end BT wram
 
 wMainDataEnd::
 

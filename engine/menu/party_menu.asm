@@ -87,7 +87,9 @@ RedrawPartyMenu_:
 	cp a,TMHM_PARTY_MENU
 	jr z,.teachMoveMenu
 	cp a,EVO_STONE_PARTY_MENU
-	jr z,.evolutionStoneMenu
+	jp z,.evolutionStoneMenu
+	cp a,$06
+	jr z,.battleTentMenu
 	push hl
 	ld bc,14 ; 14 columns to the right
 	add hl,bc
@@ -122,6 +124,11 @@ RedrawPartyMenu_:
 	add hl,bc
 	call PlaceString
 	pop hl
+.placeMoveLearnabilityString2
+	push hl
+	add hl,bc
+	call PlaceString
+	pop hl
 .printLevel
 	ld bc,10 ; move 10 columns to the right
 	add hl,bc
@@ -138,6 +145,40 @@ RedrawPartyMenu_:
 	db "ABLE@"
 .notAbleToLearnMoveText
 	db "NOT ABLE@"
+	;battletent
+.battleTentMenu
+	ld a, [wWhichPokemon]
+	inc a
+	ld b, a
+	ld a, [wBTOrder]
+	and $7
+	cp b
+	ld de,.BTFirstText
+	jr z,.placeMoveLearnabilityString
+	ld a, [wBTOrder]
+	swap a
+	and $7
+	cp b
+	ld de,.BTSecondText
+	jr z,.placeMoveLearnabilityString
+	ld a, [wBTOrder+1]
+	cp b
+	ld de,.BTThirdText
+	jr z,.placeMoveLearnabilityString
+	ld de,.BTNotEnteredText
+	ld bc,20 + 6
+	jr .placeMoveLearnabilityString2
+.legendaryList
+	db ARTICUNO, ZAPDOS, MOLTRES, MEWTWO, MEW, $ff
+.BTNotEnteredText
+	db "NOT ENTERED@"
+.BTFirstText
+	db "FIRST@"
+.BTSecondText
+	db "SECOND@"
+.BTThirdText
+	db "THIRD@"
+	;bt end
 .evolutionStoneMenu
 	push hl
 	ld hl,EvosMovesPointerTable
@@ -190,7 +231,7 @@ RedrawPartyMenu_:
 	add hl,bc
 	call PlaceString
 	pop hl
-	jr .printLevel
+	jp .printLevel
 .ableToEvolveText
 	db "ABLE@"
 .notAbleToEvolveText
@@ -260,6 +301,7 @@ PartyMenuMessagePointers:
 	dw PartyMenuUseTMText
 	dw PartyMenuSwapMonText
 	dw PartyMenuItemUseText
+	dw PartyMenuBattleTentText
 
 PartyMenuNormalText:
 	TX_FAR _PartyMenuNormalText
@@ -281,6 +323,10 @@ PartyMenuSwapMonText:
 	TX_FAR _PartyMenuSwapMonText
 	db "@"
 
+PartyMenuBattleTentText: ; 12e93 (4:6e93)
+	TX_FAR _PartyMenuBattleTentText
+	db "@"	
+	
 PotionText:
 	TX_FAR _PotionText
 	db "@"
