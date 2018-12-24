@@ -3578,6 +3578,28 @@ wDayCareMonOT::   ds NAME_LENGTH ; da53
 
 wDayCareMon:: box_struct wDayCareMon ; da5e
 
+;battle tent data
+W_BATTLETENTCURSCRIPT:: 
+	ds 1
+	
+wBTOrder::
+	ds 2
+	
+wBTStreakCnt:: 
+	ds 1
+	
+wBTClass::
+	ds 1
+	
+wStringBuffer1:: ; cf5f
+	ds 16 + 1
+
+wStringBuffer2:: ; cf70
+	ds 16 + 1
+	
+wStringBuffer3:: ; cf81
+	ds 9 + 1
+
 wMainDataEnd::
 
 

@@ -2208,3 +2208,11 @@ SilverCavePokecenterBlocks: INCBIN "maps/mtmoonpokecenter.blk"
 
 TrainerRedPic:    INCBIN "pic/trainer/red.pic"
 TrainerRedSprite:    INCBIN "gfx/sprites/trainer_red.2bpp"
+
+SECTION "bank41", ROMX
+
+INCLUDE "engine/battletentdata.asm"
+INCLUDE "data/mapHeaders/battletent.asm"
+INCLUDE "data/mapObjects/battletent.asm"
+INCLUDE "scripts/battletent.asm"
+BattleTentBlocks: INCBIN "maps/battletent.blk"

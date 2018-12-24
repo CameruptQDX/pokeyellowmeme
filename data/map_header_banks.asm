@@ -114,7 +114,7 @@ MapHeaderBanks::
 	db BANK(SilverCave3_h)
 	db BANK(SilverCaveItems_h)
 	db BANK(Lance_h)
-	db $1d ; unused
+	db BANK(BattleTent_h)
 	db $1d ; unused
 	db $1d ; unused
 	db $1d ; unused

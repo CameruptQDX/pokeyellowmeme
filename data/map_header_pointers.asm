@@ -114,7 +114,7 @@ MapHeaderPointers::
 	dw SilverCave3_h
 	dw SilverCaveItems_h
 	dw Lance_h
-	dw Lance_h ; unused
+	dw BattleTent_h
 	dw Lance_h ; unused
 	dw Lance_h ; unused
 	dw Lance_h ; unused

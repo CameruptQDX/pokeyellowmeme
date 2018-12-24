@@ -119,7 +119,7 @@ ENDM
 	mapconst SILVER_CAVE_ROOM_3,        18,  10 ; $6F NEW
 	mapconst SILVER_CAVE_ITEM_ROOMS,     9,  10 ; $70 NEW
 	mapconst LANCES_ROOM,                13, 13 ; $71
-	mapconst UNUSED_MAP_72,               0,  0 ; $72
+	mapconst BATTLE_TENT,                10,  5 ; $72 NEW
 	mapconst UNUSED_MAP_73,               0,  0 ; $73
 	mapconst UNUSED_MAP_74,               0,  0 ; $74
 	mapconst UNUSED_MAP_75,               0,  0 ; $75

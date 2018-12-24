@@ -223,10 +223,10 @@ TitleScreen_PlacePikachu:
 	lb bc, 9, 10
 	call Bank3D_CopyBox
 	coord hl, 16, 10
-	ld [hl], $96
-	coord hl, 16, 11
-	ld [hl], $9d
-	coord hl, 16, 12
+	;ld [hl], $96
+	;coord hl, 16, 11
+	;ld [hl], $9d
+	;coord hl, 16, 12
 	ld [hl], $a7
 	coord hl, 16, 13
 	ld [hl], $b1
@@ -237,14 +237,14 @@ TitleScreen_PlacePikachu:
 	ret
 
 TitleScreenPikachuEyesOAMData:
-	db $60, $40, $f1, $22
-	db $60, $48, $f0, $22
-	db $68, $40, $f3, $22
-	db $68, $48, $f2, $22
-	db $60, $60, $f0, $02
-	db $60, $68, $f1, $02
-	db $68, $60, $f2, $02
-	db $68, $68, $f3, $02
+	db $70, $33, $f1, $22
+	db $70, $3b, $f0, $22
+	db $78, $33, $f3, $22
+	db $78, $3b, $f2, $22
+	db $70, $5c, $f0, $02
+	db $70, $64, $f1, $02
+	db $78, $5c, $f2, $02
+	db $78, $64, $f3, $02
 
 Bank3D_CopyBox:
 ; copy cxb (xy) screen area from de to hl
@@ -288,15 +288,15 @@ TitleScreenPikaBubbleTilemap:
 
 TitleScreenPikachuTilemap:
 ; 10x9 (xy)
-	db $80, $81, $82, $83, $00, $00, $00, $00, $84, $85
-	db $88, $89, $8a, $8b, $8c, $8d, $8d, $8e, $8f, $8a
-	db $00, $92, $93, $8a, $8a, $8a, $8a, $8a, $8a, $94
-	db $00, $00, $97, $8a, $8a, $98, $99, $8a, $8a, $9a
-	db $00, $00, $9e, $9f, $a0, $a1, $a2, $a3, $a4, $a5
-	db $00, $a8, $a9, $aa, $8a, $ab, $ac, $8a, $ad, $ae
-	db $00, $b2, $b3, $b4, $8a, $8a, $8a, $8a, $b5, $b6
-	db $00, $b9, $ba, $8a, $8a, $8a, $8a, $8a, $8a, $bb
-	db $00, $00, $bd, $8a, $8a, $8a, $8a, $8a, $8a, $be
+	db $7F, $7F, $7F, $7F, $FE, $FF, $7F, $7F, $7F, $7F
+	db $7F, $7F, $7F, $7F, $80, $81, $7F, $7F, $7F, $7F
+	db $7F, $7F, $7F, $82, $83, $84, $85, $7F, $7F, $7F
+	db $7F, $86, $87, $88, $89, $89, $8A, $8B, $8C, $7F
+	db $8D, $8E, $8F, $90, $89, $89, $91, $92, $93, $94
+	db $95, $89, $89, $89, $96, $97, $89, $89, $89, $98
+	db $99, $89, $89, $9A, $9B, $9C, $89, $89, $89, $9D
+	db $9E, $89, $89, $89, $9F, $A0, $89, $89, $89, $A1
+	db $A2, $A3, $89, $89, $89, $89, $89, $89, $A4, $A5
 
 PokemonLogoGraphics:	     INCBIN "gfx/pokemon_logo.2bpp"
 PokemonLogoGraphicsEnd:

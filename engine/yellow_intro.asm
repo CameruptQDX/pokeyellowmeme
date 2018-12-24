@@ -304,7 +304,7 @@ YellowIntroScene4:
 	ld [hLCDCPointer], a
 	call Func_f9e5f
 	lb de, $58, $58
-	ld a, $2
+	ld a, $1
 	call YellowIntro_SpawnAnimatedObjectAndSavePointer
 	xor a
 	call Func_f9e9a
