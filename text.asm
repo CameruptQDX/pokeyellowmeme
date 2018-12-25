@@ -427,8 +427,9 @@ _RockTunnelPokecenterGuyText::
 	done
 
 _UnusedBenchGuyText1::
-	text "I wish I could"
-	line "catch #MON."
+	text "This is it!"
+	line "Give it all"
+	cont "you've got!"
 	done
 
 _UnusedBenchGuyText2::

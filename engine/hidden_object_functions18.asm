@@ -96,7 +96,7 @@ BenchGuyTextPointers:
 	db_tx_pre MtMoonPokecenterBenchGuyText
 	db ROCK_TUNNEL_POKECENTER,  SPRITE_FACING_LEFT
 	db_tx_pre RockTunnelPokecenterBenchGuyText
-	db SAFARI_ZONE_REST_HOUSE_2,SPRITE_FACING_LEFT
+	db SILVER_CAVE_POKECENTER, SPRITE_FACING_LEFT
 	db_tx_pre UnusedBenchGuyText1
 	db SAFARI_ZONE_REST_HOUSE_3,SPRITE_FACING_LEFT
 	db_tx_pre UnusedBenchGuyText2
