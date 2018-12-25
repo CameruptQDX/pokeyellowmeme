@@ -13,7 +13,7 @@ ViridianGymScript:
 Gym8CityName:
 	db "VIRIDIAN CITY@"
 Gym8LeaderName:
-	db "GIOVANNI@"
+	db "OBOMA@"
 
 ViridianGymScript_748d6:
 	xor a

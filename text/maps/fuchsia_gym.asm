@@ -142,8 +142,8 @@ _FuchsiaGymEndBattleText4::
 	line "He's got it!"
 	prompt
 _FuchsiaGymAfterBattleText4::
-	text "You're a smart"
-	line "kid, figure it out!"
+	text "You're smart kid,"
+	line "figure it out!"
 	done
 
 _FuchsiaGymBattleText5::

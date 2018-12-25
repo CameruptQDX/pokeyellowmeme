@@ -29,7 +29,7 @@ _WardenTeethText2::
 	prompt
 
 _WardenThankYouText::
-	text "WARDEN: *sips*"
+	text "WARDEN: (sips)"
 	line "Heh, Thanks kid"
 	cont "I was feeling a"
 	cont "bit KRABBY."

@@ -15,7 +15,7 @@ _SafariZoneRestHouse2Text2::
 
 _SafariZoneRestHouse2Text3::
 	text "Imagine throwing"
-	line "at #MON"
+	line "balls at #MON"
 	cont "without battling"
 	cont "them first."
 	done

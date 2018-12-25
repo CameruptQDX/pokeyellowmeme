@@ -19,7 +19,7 @@ _Mansion4BattleText2::
 	done
 
 _Mansion4EndBattleText2::
-	text "Alright,"
+	text "Alright"
 	line "lemme tell ya"
 	cont "about"
 	cont "(((BLASTOISE)))"
@@ -32,7 +32,7 @@ _Mansion4AfterBattleText2::
 	cont "poser named"
 	cont "CARAVAGGIO!"
 	
-	para "$1D, $00, $80"
+	para "0x1D,0x00,0x80"
 	
 	para "Make this sound"
 	line "and watch it"

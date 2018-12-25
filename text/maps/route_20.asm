@@ -26,9 +26,9 @@ _Route20AfterBattleText2::
 	text "Well mostly quiet"
 	line "except every once"
 	cont "in a while an"
-	cont "earth-shaking bird"
-	cont "screech comes from"
-	cont "the caves."
+	cont "earth-shaking"
+	cont "screech comes"
+	cont "from the caves."
 	done
 
 _Route20BattleText3::
@@ -90,7 +90,7 @@ _Route20EndBattleText6::
 
 _Route20AfterBattleText6::
 	text "Get in the water"
-	line "you frickin turkey."
+	line "you frickin turkey"
 	done
 
 _Route20BattleText7::

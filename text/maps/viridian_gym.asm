@@ -19,8 +19,8 @@ _ViridianGymText_74ace::
 	line "VICE PRESIDENT"
 	cont "at my side, ol'"
 	cont "BARACK is feeling"
-	cont "more powerful than"
-	cont "ever before!"
+	cont "more powerful"
+	cont "than ever before!"
 	
 	para "Now come forth,"
 	line "MY SON!"
@@ -53,13 +53,15 @@ _ViridianGymText_74ad9::
 	line "that, I have free"
 	cont "reign to go"
 	cont "wherever in this"
-	cont "multiverse I please."
+	cont "multiverse"
+	cont "I please."
 	
 	para "You just got a"
 	line "taste of the"
 	cont "damage that can"
-	cont "happen when someone"
-	cont "decides to toy"
+	cont "happen when"
+	cont "someone decides"
+	cont "to toy"
 	cont "with reality."
 	
 	para "How do you think"
@@ -105,21 +107,23 @@ _TM27ExplanationText::
 	cont "<PLAYER>."
 
 	para "Your little world,"
-	line "everything you can"
-	cont "possibly experience."
+	line "everything you"
+	cont "can possibly"
+	cont "experience."
 	
 	para "Exists inside a"
 	line "miniscule, two"
 	cont "megabyte bubble"
-	cont "made up of Z80 ASM"
-	cont "and AA battery"
-	cont "juice."
+	cont "made up of"
+	cont "Z80 ASM and AA"
+	cont "battery juice."
 	
 	para "Not unique either."
 	line "Just one copy of"
 	cont "the hundreds and"
-	cont "hundreds of cloned"
-	cont "ROM worlds, created"
+	cont "hundreds of"
+	cont "cloned ROM"
+	cont "worlds, created"
 	cont "and copied and"
 	cont "erased over and"
 	cont "over by entities"
@@ -167,7 +171,7 @@ _ViridianGymEndBattleText3::
 	prompt
 
 _ViridianGymAfterBattleText3::
-	text "3+3+3+3+3+3+3"
+	text "3x3x3x3x3x3x3"
 	done
 
 _ViridianGymBattleText4::
@@ -245,15 +249,16 @@ _ViridianGymText_74bd4::
 	cont "been taken over!"
 
 	para "Some strange man"
-	line "with big ears broke"
-	cont "into the empty gym"
-	cont "and filled it with"
+	line "with big ears"
+	cont "broke into the"
+	cont "empty gym and"
+	cont "filled it with"
 	cont "his brainwashed"
 	cont "TRAINERs!"
 
-	para "Put an end to this"
-	line "bungler once and"
-	cont "for all!"
+	para "Put an end to"
+	line "this bungler once"
+	cont "and for all!"
 	done
 
 _ViridianGymText_74bd9::

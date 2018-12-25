@@ -82,8 +82,9 @@ _CinnabarGymText_75964::
 _CinnabarGymText_75969::
 	text "And that's why"
 	line "jet fuel is"
-	cont "DEFINITIVELY unable"
-	cont "to melt reinforced"
+	cont "DEFINITIVELY"
+	cont "unable to melt"
+	cont "reinforced"
 	cont "steel beams."
 	done
 
@@ -194,7 +195,8 @@ _CinnabarGymText_75aa7::
 	text "Did you know"
 	line "that people die"
 	cont "every day from"
-	cont "dihydrogen monoxide"
+	cont "dihydrogen"
+	cont "monoxide"
 	cont "exposure? Really"
 	cont "makes U think."
 	done

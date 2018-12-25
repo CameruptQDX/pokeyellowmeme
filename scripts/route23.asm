@@ -92,7 +92,7 @@ BadgeTextPointers:
 	dw EarthBadgeText
 
 EarthBadgeText:
-	db "EARTHBADGE@"
+	db "CHANGEBADGE@"
 
 VolcanoBadgeText:
 	db "VOLCANOBADGE@"

@@ -40,7 +40,7 @@ _Route21EndBattleText3::
 
 _Route21AfterBattleText3::
 	text "Nothing like"
-	line "swallowing copius"
+	line "swallowing large"
 	cont "amounts of salt"
 	cont "water!"
 	done

@@ -62,7 +62,7 @@ _ViridianCityText_19122::
 
 _ViridianCityText_19127::
 	text "VIRIDIAN GYM"
-	line "has a new LEADER!"
+	line "was taken over!"
 	done
 
 _ViridianCityText_1914d::

@@ -30,8 +30,9 @@ _FuchsiaCityText4::
 	cont "CHOMPEST."
 	
 	para "KANTO has a"
-	line "#MON that looks"
-	cont "like a box too!"
+	line "#MON that"
+	cont "looks like a"
+	cont "box too!"
 	cont "CLOYSTER!"
 	done
 
