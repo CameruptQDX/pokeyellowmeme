@@ -3375,15 +3375,12 @@ _ObomaWannaTradeText::
 	line "There's one that"
 	cont "you just can't"
 	cont "seem to find."
-	
-	para "@"
-	TX_RAM wInGameTradeReceiveMonName
+	cont "MEW!"
 	
 	para "I can give you"
 	line "MEW... If you"
 	cont "return my son"
-	cont "@"
-	TX_RAM wInGameTradeGiveMonName
+	cont "BARACKTWO"
 	cont "to me..."
 	
 	para "Shall we..."

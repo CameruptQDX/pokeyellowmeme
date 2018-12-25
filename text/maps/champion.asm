@@ -95,17 +95,18 @@ _GaryText_76125::
 	text "<RIVAL>: But!"
 	line "why did we fail!"
 	
-	para "STUMP: ya wanna"
+	para "STUMP: Ya wanna"
 	line "know why ya"
 	cont "lost, huh?"
 
 	para "It's because yer"
-	line "not being sincere!"
+	line "not sincere!"
 	
 	para "Come on kid!"
 	line "Everyone knows"
-	cont "the whole edgelord"
-	cont "thing is an act!"
+	cont "your whole"
+	cont "edgelord thing"
+	cont "is an act!"
 	
 	para "Your #MON too!"
 	
@@ -136,6 +137,6 @@ _GaryText_7612a::
 	line "with your #MON"
 	cont "is amazin'!"
 
-	para $52, "ey"
+	para $52, " "
 	line "Come with me!"
 	done

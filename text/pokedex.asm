@@ -1488,13 +1488,13 @@ _DragoniteDexEntry::
 	dex
 
 _MewtwoDexEntry::
-	text "Its DNA is almost"
-	next "the same as MEW's."
-	next "However, its size"
+	text "The spawn of a"
+	next "DARK LORD, born"
+	next "to be the ultimate"
 
-	page "and disposition"
-	next "are vastly dif-"
-	next "ferent"
+	page "VICE PRESIDENT."
+	next "Enjoys a nice"
+	next "bowl of soup"
 	dex
 
 _MewDexEntry::

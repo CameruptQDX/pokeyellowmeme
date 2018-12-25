@@ -1239,7 +1239,7 @@ DragoniteDexEntry:
 	db "@"
 
 MewtwoDexEntry:
-	db "GENETIC@"
+	db "DEMOCRAT@"
 	db 6,7
 	dw 2690
 	TX_FAR _MewtwoDexEntry
