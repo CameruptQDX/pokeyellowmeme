@@ -42,13 +42,13 @@ ItemPrices:
 	money 0     ; DOME_FOSSIL
 	money 0     ; HELIX_FOSSIL
 	money 0     ; SECRET_KEY
-	money 2100  ; JUMP_STONE
+	money 0     ; BAD KEY ITEM
 	money 0     ; BIKE_VOUCHER
 	money 950   ; X_ACCURACY
 	money 2100  ; LEAF_STONE
 	money 0     ; CARD_KEY
 	money 10000 ; NUGGET
-	money 9800  ; XXX PP_UP
+	money 2100  ; JUMP_STONE
 	money 1000  ; POKE_DOLL
 	money 600   ; FULL_HEAL
 	money 1500  ; REVIVE
