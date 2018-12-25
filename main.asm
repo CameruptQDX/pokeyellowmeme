@@ -329,7 +329,6 @@ LavenderHouse2Blocks:
 SaffronHouse1Blocks:
 SaffronHouse2Blocks:
 Route16HouseBlocks:
-Route28HouseBlocks:
 NameRaterBlocks: INCBIN "maps/viridianhouse.blk"
 SchoolBlocks:
 CeladonMansion5Blocks: INCBIN "maps/school.blk"
@@ -2188,6 +2187,8 @@ INCLUDE "data/mapObjects/silvercavepokecenter.asm"
 INCLUDE "data/mapHeaders/silvercaveoutside.asm"
 INCLUDE "data/mapObjects/silvercaveoutside.asm"
 SilverCaveOutsideBlocks: INCBIN "maps/SilverCaveOutside.blk"
+
+Route28HouseBlocks: INCBIN "maps/viridianhouse.blk"
 
 INCLUDE "text/maps/route_28.asm"
 INCLUDE "text/maps/route_28_house.asm"

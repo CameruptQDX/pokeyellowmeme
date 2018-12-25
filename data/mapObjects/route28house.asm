@@ -2,8 +2,8 @@ Route28HouseObject:
 	db $a ; border block
 
 	db $2 ; warps
-	db $7, $2, $4, $ff
-	db $7, $3, $4, $ff
+	db $7, $2, $1, $ff
+	db $7, $3, $1, $ff
 
 	db $0 ; signs
 

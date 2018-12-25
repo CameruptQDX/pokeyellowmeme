@@ -3,7 +3,7 @@ Route28Object:
 
 	db $2 ; warps
 	db $5, $21, $5, ROUTE_22_GATE
-	db $3, $7, $0, ROUTE_28_HOUSE
+	db $3, $7, $1, ROUTE_28_HOUSE
 	
 	db $1 ; signs
 	db $5, $1F, $1 ; Route28Text1
