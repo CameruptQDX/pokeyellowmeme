@@ -5,7 +5,7 @@ _VictoryRoad1BattleText1::
 	done
 
 _VictoryRoad1EndBattleText1::
-	text "Daym!"
+	text "Daym"
 	prompt
 
 _VictoryRoad1AfterBattleText1::
