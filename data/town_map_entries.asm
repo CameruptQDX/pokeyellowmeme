@@ -10,7 +10,7 @@ ExternalMapEntries:
 	EMAP $2,$F,CinnabarIslandName
 	EMAP $0,$2,IndigoPlateauName
 	EMAP $A,$5,SaffronCityName
-	EMAP $0,$0,PalletTownName ; unused
+	EMAP $0,$4,SilverCaveName
 	EMAP $2,$A,Route1Name
 	EMAP $2,$6,Route2Name
 	EMAP $4,$3,Route3Name
@@ -58,7 +58,13 @@ InternalMapEntries:
 	IMAP BILLS_HOUSE,               $C,$0,SeaCottageName
 	IMAP VERMILION_DOCK,            $A,$9,VermilionCityName
 	IMAP SS_ANNE_10,                $9,$A,SSAnneName
+	IMAP ROUTE_28,					$0,$4,Route28Name
+	IMAP SILVER_CAVE_POKECENTER,    $0,$4,SilverCaveName
+	IMAP ROUTE_28_HOUSE,            $0,$4,Route28Name
 	IMAP VICTORY_ROAD_1,            $0,$4,VictoryRoadName
+	IMAP SILVER_CAVE_ITEM_ROOMS,     $0,$4,SilverCaveName
+	IMAP LANCES_ROOM,                $0,$2,PokemonLeagueName
+	IMAP BATTLE_TENT,                $7,$5,CeladonCityName
 	IMAP HALL_OF_FAME,              $0,$2,PokemonLeagueName
 	IMAP UNDERGROUND_PATH_NS,       $A,$5,UndergroundPathName
 	IMAP CHAMPIONS_ROOM,            $0,$2,PokemonLeagueName

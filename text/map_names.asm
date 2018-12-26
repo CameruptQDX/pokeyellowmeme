@@ -105,3 +105,7 @@ CeruleanCaveName:
 	db "CERULEAN CAVE@"
 PowerPlantName:
 	db "POWER PLANT@"
+Route28Name:
+	db "ROUTE 28@"
+SilverCaveName:
+	db "MT.SILVER@"
