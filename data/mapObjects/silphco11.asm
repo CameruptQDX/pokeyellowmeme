@@ -14,7 +14,7 @@ SilphCo11Object:
 	object SPRITE_FOULARD_WOMAN, $a, $5, STAY, DOWN, $2 ; person
 	object SPRITE_GIOVANNI, $6, $9, STAY, DOWN, $3, OPP_GIOVANNI, $2
 	object SPRITE_JAMES, $2, $8, STAY, UP, $4
-	object SPRITE_DEADLYSEVEN, $f, $9, STAY, UP, $5, OPP_DEADLYSEVEN, $1e ; last asimov
+	object SPRITE_DEADLYSEVEN, $4, $e, STAY, DOWN, $5, OPP_DEADLYSEVEN, $1e ; last asimov
 	object SPRITE_JESSIE, $3, $8, STAY, UP, $6
 
 	; warp-to
