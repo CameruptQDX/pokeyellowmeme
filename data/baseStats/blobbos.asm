@@ -18,11 +18,11 @@ db 0
 db 0
 db 5 ; growth rate
 ; learnset
+	tmlearn 6,8
+	tmlearn 9,10,13,14
 	tmlearn 0
-	tmlearn 0
-	tmlearn 0
-	tmlearn 0
-	tmlearn 0
-	tmlearn 0
-	tmlearn 0
+	tmlearn 31,32
+	tmlearn 34,35,40
+	tmlearn 44,48
+	tmlearn 50,53,54
 db BANK(BlobbosPicFront)

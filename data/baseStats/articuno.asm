@@ -6,7 +6,7 @@ db 85 ; base speed
 db 125 ; base special
 db ICE ; species type 1
 db FLYING ; species type 2
-db 10 ; catch rate
+db 3 ; catch rate
 db 215 ; base exp yield
 INCBIN "pic/ymon/articuno.pic",0,1 ; 77, sprite dimensions
 dw ArticunoPicFront

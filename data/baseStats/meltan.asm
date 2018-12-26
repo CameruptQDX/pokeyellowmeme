@@ -6,7 +6,7 @@ db 34 ; base speed
 db 55 ; base special
 db STEEL ; species type 1
 db STEEL ; species type 2
-db 45 ; catch rate
+db 20 ; catch rate
 db 61 ; base exp yield
 INCBIN "pic/ymon/meltan.pic",0,1 ; 55, sprite dimensions
 dw MeltanPicFront
@@ -18,11 +18,11 @@ db 0
 db 0
 db 5 ; growth rate
 ; learnset
+	tmlearn 6
 	tmlearn 0
+	tmlearn 24
 	tmlearn 0
-	tmlearn 0
-	tmlearn 0
-	tmlearn 0
-	tmlearn 0
-	tmlearn 0
+	tmlearn 34
+	tmlearn 44,45
+	tmlearn 50
 db BANK(MeltanPicFront)

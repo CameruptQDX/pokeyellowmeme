@@ -18,11 +18,11 @@ db TAIL_WHIP
 db THUNDER_WAVE
 db 5 ; growth rate
 ; learnset
-	tmlearn 0
-	tmlearn 0
-	tmlearn 0
-	tmlearn 0
-	tmlearn 0
-	tmlearn 0
-	tmlearn 0
+	tmlearn 1,6,8
+	tmlearn 9,10,13,15
+	tmlearn 17,18,19,22,24
+	tmlearn 25,26,27
+	tmlearn 34,36,40
+	tmlearn 44,45,47
+	tmlearn 49,50,54
 db BANK(MelmetalPicFront)
