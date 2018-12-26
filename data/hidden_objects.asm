@@ -80,6 +80,8 @@ HiddenObjectMaps:
 	dbw CINNABAR_LAB_4,         CinnabarLab4HiddenObjects
 	dbw CINNABAR_POKECENTER,    CinnabarPokecenterHiddenObjects
 	dbw SILVER_CAVE_POKECENTER, SilverCavePokecenterHiddenObjects
+	dbw ROUTE_28, Route28HiddenObjects
+	dbw SILVER_CAVE_OUTSIDE, SilverCaveOutsideHiddenObjects
 	db $ff
 
 ; format: y-coord, x-coord, text id/item id, object routine
@@ -543,4 +545,12 @@ CinnabarPokecenterHiddenObjects:
 SilverCavePokecenterHiddenObjects:
 	hidden_object   4,   0, SPRITE_FACING_UP, PrintBenchGuyText
 	hidden_object   3,  13, SPRITE_FACING_UP, OpenPokemonCenterPC
+	db $ff
+
+Route28HiddenObjects:
+	hidden_object  3,  26, RARE_CANDY, HiddenItems
+	db $ff
+	
+SilverCaveOutsideHiddenObjects:
+	hidden_object  25,  5, FULL_RESTORE, HiddenItems
 	db $ff

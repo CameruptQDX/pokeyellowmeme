@@ -54,4 +54,6 @@ HiddenItemCoords:
 	db CELADON_CITY, $0f, $30
 	db SAFARI_ZONE_ENTRANCE, $01, $0a
 	db MANSION_1, $10, $08
+	db ROUTE_28, $1A, $03
+	db SILVER_CAVE_OUTSIDE, $5, $19
 	db $ff
