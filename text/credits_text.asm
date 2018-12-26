@@ -87,8 +87,8 @@ CreditsTextPointers:
 	dw CreditsText_Yamazaki
 
 CreditsText_Version:
-	db -6, "YELLOW VERSION"
-	next   "    STAFF@"
+	db -6, "PERIWINKLE"
+	next   "VERSION STAFF@"
 CreditsText_Tajiri:
 	db -6, "SATOSHI TAJIRI@"
 CreditsText_Oota:
@@ -112,7 +112,7 @@ CreditsText_Kawaguchi:
 CreditsText_Ishihara:
 	db -8, "TSUNEKAZU ISHIHARA@"
 CreditsText_Yamauchi:
-	db -7, "HIROSHI YAMAUCHI@"
+	db -6, "PRODUCT TESTING@"
 CreditsText_Zinnai:
 	db -7, "HIROYUKI ZINNAI@"
 CreditsText_Hishida:
@@ -146,11 +146,11 @@ CreditsText_Yuda:
 CreditsText_Pokemon:
 	db -3, "#MON@"
 CreditsText_Director:
-	db -3, "DIRECTOR@"
+	db -3, "ROMHACKER@"
 CreditsText_Programmers:
 	db -5, "PROGRAMMERS@"
 CreditsText_CharacterDesign:
-	db -7, "CHARACTER DESIGN@"
+	db -7, "ART AND SPRITES@"
 CreditsText_Music:
 	db -2, "MUSIC@"
 CreditsText_SoundEffects:
@@ -166,7 +166,7 @@ CreditsText_ParametricDesign:
 CreditsText_MapDesign:
 	db -4, "MAP DESIGN@"
 CreditsText_Testing:
-	db -6, "PRODUCT TESTING@"
+	db -6, "SPECIAL STANKS@"
 CreditsText_SpecialThanks:
 	db -6, "SPECIAL THANKS@"
 CreditsText_Producers:
@@ -174,7 +174,7 @@ CreditsText_Producers:
 CreditsText_Producer:
 	db -3, "PRODUCER@"
 CreditsText_ExecutiveProducer:
-	db -8, "EXECUTIVE PRODUCER@"
+	db -9, "DESERVES AN APOLOGY@"
 CreditsText_Tamada:
 	db -6, "SOUSUKE TAMADA@"
 CreditsText_Oota2:
@@ -196,7 +196,7 @@ CreditsText_Shimamura:
 CreditsText_Shimoyamada:
 	db -9, "TERUYUKI SHIMOYAMADA@"
 CreditsText_SuperMarioClub:
-	db -9, "NCL SUPER MARIO CLUB@"
+	db -9, "BING BING WAHOO CLUB@"
 CreditsText_Izushi:
 	db -7, "TAKEHIRO IZUSHI@"
 CreditsText_Nomura:
@@ -212,53 +212,53 @@ CreditsText_Saeki:
 CreditsText_Fuzii:
 	db -5, "TAKAYA FUZII@"
 CreditsText_Shogakukan:
-	db -4, "SHOGAKUKAN"
-	next   "PRODUCTION@"
+	db -7, "#MON CLOVER"
+	next   "DEV TEAM@"
 CreditsText_Ootani:
-	db -5, "IKUE OOTANI@"
+	db -5, "LIL'BRO@"
 CreditsText_PikachuVoice:
-	db -6, "PIKACHU VOICE@"
+	db -6, "BLOBBOS VOICE@"
 
 	db -3, "××××××××@"
 CreditsText_USStaff:
-	db -7, "US VERSION STAFF@"
+	db -7, "ROMHACK STAFF@"
 CreditsText_USCoord:
-	db -7, "US COORDINATION@"
+	db -8, "CREDITED HACK WORK@"
 CreditsText_Tilden:
-	db -5, "GAIL TILDEN@"
+	db -8, "SILENT S: MOVESETS@"
 CreditsText_Kawakami:
-	db -6, "NAOKO KAWAKAMI@"
+	db -8, "LUNA: RPP BUGFIXES@"
 CreditsText_Nakamura2:
-	db -6, "HIRO NAKAMURA@"
+	db -7, "RANGI: SGB BORDER@"
 CreditsText_Shoemake:
-	db -6, "RANDY SHOEMAKE@"
+	db -6, "TPP DEVS: B.TENT@"
 CreditsText_Osborne:
-	db -5, "SARA OSBORNE@"
+	db -8, "POKEYELLOW BY PRET@"
 CreditsText_Translation:
-	db -7, "TEXT TRANSLATION@"
+	db -7, "HACKING SUPPORT@"
 CreditsText_Ogasawara:
-	db -6, "NOB OGASAWARA@"
+	db -6, "LUCKYTYPHLOSION@"
 CreditsText_Iwata:
-	db -5, "SATORU IWATA@"
+	db -3, "CAMERUPT@"
 CreditsText_Izushi2:
 	db -7, "TAKEHIRO IZUSHI@"
 CreditsText_Harada2:
-	db -7, "TAKAHIRO HARADA@"
+	db -7, "CAPSLOCK PRIME@"
 CreditsText_Murakawa:
-	db -7, "TERUKI MURAKAWA@"
+	db -4, "HIGHROOL@"
 CreditsText_Fukui:
-	db -5, "KOHTA FUKUI@"
+	db -4, "MENU GUY@"
 CreditsText_SuperMarioClub2:
-	db -9, "NCL SUPER MARIO CLUB@"
+	db -9, "BARACK HUSSEIN OBOMA@"
 CreditsText_Paad:
-	db -5, "PAAD TESTING@"
+	db -5, "AS HIMSELF:@"
 CreditsText_Hosokawa:
-	db -8, "TAKEHIKO HOSOKAWA@"
+	db -5, "BLOODLESSNS@"
 CreditsText_Okubo:
-	db -5, "KENJI OKUBO@"
+	db -5, "LE RUSE BIRD@"
 CreditsText_Nakamichi:
-	db -7, "KIMIKO NAKAMICHI@"
+	db -7, "/VP/'S /RHEG/@"
 CreditsText_Yoshimura:
-	db -6, "KAMON YOSHIMURA@"
+	db -8, "LRB'S TRADE SERVER@"
 CreditsText_Yamazaki:
-	db -6, "SAKAE YAMAZAKI@"
+	db -6, "THE CUTLERINE@"

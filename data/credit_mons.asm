@@ -1,20 +1,20 @@
 CreditsMons:
-	db VENUSAUR
-	db ARBOK
-	db RHYHORN
-	db FEAROW
-	db ABRA
-	db GRAVELER
-	db HITMONLEE
-	db TANGELA
+	db BLOBBOS
+	db CUBONE
+	db ONIX
 	db STARMIE
-	db GYARADOS
-	db DITTO
-	db OMASTAR
+	db RAICHU
 	db VILEPLUME
-	db NIDOKING
-	db PARASECT
+	db VENOMOTH
+	db ALAKAZAM
+	db RAPIDASH
+	db MEWTWO
+	db ARTICUNO
+	db MACHAMP
+	db GENGAR
+	db DRAGONITE
+	db MELMETAL
 
 rept 9
-	db GENGAR
+	db PIKACHU
 endr
