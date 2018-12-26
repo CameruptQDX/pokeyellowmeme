@@ -105,4 +105,16 @@ SpecialTrainerMoves:
 	db 5,1,THUNDER_WAVE
 	db 0
 
+	db TRAINER_RED,$1
+	db 1,1,SURF
+	db 1,2,BUBONIC_ZAP
+	db 2,1,FUSHIGGYDIG
+	db 2,2,TOXIC
+	db 2,4,LEECH_SEED
+	db 3,2,FIRE_SPIN
+	db 4,3,BLIZZARD
+	db 6,2,LARD_BARD
+	db 6,3,REST
+	db 0
+	
 	db $ff
