@@ -99,8 +99,10 @@ _PewterGymText_5c4c1::
 	cont "BADGE!"
 
 	para "Its bearer's"
-	line "#MON become"
-	cont "more powerful!"
+	line "#MON won't"
+	cont "become more"
+	cont "powerful, that's"
+	cont "just a myth!"
 
 	para "The technique"
 	line "FLASH can now be"

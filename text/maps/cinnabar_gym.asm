@@ -33,9 +33,11 @@ _BlaineBadgeText::
 	text "Hah!"
 
 	para "The VOLCANOBADGE"
-	line "heightens the"
-	cont "SPECIAL abilities"
-	cont "of your #MON!"
+	line "symbolizes the"
+	cont "active volcano"
+	cont "bubbling away"
+	cont "under this"
+	cont "island!"
 
 	para "Here, you can"
 	line "have this too!"

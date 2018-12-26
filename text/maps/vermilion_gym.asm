@@ -31,11 +31,8 @@ _VermilionGymText_5cb72::
 
 _VermilionGymText_5cb77::
 	text "The THUNDERBADGE"
-	line "cranks up your"
-	cont "#MON's SPEED!"
-
-	para "It also lets your"
-	line "#MON FLY any-"
+	line "lets your"
+	cont "#MON FLY any-"
 	cont "time, kid!"
 
 	para "You're special,"

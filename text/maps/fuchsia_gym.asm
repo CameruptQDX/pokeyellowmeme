@@ -39,12 +39,9 @@ _KogaExplainToxicText::
 _FuchsiaGymText9::
 	text "Now that you have"
 	line "the SOULBADGE,"
-	cont "the DEFENSE of"
 	cont "your #MON"
-	cont "increases!"
-
-	para "It also lets you"
-	line "SURF outside of"
+	cont "will be able to"
+	cont "SURF outside of"
 	cont "battle!"
 
 	para "Ah! Take this"

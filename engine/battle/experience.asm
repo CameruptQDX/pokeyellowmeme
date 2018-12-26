@@ -236,8 +236,8 @@ GainExperience:
 	ld hl, CalculateModifiedStats
 	call Bankswitch15ToF
 	ld hl, ApplyBurnAndParalysisPenaltiesToPlayer
-	call Bankswitch15ToF
-	ld hl, ApplyBadgeStatBoosts
+	;call Bankswitch15ToF
+	;ld hl, ApplyBadgeStatBoosts
 	call Bankswitch15ToF
 	ld hl, DrawPlayerHUDAndHPBar
 	call Bankswitch15ToF
