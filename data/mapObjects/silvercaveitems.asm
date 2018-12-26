@@ -9,7 +9,7 @@ SilverCaveItemsObject:
 	
 	db $2 ; objects
 	object SPRITE_BALL, $F, $3, STAY, NONE, $1, MAX_REVIVE
-	object SPRITE_BALL, $3, $10, STAY, NONE, $2, FULL_RESTORE
+	object SPRITE_BALL, $3, $F, STAY, NONE, $2, FULL_RESTORE
 
 	; warp-to
 	EVENT_DISP SILVER_CAVE_ITEM_ROOMS_WIDTH, $5, $B 
