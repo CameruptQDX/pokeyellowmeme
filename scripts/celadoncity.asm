@@ -129,7 +129,7 @@ CeladonCityText15:
 	db "@"
 
 CeladonCityText16:
-	TX_FAR _CeladonCityText16
+	TX_FAR _BattleTentSignText
 	db "@"
 
 CeladonCityText17:

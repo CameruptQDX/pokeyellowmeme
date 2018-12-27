@@ -82,6 +82,7 @@ HiddenObjectMaps:
 	dbw SILVER_CAVE_POKECENTER, SilverCavePokecenterHiddenObjects
 	dbw ROUTE_28, Route28HiddenObjects
 	dbw SILVER_CAVE_OUTSIDE, SilverCaveOutsideHiddenObjects
+	dbw BATTLE_TENT, BattleTentHiddenObjects
 	db $ff
 
 ; format: y-coord, x-coord, text id/item id, object routine
@@ -553,4 +554,8 @@ Route28HiddenObjects:
 	
 SilverCaveOutsideHiddenObjects:
 	hidden_object  25,  5, FULL_RESTORE, HiddenItems
+	db $ff
+	
+BattleTentHiddenObjects:
+	hidden_object 16, 9, SPRITE_FACING_UP, OpenPokemonCenterPC
 	db $ff

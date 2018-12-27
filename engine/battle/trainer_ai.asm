@@ -342,6 +342,9 @@ TrainerAI:
 	ld a,[wIsInBattle]
 	dec a
 	jr z, .done ; if not a trainer, we're done here
+	ld a, [wCurMap]
+	cp BATTLE_TENT
+	ret z ; if we are in battle tent, we are done
 	ld a,[wLinkState]
 	cp LINK_STATE_BATTLING
 	jr z, .done ; if in a link battle, we're done as well

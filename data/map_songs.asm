@@ -113,7 +113,7 @@ MapSongBanks:
 	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ;silver cave 3
 	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ;silver cave items
 	db MUSIC_INDIGO_PLATEAU, BANK(Music_IndigoPlateau) ; Lance
-	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ;unused
+	db MUSIC_GYM, BANK(Music_Gym) ;Battle Tent
 	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ;unused
 	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ;unused
 	db MUSIC_SS_ANNE, BANK(Music_SSAnne) ;unused
