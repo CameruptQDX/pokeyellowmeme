@@ -833,14 +833,14 @@ InitYellowIntroGFXAndMusic:
 	call DelayFrame
 	xor a
 	ld [H_AUTOBGTRANSFERENABLED], a
-	ld de, $6b5a
-	ld hl, $8000
-	ld bc, $3eff
-	call CopyVideoData
-	ld de, $635a
-	ld hl, $9000
-	ld bc, $3e80
-	call CopyVideoData
+	ld de, YellowIntroGraphics + $80 * $10
+    ld hl, vChars0
+	lb bc, BANK(YellowIntroGraphics), $ff
+    call CopyVideoData
+    ld de, YellowIntroGraphics
+    ld hl, vChars2
+    lb bc, BANK(YellowIntroGraphics), $80
+    call CopyVideoData
 	call ClearObjectAnimationBuffers
 	call LoadYellowIntroObjectAnimationDataPointers
 	ld b, $8

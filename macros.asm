@@ -100,27 +100,27 @@ callbs: MACRO
 callba: MACRO
 	ld b, BANK(\1)
 	ld hl, \1
-	call Bankswitch
+	rst $08
 	ENDM
 
 callab: MACRO
 	ld hl, \1
 	ld b, BANK(\1)
-	call Bankswitch
+	rst $08
 	ENDM
 
 calladb_ModifyPikachuHappiness: MACRO
 	ld hl, ModifyPikachuHappiness
 	ld d, \1
 	ld b, BANK(ModifyPikachuHappiness)
-	call Bankswitch
+	rst $08
 	ENDM
 
 callabd_ModifyPikachuHappiness: MACRO
 	ld hl, ModifyPikachuHappiness
 	ld b, BANK(ModifyPikachuHappiness)
 	ld d, \1
-	call Bankswitch
+	rst $08
 	ENDM
 
 jpba: MACRO

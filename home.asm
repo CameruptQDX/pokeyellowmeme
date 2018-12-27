@@ -1,4 +1,5 @@
-
+SECTION "rst08", ROM0
+    jp Bankswitch
 ; Hardware interrupts
 SECTION "vblank", ROM0 [$40]
 	jp VBlank
@@ -750,14 +751,23 @@ PrintBCDDigit::
 ; assumes the corresponding mon header is already loaded
 ; hl contains offset to sprite pointer ($b for front or $d for back)
 UncompressMonSprite::
-	ld bc, wMonHeader
-	add hl, bc
-	ld a, [hli]
-	ld [wSpriteInputPtr], a    ; fetch sprite input pointer
-	ld a, [hl]
-	ld [wSpriteInputPtr + 1], a
-	ld a, [wMonSpritesBank]
+	ld bc,wMonHeader
+	add hl,bc
+	ld a,[hli]
+	ld [wSpriteInputPtr],a    ; fetch sprite input pointer
+	ld a,[hl]
+	ld [wSpriteInputPtr+1],a
+	ld a,[wcf91] ; XXX name for this ram location
+	cp MON_GHOST
+	jr z,.RecallBank
+	ld a,[wMonSpritesBank]
+	jr .GotBank
+.RecallBank
+	ld a,BANK(GhostPic)
+.GotBank
 	jp UncompressSpriteData
+
+	ds $19
 
 ; de: destination location
 LoadMonFrontSprite::

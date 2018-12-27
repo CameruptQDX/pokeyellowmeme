@@ -1,4 +1,6 @@
 ROM0
+  ORG $08
+  "rst08"
   ORG $61
   "Home"
   ORG $150
