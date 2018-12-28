@@ -71,9 +71,7 @@ ENDM
 	music_const MUSIC_WILD_BATTLE,         Music_WildBattle
 	music_const MUSIC_FINAL_BATTLE,        Music_FinalBattle
 	music_const MUSIC_RED_BATTLE,          Music_Gen2ChampionBattle
-	music_const MUSIC_DEFEATED_TRAINER,    Music_DefeatedTrainer
-	music_const MUSIC_DEFEATED_WILD_MON,   Music_DefeatedWildMon
-	music_const MUSIC_DEFEATED_GYM_LEADER, Music_DefeatedGymLeader
+	
 
 	; AUDIO_3
 	music_const MUSIC_TITLE_SCREEN,        Music_TitleScreen
@@ -99,6 +97,9 @@ ENDM
 	; AUDIO_4
 	music_const MUSIC_SURFING_PIKACHU,     Music_SurfingPikachu
 	music_const MUSIC_MEET_JESSIE_JAMES,    Music_MeetJessieJames
+	music_const MUSIC_DEFEATED_TRAINER,    Music_DefeatedTrainer ; moved
+	music_const MUSIC_DEFEATED_WILD_MON,   Music_DefeatedWildMon
+	music_const MUSIC_DEFEATED_GYM_LEADER, Music_DefeatedGymLeader
 	music_const MUSIC_YELLOW_UNUSED_SONG,  Music_YellowUnusedSong
 	music_const MUSIC_GB_PRINTER,          Music_GBPrinter
 

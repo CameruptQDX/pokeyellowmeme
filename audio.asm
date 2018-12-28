@@ -704,9 +704,7 @@ INCLUDE "audio/music/gen2championbattle.asm" ;new
 INCLUDE "audio/sfx/level_up.asm"
 INCLUDE "audio/sfx/get_item2_2.asm"
 INCLUDE "audio/sfx/caught_mon.asm"
-INCLUDE "audio/music/defeatedtrainer.asm"
-INCLUDE "audio/music/defeatedwildmon.asm"
-INCLUDE "audio/music/defeatedgymleader.asm"
+
 
 
 SECTION "Music 3", ROMX
@@ -742,8 +740,10 @@ SECTION "Music 4", ROMX
 INCLUDE "audio/music/surfingpikachu.asm"
 INCLUDE "audio/music/yellowunusedsong.asm"
 INCLUDE "audio/music/meetjessiejames.asm"
+INCLUDE "audio/music/defeatedtrainer.asm"
+INCLUDE "audio/music/defeatedwildmon.asm"
+INCLUDE "audio/music/defeatedgymleader.asm"
 
-INCBIN "audio/unknown_832b9.bin"
 
 
 INCLUDE "audio/pikachu_cries.asm"
