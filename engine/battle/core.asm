@@ -3978,6 +3978,10 @@ MonName1Text:
 	ld a, [wEnemyMoveNum]
 	ld hl, wEnemyUsedMove
 .playerTurn
+    cp JUMP_ANIM
+    jr nz, .notJump
+    ld a, JUMP_M
+.notJump
 	ld [hl], a
 	ld [wd11e], a
 	call DetermineExclamationPointTextNum
@@ -5991,6 +5995,10 @@ EnemyCanExecuteChargingMove:
 	res ChargingUp, [hl] ; no longer charging up for attack
 	res Invulnerable, [hl] ; no longer invulnerable to typical attacks
 	ld a, [wEnemyMoveNum]
+	cp JUMP_ANIM
+    jr nz, .notJump
+    ld a, JUMP_M
+.notJump
 	ld [wd0b5], a
 	ld a, BANK(MoveNames)
 	ld [wPredefBank], a
