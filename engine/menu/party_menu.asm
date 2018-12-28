@@ -199,7 +199,7 @@ RedrawPartyMenu_:
 	ld l,a
 	ld de,wcd6d
 	ld a,BANK(EvosMovesPointerTable)
-	ld bc, $0d ; Mon133_EvosEnd - Mon133_EvosMoves
+	ld bc, wTileMapBackup2 - wcd6d ; jumpeon is real 1998
 	call FarCopyData
 	ld hl,wcd6d
 	ld de,.notAbleToEvolveText
