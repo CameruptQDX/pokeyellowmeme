@@ -255,4 +255,4 @@
 	const HS_RED_TIME_PARADOX             ; F8
 	const HS_ROUTE22GATE_NEWGUARD1        ; F9
 	const HS_ROUTE22GATE_NEWGUARD2        ; FA
-	const HS_TRUCK_MEW                    ; FB
+	const HS_INDIGO_STUMP                 ; FB

@@ -1,5 +1,11 @@
 SECTION "rst08", ROM0
     jp Bankswitch
+	
+IsInBattleTent EQU $30
+SECTION "rst 30", ROM0 [IsInBattleTent]
+	ld a, [wCurMap]
+	cp BATTLE_TENT
+	ret
 ; Hardware interrupts
 SECTION "vblank", ROM0 [$40]
 	jp VBlank

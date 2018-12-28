@@ -2218,6 +2218,8 @@ INCLUDE "data/mapObjects/battletent.asm"
 INCLUDE "scripts/battletent.asm"
 BattleTentBlocks: INCBIN "maps/battletent.blk"
 
+INCLUDE "text/maps/indigo_plateau.asm"
+
 _PartyMenuBattleTentText::
 	text "Select which"
 	line "#MON to enter?"

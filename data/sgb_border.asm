@@ -4,26 +4,29 @@ INCBIN "gfx/tilemaps/sgbborder.map"
 	ds $100
 
 
-	RGB 28,28,28 ; PAL_SGB1
-	RGB 31,27,14
-	RGB 19,25,25
-	RGB 16,16,19
+	;new pal
+	RGB 29,23,24 ; pink highlights
+	RGB 19,25,25 ; cyan blue main
+	RGB 27, 23, 29 ; purple bg
+	RGB 16,16,19 ; black 
 
 	ds $18
 
-	RGB 28,28,28 ; PAL_SGB2
-	RGB 31,20,15
-	RGB 31,26,20
-	RGB 16,16,19
-
+	;new pal
+	RGB 29,23,24 ; pink highlights
+	RGB 19,25,25 ; cyan blue main
+	RGB 27, 23, 29 ; purple bg
+	RGB 16,16,19 ; black
 	ds $18
 
-	RGB 28,28,28 ; PAL_SGB3
-	RGB 29,23,24
-	RGB 19,25,18
-	RGB 16,16,19
+	;new pal
+	RGB 29,23,24 ; pink highlights
+	RGB 19,25,25 ; cyan blue main
+	RGB 27, 23, 29 ; purple bg
+	RGB 16,16,19 ; black
 
-	ds $18
-
+	ds $18	
+	
+	
 SGBBorderGraphics:
 INCBIN "gfx/pokemon_yellow.t6.2bpp"

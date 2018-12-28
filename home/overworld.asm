@@ -286,6 +286,8 @@ OverworldLoopLessDelay::
 	ld a, [wCurMap]
 	cp OAKS_LAB
 	jp z, .noFaintCheck ; no blacking out if the player lost to the rival in Oak's lab
+	cp BATTLE_TENT
+	jp z,.noFaintCheck ; no blacking out in this map too
 	callab AnyPartyAlive
 	ld a, d
 	and a

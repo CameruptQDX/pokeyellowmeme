@@ -3601,6 +3601,9 @@ wStringBuffer3:: ; cf81
 	ds 9 + 1
 ;end BT wram
 
+wIndigoPlateauCurScript:: ; yeah penis
+	ds 1
+
 wMainDataEnd::
 
 
