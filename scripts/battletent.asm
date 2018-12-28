@@ -591,7 +591,7 @@ BattleTentGuy_After:
 ; clear up all variables
 	xor a
 	ld hl, wBTOrder
-	ld bc, $df00 - wBTOrder
+	ld bc, wBTDataEnd - wBTOrder
 	call FillMemory
 	ld hl, BattleTentSeeYouAgain
 	call PrintText

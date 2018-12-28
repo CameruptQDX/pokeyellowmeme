@@ -3105,8 +3105,6 @@ wSSAnne8CurScript:: ; d607
 	ds 1
 wSSAnne9CurScript:: ; d608
 	ds 1
-wSilverCave3CurScript:: ; yeah penis
-	ds 1
 wRoute22CurScript:: ; d609
 	ds 1
 	ds 1
@@ -3272,7 +3270,39 @@ wSeafoamIslands5CurScript:: ; d667
 wRoute18GateCurScript:: ; d668
 	ds 1
 
-	ds 78
+;battle tent data
+W_BATTLETENTCURSCRIPT:: 
+	ds 1
+	
+wBTOrder::
+	ds 2
+	
+wBTStreakCnt:: 
+	ds 1
+	
+wBTClass::
+	ds 1
+	
+wBTDataEnd::	
+	
+wStringBuffer1:: ; cf5f
+	ds 16 + 1
+
+wStringBuffer2:: ; cf70
+	ds 16 + 1
+	
+wStringBuffer3:: ; cf81
+	ds 9 + 1
+;end BT wram
+
+wSilverCave3CurScript:: ; yeah penis
+	ds 1
+
+wIndigoPlateauCurScript:: ; yeah penis
+	ds 1
+	
+	;78 - 51
+	ds 27
 wGameProgressFlagsEnd:: ; d6b7
 
 	ds 56
@@ -3577,32 +3607,6 @@ wDayCareMonName:: ds NAME_LENGTH ; da48
 wDayCareMonOT::   ds NAME_LENGTH ; da53
 
 wDayCareMon:: box_struct wDayCareMon ; da5e
-
-;battle tent data
-W_BATTLETENTCURSCRIPT:: 
-	ds 1
-	
-wBTOrder::
-	ds 2
-	
-wBTStreakCnt:: 
-	ds 1
-	
-wBTClass::
-	ds 1
-	
-wStringBuffer1:: ; cf5f
-	ds 16 + 1
-
-wStringBuffer2:: ; cf70
-	ds 16 + 1
-	
-wStringBuffer3:: ; cf81
-	ds 9 + 1
-;end BT wram
-
-wIndigoPlateauCurScript:: ; yeah penis
-	ds 1
 
 wMainDataEnd::
 

@@ -1236,16 +1236,6 @@ LancePic:         INCBIN "pic/trainer/lance.pic"
 JessieJamesPic:   INCBIN "pic/ytrainer/jessiejames.pic"
 DeadlyPic:        INCBIN "pic/ytrainer/deadlyseven.pic"
 
-INCLUDE "data/mapHeaders/colosseum.asm"
-INCLUDE "scripts/colosseum.asm"
-INCLUDE "data/mapObjects/colosseum.asm"
-ColosseumBlocks: INCBIN "maps/colosseum.blk"
-
-INCLUDE "data/mapHeaders/tradecenter.asm"
-INCLUDE "scripts/tradecenter.asm"
-INCLUDE "data/mapObjects/tradecenter.asm"
-TradeCenterBlocks: INCBIN "maps/tradecenter.blk"
-
 SECTION "bank14", ROMX
 
 INCLUDE "data/mapHeaders/route22.asm"
@@ -2219,6 +2209,18 @@ INCLUDE "scripts/battletent.asm"
 BattleTentBlocks: INCBIN "maps/battletent.blk"
 
 INCLUDE "text/maps/indigo_plateau.asm"
+
+;moved from bank 13
+INCLUDE "data/mapHeaders/colosseum.asm"
+INCLUDE "scripts/colosseum.asm"
+INCLUDE "data/mapObjects/colosseum.asm"
+ColosseumBlocks: INCBIN "maps/colosseum.blk"
+
+INCLUDE "data/mapHeaders/tradecenter.asm"
+INCLUDE "scripts/tradecenter.asm"
+INCLUDE "data/mapObjects/tradecenter.asm"
+TradeCenterBlocks: INCBIN "maps/tradecenter.blk"
+;end
 
 _PartyMenuBattleTentText::
 	text "Select which"
