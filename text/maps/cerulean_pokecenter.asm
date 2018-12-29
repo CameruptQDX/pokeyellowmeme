@@ -8,17 +8,25 @@ _CeruleanPokecenterText2::
 	done
 
 _CeruleanPokecenterText3::
-	text "Have you heard"
-	line "about BILL?"
-
-	para "Everyone calls"
-	line "him a #MANIAC!"
-
-	para "But have you"
-	line "ever actually"
-	cont "seen him with one?"
-
-	para "Seems like he's"
-	line "more of a"
-	cont "computer MANIAC."
+	text "That BLOBBOS of"
+	line "yours... yes"
+	cont "I can see in"
+	cont "it's eyes, the"
+	cont "potential to"
+	cont "learn special"
+	cont "PARTNER MOVES!"
+	
+	para "Powerful moves"
+	line "with uh..."
+	cont "rather poorly"
+	cont "decided names."
+	
+	para "Fortunately I"
+	line "won't have to"
+	cont "teach them to"
+	cont "you, your"
+	cont "little buddy"
+	cont "will simply"
+	cont "get them via"
+	cont "leveling up!"
 	done
