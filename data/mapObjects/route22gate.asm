@@ -11,8 +11,10 @@ Route22GateObject:
 
 	db $0 ; signs
 
-	db $1 ; objects
+	db $3 ; objects
 	object SPRITE_GUARD, $6, $2, STAY, LEFT, $1 ; person
+	object SPRITE_GUARD, $0, $2, STAY, RIGHT, $2 ; person
+	object SPRITE_GUARD, $0, $3, STAY, RIGHT, $3 ; person
 
 	; warp-to
 	EVENT_DISP ROUTE_22_GATE_WIDTH, $7, $4

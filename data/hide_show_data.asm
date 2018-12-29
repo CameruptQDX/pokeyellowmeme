@@ -198,7 +198,7 @@ MapHSPointers:
 	dw MapHSXX
 	dw MapHSXX
 	dw MapHSC0
-	dw MapHSXX ; route 22 gate
+	dw MapHSC1 ; route 22 gate
 	dw MapHSC2
 	dw MapHSXX
 	dw MapHSXX
@@ -605,6 +605,8 @@ MapHS6F:
 	db SILVER_CAVE_ROOM_3, $01, Show
 MapHS09:
 	db INDIGO_PLATEAU, $01, Hide
-
+MapHSC1:
+	db ROUTE_22_GATE, $02, Show
+	db ROUTE_22_GATE, $03, Show
 	
 	db $FF, $01, Show

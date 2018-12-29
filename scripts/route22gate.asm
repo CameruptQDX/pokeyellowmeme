@@ -58,6 +58,8 @@ Route22GateScript2:
 
 Route22GateTextPointers:
 	dw Route22GateText1
+	dw Route22GateText2
+	dw Route22GateText3
 
 Route22GateText1:
 	TX_ASM
@@ -85,6 +87,35 @@ Route22GateText_1e704:
 	call WaitForSoundToFinish
 	ld hl, Route22GateText_1e715
 	ret
+
+Route22GateText2:
+	TX_ASM
+	ld hl, .guardtext1
+	call PrintText
+	jp TextScriptEnd
+
+.guardtext1
+	TX_FAR _r28guardmantext
+	db "@"
+	
+Route22GateText3:
+	TX_ASM
+	ld hl, .guardtext2
+	call PrintText
+	jp TextScriptEnd
+	
+.guardtext2
+	TX_FAR _r28guardmantext
+	db "@"
+	
+_r28guardmantext::
+	text "Woah there!"
+	line "Only the most"
+	cont "powerful of"
+	cont "trainers are"
+	cont "allowed out"
+	cont "past here!"
+	done	
 
 Route22GateText_1e715:
 	TX_FAR _Route22GateText_1e715
