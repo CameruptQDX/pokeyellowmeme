@@ -8,7 +8,7 @@ MapSpriteSets:
 	db $05 ; CELADON_CITY
 	db $0a ; FUCHSIA_CITY
 	db $01 ; CINNABAR_ISLAND
-	db $06 ; INDIGO_PLATEAU
+	db $01 ; INDIGO_PLATEAU
 	db $07 ; SAFFRON_CITY
 	db $01 ; unused map ID
 	db $01 ; ROUTE_1
