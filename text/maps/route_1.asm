@@ -1,15 +1,15 @@
 _Route1ViridianMartSampleText::
-	text "Hi! I work at a"
-	line "#MON MART."
+	text "Psst! I work at"
+	line "a #MON MART."
 
 	para "It's a convenient"
 	line "shop, so please"
 	cont "visit us in"
 	cont "VIRIDIAN CITY."
 
-	para "I know, I'll give"
-	line "you a sample!"
-	cont "Here you go!"
+	para "I'll give ya"
+	line "a sample! First"
+	cont "one's free!"
 	prompt
 
 _Route1Text_1cae8::
@@ -37,9 +37,9 @@ _Route1Text2::
 	line "but you can jump"
 	cont "from them."
 
-	para "You can get back"
-	line "to PALLET TOWN"
-	cont "quicker that way."
+	para "But you should"
+	line "know something"
+	cont "like that by now."
 	done
 
 _Route1Text3::

@@ -40,8 +40,8 @@ _PewterCityText13::
 	text "It's right here!"
 	line "You have to pay"
 	cont "to get in, but"
-	cont "it's worth it!"
-	cont "See you around!"
+	cont "you don't look"
+	cont "broke, have fun!"
 	done
 
 _PewterCityText_19427::

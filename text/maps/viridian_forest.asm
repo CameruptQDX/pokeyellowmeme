@@ -20,7 +20,7 @@ _ViridianForestEndBattleText1::
 
 _ViridianFrstAfterBattleText1::
 	text "Ssh! You'll scare"
-	line "the bugs away!"
+	line "the features away!"
 	done
 
 _ViridianForestBattleText2::
@@ -59,8 +59,8 @@ _ViridianFrstAfterBattleText3::
 	cont "the ground!"
 
 	para "I'm looking for"
-	line "the stuff I"
-	cont "dropped!"
+	line "the pride you"
+	cont "made me drop!"
 	done
 
 _ViridianForestBattleTextPikaGirl::
@@ -93,10 +93,10 @@ _ViridianForestEndBattleTextSamurai::
 	prompt
 
 _ViridianForestAfterBattleTextSamurai::
-	text "A METAPOD is cool"
-	line "because its"
-	cont "attack is its"
-	cont "defense!"
+	text "There's no"
+	line "fight tougher"
+	cont "than a"
+	cont "STRUGGLE war!"
 	done
 
 _ViridianForestText8::
@@ -124,9 +124,12 @@ _ViridianForestText9::
 	done
 
 _ViridianForestText10::
-	text "For poison, use"
-	line "ANTIDOTE! Get it"
-	cont "at #MON MARTs!"
+	text "TRAINER TIPS"
+	
+	para "FOCUS ENERGY"
+	line "actually works"
+	cont "in this game,"
+	cont "you're welcome."
 	done
 
 _ViridianForestText11::

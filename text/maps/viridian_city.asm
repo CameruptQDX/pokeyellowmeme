@@ -79,10 +79,10 @@ _ViridianCityText_19152::
 _ViridianCityText_19157::
 	text "CATERPIE has no"
 	line "poison, but"
-	cont "WEEDLE does."
+	cont "WEANUS does."
 
-	para "Watch out for its"
-	line "POISON STING!"
+	para "Whoops I meant"
+	line "WEEDLE!"
 	done
 
 _ViridianCityText_19175::
@@ -122,7 +122,7 @@ _ViridianCityText_191ca::
 	cont "Where did this TM"
 	cont "come from?"
 
-	para "This is spooky!"
+	para "This is spoogy!"
 	line "Here, you can"
 	cont "have this TM."
 	prompt
