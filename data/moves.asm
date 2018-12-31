@@ -186,7 +186,7 @@ MoveEnd:
 	move DRAGON_RAGE,    NO_ADDITIONAL_EFFECT,        90, DRAGON,    100, 15 ; bad dragon
 	move SLASH,        SWIFT_EFFECT,                60, FLYING,   100, 20 ;aero ass
 	move POISON_GAS, POISON_SIDE_EFFECT1,       65, FIRE, 100, 15 ; charmustard
-	move DIG,          CHARGE_EFFECT,              100, GRASS,   100, 10 ; fushiggydig
+	move FUSHIGGY_ANIM,          CHARGE_EFFECT,              100, GRASS,   100, 10 ; fushiggydig
 	move EXPLOSION,    EXPLODE_EFFECT,             170, BUG,   100,  5 ; shroom boom
 	move THRASH,       THRASH_PETAL_DANCE_EFFECT,   90, FIGHTING,   100, 20 ; chimp out
 	move SCRATCH, POISON_SIDE_EFFECT1,       80, NORMAL, 100, 15 ; filthy claw
@@ -203,7 +203,7 @@ MoveEnd:
 	move LOW_KICK,     NO_ADDITIONAL_EFFECT,         120, FIGHTING,  80, 5 ; leg drop
 	move THRASH,       THRASH_PETAL_DANCE_EFFECT,   90, POISON,   100, 20 ; trash
 	move SUPER_FANG, PARALYZE_SIDE_EFFECT1,       70, POISON, 100, 15 ; top snek
-	move FLY,          FLY_EFFECT,                  70, STEEL,    95, 15 ;UFOhNo
+	move UFO_ANIM,          FLY_EFFECT,                  70, STEEL,    95, 15 ;UFOhNo
 	move BODY_SLAM,    PARALYZE_SIDE_EFFECT2,       85, WATER,   100, 15 ; body clam
 	move RECOVER,      HEAL_EFFECT,                  0, BUG,   100, 20 ; mantis prayer
 	move NIGHT_SHADE,  NO_ADDITIONAL_EFFECT,        60, GHOST,    100, 20 ; spook out

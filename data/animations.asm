@@ -202,6 +202,8 @@ AttackAnimationPointers:
 	dw ThrowRockAnim
 	dw ThrowBaitAnim
 	dw JumpAnim
+	dw FlyAnim
+	dw DigAnim
 
 ; each animation is a list of subanimations and special effects
 ; if first byte < $56

@@ -3979,9 +3979,21 @@ MonName1Text:
 	ld hl, wEnemyUsedMove
 .playerTurn
     cp JUMP_ANIM
-    jr nz, .notJump
-    ld a, JUMP_M
-.notJump
+    ld b, JUMP_M
+    jr z, .gotMove
+; repeat this pattern
+    cp UFO_ANIM
+    ld b, UFOHNO
+    jr z, .gotMove
+    cp FUSHIGGY_ANIM
+    ld b, FUSHIGGYDIG
+    jr z, .gotMove
+; .etc
+; after last anim, do this
+    jr .notDigOrFlyMove
+.gotMove
+    ld a, b
+.notDigOrFlyMove
 	ld [hl], a
 	ld [wd11e], a
 	call DetermineExclamationPointTextNum
@@ -5995,10 +6007,22 @@ EnemyCanExecuteChargingMove:
 	res ChargingUp, [hl] ; no longer charging up for attack
 	res Invulnerable, [hl] ; no longer invulnerable to typical attacks
 	ld a, [wEnemyMoveNum]
-	cp JUMP_ANIM
-    jr nz, .notJump
-    ld a, JUMP_M
-.notJump
+    cp JUMP_ANIM
+    ld b, JUMP_M
+    jr z, .gotMove
+; repeat this pattern
+    cp UFO_ANIM
+    ld b, UFOHNO
+    jr z, .gotMove
+    cp FUSHIGGY_ANIM
+    ld b, FUSHIGGYDIG
+    jr z, .gotMove
+; .etc
+; after last anim, do this
+    jr .notDigOrFlyMove
+.gotMove
+    ld a, b
+.notDigOrFlyMove
 	ld [wd0b5], a
 	ld a, BANK(MoveNames)
 	ld [wPredefBank], a
@@ -8349,7 +8373,12 @@ ChargeMoveEffectText:
 	cp JUMP_ANIM
 	ld hl, JumpUpHighText
 	jr z, .gotText
+	cp UFO_ANIM
+	ld hl, FlewUpHighText
+	jr z, .gotText
 	cp DIG
+	ld hl, DugAHoleText
+	cp FUSHIGGY_ANIM
 	ld hl, DugAHoleText
 .gotText
 	ret

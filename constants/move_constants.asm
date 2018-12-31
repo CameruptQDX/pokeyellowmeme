@@ -253,3 +253,5 @@ const_value = STRUGGLE + 1
 	const ROCK_ANIM ; throw rock
 	const BAIT_ANIM ; throw bait
 	const JUMP_ANIM ; Jump move
+	const UFO_ANIM ; Ufo move
+	const FUSHIGGY_ANIM ; fushiggydig

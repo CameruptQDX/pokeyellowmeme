@@ -56,9 +56,8 @@ _Museum2FText6::
 	text "SPACE SHUTTLE"
 	line "COLUMBIA"
 	
-	para "You get a very"
-	line "bad feeling"
-	cont "at this model."
+	para "You don't"
+	line "like this."
 	done
 
 _Museum2FText7::
