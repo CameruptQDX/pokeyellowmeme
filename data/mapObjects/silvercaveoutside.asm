@@ -5,8 +5,9 @@ SilverCaveOutsideObject:
 	db $13, $17, $0, SILVER_CAVE_POKECENTER
 	db $B, $12, $0, SILVER_CAVE_ROOM_1
 	
-	db $1 ; signs
+	db $2 ; signs
 	db $D, $11, $1 ; SCOutsideText1
+	db $13, $18, $2 ; pokemon center sign
 
 	db $0 ; objects
 
