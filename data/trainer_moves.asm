@@ -117,4 +117,11 @@ SpecialTrainerMoves:
 	db 6,3,REST
 	db 0
 	
+	db PROF_OAK,$1
+	db 2,1,SUCK_AN_EGG
+	db 2,2,LEECH_SEED
+	db 3,1,DIG
+	db 4,3,EARTHQUAKE
+	db 0
+	
 	db $ff
