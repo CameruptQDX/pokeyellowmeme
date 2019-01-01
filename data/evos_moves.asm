@@ -257,9 +257,8 @@ Mon035_EvosMoves:
 	db 24,MINIMIZE
 	db 28,LIGHT_SCREEN
 	db 30,BODY_SLAM
-	db 34,SOFTBOILED
-	db 36,AMNESIA
-	db 40,UFOHNO
+	db 34,AMNESIA
+	db 36,UFOHNO
 	db 0
 
 Mon021_EvosMoves:
@@ -2420,9 +2419,8 @@ Mon036_EvosMoves:
 	db 24,MINIMIZE
 	db 28,LIGHT_SCREEN
 	db 30,BODY_SLAM
-	db 34,SOFTBOILED
-	db 36,AMNESIA
-	db 40,UFOHNO
+	db 34,AMNESIA
+	db 36,UFOHNO
 	db 0
 
 Mon110_EvosMoves:
