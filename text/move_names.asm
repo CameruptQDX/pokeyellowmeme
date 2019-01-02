@@ -193,7 +193,7 @@ MoveNames::
 	db "TOP SNEK@"
 	db "UFOHNO@"
 	db "BODY CLAM@"
-	db "MANTIS PRAYER@"
+	db "MANTISPRAYER@"
 	db "SPOOK OUT@"
 	db "TRIGGER@"
 	db "SHITPOST@"
