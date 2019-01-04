@@ -237,7 +237,7 @@ CreditsText_Osborne:
 CreditsText_Translation:
 	db -7, "HACKING SUPPORT@"
 CreditsText_Ogasawara:
-	db -6, "LUCKYTYPHLOSION@"
+	db -6, "luckytyphlosion@"
 CreditsText_Iwata:
 	db -3, "CAMERUPT@"
 CreditsText_Izushi2:

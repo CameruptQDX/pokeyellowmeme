@@ -297,7 +297,7 @@ _OaksLabPikachuDislikesPokeballsText2::
 	line "look at that!"
 
 	para "Looks like your"
-	line "BLOBBOS dosen't"
+	line "BLOBBOS doesn't"
 	cont "like # BALLS!"
 
 	para "Guess you'll"

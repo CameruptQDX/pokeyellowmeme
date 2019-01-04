@@ -156,7 +156,7 @@ _Route20AfterBattleText10::
 	line "right near the"
 	cont "volcano!"
 	
-	para "Hope that dosen't"
+	para "Hope that doesn't"
 	line "backfire in the"
 	cont "near future!"
 	done
