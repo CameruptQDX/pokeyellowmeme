@@ -1,5 +1,5 @@
 SilverMons3:
-	db $0F
+	db $05
 	db 51,GOLBAT
 	db 48,ONIX
 	db 48,GRAVELER
@@ -9,6 +9,6 @@ SilverMons3:
 	db 53,GOLBAT
 	db 53,GOLBAT
 	db 49,HAUNTER
-	db 45,GENGAR
+	db 5, TENTAQUIL
 	db $00
 

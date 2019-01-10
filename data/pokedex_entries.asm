@@ -54,7 +54,7 @@ PokedexEntryPointers:
 	dw ElectabuzzDexEntry
 	dw MagnetonDexEntry
 	dw KoffingDexEntry
-	dw MissingNoDexEntry
+	dw TentaquilDexEntry
 	dw MankeyDexEntry
 	dw SeelDexEntry
 	dw DiglettDexEntry
@@ -1278,6 +1278,13 @@ JumpeonDexEntry:
 	db 2,11
 	dw 584
 	TX_FAR _JumpeonDexEntry
+	db "@"
+	
+TentaquilDexEntry:
+	db "TROLL FROG@"
+	db 2,4
+	dw 1144
+	TX_FAR _TentaquilDexEntry
 	db "@"
 
 MissingNoDexEntry:

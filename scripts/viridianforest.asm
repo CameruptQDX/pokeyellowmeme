@@ -200,8 +200,8 @@ ViridianForestText15:
 
 ViridianForestText16:
 	TX_ASM
-	ld hl, Func_f2528
+	ld hl, Func_f2564
 ViridianForestScript_6120d
-	ld b, BANK(Func_f2528)
+	ld b, BANK(Func_f2564)
 	call Bankswitch
 	jp TextScriptEnd

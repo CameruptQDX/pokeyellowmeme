@@ -35,7 +35,7 @@ _SSAnne9AfterBattleText1::
 	text "15 years ago, I"
 	line "would have won!"
 	
-	para "*sips*"
+	para "(sips)"
 	done
 
 _SSAnne9BattleText2::

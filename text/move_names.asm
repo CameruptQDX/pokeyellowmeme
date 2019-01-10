@@ -208,3 +208,4 @@ MoveNames::
 	db "EAT SOUP@"
 	db "OW THE EDGE@"
 	db "JUMP@"
+	db "PUKE BLOOD@"

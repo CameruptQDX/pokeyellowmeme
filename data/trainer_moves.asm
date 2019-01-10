@@ -23,12 +23,15 @@ SpecialTrainerMoves:
 
 	db LT_SURGE,$1
 	db 1,1,THUNDERPUNCH
+	db 3,3,THUNDERPUNCH
+	db 3,4,SUBMISSION
 	db 4,4,SURF
 	db 0
 
 	db ERIKA,$1
 	db 1,2,TENTICKLE
 	db 1,3,MEGA_DRAIN
+	db 2,1,MEGA_DRAIN
 	db 4,1,SUCK_AN_EGG
 	db 5,3,PETAL_DANCE
 	db 0
@@ -53,6 +56,7 @@ SpecialTrainerMoves:
 
 	db GIOVANNI,$3
 	db 4,1,FISSURE
+	db 6,2,PSYCHIC_M
 	db 0
 
 	db LORELEI,$1
@@ -111,7 +115,7 @@ SpecialTrainerMoves:
 	db 2,1,FUSHIGGYDIG
 	db 2,2,TOXIC
 	db 2,4,LEECH_SEED
-	db 3,2,FIRE_SPIN
+	db 3,2,SMOKESCREEN
 	db 4,3,BLIZZARD
 	db 6,2,LARD_BARD
 	db 6,3,REST

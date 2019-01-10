@@ -67,7 +67,7 @@ _OaksLabDeliverParcelText2::
 	line "let a kid just"
 	cont "walk right in"
 	cont "and pick up my"
-	cont "Percosets? Eh,"
+	cont "Percocets? Eh,"
 	cont "thanks though."
 
 	para "By the way, OAK"
@@ -343,7 +343,7 @@ _OaksLabText24::
 	done
 
 _OaksLabText25::
-	text "STUMP: Mabye you"
+	text "STUMP: Maybe you"
 	line "kids can make"
 	cont "good of em'."
 

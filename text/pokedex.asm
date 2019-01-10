@@ -1546,3 +1546,13 @@ _JumpeonDexEntry::
 	next "nobody can"
 	next "figure out how"
 	dex
+	
+_TentaquilDexEntry::
+	text "its a tentaquil"
+	next " "
+	next " "
+	
+	page " "
+	next " "
+	next "sorry its shit"
+	dex

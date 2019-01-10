@@ -101,7 +101,7 @@ _PokemonTower5AfterBattleText3::
 	done
 
 _PokemonTower5BattleText4:: ; sputnov
-	text "SPURNOV: I"
+	text "SPUTNOV: I"
 	line "A-A-A-AM A"
 	cont "R O M"
 	cont "H A C K E R"

@@ -209,6 +209,7 @@ const_value = 1
 	const EAT_SOUP   ; cf
 	const OW_THE_EDGE ; d0
 	const JUMP_M ; d1
+	const PUKE_BLOOD ; d2
 	
 NUM_ATTACKS EQU const_value + -1
 const_value = STRUGGLE + 1

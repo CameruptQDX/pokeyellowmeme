@@ -29,7 +29,7 @@ PrizeMenuMon2Entries:
 PrizeMenuMon2Cost:
 	coins 6500
 	coins 6500
-	coins 9999
+	coins 7000
 	db "@"
 
 PrizeMenuTMsEntries:

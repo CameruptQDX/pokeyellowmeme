@@ -16,6 +16,12 @@ _CeladonMart4Text3::
 	line "a ghost by"
 	cont "distracting them"
 	cont "with a # DOLL!"
+	
+	para "But, If you"
+	line "do that you'll"
+	cont "miss out on"
+	cont "something very"
+	cont "important..."
 	done
 
 _CeladonMart4Text4::

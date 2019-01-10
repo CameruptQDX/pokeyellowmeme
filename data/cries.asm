@@ -55,7 +55,7 @@ CryData:
 	db $06, $8F, $FF; Electabuzz
 	db $1C, $20, $C0; Magneton
 	db $12, $E6, $DD; Koffing
-	db $00, $00, $00; MissingNo.
+	db $18, $AA, $D0; Tentaquil
 	db $0A, $DD, $60; Mankey
 	db $0C, $88, $C0; Seel
 	db $0B, $AA, $01; Diglett

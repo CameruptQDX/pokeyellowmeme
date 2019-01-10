@@ -5,7 +5,7 @@ TradeMons:
 	db BEEDRILL,FARFETCHD, 2,"Mmmmmmmmmm@" ; unused (will be pewter)
 	db NIDORINO,  MUK,     0,"TRASH MAN@@"
 	db MEWTWO,    MEW,     3,"YOUR SIN@@@" ; unused (will be cerulean cave)
-	db RATICATE, PIKACHU,  0,"EL RATO@@@@"
+	db RATICATE, PIKACHU,  0,"FATBOY@@@@@"
 	db CHANSEY,   PORYGON, 1,"INNOCENT@@@" ; unused (will be fuschia)
 	db GOLDUCK,   RHYDON,  1,"GYAOON@@@@@"
 	db WEEZING,   DEWGONG, 2,"MANATIDDS@@"

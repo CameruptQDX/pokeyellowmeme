@@ -86,7 +86,7 @@ DexRatingsTable:
 	dw DexRatingText_Own130To139
 	db 150
 	dw DexRatingText_Own140To149
-	db 156
+	db 157
 	dw DexRatingText_Own150To151
 
 DexRatingText_Own0To9:

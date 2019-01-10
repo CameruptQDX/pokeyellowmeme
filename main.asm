@@ -2224,6 +2224,9 @@ INCLUDE "data/mapObjects/tradecenter.asm"
 TradeCenterBlocks: INCBIN "maps/tradecenter.blk"
 ;end
 
+TentaquilPicFront:	INCBIN "pic/ymon/tentaquil.pic"
+TentaquilPicBack:	INCBIN "pic/monback/tentaquilb.pic"
+
 _PartyMenuBattleTentText::
 	text "Select which"
 	line "#MON to enter?"

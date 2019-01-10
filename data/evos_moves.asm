@@ -54,7 +54,7 @@ EvosMovesPointerTable:
 	dw Mon125_EvosMoves
 	dw Mon082_EvosMoves
 	dw Mon109_EvosMoves
-	dw Mon156_EvosMoves ;MissingNo
+	dw Mon156_EvosMoves ;TENTAQUIL
 	dw Mon056_EvosMoves
 	dw Mon086_EvosMoves
 	dw Mon050_EvosMoves
@@ -536,7 +536,7 @@ Mon059_EvosMoves:
 	db 28,FLAMETHROWER
 	db 30,AGILITY
 	db 34,FIRE_SPIN
-	db 43,DOUBLE_EDGE
+	db 43,SHITPOST
 	db 45,FIRE_BLAST
 	db 0
 
@@ -561,7 +561,7 @@ Mon130_EvosMoves:
 	db 20,BITE
 	db 21,LEER
 	db 24,DRAGON_RAGE
-	db 27,HEADBUTT
+	db 27,THRASH
 	db 30,WATERFALL
 	db 36,FIRE_BLAST
 	db 42,HYDRO_PUMP
@@ -767,7 +767,7 @@ Mon058_EvosMoves:
 	db 28,FLAMETHROWER
 	db 30,AGILITY
 	db 34,FIRE_SPIN
-	db 43,DOUBLE_EDGE
+	db 43,SHITPOST
 	db 45,FIRE_BLAST
 	db 0
 	
@@ -1160,10 +1160,24 @@ Mon109_EvosMoves:
 	db 0
 
 Mon156_EvosMoves:
-;MISSINGNO
+;Tentaquil
 ;Evolutions
 	db 0
 ;Learnset
+	db 7,ROCK_THROW
+	db 9,AERO_ASS
+	db 12,PUKE_BLOOD
+	db 15,SURF
+	db 25,MEGA_DRAIN
+	db 27,TACKLE
+	db 30,SCRATCH
+	db 31,FURY_SWIPES
+	db 39,EARTHQUAKE
+	db 46,FLY
+	db 50,WATERFALL
+	db 55,TWINEEDLE
+	db 75,FISSURE
+	db 99,SPLASH
 	db 0
 
 Mon056_EvosMoves:

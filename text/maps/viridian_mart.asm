@@ -12,7 +12,7 @@ ViridianMartParcelQuestText::
 	text "You know PROF."
 	line "STUMP, right?"
 
-	para "His perscription"
+	para "His prescription"
 	line "came in. Will you"
 	cont "take it to him?"
 
