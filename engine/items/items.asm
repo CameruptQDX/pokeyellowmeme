@@ -862,7 +862,7 @@ Func_d85d:
 	ld l, a
 	ld de, wcd6d
 	ld a, BANK(TryEvolvingMon)
-	ld bc, 13
+	ld bc, wTileMapBackup2 - wcd6d
 	call FarCopyData
 	ld hl, wcd6d
 .loop
