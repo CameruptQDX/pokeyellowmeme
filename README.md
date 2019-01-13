@@ -1,34 +1,63 @@
-# Pokémon Yellow
+# Pokémon Periwinkle: Special Blobbos Editon
 
-This is a disassembly of Pokémon Yellow.
-
-It builds the following rom:
-
-* Pokemon Yellow (UE) [C][!].gbc  `md5: d9290db87b1f0a23b89f99ee4469e34b`
-
-To set up the repository, see [**INSTALL.md**](INSTALL.md).
+Based on pret's disassembly of Pokémon Yellow.
 
 
-## See also
+A Pokemon Clover spin-off set a few months after the story of generation 1! Play as a cute girl (who wouldn't want to?) and go on an adventure through the KANTOOOOOOOOOOOOOOO region with the most prolific fakemon ever: Blobbos!
 
-* Disassembly of [**Pokémon Red/Blue**][pokered]
-* Disassembly of [**Pokémon Gold**][pokegold]
-* Disassembly of [**Pokémon Crystal**][pokecrystal]
-* Disassembly of [**Pokémon Pinball**][pokepinball]
-* Disassembly of [**Pokémon TCG**][poketcg]
-* Disassembly of [**Pokémon Ruby**][pokeruby]
-* Disassembly of [**Pokémon Fire Red**][pokefirered]
-* Disassembly of [**Pokémon Emerald**][pokeemerald]
-* Discord: [**pret**][Discord]
-* irc: **irc.freenode.net** [**#pret**][irc]
+Features include:
+*Anything that was Pikachu is now Blobbi, EVERYTHING
+*A Completely new story set before Clover
+*155 Pocketo Monsutas to collect
+*Pokemon Anniversary Red's Battle Tent
+*New Postgame Content
+*Movesets based on Pokemon Roaming Red
+*Strange and oddly named new moves
+*Increased Difficulty
+*former US presidents?
 
-[pokered]: https://github.com/pret/pokered
-[pokegold]: https://github.com/pret/pokegold
-[pokecrystal]: https://github.com/pret/pokecrystal
-[pokepinball]: https://github.com/pret/pokepinball
-[poketcg]: https://github.com/pret/poketcg
-[pokeruby]: https://github.com/pret/pokeruby
-[pokefirered]: https://github.com/pret/pokefirered
-[pokeemerald]: https://github.com/pret/pokeemerald
-[Discord]: https://discord.gg/6EuWgX9
-[irc]: https://kiwiirc.com/client/irc.freenode.net/?#pret
+CREDITS:
+romhacking -
+Camerupt
+
+melmetal sprite -
+BloodlessNS
+
+movesets -
+Silent S
+Roaming Red
+
+general sprites-
+Rool
+Menu
+Le Ruse Bird
+Stargazr
+
+super gameboy border
+Rangi
+RedBlueStar
+
+hacking support-
+LuckyTyphlosion
+pret
+
+experience glitch fix-
+The Shadow Knight
+
+RPP code -
+Luna
+
+music and battle tent-
+TPP Devs
+Aniv. Red
+
+deadly seven -
+Cutlerine
+
+
+## pokeyellow source
+
+* Disassembly of [**Pokémon Yellow**][pokeyellow]
+
+[pokeyellow]: https://github.com/pret/pokeyellow
+
